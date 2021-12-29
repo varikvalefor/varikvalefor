@@ -36,7 +36,7 @@ OPENNESS,CONSCIENTIOUSNESS,EXTROVERSION,AGREEABLENESS,NEUROTICISM
 
 44,100,63,62.5,1
 # Skills
-VARIK's skills include but are not limited to intelligence analysis, mathematics, cybersecurity, national security, general data analysis, project planning, systems engineering, machine learning, psychology, political and general sociology, computer networking, cryptography, OpenBSD, Haskell, Perl, C++, general communication, wildlife photography, and computational linguistics.
+VARIK's skills include but are not limited to intelligence analysis, mathematics, cybersecurity, national security, general data analysis, project planning, systems engineering, machine learning, psychology, political and general sociology, computer networking, cryptography, OpenBSD, Haskell, APL, Perl, C++, general communication, wildlife photography, and computational linguistics.
 # FAQ
 [Yo, why do you use XTERM in the year of our lord 2021?][1]
 
