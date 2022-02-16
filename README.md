@@ -38,7 +38,7 @@ OPENNESS,CONSCIENTIOUSNESS,EXTROVERSION,AGREEABLENESS,NEUROTICISM
 # Skills
 VARIK's skills include but are not limited to intelligence analysis, mathematics, cybersecurity, national security, general data analysis, project planning, systems engineering, machine learning, psychology, political and general sociology, computer networking, cryptography, OpenBSD, Haskell, APL, Perl, C++, general communication, wildlife photography, and computational linguistics.
 
-#Contact
+# Contact
 VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 # FAQ
