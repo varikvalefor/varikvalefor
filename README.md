@@ -88,7 +88,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * la'oi ESTJ noi se skicu la'o gy. MYERS-BRIGGS Type Indicator .gy ku'o.e
 
-* vu'oi la'o gy. 3w2 1w2 5w6 .gy .e la'o gy. sp/so .gy vu'o noi se skicu la'o gy. Enneagram of Personality .gy ku'o .e
+* la'o gy. 3w2 1w2 5w6 .gy noi se skicu ko'a goi la'o gy. Enneagram of Personality .gy ku'o .e la'o gy. sp/so .gy noi se skicu ko'a .e
 
 * la'oi LSE noi se skicu la'oi Socionice ku'o .e
 
