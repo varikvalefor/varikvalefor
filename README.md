@@ -90,7 +90,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * vu'oi la'o gy. 3w2 1w2 5w6 .gy .e la'o gy. sp/so .gy vu'o noi se skicu la'o gy. Enneagram of Personality .gy ku'o .e
 
-* la'oi .LSE. noi se skicu la'oi .Socionice. ku'o .e
+* la'oi .LSE. noi se skicu la'oi .Socionics. ku'o .e
 
 * la'oi .TeSiNeFi. noi se skicu la'o gy. jungian cognitive functions .gy
 
