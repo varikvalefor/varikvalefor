@@ -66,7 +66,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * nakni gi'e
 
-* xabju la'o gy. US-MD .gy gi'e
+* xabju la'o gugypau. US-MD .gugypau gi'e
 
 * se jibri le nu pilno lo cmaci
 
