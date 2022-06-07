@@ -1,7 +1,6 @@
 # English
 
 ## Basic Stuff
-
 NAME: VALEFOR, VARIK
 
 DATE OF BIRTH: 19840919
@@ -13,7 +12,6 @@ LOCATION: US-MD
 OCCUPATION: INTELLIGENCE ANALYST
 
 ## Technical Crap
-
 OPERATING SYSTEM: OPENBSD
 
 WINDOW MANAGER: XMONAD
@@ -57,7 +55,6 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 # Lojban
 
 ## le sampu
-
 .ni'o la .varik. cu...
 
 * se cmene la'o cmene. Varik Valefor .cmene gi'e
@@ -71,7 +68,6 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 * se jibri le nu pilno lo cmaci
 
 ## le skami kalci pe'a
-
 .ni'o la .varik. cu...
 
 * pilno la'oi .OpenBSD. lo samcmu gi'e
@@ -83,7 +79,6 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 * pilno la'o gy. xterm(1) .gy lo termine
 
 ## le selpre
-
 .ni'o le'i selpre be la .varik. cu vasru...
 
 * la'oi .ESTJ. noi se skicu la'o gy. MYERS-BRIGGS Type Indicator .gy ku'o.e
@@ -101,9 +96,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 .ije li ni'e ni la .varik. cu ckaji la'oi .neuroticism. cu du li pa
 
 ## le se certu
-
 .ni'o la .varik. certu ja stati ja se slabu le cmaci .e la'o gy. intelligence analysis .gy .e la'oi .cybersecurity. .e la'o gy. national security .gy .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'o gy. machine learning .gy .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e la'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'o samplabau. C++ .samplabau .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
 
 ## le te mrilu
-
 .ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy .a la'o gy. @varikvalefor:matrix.org .gy gi la .varik. viska da
