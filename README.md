@@ -91,11 +91,11 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * la'oi .TeSiNeFi. noi se skicu la'o gy. jungian cognitive functions .gy
 
-.ije li ni'e ni la .varik. cu ckaji la'oi .openness. cu du li ji'i vovo
-.ije li ni'e ni la .varik. ckaji la'oi .conscientiousness. cu du li panono
-.ije li ni'e ni la .varik. cu ckaji la'oi .extroversion. cu du li ji'i xaci
-.ije li ni'e ni la .varik. cu ckaji la'oi .agreeableness. cu du li ji'i xarepimu
-.ije li ni'e ni la .varik. cu ckaji la'oi .neuroticism. cu du li pa
+.ije li ji'i vovo cu ni la .varik. cu ckaji la'oi .openness.
+.ije li panono cu ni la .varik. ckaji la'oi .conscientiousness.
+.ije li ji'i xaci cu ni la .varik. cu ckaji la'oi .extroversion.
+.ije li ji'i xarepimu cu ni la .varik. cu ckaji la'oi .agreeableness.
+.ije li pa cu ni la .varik. cu ckaji la'oi .neuroticism.
 
 ## le se certu
 .ni'o la .varik. certu ja stati ja se slabu le cmaci .e la'e glibau. intelligence analysis .glibau .e le me'oi .cybersecurity. .e la'e glibau. national security .glibau .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'e glibau. machine learning .glibau .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e le me'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'o samplabau. C++ .samplabau .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
