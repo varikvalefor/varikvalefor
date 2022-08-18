@@ -57,7 +57,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 ## le sampu
 .ni'o la .varik. cu...
 
-* se cmene la'o cmene. Varik Valefor .cmene gi'e
+* se cmene lu .varik. .VALefor. li'u gi'e
 
 * jbene fi li pasobivopi'enosopi'epaso gi'e
 
