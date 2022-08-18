@@ -76,7 +76,9 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * pilno la'o gy. ksh(1) .gy .e la'o gy. tcsh(1) .gy lo samymi'etci gi'e
 
-* pilno la'o gy. xterm(1) .gy lo termine
+* pilno la'o gy. xterm(1) .gy lo termine gi'e
+
+* pilno la'o gy. ed(1) .gy .e la'o gy. vi(1) .gy lo nu cusku'i
 
 ## le selpre
 .ni'o le'i selpre be la .varik. cu vasru...
