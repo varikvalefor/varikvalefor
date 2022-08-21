@@ -11,6 +11,8 @@ LOCATION: US-MD
 
 OCCUPATION: INTELLIGENCE ANALYST
 
+RELIGION: THEISTIC SATANISM
+
 ## Technical Crap
 OPERATING SYSTEM: OPENBSD
 
@@ -65,7 +67,9 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * xabju la'o gugypau. US-MD .gugypau gi'e
 
-* se jibri le nu pilno lo cmaci
+* se jibri le nu pilno lo cmaci gi'e
+
+* se cevni la .satan. poi me'oi .mathematician.
 
 ## le skami kalci pe'a
 .ni'o la .varik. cu...
