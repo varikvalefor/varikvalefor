@@ -56,7 +56,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 [1]: <faq/xterm.tex> "XTERM Thing"
 [2]: <faq/thirdperson.tex> "Third Person Thing"
 
-# Lojban
+# la .lojban.
 
 ## le sampu
 .ni'o la .varik. cu...
