@@ -11,6 +11,8 @@ LOCATION: US-MD
 
 OCCUPATION: INTELLIGENCE ANALYST
 
+LANGUAGES: LOJBAN; MATHEMATICAL NOTATION; ENGLISH
+
 RELIGION: THEISTIC SATANISM
 
 ## Technical Crap
@@ -68,6 +70,8 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 * xabju la'o gugypau. US-MD .gugypau gi'e
 
 * se jibri le nu pilno lo cmaci gi'e
+
+* se bangu la .lojban. .e le cmaci bangu .e le glibau gi'e
 
 * se cevni la .satan. poi me'oi .mathematician.
 
