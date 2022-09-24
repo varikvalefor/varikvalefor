@@ -67,7 +67,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * nakni gi'e
 
-* xabju la'o gugypau. US-MD .gugypau gi'e
+* xabju la'o gugypau. US-MD .gugypau. gi'e
 
 * se jibri le nu pilno lo cmaci gi'e
 
@@ -80,24 +80,24 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * pilno la'oi .OpenBSD. lo samcmu gi'e
 
-* pilno la'o gy. xmonad(1) .gy la'o gy. window manager .gy gi'e
+* pilno la'o gy. xmonad(1) .gy. la'o gy. window manager .gy. gi'e
 
-* pilno la'o gy. ksh(1) .gy .e la'o gy. tcsh(1) .gy lo samymi'etci gi'e
+* pilno la'o gy. ksh(1) .gy. .e la'o gy. tcsh(1) .gy. lo samymi'etci gi'e
 
-* pilno la'o gy. xterm(1) .gy lo termine gi'e
+* pilno la'o gy. xterm(1) .gy. lo termine gi'e
 
-* pilno la'o gy. ed(1) .gy .e la'o gy. vi(1) .gy lo nu cusku'i
+* pilno la'o gy. ed(1) .gy. .e la'o gy. vi(1) .gy. lo nu cusku'i
 
 ## le selpre
 .ni'o le'i selpre be la .varik. cu vasru...
 
-* la'oi .ESTJ. noi se skicu la'o gy. MYERS-BRIGGS Type Indicator .gy ku'o.e
+* la'oi .ESTJ. noi se skicu la'o gy. MYERS-BRIGGS Type Indicator .gy. ku'o.e
 
-* vu'oi la'o gy. 3w2 1w2 5w6 .gy .e la'o gy. sp/so .gy vu'o noi se skicu la'o gy. Enneagram of Personality .gy ku'o .e
+* vu'oi la'o gy. 3w2 1w2 5w6 .gy. .e la'o gy. sp/so .gy. vu'o noi se skicu la'o gy. Enneagram of Personality .gy. ku'o .e
 
 * la'oi .LSE. noi se skicu la'oi .Socionics. ku'o .e
 
-* la'oi .TeSiNeFi. noi se skicu la'o gy. jungian cognitive functions .gy
+* la'oi .TeSiNeFi. noi se skicu la'o gy. jungian cognitive functions .gy.
 
 .ije li ji'i vovo cu ni la .varik. cu ckaji la'oi .openness.
 .ije li panono cu ni la .varik. cu ckaji la'oi .conscientiousness.
@@ -106,7 +106,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 .ije li pa cu ni la .varik. cu ckaji la'oi .neuroticism.
 
 ## le se certu
-.ni'o la .varik. cu certu ja stati ja se slabu le cmaci .e la'e zoi glibau. intelligence analysis .glibau .e le me'oi .cybersecurity. .e la'e zoi glibau. national security .glibau .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'e zoi glibau. machine learning .glibau .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e le me'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'o samplabau. C++ .samplabau .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
+.ni'o la .varik. cu certu ja stati ja se slabu le cmaci .e la'e zoi glibau. intelligence analysis .glibau .e le me'oi .cybersecurity. .e la'e zoi glibau. national security .glibau .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'e zoi glibau. machine learning .glibau .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e le me'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'o samplabau. C++ .samplabau. .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
 
 ## le te mrilu
-.ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy .a la'o gy. @varikvalefor:matrix.org .gy gi la .varik. cu viska da
+.ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy. .a la'o gy. @varikvalefor:matrix.org .gy. gi la .varik. cu viska da
