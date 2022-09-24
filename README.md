@@ -61,7 +61,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 ## le sampu
 .ni'o la .varik. cu...
 
-* se cmene lu .varik. .VALefor. li'u gi'e
+* selcme lu .varik. .VALefor. li'u gi'e
 
 * jbene fi li pasobivopi'enosopi'epaso gi'e
 
@@ -69,11 +69,11 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 * xabju la'o gugypau. US-MD .gugypau. gi'e
 
-* se jibri le nu pilno lo cmaci gi'e
+* seljibri le nu pilno lo cmaci gi'e
 
-* se bangu la .lojban. .e le cmaci bangu .e le glibau gi'e
+* selbau la .lojban. .e le cmaci bangu .e le glibau gi'e
 
-* se cevni la .satan. poi me'oi .mathematician.
+* selcei la .satan. poi me'oi .mathematician.
 
 ## le skami kalci pe'a
 .ni'o la .varik. cu...
