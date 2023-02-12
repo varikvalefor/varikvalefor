@@ -73,7 +73,7 @@ ni'o la .varik. cu...
 
 * selbau la .lojban. .e le cmaci bangu .e le glibau gi'e
 
-* selcei la .satan. poi me'oi .mathematician.
+* selcei la .satan. poi ke'a me'oi .mathematician.
 
 ## le skami kalci pe'a
 ni'o la .varik. cu...
@@ -91,13 +91,13 @@ ni'o la .varik. cu...
 ## le selpre
 ni'o le'i selpre be la .varik. cu vasru...
 
-* la'oi .ESTJ. noi se skicu la'o gy. MYERS-BRIGGS Type Indicator .gy. ku'o.e
+* la'oi .ESTJ. noi ke'a se skicu la'o gy. MYERS-BRIGGS Type Indicator .gy. ku'o.e
 
-* vu'oi la'o gy. 3w2 1w2 5w6 .gy. .e la'o gy. sp/so .gy. vu'o noi se skicu la'o gy. Enneagram of Personality .gy. ku'o .e
+* vu'oi la'o gy. 3w2 1w2 5w6 .gy. .e la'o gy. sp/so .gy. vu'o noi ke'a se skicu la'o gy. Enneagram of Personality .gy. ku'o .e
 
-* la'oi .LSE. noi se skicu la'oi .Socionics. ku'o .e
+* la'oi .LSE. noi ke'a se skicu la'oi .Socionics. ku'o .e
 
-* la'oi .TeSiNeFi. noi se skicu la'o gy. jungian cognitive functions .gy.
+* la'oi .TeSiNeFi. noi ke'a se skicu la'o gy. jungian cognitive functions .gy.
 
 .ije li ji'i vovo cu ni la .varik. cu ckaji la'oi .openness.
 .ije li panono cu ni la .varik. cu ckaji la'oi .conscientiousness.
