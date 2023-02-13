@@ -45,6 +45,11 @@ OPENNESS,CONSCIENTIOUSNESS,EXTROVERSION,AGREEABLENESS,NEUROTICISM
 ## Skills
 VARIK's skills include but are not limited to intelligence analysis, mathematics, cybersecurity, national security, general data analysis, project planning, systems engineering, machine learning, psychology, political and general sociology, computer networking, cryptography, OpenBSD, Haskell, APL, Perl, C++, general communication, wildlife photography, and computational linguistics.
 
+## ASPERGER's Syndrome
+Clinically diagnoses that VARIK has ASPERGER's syndrome.
+
+VARIK knows that (some things claim that (should not use "ASPERGER's syndrome"))... but identifies with "ASPERGER's syndrome" and resists that attempts that causes that VARIK not uses "ASPERGER's syndrome".  That (VARIK uses (for that (describes VARIK)) "ASPERGER's syndrome") continues.
+
 ## Contact
 VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
@@ -107,6 +112,11 @@ ni'o le'i selpre be la .varik. cu vasru...
 
 ## le se certu
 ni'o la .varik. cu certu ja stati ja se slabu le cmaci .e la'e zoi glibau. intelligence analysis .glibau. .e le me'oi .cybersecurity. .e la'e zoi glibau. national security .glibau. .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'e zoi glibau. machine learning .glibau. .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e le me'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'o samplabau. C++ .samplabau. .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
+
+## le mu'oi glibau. ASPERGER's syndrome .zoi.
+ni'o le su'o ci mikce cu facki le du'u la .varik. cu se xadzu'i le mu'oi glibau. ASPERGER's syndrome .glibau.
+
+.i ge la .varik. cu djuno le du'u le su'o co'e cu xusra le du'u cadga fa lo nu na pilno ko'a goi zoi glibau. ASPERGER's syndrome .glibau... gi'e ku'i cu mu'oi glibau. identify with .glibau. ko'a gi'e xarnu fi lo nu troci lo nu tolcru lo nu pilno zo'e gi ranji fa le nu la .varik. cu pilno ko'a lo nu skicu ja ciksi la .varik.
 
 ## le te mrilu
 ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy. .a la'o gy. @varikvalefor:matrix.org .gy. gi la .varik. cu viska da
