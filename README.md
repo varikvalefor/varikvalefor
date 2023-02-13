@@ -43,7 +43,7 @@ OPENNESS,CONSCIENTIOUSNESS,EXTROVERSION,AGREEABLENESS,NEUROTICISM
 44,100,63,62.5,1
 
 ## Skills
-VARIK's skills include but are not limited to intelligence analysis, mathematics, cybersecurity, national security, general data analysis, project planning, systems engineering, machine learning, psychology, political and general sociology, computer networking, cryptography, OpenBSD, Haskell, APL, Perl, C++, general communication, wildlife photography, and computational linguistics.
+VARIK's skills include but are not limited to intelligence analysis, mathematics, cybersecurity, national security, general data analysis, project planning, systems engineering, machine learning, psychology, political and general sociology, computer networking, cryptography, OpenBSD, Haskell, APL, Perl, Agda, general communication, wildlife photography, and computational linguistics.
 
 ## ASPERGER's Syndrome
 Clinically diagnoses that VARIK has ASPERGER's syndrome.
@@ -111,7 +111,7 @@ ni'o le'i selpre be la .varik. cu vasru...
 .ije li pa cu ni la .varik. cu ckaji la'oi .neuroticism.
 
 ## le se certu
-ni'o la .varik. cu certu ja stati ja se slabu le cmaci .e la'e zoi glibau. intelligence analysis .glibau. .e le me'oi .cybersecurity. .e la'e zoi glibau. national security .glibau. .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'e zoi glibau. machine learning .glibau. .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e le me'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'o samplabau. C++ .samplabau. .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
+ni'o la .varik. cu certu ja stati ja se slabu le cmaci .e la'e zoi glibau. intelligence analysis .glibau. .e le me'oi .cybersecurity. .e la'e zoi glibau. national security .glibau. .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'e zoi glibau. machine learning .glibau. .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e le me'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'oi .Agda. .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
 
 ## le mu'oi glibau. ASPERGER's syndrome .zoi.
 ni'o le su'o ci mikce cu facki le du'u la .varik. cu se xadzu'i le mu'oi glibau. ASPERGER's syndrome .glibau.
