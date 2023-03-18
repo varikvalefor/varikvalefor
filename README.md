@@ -113,7 +113,7 @@ ni'o le'i selpre be la .varik. cu vasru...
 ## le se certu
 ni'o la .varik. cu certu ja stati ja se slabu le cmaci .e la'e zoi glibau. intelligence analysis .glibau. .e le me'oi .cybersecurity. .e la'e zoi glibau. national security .glibau. .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'e zoi glibau. machine learning .glibau. .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e le me'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'oi .Agda. .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
 
-## le mu'oi glibau. ASPERGER's syndrome .zoi.
+## le mu'oi glibau. ASPERGER's syndrome .glibau.
 ni'o le su'o ci mikce cu facki le du'u la .varik. cu se xadzu'i le mu'oi glibau. ASPERGER's syndrome .glibau.
 
 .i ge la .varik. cu djuno le du'u le su'o co'e cu xusra le du'u cadga fa lo nu na pilno ko'a goi zoi glibau. ASPERGER's syndrome .glibau... gi'e ku'i cu mu'oi glibau. identify with .glibau. ko'a gi'e xarnu fi lo nu troci lo nu tolcru lo nu pilno zo'e gi ranji fa le nu la .varik. cu pilno ko'a lo nu skicu ja ciksi la .varik.
