@@ -171,7 +171,7 @@ postulate ladinafil : to'e-fingubni-fa la-diskord
 
 \subsubsection{la'oi .\F{diskustrol}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{diskustrol}.\ ctaipe le du'u tolcru lo nu pilno lo me'oi .custom. ja co'e tu'a la'oi .Discord.
+ni'o la'oi .\F{diskustrol}.\ ctaipe le du'u tolcru lo nu pilno lo me'oi .custom.\ ja co'e tu'a la'oi .Discord.
 
 \paragraph{English}
 \F{diskustrol} is a proof of that forbids that uses custom or unofficial clients of Discord.
