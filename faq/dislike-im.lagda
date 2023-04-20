@@ -125,6 +125,17 @@ A proof of \F{me'oi-centralise} \B a exists iff \B a is centralised.
 postulate me'oi-centralise : IMS → Set
 \end{code}
 
+\subsection{la'oi .\F{fonxysarcu}.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{fonxysarcu} \B a .zoi.\ gi ro da zo'u lo nu da pilno ko'a goi la'o zoi.\ \B a .zoi.\ cu se sarcu lo nu ko'a djuno fi lo fonjudri be da
+
+\paragraph{English}
+If a proof of \F{fonxysarcu} \B a exists, then for all $A$, that ($A$ gives to \B a information regarding the phone number of $A$) is necessary for that $A$ uses \B a.
+
+\begin{code}
+postulate fonxysarcu : IMS → Set
+\end{code}
+
 \subsection{la'o zoi.\ \F{tolnei-nibli} .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
@@ -139,7 +150,11 @@ postulate
                  (These
                    (to'e-fingubni-fa A)
                    (me'oi-custom-tolcru A)
-                 ) (me'oi-centralise A)
+                 )
+                 (These
+                   (me'oi-centralise A)
+                   (fonxysarcu A)
+                 )
                → la-varik cu-tolnei A
 \end{code}
 
@@ -195,8 +210,54 @@ postulate diskentral : me'oi-centralise la-diskord
 
 \begin{code}
 tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
-tolnei-la'oi-Discord = tolnei-nibli $ these ladi diskentral
+tolnei-la'oi-Discord = tolnei-nibli $ these ladi $ this diskentral
   where
   ladi = these ladinafil diskustrol
+\end{code}
+
+\section{la'oi .Telegram.}
+
+\subsection{le jicmu / The Foundational Stuff}
+
+\subsubsection{la'o zoi.\ \F{la-telegram} .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \F{la-telegram} .zoi.\ sinxa ja co'e la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org} .zoi.
+
+\paragraph{English}
+\F{la-telegram} represents or whateve \{V\} Telegram, which is described at \url{https://www.telegram.org}.
+
+\begin{code}
+postulate la-telegram : IMS
+\end{code}
+
+\subsubsection{la'oi .\F{tugcentra}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{tugcentra}.\ ctaipe le su'u me'oi .centralise.\ la'oi .Telegram.\
+
+\paragraph{English}
+\F{tugcentra} is a proof of that Telegram is centralised.
+
+\begin{code}
+postulate tugcentra : me'oi-centralise la-telegram
+\end{code}
+
+\subsubsection{la'oi .\F{tugfonxa}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Telegram.
+
+\paragraph{English}
+\F{fugfonxa} is a proof of that a telephone number is necessary for that uses Telegram.
+
+\begin{code}
+postulate tugfonxa : fonxysarcu la-telegram
+\end{code}
+
+\subsection{le nibli be le su'u tolnei / The Proof of that Dislikes}
+
+\begin{code}
+tolnei-la'oi-Telegram : la-varik cu-tolnei la-telegram
+tolnei-la'oi-Telegram = tolnei-nibli $ that $ centfon
+  where
+  centfon = these tugcentra tugfonxa
 \end{code}
 \end{document}
