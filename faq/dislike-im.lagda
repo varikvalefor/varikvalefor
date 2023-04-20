@@ -114,6 +114,17 @@ A proof of \F{me'oi-custom-tolcru} \B a exists iff forbids that uses a custom or
 postulate me'oi-custom-tolcru : IMS → Set
 \end{code}
 
+\subsection{la'o zoi.\ \F{me'oi-centralise} .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{me'oi-centralise} \B a .zoi.\ gi me'oi .centralise.\ la'o zoi.\ \B a .zoi.
+
+\paragraph{English}
+A proof of \F{me'oi-centralise} \B a exists iff \B a is centralised.
+
+\begin{code}
+postulate me'oi-centralise : IMS → Set
+\end{code}
+
 \subsection{la'o zoi.\ \F{tolnei-nibli} .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
@@ -125,8 +136,10 @@ VARIK hopes that unnecessary is that writes an English explanation.
 postulate
   tolnei-nibli : {A : IMS}
                → These
-                 (to'e-fingubni-fa A)
-                 (me'oi-custom-tolcru A)
+                 (These
+                   (to'e-fingubni-fa A)
+                   (me'oi-custom-tolcru A)
+                 ) (me'oi-centralise A)
                → la-varik cu-tolnei A
 \end{code}
 
@@ -167,10 +180,23 @@ ni'o la'oi .\F{diskustrol}.\ ctaipe le du'u tolcru lo nu pilno lo me'oi .custom.
 postulate diskustrol : me'oi-custom-tolcru la-diskord
 \end{code}
 
+\subsubsection{la'oi .\F{diskentral}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{diskentral}.\ ctaipe le du'u me'oi .centralise.\ la'oi .Discord.
+
+\paragraph{English}
+\F{diskentral} is a proof of that Discord is centralised.
+
+\begin{code}
+postulate diskentral : me'oi-centralise la-diskord
+\end{code}
+
 \subsection{le nibli be le su'u tolnei / The Proof of that Dislikes}
 
 \begin{code}
 tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
-tolnei-la'oi-Discord = tolnei-nibli $ these ladinafil diskustrol
+tolnei-la'oi-Discord = tolnei-nibli $ these ladi diskentral
+  where
+  ladi = these ladinafil diskustrol
 \end{code}
 \end{document}
