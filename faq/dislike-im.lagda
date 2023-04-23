@@ -136,6 +136,17 @@ If a proof of \F{fonxysarcu} \B a exists, then for all $A$, that ($A$ gives to \
 postulate fonxysarcu : IMS → Set
 \end{code}
 
+\subsection{la'o zoi.\ \F{tolcru-clanybenji} .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{tolcru-clanybenji} \B a .zoi.\ gi tolcru lo nu benji lo clani je selci'a fu la'o zoi.\ \B a .zoi.
+
+\paragraph{English}
+A proof of \F{tolcru-clanybenji} \B a exists iff forbids that sends via \B a lengthy text.
+
+\begin{code}
+postulate tolcru-clanybenji : IMS → Set
+\end{code}
+
 \subsection{la'o zoi.\ \F{tolnei-nibli} .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
@@ -152,8 +163,10 @@ postulate
                    (me'oi-custom-tolcru A)
                  )
                  (These
-                   (me'oi-centralise A)
-                   (fonxysarcu A)
+                   (These
+                     (me'oi-centralise A)
+                     (fonxysarcu A)
+                   ) (tolcru-clanybenji A)
                  )
                → la-varik cu-tolnei A
 \end{code}
@@ -206,12 +219,24 @@ ni'o la'oi .\F{diskentral}.\ ctaipe le du'u me'oi .centralise.\ la'oi .Discord.
 postulate diskentral : me'oi-centralise la-diskord
 \end{code}
 
+\subsubsection{la'oi .\F{diskcla}.}
+\paragraph{la. lojban.}
+ni'o la'oi .\F{diskcla}.\ ctaipe le du'u tolcru lo nu benji lo clani je selcil'a fu la'oi .Discord.
+
+\paragraph{English}
+\F{diskcla} is a proof of that forbids that sends via Discord lengthy texts.
+
+\begin{code}
+postulate diskcla : tolcru-clanybenji la-diskord
+\end{code}
+
 \subsection{le nibli be le su'u tolnei / The Proof of that Dislikes}
 
 \begin{code}
 tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
-tolnei-la'oi-Discord = tolnei-nibli $ these ladi $ this diskentral
+tolnei-la'oi-Discord = tolnei-nibli $ these ladi $ diskencla
   where
+  diskencla = flip these diskcla $ this diskentral
   ladi = these ladinafil diskustrol
 \end{code}
 
@@ -256,7 +281,7 @@ postulate tugfonxa : fonxysarcu la-telegram
 
 \begin{code}
 tolnei-la'oi-Telegram : la-varik cu-tolnei la-telegram
-tolnei-la'oi-Telegram = tolnei-nibli $ that $ centfon
+tolnei-la'oi-Telegram = tolnei-nibli $ that $ this centfon
   where
   centfon = these tugcentra tugfonxa
 \end{code}
