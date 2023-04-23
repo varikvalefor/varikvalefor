@@ -224,7 +224,7 @@ tolnei-la'oi-Discord = tolnei-nibli $ these ladi $ this diskentral
 ni'o la'o zoi.\ \F{la-telegram} .zoi.\ sinxa ja co'e la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org} .zoi.
 
 \paragraph{English}
-\F{la-telegram} represents or whateve \{V\} Telegram, which is described at \url{https://www.telegram.org}.
+\F{la-telegram} represents or whatever \{V\} Telegram, which is described at \url{https://www.telegram.org}.
 
 \begin{code}
 postulate la-telegram : IMS
