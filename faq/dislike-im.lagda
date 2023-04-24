@@ -147,6 +147,17 @@ A proof of \F{tolcru-clanybenji} \B a exists iff forbids that sends via \B a len
 postulate tolcru-clanybenji : IMS → Set
 \end{code}
 
+\subsection{la'o zoi.\ \F{me'oi-paywall} .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{me'oi-paywall} \B a .zoi.\ gi su'o da poi ke'a pagbu la'o zoi.\ \B a .zoi.\ zo'u ro de poi ke'a pilno la'o zoi.\ \B a .zoi.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
+
+\paragraph{English}
+A proof of \F{me'oi-paywall} \B a exists iff some part (of \B a) $Q$ exists such that for all users (of \B a) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
+
+\begin{code}
+postulate me'oi-paywall : IMS → Set
+\end{code}
+
 \subsection{la'o zoi.\ \F{tolnei-nibli} .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
@@ -166,7 +177,10 @@ postulate
                    (These
                      (me'oi-centralise A)
                      (fonxysarcu A)
-                   ) (tolcru-clanybenji A)
+                   ) (These
+                     (tolcru-clanybenji A)
+                     (me'oi-paywall A)
+                   )
                  )
                → la-varik cu-tolnei A
 \end{code}
@@ -230,13 +244,24 @@ ni'o la'oi .\F{diskcla}.\ ctaipe le du'u tolcru lo nu benji lo clani je selcil'a
 postulate diskcla : tolcru-clanybenji la-diskord
 \end{code}
 
+\subsubsection{la'oi .\F{diskpei}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{diskpei}.\ ctaipe le du'u su'o da poi ke'a pagbu la'oi .Discord.\ zo'u ro de poi ke'a pilno la'oi .Discord.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
+
+\paragraph{English}
+\F{diskpei} is a proof of that some part (of Discord) $Q$ exists such that for all users (of Discord) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
+
+\begin{code}
+postulate diskpei : me'oi-paywall la-diskord
+\end{code}
+
 \subsection{le nibli be le su'u tolnei / The Proof of that Dislikes}
 
 \begin{code}
 tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
-tolnei-la'oi-Discord = tolnei-nibli $ these ladi $ diskencla
+tolnei-la'oi-Discord = tolnei-nibli $ these ladi cenclapei
   where
-  diskencla = flip these diskcla $ this diskentral
+  cenclapei = these (this diskentral) $ these diskcla diskpei
   ladi = these ladinafil diskustrol
 \end{code}
 
