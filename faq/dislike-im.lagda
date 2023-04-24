@@ -162,7 +162,7 @@ postulate me'oi-paywall : IMS → Set
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
 
-\paragraph{le glibau.}
+\paragraph{English}
 VARIK hopes that unnecessary is that writes an English explanation.
 
 \begin{code}
