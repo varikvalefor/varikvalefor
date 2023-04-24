@@ -22,7 +22,7 @@
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
 
-\title{le nibli be le su'u la .varik.\ cu tolnei le mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u / Proofs of that VARIK Dislikes the Instant Messaging Services}
+\title{le nibli be le su'u la .varik.\ cu tolnei ja na nelci le mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u / Proofs of that VARIK Dislikes (or Not Likes) the Instant Messaging Services}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}
@@ -31,10 +31,10 @@
 
 \section{le me'oi .abstract.}
 \paragraph{la .lojban.}
-ni'o velski ko'a goi le su'o mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u je cu vasru le ctaipe be le su'u la .varik.\ cu tolnei ko'a
+ni'o velski ko'a goi le su'o mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u je cu vasru le ctaipe be le su'u la .varik.\ cu tolnei ja na nelci ko'a
 
 \paragraph{English}
-Describes some instant messaging services, A.K.A.\ ``$A$'', and contains proofs of that VARIK dislikes $A$.
+Describes some instant messaging services, A.K.A.\ ``$A$'', and contains proofs of that (VARIK dislikes $A$) or that VARIK not likes $A$.
 
 \section{le vrici / Miscellaneous Crap}
 
@@ -79,6 +79,17 @@ ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o z
 
 \begin{code}
 postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
+\end{code}
+
+\subsection{la'o zoi.\ \F{\_cu-na-nelci\_}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-na-nelci} \B b .zoi.\ gi la'o zoi.\ \B a .zoi.\ na nelci la'o zoi.\ \B b .zoi.
+
+\paragraph{English}
+A proof of \B a \Sym{cu-na-nelci} \B b exists iff \B a not likes \B b.
+
+\begin{code}
+postulate _cu-na-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
 \subsection{la'oi .\F{IMS}.}
@@ -156,6 +167,31 @@ A proof of \F{me'oi-paywall} \B a exists iff some part (of \B a) $Q$ exists such
 
 \begin{code}
 postulate me'oi-paywall : IMS → Set
+\end{code}
+
+\subsection{la'o zoi.\ \F{lo-pixra-cu-na-se-mapti}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{lo-pixra-cu-na-se-mapti} \B a .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
+
+\paragraph{English}
+A proof of \F{lo-pixra-cu-na-se-mapti} \B a exists iff \B a not supports that sends images.
+
+\begin{code}
+postulate lo-pixra-cu-na-se-mapti : IMS → Set
+\end{code}
+
+\subsection{la'o zoi.\ \F{narnei-nibli}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
+
+\paragraph{English}
+VARIK hopes that unnecessary is that writes an English explanation.
+
+\begin{code}
+postulate narnei-nibli : {A : IMS}
+                       → lo-pixra-cu-na-se-mapti A
+                       → tolcru-clanybenji A
+                       → la-varik cu-na-nelci A
 \end{code}
 
 \subsection{la'o zoi.\ \F{tolnei-nibli}\ .zoi.}
@@ -310,5 +346,49 @@ tolnei-la'oi-Telegram : la-varik cu-tolnei la-telegram
 tolnei-la'oi-Telegram = tolnei-nibli $ that $ this centfon
   where
   centfon = these tugcentra tugfonxa
+\end{code}
+
+\section{la'o glibau.\ Internet Relay Chat .glibau.}
+
+\subsection{le jicmu / The Foundational Stuff}
+
+\subsubsection{la'o zoi.\ \F{la-irk}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \F{la-irk}\ .zoi.\ sinxa la'o glibau.\ Internet Relay Chat .glibau.\ poi ke'a se me'oi .RFC.\ li pavomuso
+
+\paragraph{English}
+\F{la-irk} represents Internet Relay Chat, which is described by RFC 1459.
+
+\begin{code}
+postulate la-irk : IMS
+\end{code}
+
+\subsubsection{la'oi .\F{irkypixra}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{irkypixra}.\ ctaipe le du'u la'o glibau.\ Internet Relay Chat .glibau.\ na mapti lo nu benji lo pixra
+
+\paragraph{English}
+\F{irkypixra} is a proof of that Internet Relay Chat not supports that sends images.
+
+\begin{code}
+postulate irkypixra : lo-pixra-cu-na-se-mapti la-irk
+\end{code}
+
+\subsubsection{la'oi .\F{irkyclani}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{irkyclani}.\ ctaipe le du'u tolcru lo nu benji lo clani je selci'a fo la'o glibau.\ Internet Relay Chat .glibau.
+
+\paragraph{English}
+\F{irkyclani} is a proof of that forbids that sends (via Internet Relay Chat) lengthy texts.
+
+\begin{code}
+postulate irkyclani : tolcru-clanybenji la-irk
+\end{code}
+
+\subsection{le nibli be le su'u na nelci / The Proof of that Not Likes}
+
+\begin{code}
+la-varik-cu-na-nelci-la-irk : la-varik cu-na-nelci la-irk
+la-varik-cu-na-nelci-la-irk = narnei-nibli irkypixra irkyclani
 \end{code}
 \end{document}
