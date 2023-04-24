@@ -177,7 +177,8 @@ postulate
                    (These
                      (me'oi-centralise A)
                      (fonxysarcu A)
-                   ) (These
+                   )
+                   (These
                      (tolcru-clanybenji A)
                      (me'oi-paywall A)
                    )
