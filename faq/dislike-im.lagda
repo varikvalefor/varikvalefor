@@ -59,9 +59,9 @@ For all $A$, $A$ is a value of \F{Prenu} iff $A$ is a prenu.
 postulate Prenu : Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{la-varik} .zoi.}
+\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik} .zoi.\ cu sinxa la .varik.
+ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ cu sinxa la .varik.
 
 \paragraph{English}
 \F{la-varik} represents VARIK.
@@ -70,7 +70,7 @@ ni'o la'o zoi.\ \F{la-varik} .zoi.\ cu sinxa la .varik.
 postulate la-varik : Prenu
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-tolnei\_} .zoi.}
+\subsection{la'o zoi.\ \F{\_cu-tolnei\_}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o zoi.\ \B a \Sym{cu-tolnei} \B b .zoi.
 
@@ -92,7 +92,7 @@ For all $A$, $A$ is a value of \F{IMS} iff $A$ is an instant messaging service.
 postulate IMS : Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{to'e-fingubni-fa} .zoi.}
+\subsection{la'o zoi.\ \F{to'e-fingubni-fa}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{to'e-fingubni-fa} \B a .zoi.\ gi la'o zoi.\ \B a .zoi.\ to'e fingubni
 
@@ -103,7 +103,7 @@ A proof of \F{to'e-fingubni-fa} \B a exists iff \B a is closed-source.
 postulate to'e-fingubni-fa : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{me'oi-custom-tolcru} .zoi.}
+\subsection{la'o zoi.\ \F{me'oi-custom-tolcru}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{me'oi-custom-tolcru} \B a .zoi.\ gi tolcru lo nu pilno lo se kibyse'u be fi la'o zoi.\ \B a .zoi.\ be'o poi tu'a ke'a me'oi .unofficial.\ ja me'oi .\F{custom}.
 
@@ -114,7 +114,7 @@ A proof of \F{me'oi-custom-tolcru} \B a exists iff forbids that uses a custom or
 postulate me'oi-custom-tolcru : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{me'oi-centralise} .zoi.}
+\subsection{la'o zoi.\ \F{me'oi-centralise}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{me'oi-centralise} \B a .zoi.\ gi me'oi .centralise.\ la'o zoi.\ \B a .zoi.
 
@@ -136,7 +136,7 @@ If a proof of \F{fonxysarcu} \B a exists, then for all $A$, that ($A$ gives to \
 postulate fonxysarcu : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{tolcru-clanybenji} .zoi.}
+\subsection{la'o zoi.\ \F{tolcru-clanybenji}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{tolcru-clanybenji} \B a .zoi.\ gi tolcru lo nu benji lo clani je selci'a fu la'o zoi.\ \B a .zoi.
 
@@ -147,7 +147,7 @@ A proof of \F{tolcru-clanybenji} \B a exists iff forbids that sends via \B a len
 postulate tolcru-clanybenji : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{me'oi-paywall} .zoi.}
+\subsection{la'o zoi.\ \F{me'oi-paywall}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{me'oi-paywall} \B a .zoi.\ gi su'o da poi ke'a pagbu la'o zoi.\ \B a .zoi.\ zo'u ro de poi ke'a pilno la'o zoi.\ \B a .zoi.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
 
@@ -158,7 +158,7 @@ A proof of \F{me'oi-paywall} \B a exists iff some part (of \B a) $Q$ exists such
 postulate me'oi-paywall : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{tolnei-nibli} .zoi.}
+\subsection{la'o zoi.\ \F{tolnei-nibli}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
 
@@ -186,13 +186,13 @@ postulate
                → la-varik cu-tolnei A
 \end{code}
 
-\section{la'oi .\F{Discord}.}
+\section{la'oi .Discord.}
 
 \subsection{le jicmu / The Foundational Stuff}
 
-\subsubsection{la'o zoi.\ \F{la-diskord} .zoi.}
+\subsubsection{la'o zoi.\ \F{la-diskord}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-diskord} .zoi.\ sinxa ja co'e la'oi .Discord.\ noi ke'a se .urli zoi zoi.\ \url{https://www.discord.com} .zoi.
+ni'o la'o zoi.\ \F{la-diskord}\ .zoi.\ sinxa ja co'e la'oi .Discord.\ noi ke'a se .urli zoi zoi.\ \url{https://www.discord.com}\ .zoi.
 
 \paragraph{English}
 \F{la-diskord} represents or whatever \{V\} Discord, which is described at \url{https://www.discord.com}.
@@ -270,9 +270,9 @@ tolnei-la'oi-Discord = tolnei-nibli $ these ladi cenclapei
 
 \subsection{le jicmu / The Foundational Stuff}
 
-\subsubsection{la'o zoi.\ \F{la-telegram} .zoi.}
+\subsubsection{la'o zoi.\ \F{la-telegram}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-telegram} .zoi.\ sinxa ja co'e la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org} .zoi.
+ni'o la'o zoi.\ \F{la-telegram}\ .zoi.\ sinxa ja co'e la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org}\ .zoi.
 
 \paragraph{English}
 \F{la-telegram} represents or whatever \{V\} Telegram, which is described at \url{https://www.telegram.org}.
