@@ -198,7 +198,7 @@ postulate jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
 \end{code}
 
 \subsection{la'oi .\F{ozvraka'e}.}
-ni'o la'oi .\F{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik. cu vlaba'u lo valsi be le leksiko be la .lojban.\ poi ke'a selpli la .varik.
+ni'o la'oi .\F{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik. cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be la .lojban.\ poi ke'a selpli la .varik.
 
 \begin{code}
 postulate ozvraka'e : la-varik cu-vlaba'u-kakne (Bangu.leksiko la-lojban)
