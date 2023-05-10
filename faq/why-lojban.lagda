@@ -50,11 +50,11 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu baupli la .lojban.\ 
 \section{le torveki}
 ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je la. varik.\ cu ka'e vlaba'u lo valsi be la .lojban.\ gi
+	\item ga je la. varik.\ cu ka'e vlaba'u lo valsi be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be la .lojban.\ gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu jinvi le du'u tu'a la .lojban.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani\ gi
-	\item ro da poi ke'a bangu zo'u ga naja ga je la .varik.\ cu ka'e vlaba'u lo valsi be da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi ga je la .varik.\ cu jinvi le du'u tu'a da filri'a lo nu ciksi ka skicu lo pluja fo lo sampu je drani gi la .varik.\ cu baupli da
+	\item ro da poi ke'a bangu zo'u ga naja ga je la .varik.\ cu ka'e vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi ga je la .varik.\ cu jinvi le du'u tu'a da filri'a lo nu ciksi ka skicu lo pluja fo lo sampu je drani gi la .varik.\ cu baupli da
 \end{itemize}
 
 \section{le vrici}
