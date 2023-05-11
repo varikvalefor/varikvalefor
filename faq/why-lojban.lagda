@@ -62,11 +62,12 @@ That (labels of proofs resemble labels of paragraphs) justifies that uses \textt
 \subsection{la .lojban.}
 ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{itemize}
+        \item ga je la .lojban.\ cu na tonga bangu gi
 	\item ga je la. varik.\ cu ka'e vlaba'u lo valsi be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be la .lojban.\ gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu jinvi le du'u tu'a la .lojban.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani\ gi
-	\item ro da poi ke'a bangu zo'u ga naja ga je la .varik.\ cu ka'e vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi ga je la .varik.\ cu jinvi le du'u tu'a da filri'a lo nu ciksi ka skicu lo pluja fo lo sampu je drani gi la .varik.\ cu baupli da
+	\item ro da poi ke'a bangu zo'u ga naja ga je da na tonga bangu gi ga je la .varik.\ cu ka'e vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi ga je la .varik.\ cu jinvi le du'u tu'a da filri'a lo nu ciksi ka skicu lo pluja fo lo sampu je drani gi la .varik.\ cu baupli da
 \end{itemize}
 
 \subsection{English}
@@ -76,6 +77,8 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{proof}
 	${}$
 
+	Lojban is not a tonal language.
+
 	VARIK is capable of that VARIK pronounces the words of Lojban.
 
 	VARIK likes the grammar of Lojban.
@@ -84,7 +87,7 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 
 	VARIK opines that Lojban facilitates that simply and correctly describes (or explains) the complex.
 
-	For all languages $A$, if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that simply and correctly describes the complex, then VARIK uses $A$.
+	For all languages $A$, if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that simply and correctly describes the complex, then VARIK uses $A$.
 
 	Therefore, VARIK uses Lojban.
 \end{proof}
@@ -94,6 +97,7 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 
 \begin{code}
 open import Function
+open import Relation.Nullary
 \end{code}
 
 \section{le jicmu ja co'e / The Basic}
@@ -153,7 +157,7 @@ ni'o ga jo ko'a goi la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\F{Bangu}.\ gi\ldots
 \end{itemize}
 
 \paragraph{English}
-For all \B a, \F{Bangu} is the type of \B a iff (\B a is a grammar, and \F{Bangu.leksiko} \B a is the lexicon/vocabulary/whatever of \B a, and \F{Bangu.gerna} \B a is the grammar of \B a, and \F{Gerna.semantics} \B a is the semantics of \B a.
+For all \B a, \F{Bangu} is the type of \B a iff (\B a is a grammar, and \F{Bangu.leksiko} \B a is the lexicon/vocabulary/whatever of \B a, and \F{Bangu.gerna} \B a is the grammar of \B a, and \F{Gerna.semantics} \B a is the semantics of \B a).
 
 \begin{code}
 record Bangu : Set
@@ -162,6 +166,17 @@ record Bangu : Set
     leksiko : Leksiko
     gerna : Gerna
     semantics : Semantics
+\end{code}
+
+\subsection{la'o zoi.\ \F{togbau-fa} .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{togbau-fa} \B a\ .zoi.\ gi la'o zoi.\ \B a .zoi.\ tonga bangu
+
+\paragraph{English}
+A proof of \F{togbau-fa} \B a exists iff \B a is a tonal language.
+
+\begin{code}
+postulate togbau-fa : Bangu → Set
 \end{code}
 
 \subsection{la'o zoi.\ \F{vlaba'u-kakne}\ .zoi.}
@@ -275,6 +290,17 @@ la-lojban = record {
 
 \section{le barda ja co'e je ctaipe}
 
+\subsection{la'oi .\F{jbonartogbau}.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{jbonartogbau}.\ ctaipe le su'u la .lojban.\ cu na tonga bangu
+
+\paragraph{English}
+\F{jbonartogbau} is a proof of that Lojban is not a tonal language.
+
+\begin{code}
+postulate jbonartogbau : ¬ (togbau-fa la-lojban)
+\end{code}
+
 \subsection{la'oi .\F{jbogernypavysmu}.}
 \paragraph{la .lojban.}
 ni'o la'oi .\F{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be fi la .lojban.\ poi ke'a se baupli la .varik.
@@ -303,6 +329,7 @@ ni'o ro da poi ke'a bangu zo'u ga naja\ldots
 \begin{itemize}
 	\item ga je la .varik.\ cu ka'e vlaba'u lo valsi be da gi\ldots
 	\begin{itemize}
+                \item ga je da na tonga bangu gi
 		\item ga je la .varik.\ cu nelci le gerna be da gi
 		\item ga je gerna pavysmu fa lo ro jufra be fi da gi
 		\item ga je la .varik.\ cu jinvi le du'u tu'a da filri'a lo nu ciksi ka skicu lo pluja fo lo sampu je drani gi
@@ -311,11 +338,12 @@ ni'o ro da poi ke'a bangu zo'u ga naja\ldots
 \end{itemize}
 
 \paragraph{English}
-For all languages $A$, if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that simply and correctly explains (or describes) the complex, then VARIK uses $A$.
+For all languages $A$, if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that simply and correctly explains (or describes) the complex, then VARIK uses $A$.
 
 \begin{code}
 postulate
   pavybaupli : {z : Bangu}
+             → ¬ (togbau-fa z)
              → gernypavysmu-fa $ Bangu.gerna z
              → la-varik cu-vlaba'u-kakne (Bangu.leksiko z)
              → sapydrackifilri'a-fa-tu'a z
@@ -332,8 +360,9 @@ ni'o la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ ctaipe le su'u la .varik.\ cu baupli
 
 \begin{code}
 jbobau-la-varik : la-varik cu-baupli la-lojban
-jbobau-la-varik = pavybaupli jbogernypavysmu ozvraka'e sdfr vnll
+jbobau-la-varik = pavybaupli jntb jbogernypavysmu ozvraka'e sdfr vnll
   where
+  jntb = jbonartogbau
   postulate
     sdfr : sapydrackifilri'a-fa-tu'a la-lojban
     vnll : la-varik cu-nelci (Bangu.leksiko la-lojban)
