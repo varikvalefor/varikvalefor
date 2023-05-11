@@ -242,7 +242,7 @@ postulate le-lojban-leksiko : Leksiko
 
 \subsection{la'o zoi.\ \F{le-lojban-gerna}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{le-lojban-gerna}\ .zoi.\ gerna la .lojban.\ poi ke'a selpli la .varik.
+ni'o la'o zoi.\ \F{le-lojban-gerna}\ .zoi.\ gerna la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
 \F{le-lojban-gerna} is the grammar of the Lojban which is used by VARIK.
@@ -259,7 +259,7 @@ postulate le-lojban-me'oi-semantics : Semantics
 
 \subsection{la'o zoi.\ \F{la-lojban}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-lojban}\ .zoi.\ cu du la .lojban.\ poi ke'a selpli la .varik.
+ni'o la'o zoi.\ \F{la-lojban}\ .zoi.\ cu du la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
 \F{la-lojban} is the Lojban which is used by VARIK.
@@ -277,7 +277,7 @@ la-lojban = record {
 
 \subsection{la'oi .\F{jbogernypavysmu}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be fi la .lojban.\ poi ke'a selpli la .varik.
+ni'o la'oi .\F{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be fi la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
 \F{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which ``fit'' the grammar of the Lojban which is used by VARIK.
@@ -288,7 +288,7 @@ postulate jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
 
 \subsection{la'oi .\F{ozvraka'e}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik. cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be la .lojban.\ poi ke'a selpli la .varik.
+ni'o la'oi .\F{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik. cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
 \F{ozvraka'e} is a proof of that easy for VARIK is that VARIK pronounces the words of the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
@@ -325,7 +325,7 @@ postulate
 
 \subsection{la'o zoi.\ \F{jbobau-la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ ctaipe le su'u la .varik.\ cu baupli la .lojban.\ poi ke'a selpli la .varik.  .i cumki fa lo nu vimcu lo'u poi ke'a selpli la .varik.\ le'u
+ni'o la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ ctaipe le su'u la .varik.\ cu baupli la .lojban.\ poi ke'a se baupli la .varik.  .i cumki fa lo nu vimcu lo'u poi ke'a se baupli la .varik.\ le'u
 
 \paragraph{English}
 \F{jbobau-la-varik} is a proof of that VARIK uses the Lojban which is used by VARIK.  Possible is that omits ``which is used by VARIK''.
