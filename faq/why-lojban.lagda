@@ -250,6 +250,11 @@ postulate la-varik : Prenu
 \section{la'o zoi.\ \F{la-lojban}\ .zoi.}
 
 \subsection{la'o zoi.\ \F{le-lojban-leksiko}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \F{le-lojban-leksiko}\ .zoi.\ leksiko la .lojban.\ poi ke'a se baupli la .varik.
+
+\paragraph{English}
+\F{le-lojban-leksiko} is the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
 
 \begin{code}
 postulate le-lojban-leksiko : Leksiko
