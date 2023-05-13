@@ -272,6 +272,11 @@ postulate le-lojban-gerna : Gerna
 \end{code}
 
 \subsection{la'o zoi.\ \F{le-lojban-me'oi-semantics}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \F{le-lojban-me'oi-semantics}\ .zoi.\ me'oi .semantics.\ la .lojban.\ poi ke'a se baupli la .varik.
+
+\paragraph{English}
+\F{le-lojban-me'oi-semantics} is the semantics of the Lojban which is used by VARIK.
 
 \begin{code}
 postulate le-lojban-me'oi-semantics : Semantics
