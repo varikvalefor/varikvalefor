@@ -62,6 +62,7 @@ That (labels of proofs resemble labels of paragraphs) justifies that uses \textt
 \subsection{la .lojban.}
 ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{itemize}
+	\item ga je la .lojban.\ cu slabu la .varik.\ gi
         \item ga je la .lojban.\ cu na tonga bangu gi
 	\item ga je la. varik.\ cu ka'e vlaba'u lo valsi be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be la .lojban.\ gi
@@ -77,6 +78,8 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{proof}
 	${}$
 
+	Lojban is familiar to VARIK.
+
 	Lojban is not a tonal language.
 
 	VARIK is capable of that VARIK pronounces the words of Lojban.
@@ -87,7 +90,7 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 
 	VARIK opines that Lojban facilitates that simply and correctly describes (or explains) the complex.
 
-	For all languages $A$, if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that simply and correctly describes the complex, then VARIK uses $A$.
+	For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that simply and correctly describes the complex, then VARIK uses $A$.
 
 	Therefore, VARIK uses Lojban.
 \end{proof}
@@ -212,6 +215,17 @@ A proof of \F{gernypavysmu-fa} \B a exists iff all sentences of \B a are syntact
 postulate gernypavysmu-fa : Gerna → Set
 \end{code}
 
+\subsection{la'o zoi.\ \F{\_cu-slabu\_} .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-slabu} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ slabu la'o zoi.\ \B b\ .zoi.
+
+\paragraph{English}
+A proof of \B a \F{cu-slabu} \B b exists iff \B a is familiar to \B b.
+
+\begin{code}
+postulate _cu-slabu_ : ∀ {a} → {A : Set a} → A → Prenu → Set
+\end{code}
+
 \subsection{la'o zoi.\ \F{\_cu-nelci\_}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
@@ -333,12 +347,24 @@ ni'o la'oi .\F{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .var
 postulate ozvraka'e : la-varik cu-vlaba'u-kakne (Bangu.leksiko la-lojban)
 \end{code}
 
+\subsection{la'o zoi.\ \F{jboslabu}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{jboslabu}.\ ctaipe le su'u la .lojban.\ cu slabu la .varik.
+
+\paragraph{English}
+\F{jboslabu} is a proof of that Lojban is familiar to VARIK.
+
+\begin{code}
+postulate jboslabu : la-lojban cu-slabu la-varik
+\end{code}
+
 \subsection{la'oi .\F{pavybaupli}.}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a bangu zo'u ga naja\ldots
 \begin{itemize}
 	\item ga je la .varik.\ cu ka'e vlaba'u lo valsi be da gi\ldots
 	\begin{itemize}
+		\item ga je da slabu la .varik.\ gi
                 \item ga je da na tonga bangu gi
 		\item ga je la .varik.\ cu nelci le gerna be da gi
 		\item ga je gerna pavysmu fa lo ro jufra be fi da gi
@@ -348,11 +374,12 @@ ni'o ro da poi ke'a bangu zo'u ga naja\ldots
 \end{itemize}
 
 \paragraph{English}
-For all languages $A$, if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that simply and correctly explains (or describes) the complex, then VARIK uses $A$.
+For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that simply and correctly explains (or describes) the complex, then VARIK uses $A$.
 
 \begin{code}
 postulate
   pavybaupli : {z : Bangu}
+             → z cu-slabu la-varik
              → ¬ (togbau-fa z)
              → gernypavysmu-fa $ Bangu.gerna z
              → la-varik cu-vlaba'u-kakne (Bangu.leksiko z)
@@ -370,8 +397,9 @@ ni'o la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ ctaipe le su'u la .varik.\ cu baupli
 
 \begin{code}
 jbobau-la-varik : la-varik cu-baupli la-lojban
-jbobau-la-varik = pavybaupli jntb jbogernypavysmu ozvraka'e sdfr vnll
+jbobau-la-varik = pavybaupli js jntb jbogernypavysmu ozvraka'e sdfr vnll
   where
+  js = jboslabu
   jntb = jbonartogbau
   postulate
     sdfr : sapydrackifilri'a-fa-tu'a la-lojban
