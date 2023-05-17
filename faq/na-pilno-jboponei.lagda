@@ -116,7 +116,8 @@ ni'o la'oi .\F{plinamapti}.\ ctaipe le su'u ro da poi ke'a prenu zo'u ga naja da
 
 \begin{code}
 postulate
-  plinamapti : {x : Prenu} → x cu-pilno la-jboponei
+  plinamapti : {x : Prenu}
+             → x cu-pilno la-jboponei
              → ¬ (rolmapge'a $ le-jbobau-be x)
 \end{code}
 
