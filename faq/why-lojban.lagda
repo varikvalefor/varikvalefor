@@ -95,7 +95,6 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 	Therefore, VARIK uses Lojban.
 \end{proof}
 
-
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
