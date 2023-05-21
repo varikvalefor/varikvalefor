@@ -182,11 +182,11 @@ ni'o la'oi .\F{vistynarfingubni}.\ ctaipe le su'u ko'a na fingubni
 postulate vistynarfingubni : ¬ (fingubni-fa la-vista)
 \end{code}
 
-\subsubsection{la'oi .\F{tolspocru}.}
-ni'o la'oi .\F{tolspocru}.\ ctaipe le su'u ko'a troci pe'a ru'e lo nu ko'a tolcru lo nu lo pilno be ko'a cu vimcu lo datnyvei poi tu'a ke'a sarcu lo nu ko'a tolpo'u
+\subsubsection{la'oi .\F{vistytolspocru}.}
+ni'o la'oi .\F{vistytolspocru}.\ ctaipe le su'u ko'a troci pe'a ru'e lo nu ko'a tolcru lo nu lo pilno be ko'a cu vimcu lo datnyvei poi tu'a ke'a sarcu lo nu ko'a tolpo'u
 
 \begin{code}
-postulate tolspocru : tolcru-lo-nu-spogau-kei-fa la-vista
+postulate vistytolspocru : tolcru-lo-nu-spogau-kei-fa la-vista
 \end{code}
 
 \subsubsection{la'oi .\F{vistymasno}.}
@@ -201,7 +201,7 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u jitfa fa le du'u ro da poi ke'a pre
 
 \begin{code}
 vistytolnei₁ : la-varik cu-tolnei la-vista
-vistytolnei₁ = vlipytolnei $ narvlipa tolspocru
+vistytolnei₁ = vlipytolnei $ narvlipa vistytolspocru
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{vistytolnei₂}\ .zoi.}
