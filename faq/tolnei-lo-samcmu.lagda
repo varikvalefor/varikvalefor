@@ -118,7 +118,7 @@ postulate tolcru-lo-nu-spogau-kei-fa : Samcmu → Set
 \end{code}
 
 \subsection{la'oi .\F{plivlipa}.}
-ni'o ga jo ctaipe la'o zoi.\ \F{plivlipa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je cu srana vu'oi da je de xi re vu'o po'o zo'u de curmi lo ro nu da gasnu di
+ni'o ga jo ctaipe la'o zoi.\ \F{plivlipa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je poi lo ro se srana be ke'a cu du da ja de zo'u de curmi lo ro nu da gasnu di
 
 \begin{code}
 postulate plivlipa : Samcmu → Set
