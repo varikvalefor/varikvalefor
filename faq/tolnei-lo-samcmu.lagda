@@ -117,11 +117,11 @@ ni'o ga jo ctaipe la'o zoi.\ \F{tolcru-lo-nu-spogau-kei-fa} \B a .zoi.\ gi ko'a 
 postulate tolcru-lo-nu-spogau-kei-fa : Samcmu → Set
 \end{code}
 
-\subsection{la'oi .\F{plivlipa}.}
-ni'o ga jo ctaipe la'o zoi.\ \F{plivlipa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je poi lo ro se srana be ke'a cu du da ja de zo'u de curmi lo ro nu da gasnu di
+\subsection{la'o zoi.\ \F{plivlipa-fa} .zoi.}
+ni'o ga jo ctaipe la'o zoi.\ \F{plivlipa-fa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je poi lo ro se srana be ke'a cu du da ja de zo'u de curmi lo ro nu da gasnu di
 
 \begin{code}
-postulate plivlipa : Samcmu → Set
+postulate plivlipa-fa : Samcmu → Set
 \end{code}
 
 \subsection{la'oi .\F{\_cu-jinvymasno\_}.}
@@ -139,7 +139,7 @@ ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 \begin{code}
 postulate narvlipa : {x : Samcmu}
                    → tolcru-lo-nu-spogau-kei-fa x
-                   → ¬ (plivlipa x)
+                   → ¬ (plivlipa-fa x)
 \end{code}
 
 \subsection{la'oi .\F{vlipytolnei}.}
@@ -147,7 +147,7 @@ ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \begin{code}
 postulate vlipytolnei : {x : Samcmu}
-                      → ¬ (plivlipa x)
+                      → ¬ (plivlipa-fa x)
                       → la-varik cu-tolnei x
 \end{code}
 
