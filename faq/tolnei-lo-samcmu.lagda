@@ -189,8 +189,8 @@ ni'o la'oi .\F{tolspocru}.\ ctaipe le su'u ko'a troci pe'a ru'e lo nu ko'a tolcr
 postulate tolspocru : tolcru-lo-nu-spogau-kei-fa la-vista
 \end{code}
 
-\subsubsection{la'oi .\F{vistytolnei}.}
-ni'o la'oi .\F{vistytolnei}.\ ctaipe le su'u la .varik.\ cu jinvi le du'u ko'a masno
+\subsubsection{la'oi .\F{vistymasno}.}
+ni'o la'oi .\F{vistymasno}.\ ctaipe le su'u la .varik.\ cu jinvi le du'u ko'a masno
 
 \begin{code}
 postulate vistymasno : la-varik cu-jinvymasno la-vista
