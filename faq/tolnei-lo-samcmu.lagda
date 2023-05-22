@@ -125,7 +125,7 @@ postulate plivlipa-fa : Samcmu → Set
 \end{code}
 
 \subsection{la'oi .\F{\_cu-jinvycafnysamfli}.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{jinvycafnysamfli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'o zoi.\ \B b\ .zoi.\ samfli
+ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-jinvycafnysamfli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'o zoi.\ \B b\ .zoi.\ samfli
 
 \begin{code}
 postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Set
