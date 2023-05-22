@@ -211,4 +211,32 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne 
 vistytolnei₂ : la-varik cu-tolnei la-vista
 vistytolnei₂ = masnytolnei vistymasno
 \end{code}
+
+\subsection{ko'a goi la'o zoi.\ OpenBSD .zoi.}
+
+\subsubsection{la'o zoi.\ \F{la-openbysydys}\ .zoi.}
+ni'o la'o zoi.\ \F{la-openbysydys}\ .zoi.\ du la'o zoi.\ OpenBSD .zoi.
+
+\begin{code}
+la-openbysydys : Samcmu
+la-openbysydys = record {
+  cmene = "OpenBSD";
+  skamyklesi = lo-jbuskami ∷ []
+  }
+\end{code}
+
+\subsubsection{la'o zoi.\ \F{openbysydys-samfli}\ .zoi.}
+ni'o la'o zoi.\ \F{openbysydys-samfli}\ .zoi.\ ctaipe le su'u la .varik. cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
+
+\begin{code}
+postulate openbysydys-samfli : la-varik cu-jinvycafnysamfli la-openbysydys
+\end{code}
+
+\subsubsection{la'o zoi.\ \F{obstolnei₁}\ .zoi.}
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
+
+\begin{code}
+obstolnei₁ : la-varik cu-tolnei la-openbysydys
+obstolnei₁ = masnytolnei openbysydys-samfli
+\end{code}
 \end{document}
