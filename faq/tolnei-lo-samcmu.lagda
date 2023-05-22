@@ -228,6 +228,35 @@ vistytolnei₂ : la-varik cu-tolnei la-vista
 vistytolnei₂ = samflitolnei vistymasno
 \end{code}
 
+\subsection{ko'a goi la'o zoi.\ Microsoft Windows 11 .zoi.\ po'u la'o zoi.\ \F{la-parparuin}\ .zoi.}
+
+
+\subsubsection{la'o zoi.\ \F{la-parparuin}\ .zoi.}
+ni'o la'o zoi.\ \F{la-parparuin}\ .zoi.\ du la'o zoi.\ Microsoft Windows 11 .zoi.\ poi ke'a selci'a la'oi .Microsoft.\ je poi le renorepa moi ca le nu gubgau ke'a
+
+\begin{code}
+la-parparuin : Samcmu
+la-parparuin = record {
+  cmene = "Microsoft Windows 11";
+  skamyklesi = lo-jbuskami ∷ []
+  }
+\end{code}
+
+\subsubsection{la'oi .\F{parpartcimi'etolnei}.}
+ni'o la'oi .\F{parpartcimi'etolnei}.\ ctaipe le su'u la .varik. cu tolnei lo tutci be lo nu tcimi'e ko'a
+
+\begin{code}
+postulate parpartcimi'etolnei : la-varik cu-tcimi'etolnei la-parparuin
+\end{code}
+
+\subsubsection{la'o zoi.\ \F{parpartolnei₁}\ .zoi.}
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
+
+\begin{code}
+parpartolnei₁ : la-varik cu-tolnei la-parparuin
+parpartolnei₁ = tcimi'ebratolnei parpartcimi'etolnei
+\end{code}
+
 \subsection{ko'a goi la'o zoi.\ OpenBSD .zoi.}
 
 \subsubsection{la'o zoi.\ \F{la-openbysydys}\ .zoi.}
