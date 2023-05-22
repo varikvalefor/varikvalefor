@@ -124,11 +124,11 @@ ni'o ga jo ctaipe la'o zoi.\ \F{plivlipa-fa} \B a\ .zoi.\ gi ro da poi ke'a pren
 postulate plivlipa-fa : Samcmu → Set
 \end{code}
 
-\subsection{la'oi .\F{\_cu-jinvymasno\_}.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{jinvymasno} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u la'o zoi.\ \B b\ .zoi.\ masno
+\subsection{la'oi .\F{\_cu-jinvycafnysamfli}.}
+ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{jinvycafnysamfli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'o zoi.\ \B b\ .zoi.\ samfli
 
 \begin{code}
-postulate _cu-jinvymasno_ : ∀ {a} → {A : Set a} → Prenu → A → Set
+postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
 \section{le barda ja co'e je ctaipe}
@@ -156,7 +156,7 @@ ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \begin{code}
 postulate masnytolnei : {x : Samcmu}
-                      → la-varik cu-jinvymasno x
+                      → la-varik cu-jinvycafnysamfli x
                       → la-varik cu-tolnei x
 \end{code}
 
@@ -189,11 +189,11 @@ ni'o la'oi .\F{vistytolspocru}.\ ctaipe le su'u ko'a troci pe'a ru'e lo nu ko'a 
 postulate vistytolspocru : tolcru-lo-nu-spogau-kei-fa la-vista
 \end{code}
 
-\subsubsection{la'oi .\F{vistymasno}.}
-ni'o la'oi .\F{vistymasno}.\ ctaipe le su'u la .varik.\ cu jinvi le du'u ko'a masno
+\subsubsection{la'oi .\F{vistycafnysamfli}.}
+ni'o la'oi .\F{vistymasno}.\ ctaipe le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
 
 \begin{code}
-postulate vistymasno : la-varik cu-jinvymasno la-vista
+postulate vistymasno : la-varik cu-jinvycafnysamfli la-vista
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{vistytolnei₁}\ .zoi.}
@@ -205,7 +205,7 @@ vistytolnei₁ = vlipytolnei $ narvlipa vistytolspocru
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{vistytolnei₂}\ .zoi.}
-ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u ko'a masno
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
 
 \begin{code}
 vistytolnei₂ : la-varik cu-tolnei la-vista
