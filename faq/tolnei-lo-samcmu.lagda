@@ -131,6 +131,13 @@ ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{jinvycafnysamfli} \B b\ .zoi.\ gi la'o zo
 postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
+\subsection{la'o zoi.\ \F{\_cu-tcimi'etolnei\_}\ .zoi.}
+ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-tcimi'etolnei} \B b .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei lo tutci be lo nu tcimi'e la'o zoi.\ \B b\ .zoi.
+
+\begin{code}
+postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
+\end{code}
+
 \section{le barda ja co'e je ctaipe}
 
 \subsection{la'oi .\F{narvlipa}.}
@@ -158,6 +165,15 @@ ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 postulate samflitolnei : {x : Samcmu}
                        → la-varik cu-jinvycafnysamfli x
                        → la-varik cu-tolnei x
+\end{code}
+
+\subsection{la'oi .\F{tcimi'ebratolnei}.}
+ni'o ro da poi ke'a samcmu zo'u ga naja la .varik.\ cu tolnei lo tutci ja proga ja co'e be lo nu tcimi'e da gi la .varik.\ cu tolnei da
+
+\begin{code}
+postulate tcimi'ebratolnei : {x : Samcmu}
+                           → la-varik cu-tcimi'etolnei x
+                           → la-varik cu-tolnei x
 \end{code}
 
 \section{le samcmu}
