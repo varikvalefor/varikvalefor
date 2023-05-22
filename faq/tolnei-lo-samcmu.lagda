@@ -151,13 +151,13 @@ postulate vlipytolnei : {x : Samcmu}
                       → la-varik cu-tolnei x
 \end{code}
 
-\subsection{la'oi .\F{masnytolnei}.}
+\subsection{la'oi .\F{samflitolnei}.}
 ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \begin{code}
-postulate masnytolnei : {x : Samcmu}
-                      → la-varik cu-jinvycafnysamfli x
-                      → la-varik cu-tolnei x
+postulate samflitolnei : {x : Samcmu}
+                       → la-varik cu-jinvycafnysamfli x
+                       → la-varik cu-tolnei x
 \end{code}
 
 \section{le samcmu}
@@ -209,7 +209,7 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne 
 
 \begin{code}
 vistytolnei₂ : la-varik cu-tolnei la-vista
-vistytolnei₂ = masnytolnei vistymasno
+vistytolnei₂ = samflitolnei vistymasno
 \end{code}
 
 \subsection{ko'a goi la'o zoi.\ OpenBSD .zoi.}
@@ -237,6 +237,6 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne 
 
 \begin{code}
 obstolnei₁ : la-varik cu-tolnei la-openbysydys
-obstolnei₁ = masnytolnei openbysydys-samfli
+obstolnei₁ = samflitolnei openbysydys-samfli
 \end{code}
 \end{document}
