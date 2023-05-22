@@ -38,7 +38,7 @@
 
 \begin{abstract}
 \noindent
-ni'o vasru le ctaipe be le su'u la .varik.\ cu tolnei lo samcmu be'o poi ke'a srana le krinu je zo'e
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei lo samcmu be'o poi ke'a srana le krinu je zo'e
 \end{abstract}
 
 \section{le vrici}
