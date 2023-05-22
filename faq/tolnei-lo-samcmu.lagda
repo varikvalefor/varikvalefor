@@ -181,7 +181,7 @@ postulate tcimi'ebratolnei : {x : Samcmu}
 \subsection{ko'a goi la'o glibau.\ Microsoft Windows Vista .glibau.\ po'u la'o zoi.\ \F{la-vista}\ .zoi.}
 
 \subsubsection{la'o zoi.\ \F{la-vista}\ .zoi.}
-ni'o la'o zoi.\ \F{la-vista}\ .zoi. no'u ko'a cu du la'o glibau.\ Microsoft Windows Vista .glibau.\ poi ke'a selci'a la'oi .Microsoft.\ je poi gubgau ja co'e le velcki be ke'a ca le renoreze moi
+ni'o la'o zoi.\ \F{la-vista}\ .zoi. no'u ko'a cu du la'o glibau.\ Microsoft Windows Vista .glibau.\ poi ke'a selci'a la'oi .Microsoft.\ je poi gubgau ja co'e le velcki be ke'a ca le renonoze moi
 
 \begin{code}
 la-vista : Samcmu
