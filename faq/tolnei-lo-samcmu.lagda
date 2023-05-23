@@ -349,6 +349,46 @@ parpartolnei₁ : la-varik cu-tolnei la-parparuin
 parpartolnei₁ = tcimi'ebratolnei parpartcimi'etolnei
 \end{code}
 
+\subsection{ko'a goi la'oi .Ubuntu.\ po'u la'o zoi.\ \F{la-ubuntus}\ .zoi.}
+
+\subsubsection{la'o zoi.\ \F{la-ubuntus}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \F{la-ubuntus}\ .zoi.\ du la'oi .Ubuntu.\ poi ke'a mu'oi glibau.\ Linux distribution .glibau.
+
+\paragraph{English}
+\F{la-ubuntus} is the Ubuntu which is a Linux distribution.
+
+\begin{code}
+la-ubuntus : Samcmu
+la-ubuntus = record {
+  cmene = "Ubuntu";
+  skamyklesi = lo-jbuskami ∷ []
+  }
+\end{code}
+
+\subsubsection{la'oi .\F{buntcimi'etcitolnei}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'oi .\F{buntcimi'etolnei}.\ ctaipe le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
+
+\paragraph{English}
+\F{buntcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Ubuntu.
+
+\begin{code}
+postulate buntcimi'etolnei : la-varik cu-tcimi'etolnei la-ubuntus
+\end{code}
+
+\subsubsection{la'o zoi.\ \F{buntolnei₁}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
+
+\paragraph{English}
+That (VARIK dislikes the tools which facilitate that configures Ubuntu) justifies that VARIK dislikes Ubuntu.
+
+\begin{code}
+buntolnei₁ : la-varik cu-tolnei la-ubuntus
+buntolnei₁ = tcimi'ebratolnei buntcimi'etolnei
+\end{code}
+
 \subsection{ko'a goi la'o zoi.\ OpenBSD .zoi.}
 
 \subsubsection{la'o zoi.\ \F{la-openbysydys}\ .zoi.}
