@@ -219,7 +219,7 @@ postulate
 ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
-VARIK not finds that necessary is that VARIK provides an English definition.
+VARIK not finds that necessary is that VARIK provides English definitions.
 
 \begin{code}
 postulate
