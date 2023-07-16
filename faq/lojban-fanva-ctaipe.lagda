@@ -141,11 +141,14 @@ postulate zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
 \section{le selckaji / The Properties/Qualities/Whatever}
 
 \subsection{la'o zoi.\ \F{la-kafrilis}\ .zoi.}
+
+\newcommand\propglis{is the property/quality/whatever which is expressed/displayed by}
+
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \F{la-kafrilis}\ .zoi.\ cu ka ce'u frili la .varik.
 
 \paragraph{English}
-For all $A$, \F{la-kafrilis} is the property/quality/whatever which is expressed/displayed by $A$ iff VARIK finds that $A$ is easy.
+For all $A$, \F{la-kafrilis} \propglis\ $A$ iff VARIK finds that $A$ is easy.
 
 \begin{code}
 postulate la-kafrilis : Selckaji
@@ -156,7 +159,7 @@ postulate la-kafrilis : Selckaji
 ni'o la'o zoi.\ \F{la-kajalneis}\ .zoi.\ cu ka la .varik.\ cu nelci lo jalge be ce'u
 
 \paragraph{English}
-For all $A$, \F{la-kajalneis} is the property/quality/whatever which is expressed/displayed by $A$ iff VARIK likes the result of $A$.
+For all $A$, \F{la-kajalneis} \propglis\ $A$ iff VARIK likes the result of $A$.
 
 \begin{code}
 postulate la-kajalneis : Selckaji
@@ -167,7 +170,7 @@ postulate la-kajalneis : Selckaji
 ni'o la'o zoi.\ \F{la-kaselneis}\ .zoi.\ cu ka ce'u selnei la .varik.
 
 \paragraph{English}
-For all $A$, \F{la-kaselneis} is the property/quality/whatever which is expressed/displayed by $A$ iff VARIK likes $A$.
+For all $A$, \F{la-kaselneis} \propglis\ $A$ iff VARIK likes $A$.
 
 \begin{code}
 postulate la-kaselneis : Selckaji
