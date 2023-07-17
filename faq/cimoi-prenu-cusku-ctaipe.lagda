@@ -22,7 +22,7 @@
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
 
-\title{le ctaipe be le su'u la .varik.\ cu cimoi prenu cusku / The Proof of that VARIK Communicates in the Third Person}
+\title{le ctaipe be le su'u la .varik.\ cu cimoi prenu pe'a cusku / The Proof of that VARIK Communicates in the Third Person}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}
@@ -30,7 +30,7 @@
 
 \begin{abstract}
 \noindent
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu cimoi prenu cusku / Contains the definition of the proof of that VARIK communicates in the third person.
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu cimoi prenu pe'a cusku / Contains the definition of the proof of that VARIK communicates in the third person.
 \end{abstract}
 
 \section{le torveki / The Summary}
@@ -42,9 +42,9 @@ ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u l
 That (labels of proofs resemble labels of paragraphs) justifies that uses \texttt{subsection} and not \texttt{paragraph}.
 
 \subsection{la .lojban.}
-ni'o la .varik.\ cu cimoi prenu cusku ni'i le su'u\ldots
+ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ro da zo'u ga naja ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku gi da cimoi prenu cusku gi
+	\item ga je ro da zo'u ga naja ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku gi da cimoi prenu pe'a cusku gi
 	\item ga je la .varik.\ cu bridi jufra cusku gi
 	\item la .varik.\ cu cusku lo nargaubasyvla naja cu sitsku
 \end{itemize}
@@ -104,7 +104,7 @@ postulate nargaubasyvla-cusku-fa : Prenu → Set
 
 \subsection{la'o zoi.\ \F{pamoi-prenu-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{pamoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ pamoi prenu cusku
+ni'o ga jo ctaipe la'o zoi.\ \F{pamoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ pamoi prenu pe'a cusku
 
 \paragraph{English}
 A proof of \F{pamoi-prenu-cusku-fa}\ \B a\ exists iff \B a\ writes in the first person.
@@ -115,7 +115,7 @@ postulate pamoi-prenu-cusku-fa : Prenu → Set
 
 \subsection{la'o zoi.\ \F{remoi-prenu-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{remoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ remoi prenu cusku
+ni'o ga jo ctaipe la'o zoi.\ \F{remoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ remoi prenu pe'a cusku
 
 \paragraph{English}
 A proof of \F{remoi-prenu-cusku-fa}\ \B a\ exists iff \B a\ writes in the second person.
@@ -126,7 +126,7 @@ postulate remoi-prenu-cusku-fa : Prenu → Set
 
 \subsection{la'o zoi.\ \F{cimoi-prenu-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{cimoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cimoi prenu cusku
+ni'o ga jo ctaipe la'o zoi.\ \F{cimoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cimoi prenu pe'a cusku
 
 \paragraph{English}
 A proof of \F{cimoi-prenu-cusku-fa}\ \B a\ exists iff \B a\ writes in the third person.
@@ -173,7 +173,7 @@ postulate
 
 \subsection{la'o zoi.\ \F{nargaubasyvla-cusku}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ro da poi ke'a prenu zo'u ga naja ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku gi da cimoi prenu cusku
+ni'o ro da poi ke'a prenu zo'u ga naja ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku gi da cimoi prenu pe'a cusku
 
 \paragraph{English}
 For all prenu $A$, if $A$ communicates via predicate-based sentences, then if every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes, then $A$ communicates in the ``third person''.
