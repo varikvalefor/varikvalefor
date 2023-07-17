@@ -162,12 +162,12 @@ postulate zmaskutolvrici-fa : Prenu → Set
 ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .maximise.\ lo selsku be la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ ce'u
 
 \paragraph{English}
-For all $A$, if maximised is the extent of that referentially ambiguous are the things which are communicated by $A$, then every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes.
+For all $A$, if maximised is the extent of that referentially ambiguous are the things which are written/spoken by $A$, then every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes.
 
 \begin{code}
 postulate
   zmaskunargaubasyvla : {z : Prenu}
-                      → smaskutolvrici-fa z
+                      → zmaskutolvrici-fa z
                       → ¬ (nargaubasyvla-cusku-fa z)
 \end{code}
 
@@ -214,6 +214,6 @@ le-suvnargau : ¬ (nargaubasyvla-cusku-fa la-varik)
 le-suvnargau = zmaskunargaubasyvla le-suvzmasmu
 
 la-cimois : cimoi-prenu-cusku-fa la-varik
-la-cimois = nargaubasyvla-cusku le-suvjufsku le-suvnarpli
+la-cimois = nargaubasyvla-cusku le-suvjufsku le-suvnargau
 \end{code}
 \end{document}
