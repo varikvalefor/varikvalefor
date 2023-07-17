@@ -210,10 +210,10 @@ The section contains the Agda definition of the proof.  VARIK not finds that nec
 postulate le-suvzmasmu : zmaskutolvrici-fa la-varik
 postulate le-suvjufsku : jufra-cusku-fa la-varik
 
-le-suvnargau : ¬ (nargaubasyvla-cusku-fa la-varik)
-le-suvnargau = zmaskunargaubasyvla le-suvzmasmu
+le-suvnarpli : ¬ (nargaubasyvla-cusku-fa la-varik)
+le-suvnarpli = zmaskunargaubasyvla le-suvzmasmu
 
 la-cimois : cimoi-prenu-cusku-fa la-varik
-la-cimois = nargaubasyvla-cusku le-suvjufsku le-suvnargau
+la-cimois = nargaubasyvla-cusku le-suvjufsku le-suvnarpli
 \end{code}
 \end{document}
