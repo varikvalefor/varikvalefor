@@ -146,28 +146,28 @@ A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via predicate
 postulate jufra-cusku-fa : Prenu → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{zmaskutolvrici-fa}\ .zoi.}
+\subsection{la'o zoi.\ \F{mleskutolvrici-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{zmaskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .maximise.\ la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
+ni'o ga jo ctaipe la'o zoi.\ \F{mleskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .minimis.\ la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
 
 \paragraph{English}
-A proof of \F{zmaskutolvrici-fa}\ \B a\ exists iff maximised is the extent of that referentially ambiguous are the things which are written/spoken by \B a.
+A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of that referentially ambiguous are the things which are written/spoken by \B a.
 
 \begin{code}
-postulate zmaskutolvrici-fa : Prenu → Set
+postulate mleskutolvrici-fa : Prenu → Set
 \end{code}
 
-\subsection{la'oi .\F{zmaskunargaubasyvla}.}
+\subsection{la'oi .\F{mleskunargaubasyvla}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .maximise.\ la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
+ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .minimised.\ la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
 
 \paragraph{English}
-For all $A$, if maximised is the extent of that referentially ambiguous are the things which are written/spoken by $A$, then every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes.
+For all $A$, if minimised is the extent of that referentially ambiguous are the things which are written/spoken by $A$, then every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes.
 
 \begin{code}
 postulate
-  zmaskunargaubasyvla : {z : Prenu}
-                      → zmaskutolvrici-fa z
+  mleskunargaubasyvla : {z : Prenu}
+                      → mleskutolvrici-fa z
                       → ¬ (nargaubasyvla-cusku-fa z)
 \end{code}
 
@@ -207,11 +207,11 @@ ni'o le me'oi .section.\ cu vasru ko'a goi le velcki be le ctaipe bei bau la'oi 
 The section contains the Agda definition of the proof.  VARIK not finds that necessary is that VARIK provides an English explanation of the Agda definition of the proof.
 
 \begin{code}
-postulate le-suvzmasmu : zmaskutolvrici-fa la-varik
+postulate le-suvmlesmu : mleskutolvrici-fa la-varik
 postulate le-suvjufsku : jufra-cusku-fa la-varik
 
 le-suvnarpli : ¬ (nargaubasyvla-cusku-fa la-varik)
-le-suvnarpli = zmaskunargaubasyvla le-suvzmasmu
+le-suvnarpli = mleskunargaubasyvla le-suvmlesmu
 
 la-cimois : cimoi-prenu-cusku-fa la-varik
 la-cimois = nargaubasyvla-cusku le-suvjufsku le-suvnarpli
