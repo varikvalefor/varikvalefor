@@ -146,6 +146,31 @@ A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via predicate
 postulate jufra-cusku-fa : Prenu → Set
 \end{code}
 
+\subsection{la'o zoi.\ \F{zmaskutolvrici-fa}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{zmaskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .maximise.\ lo selsku be la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ ce'u
+
+\paragraph{English}
+A proof of \F{zmaskutolvrici-fa}\ \B a\ exists iff maximised is the extent of that referentially ambiguous are the things which are communicated by \B a.
+
+\begin{code}
+postulate zmaskutolvrici-fa : Prenu → Set
+\end{code}
+
+\subsection{la'oi .\F{zmaskunargaubasyvla}.}
+\paragraph{la .lojban.}
+ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .maximise.\ lo selsku be la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ ce'u
+
+\paragraph{English}
+For all $A$, if maximised is the extent of that referentially ambiguous are the things which are communicated by $A$, then every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes.
+
+\begin{code}
+postulate
+  zmaskunargaubasyvla : {z : Prenu}
+                      → smaskutolvrici-fa z
+                      → ¬ (nargaubasyvla-pilno-fa z)
+\end{code}
+
 \subsection{la'o zoi.\ \F{nargaubasyvla-cusku}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a prenu zo'u ga naja ga je da cusku lo bridi jufra gi da pilno lo nargaubasyvla naja cu sitsku gi da cimoi prenu cusku
@@ -182,8 +207,11 @@ ni'o le me'oi .section.\ cu vasru ko'a goi le velcki be le ctaipe bei bau la'oi 
 The section contains the Agda definition of the proof.  VARIK not finds that necessary is that VARIK provides an English explanation of the Agda definition of the proof.
 
 \begin{code}
-postulate le-suvnarpli : ¬ (nargaubasyvla-pilno-fa la-varik)
+postulate le-suvzmasmu : zmaskutolvrici-fa la-varik
 postulate le-suvjufsku : jufra-cusku-fa la-varik
+
+le-suvnargau : ¬ (nargaubasyvla-pilno-fa la-varik)
+le-suvnargau = zmaskunargaubasyvla le-suvzmasmu
 
 la-cimois : cimoi-prenu-cusku-fa la-varik
 la-cimois = nargaubasyvla-cusku le-suvjufsku le-suvnarpli
