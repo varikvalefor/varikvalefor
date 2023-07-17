@@ -135,7 +135,12 @@ A proof of \F{cimoi-prenu-cusku-fa}\ \B a\ exists iff \B a\ writes in the third 
 postulate cimoi-prenu-cusku-fa : Prenu → Set
 \end{code}
 
+\subsection{la'o zoi.\ \F{jufra-cusku-fa}\ .zoi.}
+\paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{jufra-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cusku lo jufra
+
+\paragraph{English}
+A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via sentences.
 
 \begin{code}
 postulate jufra-cusku-fa : Prenu → Set
