@@ -44,9 +44,9 @@ That (labels of proofs resemble labels of paragraphs) justifies that uses \textt
 \subsection{la .lojban.}
 ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ro da zo'u ga naja ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku gi da cimoi prenu pe'a cusku gi
+	\item ga je ro da zo'u ga naja ga je da cusku lo bridi jufra gi me'oi .minimise.\ da le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u gi da cimoi prenu pe'a cusku gi
 	\item ga je la .varik.\ cu bridi jufra cusku gi
-	\item la .varik.\ cu cusku lo nargaubasyvla naja cu sitsku
+	\item me'oi .minimise.\ la .varik.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
 \end{itemize}
 
 \subsection{English}
@@ -56,11 +56,11 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 \begin{proof}
 	${}$
 
-	For all $A$, if $A$ communicates via predicate-based sentences, then if every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes, then $A$ communicates in the third person.
+	For all $A$, if $A$ communicates via predicate-based sentences, then if minimised is the extent (of that referentially ambiguous is the writing of $A$), then $A$ communicates in the third person.
 
 	VARIK communicates via predicate-based sentences.
 
-	Every event (of that VARIK uses nargaubasyvla) is an event of that VARIK quotes.
+	Minimised is the extent of that referentially ambiguous are the things which are written/spoken by VARIK.
 
 	Therefore, VARIK communicates in the third person.
 \end{proof}
