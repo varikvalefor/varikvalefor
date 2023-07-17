@@ -137,10 +137,10 @@ postulate cimoi-prenu-cusku-fa : Prenu → Set
 
 \subsection{la'o zoi.\ \F{jufra-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{jufra-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cusku lo jufra
+ni'o ga jo ctaipe la'o zoi.\ \F{jufra-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cusku lo bridi jufra
 
 \paragraph{English}
-A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via sentences.
+A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via predicate-based sentences.
 
 \begin{code}
 postulate jufra-cusku-fa : Prenu → Set
