@@ -44,9 +44,9 @@ That (labels of proofs resemble labels of paragraphs) justifies that uses \textt
 \subsection{la .lojban.}
 ni'o la .varik.\ cu cimoi prenu cusku ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ro da zo'u ga naja ga je da cusku lo bridi jufra gi da pilno lo nargaubasyvla naja cu sitsku gi da cimoi prenu cusku gi
+	\item ga je ro da zo'u ga naja ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku gi da cimoi prenu cusku gi
 	\item ga je la .varik.\ cu bridi jufra cusku gi
-	\item la .varik.\ cu pilno lo nargaubasyvla naja cu sitsku
+	\item la .varik.\ cu cusku lo nargaubasyvla naja cu sitsku
 \end{itemize}
 
 \subsection{English}
@@ -91,15 +91,15 @@ postulate Prenu : Set
 
 \section{le fancu / The Functions}
 
-\subsection{la'o zoi.\ \F{nargaubasyvla-pilno-fa}\ .zoi.}
+\subsection{la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{nargaubasyvla-pilno-fa}\ \B a\ .zoi.\ gi lo su'o nu la'o zoi.\ \B a\ .zoi.\ pilno lo nargaubasyvla cu na nu la'o zoi.\ \B a\ .zoi.\ sitsku
+ni'o ga jo ctaipe la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ \B a\ .zoi.\ gi lo su'o nu la'o zoi.\ \B a\ .zoi.\ cusku lo nargaubasyvla cu na nu la'o zoi.\ \B a\ .zoi.\ sitsku
 
 \paragraph{English}
-A proof of \F{nargaybasyvla-pilno-fa}\ \B a\ exists iff some event of that \B a\ uses nargaubasyvla is not an event of that \B a\ quotes.
+A proof of \F{nargaybasyvla-cusku-fa}\ \B a\ exists iff some event of that \B a\ uses nargaubasyvla is not an event of that \B a\ quotes.
 
 \begin{code}
-postulate nargaubasyvla-pilno-fa : Prenu → Set
+postulate nargaubasyvla-cusku-fa : Prenu → Set
 \end{code}
 
 \subsection{la'o zoi.\ \F{pamoi-prenu-cusku-fa}\ .zoi.}
@@ -168,12 +168,12 @@ For all $A$, if maximised is the extent of that referentially ambiguous are the 
 postulate
   zmaskunargaubasyvla : {z : Prenu}
                       → smaskutolvrici-fa z
-                      → ¬ (nargaubasyvla-pilno-fa z)
+                      → ¬ (nargaubasyvla-cusku-fa z)
 \end{code}
 
 \subsection{la'o zoi.\ \F{nargaubasyvla-cusku}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ro da poi ke'a prenu zo'u ga naja ga je da cusku lo bridi jufra gi da pilno lo nargaubasyvla naja cu sitsku gi da cimoi prenu cusku
+ni'o ro da poi ke'a prenu zo'u ga naja ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku gi da cimoi prenu cusku
 
 \paragraph{English}
 For all prenu $A$, if $A$ communicates via predicate-based sentences, then if every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes, then $A$ communicates in the ``third person''.
@@ -182,7 +182,7 @@ For all prenu $A$, if $A$ communicates via predicate-based sentences, then if ev
 postulate
   nargaubasyvla-cusku : {z : Prenu}
                       → jufra-cusku-fa z
-                      → ¬ (nargaubasyvla-pilno-fa z)
+                      → ¬ (nargaubasyvla-cusku-fa z)
                       → cimoi-prenu-cusku-fa z
 \end{code}
 
@@ -210,7 +210,7 @@ The section contains the Agda definition of the proof.  VARIK not finds that nec
 postulate le-suvzmasmu : zmaskutolvrici-fa la-varik
 postulate le-suvjufsku : jufra-cusku-fa la-varik
 
-le-suvnargau : ¬ (nargaubasyvla-pilno-fa la-varik)
+le-suvnargau : ¬ (nargaubasyvla-cusku-fa la-varik)
 le-suvnargau = zmaskunargaubasyvla le-suvzmasmu
 
 la-cimois : cimoi-prenu-cusku-fa la-varik
