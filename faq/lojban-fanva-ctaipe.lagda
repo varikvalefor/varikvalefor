@@ -39,7 +39,7 @@
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
 
-\title{le ctaipe be le su'u la .varik.\ cu te selneimau fi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ kei fe lo nu la .varik.\ cu se glibau jenai fanva / The Proof of that VARIK Prefers (over that VARIK uses English and not Translates) that VARIK Translates to English and from Lojban}
+\title{le ctaipe be le su'u la .varik.\ cu te selneimau fi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ / The Proof of that VARIK Prefers that VARIK Translates to English and from Lojban}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}

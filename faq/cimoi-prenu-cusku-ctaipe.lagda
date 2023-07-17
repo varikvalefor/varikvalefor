@@ -151,7 +151,7 @@ postulate jufra-cusku-fa : Prenu → Set
 ni'o ga jo ctaipe la'o zoi.\ \F{zmaskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .maximise.\ lo selsku be la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ ce'u
 
 \paragraph{English}
-A proof of \F{zmaskutolvrici-fa}\ \B a\ exists iff maximised is the extent of that referentially ambiguous are the things which are communicated by \B a.
+A proof of \F{zmaskutolvrici-fa}\ \B a\ exists iff maximised is the extent of that referentially ambiguous are the things which are written/spoken by \B a.
 
 \begin{code}
 postulate zmaskutolvrici-fa : Prenu → Set
