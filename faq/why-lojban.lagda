@@ -367,7 +367,7 @@ ni'o ro da poi ke'a bangu zo'u ga naja\ldots
                 \item ga je da na tonga bangu gi
 		\item ga je la .varik.\ cu nelci le gerna be da gi
 		\item ga je gerna pavysmu fa lo ro jufra be fi da gi
-		\item ga je la .varik.\ cu jinvi le du'u tu'a da filri'a lo nu ciksi ka skicu lo pluja fo lo sampu je drani gi
+		\item ga je la .varik.\ cu jinvi le du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani gi
 	\end{itemize}
 	\item la .varik.\ cu baupli da
 \end{itemize}
