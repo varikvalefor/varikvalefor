@@ -64,7 +64,7 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{itemize}
 	\item ga je la .lojban.\ cu slabu la .varik.\ gi
         \item ga je la .lojban.\ cu na tonga bangu gi
-	\item ga je la. varik.\ cu ka'e vlaba'u lo valsi be fi la .lojban.\ gi
+	\item ga je la .varik.\ cu ka'e vlaba'u lo valsi be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be la .lojban.\ gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu jinvi le du'u tu'a la .lojban.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani\ gi
