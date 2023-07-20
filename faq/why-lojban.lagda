@@ -208,7 +208,7 @@ postulate sapydrackifilri'a-fa-tu'a : Bangu → Set
 ni'o ga jo ctaipe la'o zoi.\ \F{gernypavysmu-fa} \B a\ .zoi.\ gi lo jufra be fi la'o zoi.\ \B a .zoi.\ cu gerna pavysmu
 
 \paragraph{English}
-A proof of \F{gernypavysmu-fa} \B a exists iff all sentences of \B a are syntactically unambiguous.
+A proof of \F{gernypavysmu-fa} \B a exists iff all sentences which are grammatical with regard to \B a are syntactically unambiguous.
 
 \begin{code}
 postulate gernypavysmu-fa : Gerna → Set
