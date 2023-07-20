@@ -155,11 +155,11 @@ ni'o ga jo ko'a goi la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\F{Bangu}.\ gi\ldots
 	\item ga je ko'a bangu gi
 	\item ga je la'o zoi.\ \F{Bangu.leksiko} \B a\ .zoi.\ leksiko ko'a gi
 	\item ga je la'o zoi.\ \F{Bangu.gerna} \B a\ .zoi.\ gerna ko'a gi
-	\item la'o zoi.\ \F{Gerna.semantics} \B a\ .zoi.\ me'oi .semantics.\ ko'a
+	\item la'o zoi.\ \F{Bangu.semantics} \B a\ .zoi.\ me'oi .semantics.\ ko'a
 \end{itemize}
 
 \paragraph{English}
-For all \B a, \F{Bangu} is the type of \B a iff (\B a is a language, and \F{Bangu.leksiko} \B a is the lexicon/vocabulary/whatever of \B a, and \F{Bangu.gerna} \B a is the grammar of \B a, and \F{Gerna.semantics} \B a is the semantics of \B a).
+For all \B a, \F{Bangu} is the type of \B a iff (\B a is a language, and \F{Bangu.leksiko} \B a is the lexicon/vocabulary/whatever of \B a, and \F{Bangu.gerna} \B a is the grammar of \B a, and \F{Bangu.semantics} \B a is the semantics of \B a).
 
 \begin{code}
 record Bangu : Set
