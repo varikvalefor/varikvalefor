@@ -97,7 +97,7 @@ postulate _cu-na-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 ni'o ro da zo'u da ctaipe la'oi .\F{IMS}.\ jo cu mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u
 
 \paragraph{English}
-For all $A$, $A$ is a value of \F{IMS} iff $A$ is an instant messaging service.
+For all $A$, \F{IMS}\ is the type of $A$ iff $A$ is an instant messaging service.
 
 \begin{code}
 postulate IMS : Set
