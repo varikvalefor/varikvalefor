@@ -59,7 +59,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 [Yo, dawg, must you write in the third person?][2]
 
 [1]: <faq/xterm.tex> "XTERM Thing"
-[2]: <faq/thirdperson.tex> "Third Person Thing"
+[2]: <faq/cimoi-prenu-cusku.lagda> "Third Person Thing"
 
 # la .lojban.
 
@@ -122,4 +122,4 @@ ni'o le su'o ci mikce cu facki le du'u la .varik. cu se xadzu'i le mu'oi glibau.
 ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy. .a la'o gy. @varikvalefor:matrix.org .gy. gi la .varik. cu viska da
 
 ## le cafrei
-ni'o le danfu be lu do pilno la'o gy. xterm(1) .gy. ki'u ma li'u cu kibzva la'o .urli. <faq/xterm-jbo.tex> .urli.  .ije le danfu be lu do cimoi pe'a prenu ciska ki'u ma li'u cu kibzva la'o .urli. <faq/thirdperson-jbo.tex> .urli.
+ni'o le danfu be lu do pilno la'o gy. xterm(1) .gy. ki'u ma li'u cu kibzva la'o .urli. <faq/xterm-jbo.tex> .urli.  .ije le danfu be lu do cimoi pe'a prenu ciska ki'u ma li'u cu kibzva la'o .urli. <faq/cimoi-prenu-cusku.lagda> .urli.
