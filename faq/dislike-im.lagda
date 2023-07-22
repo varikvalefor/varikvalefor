@@ -61,10 +61,10 @@ postulate Prenu : Set
 
 \subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ cu sinxa la .varik.
+ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ cu du la .varik.
 
 \paragraph{English}
-\F{la-varik} represents VARIK.
+\F{la-varik} is VARIK.
 
 \begin{code}
 postulate la-varik : Prenu
