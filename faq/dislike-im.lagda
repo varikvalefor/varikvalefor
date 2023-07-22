@@ -43,7 +43,6 @@ import Level
 open import Function
 open import Data.These
 open import Relation.Nullary
-
 \end{code}
 
 \section{le jicmu / The Foundational Stuff}
