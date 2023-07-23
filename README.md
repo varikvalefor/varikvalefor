@@ -58,8 +58,11 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 [Yo, dawg, must you write in the third person?][2]
 
+[You use Lojban?  What's wrong with you?][3]
+
 [1]: <faq/xterm.tex> "XTERM Thing"
 [2]: <faq/cimoi-prenu-cusku.lagda> "Third Person Thing"
+[3]: <faq/why-lojban.lagda> "Why Lojban?"
 
 # la .lojban.
 
@@ -124,4 +127,4 @@ ni'o le su'o ci mikce cu facki le du'u la .varik. cu se xadzu'i le mu'oi glibau.
 ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy. .a la'o gy. @varikvalefor:matrix.org .gy. gi la .varik. cu viska da
 
 ## le cafrei
-ni'o le danfu be lu do pilno la'o gy. xterm(1) .gy. ki'u ma li'u cu kibzva la'o .urli. <faq/xterm-jbo.tex> .urli.  .ije le danfu be lu do cimoi pe'a prenu ciska ki'u ma li'u cu kibzva la'o .urli. <faq/cimoi-prenu-cusku.lagda> .urli.
+ni'o le danfu be lu do pilno la'o gy. xterm(1) .gy. ki'u ma li'u cu kibzva la'o .urli. <faq/xterm-jbo.tex> .urli.  .ije le danfu be lu do cimoi pe'a prenu ciska ki'u ma li'u cu kibzva la'o .urli. <faq/cimoi-prenu-cusku.lagda> .urli.  .ije le danfu be lu .i jbobau do ki'u ma li'u kibzva la'o .urli. <faq/why-lojban.lagda> .urli.
