@@ -127,4 +127,4 @@ ni'o le su'o ci mikce cu facki le du'u la .varik. cu se xadzu'i le mu'oi glibau.
 ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy. .a la'o gy. @varikvalefor:matrix.org .gy. gi la .varik. cu viska da
 
 ## le cafrei
-ni'o le danfu be lu do pilno la'o gy. xterm(1) .gy. ki'u ma li'u cu kibzva la'o .urli. <faq/xterm-jbo.tex> .urli.  .ije le danfu be lu do cimoi pe'a prenu ciska ki'u ma li'u cu kibzva la'o .urli. <faq/cimoi-prenu-cusku.lagda> .urli.  .ije le danfu be lu .i jbobau do ki'u ma li'u kibzva la'o .urli. <faq/why-lojban.lagda> .urli.
+ni'o le danfu be lu do pilno la'o gy. xterm(1) .gy. ki'u ma li'u cu kibzva la'o .urli. <faq/xterm-jbo.tex> .urli.  .ije le danfu be lu do cimoi pe'a prenu cusku ki'u ma li'u cu kibzva la'o .urli. <faq/cimoi-prenu-cusku.lagda> .urli.  .ije le danfu be lu .i jbobau do ki'u ma li'u kibzva la'o .urli. <faq/why-lojban.lagda> .urli.
