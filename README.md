@@ -78,7 +78,9 @@ ni'o la .varik. cu...
 
 * selbau la .lojban. .e le cmaci bangu .e le glibau gi'e
 
-* [selcei la .satan. poi ke'a cmacypre](faq/llblv-jbo.tex)
+* [selcei la .satan. poi ke'a cmacypre](faq/llblv-jbo.tex) ku'o gi'e
+
+* baupli [le bankle be la .lojban. be'o pe la xorlo .e la .jacus.](https://github.com/varikvalefor/ilmentufa/blob/master/camxes-exp.peg)
 
 ## le skami kalci pe'a
 ni'o la .varik. cu...
