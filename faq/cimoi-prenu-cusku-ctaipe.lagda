@@ -54,7 +54,7 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 \begin{proof}
 	${}$
 
-	For all $A$, if $A$ communicates via predicate-based sentences, then if minimised is the extent (of that referentially ambiguous is the writing of $A$), then $A$ communicates in the third person.
+	For all $A$, if $A$ communicates via predicate-based sentences, then if minimised is the extent of that referentially ambiguous is the writing of $A$, then $A$ communicates in the third person.
 
 	VARIK communicates via predicate-based sentences.
 
