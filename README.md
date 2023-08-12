@@ -63,7 +63,7 @@ VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 [Aw, hell, naw.  You even translate to English and from Lojban?][4]
 
 [1]: <faq/xterm.tex> "XTERM Thing"
-[2]: <faq/cimoi-prenu-cusku.lagda> "Third Person Thing"
+[2]: <faq/cimoi-prenu-cusku-ctaipe.lagda> "Third Person Thing"
 [3]: <faq/why-lojban.lagda> "Why Lojban?"
 [4]: <faq/lojban-fanva-ctaipe.lagda> "Justification of Translation"
 
