@@ -100,6 +100,9 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{code}
 open import Function
 open import Relation.Nullary
+  using (
+    ¬_
+  )
 \end{code}
 
 \section{le jicmu ja co'e / The Basic}
