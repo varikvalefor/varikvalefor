@@ -66,7 +66,6 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
-open import Level
 open import Function
 open import Relation.Nullary
   using (
