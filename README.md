@@ -88,7 +88,7 @@ ni'o la .varik. cu...
 
 * baupli [le bankle be la .lojban. be'o pe la xorlo .e la .jacus.](https://github.com/varikvalefor/ilmentufa/blob/master/camxes-exp.peg)
 
-## le skami kalci pe'a
+## le skami co'e
 ni'o la .varik. cu...
 
 * pilno la'oi .OpenBSD. lo samcmu gi'e
