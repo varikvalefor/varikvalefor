@@ -250,7 +250,7 @@ A proof of \B a \F{cu-baupli} \B b exists iff \B a uses \B b.
 postulate _cu-baupli_ : Prenu → Bangu → Set
 \end{code}
 
-\section{le velcki be la'o zoi.\ \F{la-varik}\ .zoi.\ / The Definition of \F{la-varik}}
+\section{la'o zoi.\ \F{la-varik}\ .zoi.}
 
 \subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
