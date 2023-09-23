@@ -186,7 +186,7 @@ postulate togbau-fa : Bangu → Set
 
 \subsection{la'o zoi.\ \F{vlaba'u-kakne}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-vlaba'u-kakne} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ kakne lo nu la'o zoi.\ \B a\ .zoi.\ vlaba'u lo valsi be fi la'o zoi.\ \B b .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-vlaba'u-kakne} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ ka'e vlaba'u lo valsi be fi la'o zoi.\ \B b .zoi.
 
 \paragraph{English}
 A proof of \B a \F{cu-vlaba'u-kakne} \B b exists iff \B a is capable of that \B a pronounces the words of \B b.
