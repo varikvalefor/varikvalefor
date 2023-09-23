@@ -151,9 +151,9 @@ For all $A$, \F{Leksiko} is the type of $A$ iff $A$ is a lexicon/vocabulary/what
 postulate Leksiko : Set
 \end{code}
 
-\subsection{la'oi .\F{Bangu}.}
+\subsection{la'oi .\AgdaRecord{Bangu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ko'a goi la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\F{Bangu}.\ gi\ldots
+ni'o ga jo ko'a goi la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\AgdaRecord{Bangu}.\ gi\ldots
 \begin{itemize}
 	\item ga je ko'a bangu gi
 	\item ga je la'o zoi.\ \F{Bangu.leksiko} \B a\ .zoi.\ leksiko ko'a gi
