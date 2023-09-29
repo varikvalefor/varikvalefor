@@ -201,7 +201,7 @@ postulate la-varik : Prenu
 ni'o le me'oi .section.\ cu vasru le velcki be ko'a goi le ctaipe bei bau la'oi .Agda.  .i la .varik.\ cu na jinvi le du'u sarcu fa lo nu la .varik.\ cu ciksi ko'a bau la .lojban.
 
 \paragraph{English}
-The section contains the Agda definition of the proof.  VARIK not opines that necessary is that VARIK provides an English explanation of the Agda definition of the proof.
+The section contains the Agda definition of the proof\@.  VARIK not opines that necessary is that VARIK provides an English explanation of the Agda definition of the proof.
 
 \begin{code}
 postulate le-suvmlesmu : mleskutolvrici-fa la-varik
