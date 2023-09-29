@@ -340,7 +340,7 @@ postulate jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
 
 \subsection{la'oi .\F{ozvraka'e}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik. cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'oi .\F{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik.\ cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
 \F{ozvraka'e} is a proof of that easy for VARIK is that VARIK pronounces the words of the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
