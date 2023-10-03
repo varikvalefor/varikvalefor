@@ -270,7 +270,7 @@ postulate diskentral : me'oi-centralise la-diskord
 \end{code}
 
 \subsubsection{la'oi .\F{diskcla}.}
-\paragraph{la. lojban.}
+\paragraph{la .lojban.}
 ni'o la'oi .\F{diskcla}.\ ctaipe le su'u tolcru lo nu benji lo clani je selcil'a fu la'oi .Discord.
 
 \paragraph{English}
