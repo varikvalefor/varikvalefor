@@ -22,7 +22,7 @@
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
 
-\title{le nibli be le su'u la .varik.\ cu tolnei ja na nelci le mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u / Proofs of that VARIK Dislikes (or Not Likes) the Instant Messaging Services}
+\title{le ctaipe be le su'u la .varik.\ cu tolnei ja na nelci le mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u / Proofs of that VARIK Dislikes (or Not Likes) the Instant Messaging Services}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}
