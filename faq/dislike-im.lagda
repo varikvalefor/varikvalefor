@@ -238,7 +238,7 @@ postulate la-diskord : IMS
 
 \subsubsection{la'oi .\F{ladinafil}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{ladinafil}.\ ctaipe le du'u la'oi .Discord.\ to'e fingubni
+ni'o la'oi .\F{ladinafil}.\ ctaipe le su'u la'oi .Discord.\ to'e fingubni
 
 \paragraph{English}
 \F{ladinafil} is a proof of that Discord is closed-source.
@@ -249,7 +249,7 @@ postulate ladinafil : to'e-fingubni-fa la-diskord
 
 \subsubsection{la'oi .\F{diskustrol}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{diskustrol}.\ ctaipe le du'u tolcru lo nu pilno lo me'oi .custom.\ ja co'e tu'a la'oi .Discord.
+ni'o la'oi .\F{diskustrol}.\ ctaipe le su'u tolcru lo nu pilno lo me'oi .custom.\ ja co'e tu'a la'oi .Discord.
 
 \paragraph{English}
 \F{diskustrol} is a proof of that forbids that uses custom or unofficial clients of Discord.
@@ -260,7 +260,7 @@ postulate diskustrol : me'oi-custom-tolcru la-diskord
 
 \subsubsection{la'oi .\F{diskentral}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{diskentral}.\ ctaipe le du'u me'oi .centralise.\ la'oi .Discord.
+ni'o la'oi .\F{diskentral}.\ ctaipe le su'u me'oi .centralise.\ la'oi .Discord.
 
 \paragraph{English}
 \F{diskentral} is a proof of that Discord is centralised.
@@ -271,7 +271,7 @@ postulate diskentral : me'oi-centralise la-diskord
 
 \subsubsection{la'oi .\F{diskcla}.}
 \paragraph{la. lojban.}
-ni'o la'oi .\F{diskcla}.\ ctaipe le du'u tolcru lo nu benji lo clani je selcil'a fu la'oi .Discord.
+ni'o la'oi .\F{diskcla}.\ ctaipe le su'u tolcru lo nu benji lo clani je selcil'a fu la'oi .Discord.
 
 \paragraph{English}
 \F{diskcla} is a proof of that forbids that sends via Discord lengthy texts.
@@ -282,7 +282,7 @@ postulate diskcla : tolcru-clanybenji la-diskord
 
 \subsubsection{la'oi .\F{diskpei}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{diskpei}.\ ctaipe le du'u su'o da poi ke'a pagbu la'oi .Discord.\ zo'u ro de poi ke'a pilno la'oi .Discord.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
+ni'o la'oi .\F{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu la'oi .Discord.\ zo'u ro de poi ke'a pilno la'oi .Discord.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
 
 \paragraph{English}
 \F{diskpei} is a proof of that some part (of Discord) $Q$ exists such that for all users (of Discord) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
@@ -364,7 +364,7 @@ postulate la-irk : IMS
 
 \subsubsection{la'oi .\F{irkypixra}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{irkypixra}.\ ctaipe le du'u la'o glibau.\ Internet Relay Chat .glibau.\ na mapti lo nu benji lo pixra
+ni'o la'oi .\F{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Relay Chat .glibau.\ na mapti lo nu benji lo pixra
 
 \paragraph{English}
 \F{irkypixra} is a proof of that Internet Relay Chat not supports that sends images.
@@ -375,7 +375,7 @@ postulate irkypixra : lo-pixra-cu-na-se-mapti la-irk
 
 \subsubsection{la'oi .\F{irkyclani}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{irkyclani}.\ ctaipe le du'u tolcru lo nu benji lo clani je selci'a fo la'o glibau.\ Internet Relay Chat .glibau.
+ni'o la'oi .\F{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo clani je selci'a fo la'o glibau.\ Internet Relay Chat .glibau.
 
 \paragraph{English}
 \F{irkyclani} is a proof of that forbids that sends (via Internet Relay Chat) lengthy texts.
