@@ -231,7 +231,7 @@ postulate
 ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ sinxa ja co'e la'oi .Discord.\ noi ke'a se .urli zoi zoi.\ \url{https://www.discord.com}\ .zoi.
 
 \paragraph{English}
-\AgdaPostulate{la-diskord} represents or whatever \{V\} Discord, which is described at \url{https://www.discord.com}.
+\AgdaPostulate{la-diskord} represents (or whatever \{V\}) Discord, which is described at \url{https://www.discord.com}.
 
 \begin{code}
 postulate la-diskord : IMS
@@ -311,7 +311,7 @@ tolnei-la'oi-Discord = tolnei-nibli $ these ladi cenclapei
 ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ sinxa ja co'e la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org}\ .zoi.
 
 \paragraph{English}
-\AgdaPostulate{la-telegram} represents or whatever \{V\} Telegram, which is described at \url{https://www.telegram.org}.
+\AgdaPostulate{la-telegram} represents (or whatever \{V\}) Telegram, which is described at \url{https://www.telegram.org}.
 
 \begin{code}
 postulate la-telegram : IMS
