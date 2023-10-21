@@ -31,7 +31,7 @@
 
 \section{le me'oi .abstract.}
 \paragraph{la .lojban.}
-ni'o velski ko'a goi le su'o mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u je cu vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei ja na nelci ko'a
+ni'o velski ko'a goi le su'o mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u je cu velcki le ctaipe be le su'u la .varik.\ cu tolnei ja na nelci ko'a
 
 \paragraph{English}
 Describes some instant messaging services, A.K.A.\ ``$A$'', and contains definitions of proofs of that (VARIK dislikes $A$) or that VARIK not likes $A$.
