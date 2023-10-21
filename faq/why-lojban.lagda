@@ -107,45 +107,45 @@ open import Relation.Nullary
 
 \section{le jicmu ja co'e / The Basic}
 
-\subsection{la'oi .\F{Prenu}.}
+\subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Prenu}.\ jo cu prenu
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Prenu}.\ jo cu prenu
 
 \paragraph{English}
-For all $A$, \F{Prenu} is the type of $A$ iff $A$ is a prenu.
+For all $A$, \AgdaPostulate{Prenu} is the type of $A$ iff $A$ is a prenu.
 
 \begin{code}
 postulate Prenu : Set
 \end{code}
 
-\subsection{la'oi .\F{Gerna}.}
+\subsection{la'oi .\AgdaPostulate{Gerna}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Gerna}.\ jo cu gerna
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Gerna}.\ jo cu gerna
 
 \paragraph{English}
-For all $A$, \F{Gerna} is the type of $A$ iff $A$ is a grammar.
+For all $A$, \AgdaPostulate{Gerna} is the type of $A$ iff $A$ is a grammar.
 
 \begin{code}
 postulate Gerna : Set
 \end{code}
 
-\subsection{la'oi .\F{Semantics}.}
+\subsection{la'oi .\AgdaPostulate{Semantics}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Semantics}.\ jo cu me'oi .semantics.  .i cumki fa lo nu cumki fa lo nu xagzengau le velcki be bau la .lojban.
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Semantics}.\ jo cu me'oi .semantics.  .i cumki fa lo nu cumki fa lo nu xagzengau le velcki be bau la .lojban.
 
 \paragraph{English}
-For all $A$, \F{Semantics} is the type of $A$ iff $A$ is a semantics.
+For all $A$, \AgdaPostulate{Semantics} is the type of $A$ iff $A$ is a semantics.
 
 \begin{code}
 postulate Semantics : Set
 \end{code}
 
-\subsection{la'oi .\F{Leksiko}.}
+\subsection{la'oi .\AgdaPostulate{Leksiko}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Leksiko}.\ jo cu leksiko
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Leksiko}.\ jo cu leksiko
 
 \paragraph{English}
-For all $A$, \F{Leksiko} is the type of $A$ iff $A$ is a lexicon/vocabulary/whatever.
+For all $A$, \AgdaPostulate{Leksiko} is the type of $A$ iff $A$ is a lexicon/vocabulary/whatever.
 
 \begin{code}
 postulate Leksiko : Set
@@ -173,12 +173,12 @@ record Bangu : Set
     semantics : Semantics
 \end{code}
 
-\subsection{la'o zoi.\ \F{togbau-fa} .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{togbau-fa} .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{togbau-fa} \B a\ .zoi.\ gi la'o zoi.\ \B a .zoi.\ tonga bangu
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{togbau-fa} \B a\ .zoi.\ gi la'o zoi.\ \B a .zoi.\ tonga bangu
 
 \paragraph{English}
-A proof of \F{togbau-fa} \B a exists iff \B a is a tonal language.
+A proof of \AgdaPostulate{togbau-fa} \B a exists iff \B a is a tonal language.
 
 \begin{code}
 postulate togbau-fa : Bangu → Set
@@ -195,29 +195,29 @@ A proof of \B a \F{cu-vlaba'u-kakne} \B b exists iff \B a is capable of that \B 
 postulate _cu-vlaba'u-kakne_ : Prenu → Leksiko → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{sapydrackifilri'a-fa-tu'a}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{sapydrackifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u tu'a la'o zoi.\ \B a\ .zoi.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo drani je sampu
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u tu'a la'o zoi.\ \B a\ .zoi.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo drani je sampu
 
 \paragraph{english}
-A proof of \F{sapydrackifilri'a-fa-tu'a} \B a exists iff VARIK opines (or whatever \{V\}) that \B a facilitates that simply and correctly explains (or describes) the complex.
+A proof of \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a exists iff VARIK opines (or whatever \{V\}) that \B a facilitates that simply and correctly explains (or describes) the complex.
 
 \begin{code}
 postulate sapydrackifilri'a-fa-tu'a : Bangu → Set
 \end{code}
 
-\subsection{la'oi .\F{gernypavysmu}.}
+\subsection{la'oi .\AgdaPostulate{gernypavysmu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{gernypavysmu-fa} \B a\ .zoi.\ gi lo jufra be fi la'o zoi.\ \B a .zoi.\ cu gerna pavysmu
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{gernypavysmu-fa} \B a\ .zoi.\ gi lo jufra be fi la'o zoi.\ \B a .zoi.\ cu gerna pavysmu
 
 \paragraph{English}
-A proof of \F{gernypavysmu-fa} \B a exists iff all sentences which are grammatical with regard to \B a are syntactically unambiguous.
+A proof of \AgdaPostulate{gernypavysmu-fa} \B a exists iff all sentences which are grammatical with regard to \B a are syntactically unambiguous.
 
 \begin{code}
 postulate gernypavysmu-fa : Gerna → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-slabu\_} .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\_cu-slabu\_} .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-slabu} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ slabu la'o zoi.\ \B b\ .zoi.
 
@@ -250,14 +250,14 @@ A proof of \B a \F{cu-baupli} \B b exists iff \B a uses \B b.
 postulate _cu-baupli_ : Prenu → Bangu → Set
 \end{code}
 
-\section{la'o zoi.\ \F{la-varik}\ .zoi.}
+\section{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 
-\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{-la-varik}\ .zoi.\ cu du la .varik.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu ciska dei je cu co'e
+ni'o la'o zoi.\ \AgdaPostulate{-la-varik}\ .zoi.\ cu du la .varik.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu ciska dei je cu co'e
 
 \paragraph{English}
-\F{la-varik} is the VARIK which is American, is a mathematician, writes the current sentence, and whatnot \{V\}.
+\AgdaPostulate{la-varik} is the VARIK which is American, is a mathematician, writes the current sentence, and whatnot \{V\}.
 
 \begin{code}
 postulate la-varik : Prenu
@@ -265,34 +265,34 @@ postulate la-varik : Prenu
 
 \section{la'o zoi.\ \F{la-lojban}\ .zoi.}
 
-\subsection{la'o zoi.\ \F{le-lojban-leksiko}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{le-lojban-leksiko}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{le-lojban-leksiko}\ .zoi.\ leksiko la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{le-lojban-leksiko}\ .zoi.\ leksiko la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
-\F{le-lojban-leksiko} is the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
+\AgdaPostulate{le-lojban-leksiko} is the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
 
 \begin{code}
 postulate le-lojban-leksiko : Leksiko
 \end{code}
 
-\subsection{la'o zoi.\ \F{le-lojban-gerna}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{le-lojban-gerna}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{le-lojban-gerna}\ .zoi.\ gerna la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{le-lojban-gerna}\ .zoi.\ gerna la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
-\F{le-lojban-gerna} is the grammar of the Lojban which is used by VARIK.
+\AgdaPostulate{le-lojban-gerna} is the grammar of the Lojban which is used by VARIK.
 
 \begin{code}
 postulate le-lojban-gerna : Gerna
 \end{code}
 
-\subsection{la'o zoi.\ \F{le-lojban-me'oi-semantics}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{le-lojban-me'oi-semantics}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{le-lojban-me'oi-semantics}\ .zoi.\ me'oi .semantics.\ la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{le-lojban-me'oi-semantics}\ .zoi.\ me'oi .semantics.\ la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
-\F{le-lojban-me'oi-semantics} is the semantics of the Lojban which is used by VARIK.
+\AgdaPostulate{le-lojban-me'oi-semantics} is the semantics of the Lojban which is used by VARIK.
 
 \begin{code}
 postulate le-lojban-me'oi-semantics : Semantics
@@ -316,51 +316,51 @@ la-lojban = record {
 
 \section{le barda ja co'e je ctaipe}
 
-\subsection{la'oi .\F{jbonartogbau}.}
+\subsection{la'oi .\AgdaPostulate{jbonartogbau}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{jbonartogbau}.\ ctaipe le su'u la .lojban.\ cu na tonga bangu
+ni'o la'oi .\AgdaPostulate{jbonartogbau}.\ ctaipe le su'u la .lojban.\ cu na tonga bangu
 
 \paragraph{English}
-\F{jbonartogbau} is a proof of that Lojban is not a tonal language.
+\AgdaPostulate{jbonartogbau} is a proof of that Lojban is not a tonal language.
 
 \begin{code}
 postulate jbonartogbau : ¬ (togbau-fa la-lojban)
 \end{code}
 
-\subsection{la'oi .\F{jbogernypavysmu}.}
+\subsection{la'oi .\AgdaPostulate{jbogernypavysmu}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be fi la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'oi .\AgdaPostulate{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be fi la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
-\F{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which ``fit'' the grammar of the Lojban which is used by VARIK.
+\AgdaPostulate{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which ``fit'' the grammar of the Lojban which is used by VARIK.
 
 \begin{code}
 postulate jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
 \end{code}
 
-\subsection{la'oi .\F{ozvraka'e}.}
+\subsection{la'oi .\AgdaPostulate{ozvraka'e}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik.\ cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'oi .\AgdaPostulate{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik.\ cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be la .lojban.\ poi ke'a se baupli la .varik.
 
 \paragraph{English}
-\F{ozvraka'e} is a proof of that easy for VARIK is that VARIK pronounces the words of the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
+\AgdaPostulate{ozvraka'e} is a proof of that easy for VARIK is that VARIK pronounces the words of the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
 
 \begin{code}
 postulate ozvraka'e : la-varik cu-vlaba'u-kakne (Bangu.leksiko la-lojban)
 \end{code}
 
-\subsection{la'o zoi.\ \F{jboslabu}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{jboslabu}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{jboslabu}.\ ctaipe le su'u la .lojban.\ cu slabu la .varik.
+ni'o la'oi .\AgdaPostulate{jboslabu}.\ ctaipe le su'u la .lojban.\ cu slabu la .varik.
 
 \paragraph{English}
-\F{jboslabu} is a proof of that Lojban is familiar to VARIK.
+\AgdaPostulate{jboslabu} is a proof of that Lojban is familiar to VARIK.
 
 \begin{code}
 postulate jboslabu : la-lojban cu-slabu la-varik
 \end{code}
 
-\subsection{la'oi .\F{pavybaupli}.}
+\subsection{la'oi .\AgdaPostulate{pavybaupli}.}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a bangu zo'u ga naja\ldots
 \begin{itemize}
