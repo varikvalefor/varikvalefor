@@ -70,7 +70,7 @@ ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.
 postulate la-varik : Prenu
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-tolnei\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o zoi.\ \B a \OpF{cu-tolnei} \B b .zoi.
 
@@ -81,7 +81,7 @@ ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o z
 postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-na-nelci\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-na-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-na-nelci} \B b .zoi.\ gi la'o zoi.\ \B a .zoi.\ na nelci la'o zoi.\ \B b .zoi.
 
