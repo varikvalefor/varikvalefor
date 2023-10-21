@@ -228,10 +228,10 @@ postulate
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ sinxa ja co'e la'oi .Discord.\ noi ke'a se .urli zoi zoi.\ \url{https://www.discord.com}\ .zoi.
+ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ du la'oi .Discord.\ noi ke'a se .urli zoi zoi.\ \url{https://www.discord.com}\ .zoi.
 
 \paragraph{English}
-\AgdaPostulate{la-diskord} represents (or whatever \{V\}) Discord, which is described at \url{https://www.discord.com}.
+\AgdaPostulate{la-diskord} is Discord, which is described at \url{https://www.discord.com}.
 
 \begin{code}
 postulate la-diskord : IMS
@@ -308,10 +308,10 @@ tolnei-la'oi-Discord = tolnei-nibli $ these ladi cenclapei
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ sinxa ja co'e la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org}\ .zoi.
+ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ du la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org}\ .zoi.
 
 \paragraph{English}
-\AgdaPostulate{la-telegram} represents (or whatever \{V\}) Telegram, which is described at \url{https://www.telegram.org}.
+\AgdaPostulate{la-telegram} is Telegram, which is described at \url{https://www.telegram.org}.
 
 \begin{code}
 postulate la-telegram : IMS
@@ -354,10 +354,10 @@ tolnei-la'oi-Telegram = tolnei-nibli $ that $ this centfon
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ sinxa la'o glibau.\ Internet Relay Chat .glibau.\ poi ke'a se me'oi .RFC.\ li pavomuso
+ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ du la'o glibau.\ Internet Relay Chat .glibau.\ poi ke'a se me'oi .RFC.\ li pavomuso
 
 \paragraph{English}
-\AgdaPostulate{la-irk} represents Internet Relay Chat, which is described by RFC 1459.
+\AgdaPostulate{la-irk} is Internet Relay Chat, which is described by RFC 1459.
 
 \begin{code}
 postulate la-irk : IMS
