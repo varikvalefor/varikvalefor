@@ -21,7 +21,7 @@
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
-\newcommand\OpF[1]{\AgdaOperator{\F{#1}}}
+\newcommand\OpP[1]{\AgdaOperator{\AgdaPostulate{#1}}}
 
 \title{le ctaipe be le su'u la .varik.\ cu tolnei ja na nelci le mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u / Proofs of that VARIK Dislikes (or Not Likes) the Instant Messaging Services}
 \author{la .varik.\ .VALefor.}
@@ -72,10 +72,10 @@ postulate la-varik : Prenu
 
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o zoi.\ \B a \OpF{cu-tolnei} \B b .zoi.
+ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o zoi.\ \B a \OpP{cu-tolnei} \B b .zoi.
 
 \paragraph{English}
-\B a dislikes \B b iff a proof of \B a \OpF{cu-tolnei} \B b exists.
+\B a dislikes \B b iff a proof of \B a \OpP{cu-tolnei} \B b exists.
 
 \begin{code}
 postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
@@ -83,10 +83,10 @@ postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-na-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-na-nelci} \B b .zoi.\ gi la'o zoi.\ \B a .zoi.\ na nelci la'o zoi.\ \B b .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-na-nelci} \B b .zoi.\ gi la'o zoi.\ \B a .zoi.\ na nelci la'o zoi.\ \B b .zoi.
 
 \paragraph{English}
-A proof of \B a \OpF{cu-na-nelci} \B b exists iff \B a not likes \B b.
+A proof of \B a \OpP{cu-na-nelci} \B b exists iff \B a not likes \B b.
 
 \begin{code}
 postulate _cu-na-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
