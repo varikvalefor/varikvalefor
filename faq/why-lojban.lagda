@@ -217,7 +217,7 @@ A proof of \AgdaPostulate{gernypavysmu-fa} \B a exists iff all sentences which a
 postulate gernypavysmu-fa : Gerna → Set
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{\_cu-slabu\_} .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-slabu\AgdaUnderscore} .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-slabu} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ slabu la'o zoi.\ \B b\ .zoi.
 
@@ -228,7 +228,7 @@ A proof of \B a \F{cu-slabu} \B b exists iff \B a is familiar to \B b.
 postulate _cu-slabu_ : ∀ {a} → {A : Set a} → A → Prenu → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-nelci\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
@@ -239,7 +239,7 @@ A proof of \B a \F{cu-nelci} \B b exists iff \B a likes \B b.
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-baupli\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-baupli\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-baupli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ baupli la'o zoi.\ \B b\ .zoi.
 
