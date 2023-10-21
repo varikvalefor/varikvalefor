@@ -48,23 +48,23 @@ open import Relation.Nullary
 
 \section{le jicmu / The Foundational Stuff}
 
-\subsection{la'oi .\F{Prenu}.}
+\subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctiape la'oi .\F{Prenu}.\ jo cu prenu
+ni'o ro da zo'u da ctiape la'oi .\AgdaPostulate{Prenu}.\ jo cu prenu
 
 \paragraph{English}
-For all $A$, $A$ is a value of \F{Prenu} iff $A$ is a prenu.
+For all $A$, $A$ is a value of \AgdaPostulate{Prenu} iff $A$ is a prenu.
 
 \begin{code}
 postulate Prenu : Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.
 
 \paragraph{English}
-\F{la-varik} is VARIK.
+\AgdaPostulate{la-varik} is VARIK.
 
 \begin{code}
 postulate la-varik : Prenu
@@ -81,7 +81,7 @@ ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o z
 postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-na-nelci\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-na-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-na-nelci} \B b .zoi.\ gi la'o zoi.\ \B a .zoi.\ na nelci la'o zoi.\ \B b .zoi.
 
@@ -92,89 +92,89 @@ A proof of \B a \OpF{cu-na-nelci} \B b exists iff \B a not likes \B b.
 postulate _cu-na-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'oi .\F{IMS}.}
+\subsection{la'oi .\AgdaPostulate{IMS}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{IMS}.\ jo cu mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{IMS}.\ jo cu mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u
 
 \paragraph{English}
-For all $A$, \F{IMS}\ is the type of $A$ iff $A$ is an instant messaging service.
+For all $A$, \AgdaPostulate{IMS}\ is the type of $A$ iff $A$ is an instant messaging service.
 
 \begin{code}
 postulate IMS : Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{to'e-fingubni-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{to'e-fingubni-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{to'e-fingubni-fa} \B a .zoi.\ gi la'o zoi.\ \B a .zoi.\ to'e fingubni
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{to'e-fingubni-fa} \B a .zoi.\ gi la'o zoi.\ \B a .zoi.\ to'e fingubni
 
 \paragraph{English}
-A proof of \F{to'e-fingubni-fa} \B a exists iff \B a is closed-source.
+A proof of \AgdaPostulate{to'e-fingubni-fa} \B a exists iff \B a is closed-source.
 
 \begin{code}
 postulate to'e-fingubni-fa : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{me'oi-custom-tolcru}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{me'oi-custom-tolcru} \B a .zoi.\ gi tolcru lo nu pilno lo se kibyse'u be fi la'o zoi.\ \B a .zoi.\ be'o poi ke'a me'oi .unofficial.\ ja me'oi .\F{custom}.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru} \B a .zoi.\ gi tolcru lo nu pilno lo se kibyse'u be fi la'o zoi.\ \B a .zoi.\ be'o poi ke'a me'oi .unofficial.\ ja me'oi .\F{custom}.
 
 \paragraph{English}
-A proof of \F{me'oi-custom-tolcru} \B a exists iff forbids that uses a custom or unofficial client of \B a.
+A proof of \AgdaPostulate{me'oi-custom-tolcru} \B a exists iff forbids that uses a custom or unofficial client of \B a.
 
 \begin{code}
 postulate me'oi-custom-tolcru : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{me'oi-centralise}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{me'oi-centralise}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{me'oi-centralise} \B a .zoi.\ gi me'oi .centralise.\ la'o zoi.\ \B a .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-centralise} \B a .zoi.\ gi me'oi .centralise.\ la'o zoi.\ \B a .zoi.
 
 \paragraph{English}
-A proof of \F{me'oi-centralise} \B a exists iff \B a is centralised.
+A proof of \AgdaPostulate{me'oi-centralise} \B a exists iff \B a is centralised.
 
 \begin{code}
 postulate me'oi-centralise : IMS → Set
 \end{code}
 
-\subsection{la'oi .\F{fonxysarcu}.}
+\subsection{la'oi .\AgdaPostulate{fonxysarcu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{fonxysarcu} \B a .zoi.\ gi ro da zo'u lo nu da pilno ko'a goi la'o zoi.\ \B a .zoi.\ cu selsa'u lo nu lo me'oi .database.\ pe ko'a cu vasru lo datni be lo fonjudri be da
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{fonxysarcu} \B a .zoi.\ gi ro da zo'u lo nu da pilno ko'a goi la'o zoi.\ \B a .zoi.\ cu selsa'u lo nu lo me'oi .database.\ pe ko'a cu vasru lo datni be lo fonjudri be da
 
 \paragraph{English}
-If a proof of \F{fonxysarcu} \B a exists, then for all $A$, that ($A$ gives to \B a information regarding the phone number of $A$) is necessary for that $A$ uses \B a.
+If a proof of \AgdaPostulate{fonxysarcu} \B a exists, then for all $A$, that ($A$ gives to \B a information regarding the phone number of $A$) is necessary for that $A$ uses \B a.
 
 \begin{code}
 postulate fonxysarcu : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{tolcru-clanybenji}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{tolcru-clanybenji}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{tolcru-clanybenji} \B a .zoi.\ gi tolcru lo nu benji lo clani je selci'a fu la'o zoi.\ \B a .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-clanybenji} \B a .zoi.\ gi tolcru lo nu benji lo clani je selci'a fu la'o zoi.\ \B a .zoi.
 
 \paragraph{English}
-A proof of \F{tolcru-clanybenji} \B a exists iff forbids that sends via \B a lengthy text.
+A proof of \AgdaPostulate{tolcru-clanybenji} \B a exists iff forbids that sends via \B a lengthy text.
 
 \begin{code}
 postulate tolcru-clanybenji : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{me'oi-paywall}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{me'oi-paywall}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{me'oi-paywall} \B a .zoi.\ gi su'o da poi ke'a pagbu la'o zoi.\ \B a .zoi.\ zo'u ro de poi ke'a pilno la'o zoi.\ \B a .zoi.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-paywall} \B a .zoi.\ gi su'o da poi ke'a pagbu la'o zoi.\ \B a .zoi.\ zo'u ro de poi ke'a pilno la'o zoi.\ \B a .zoi.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
 
 \paragraph{English}
-A proof of \F{me'oi-paywall} \B a exists iff some part (of \B a) $Q$ exists such that for all users (of \B a) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
+A proof of \AgdaPostulate{me'oi-paywall} \B a exists iff some part (of \B a) $Q$ exists such that for all users (of \B a) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
 
 \begin{code}
 postulate me'oi-paywall : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{lo-pixra-cu-na-se-mapti}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{lo-pixra-cu-na-se-mapti}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{lo-pixra-cu-na-se-mapti} \B a .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-pixra-cu-na-se-mapti} \B a .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
 
 \paragraph{English}
-A proof of \F{lo-pixra-cu-na-se-mapti} \B a exists iff \B a not supports that sends images.
+A proof of \AgdaPostulate{lo-pixra-cu-na-se-mapti} \B a exists iff \B a not supports that sends images.
 
 \begin{code}
 postulate lo-pixra-cu-na-se-mapti : IMS → Set
@@ -226,67 +226,67 @@ postulate
 
 \subsection{le jicmu / The Foundational Stuff}
 
-\subsubsection{la'o zoi.\ \F{la-diskord}\ .zoi.}
+\subsubsection{la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-diskord}\ .zoi.\ sinxa ja co'e la'oi .Discord.\ noi ke'a se .urli zoi zoi.\ \url{https://www.discord.com}\ .zoi.
+ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ sinxa ja co'e la'oi .Discord.\ noi ke'a se .urli zoi zoi.\ \url{https://www.discord.com}\ .zoi.
 
 \paragraph{English}
-\F{la-diskord} represents or whatever \{V\} Discord, which is described at \url{https://www.discord.com}.
+\AgdaPostulate{la-diskord} represents or whatever \{V\} Discord, which is described at \url{https://www.discord.com}.
 
 \begin{code}
 postulate la-diskord : IMS
 \end{code}
 
-\subsubsection{la'oi .\F{ladinafil}.}
+\subsubsection{la'oi .\AgdaPostulate{ladinafil}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{ladinafil}.\ ctaipe le su'u la'oi .Discord.\ to'e fingubni
+ni'o la'oi .\AgdaPostulate{ladinafil}.\ ctaipe le su'u la'oi .Discord.\ to'e fingubni
 
 \paragraph{English}
-\F{ladinafil} is a proof of that Discord is closed-source.
+\AgdaPostulate{ladinafil} is a proof of that Discord is closed-source.
 
 \begin{code}
 postulate ladinafil : to'e-fingubni-fa la-diskord
 \end{code}
 
-\subsubsection{la'oi .\F{diskustrol}.}
+\subsubsection{la'oi .\AgdaPostulate{diskustrol}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{diskustrol}.\ ctaipe le su'u tolcru lo nu pilno lo me'oi .custom.\ ja co'e tu'a la'oi .Discord.
+ni'o la'oi .\AgdaPostulate{diskustrol}.\ ctaipe le su'u tolcru lo nu pilno lo me'oi .custom.\ ja co'e tu'a la'oi .Discord.
 
 \paragraph{English}
-\F{diskustrol} is a proof of that forbids that uses custom or unofficial clients of Discord.
+\AgdaPostulate{diskustrol} is a proof of that forbids that uses custom or unofficial clients of Discord.
 
 \begin{code}
 postulate diskustrol : me'oi-custom-tolcru la-diskord
 \end{code}
 
-\subsubsection{la'oi .\F{diskentral}.}
+\subsubsection{la'oi .\AgdaPostulate{diskentral}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{diskentral}.\ ctaipe le su'u me'oi .centralise.\ la'oi .Discord.
+ni'o la'oi .\AgdaPostulate{diskentral}.\ ctaipe le su'u me'oi .centralise.\ la'oi .Discord.
 
 \paragraph{English}
-\F{diskentral} is a proof of that Discord is centralised.
+\AgdaPostulate{diskentral} is a proof of that Discord is centralised.
 
 \begin{code}
 postulate diskentral : me'oi-centralise la-diskord
 \end{code}
 
-\subsubsection{la'oi .\F{diskcla}.}
+\subsubsection{la'oi .\AgdaPostulate{diskcla}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{diskcla}.\ ctaipe le su'u tolcru lo nu benji lo clani je selcil'a fu la'oi .Discord.
+ni'o la'oi .\AgdaPostulate{diskcla}.\ ctaipe le su'u tolcru lo nu benji lo clani je selcil'a fu la'oi .Discord.
 
 \paragraph{English}
-\F{diskcla} is a proof of that forbids that sends via Discord lengthy texts.
+\AgdaPostulate{diskcla} is a proof of that forbids that sends via Discord lengthy texts.
 
 \begin{code}
 postulate diskcla : tolcru-clanybenji la-diskord
 \end{code}
 
-\subsubsection{la'oi .\F{diskpei}.}
+\subsubsection{la'oi .\AgdaPostulate{diskpei}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu la'oi .Discord.\ zo'u ro de poi ke'a pilno la'oi .Discord.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
+ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu la'oi .Discord.\ zo'u ro de poi ke'a pilno la'oi .Discord.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
 
 \paragraph{English}
-\F{diskpei} is a proof of that some part (of Discord) $Q$ exists such that for all users (of Discord) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
+\AgdaPostulate{diskpei} is a proof of that some part (of Discord) $Q$ exists such that for all users (of Discord) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
 
 \begin{code}
 postulate diskpei : me'oi-paywall la-diskord
@@ -306,34 +306,34 @@ tolnei-la'oi-Discord = tolnei-nibli $ these ladi cenclapei
 
 \subsection{le jicmu / The Foundational Stuff}
 
-\subsubsection{la'o zoi.\ \F{la-telegram}\ .zoi.}
+\subsubsection{la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-telegram}\ .zoi.\ sinxa ja co'e la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org}\ .zoi.
+ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ sinxa ja co'e la'oi .Telegram.\ noi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org}\ .zoi.
 
 \paragraph{English}
-\F{la-telegram} represents or whatever \{V\} Telegram, which is described at \url{https://www.telegram.org}.
+\AgdaPostulate{la-telegram} represents or whatever \{V\} Telegram, which is described at \url{https://www.telegram.org}.
 
 \begin{code}
 postulate la-telegram : IMS
 \end{code}
 
-\subsubsection{la'oi .\F{tugcentra}.}
+\subsubsection{la'oi .\AgdaPostulate{tugcentra}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{tugcentra}.\ ctaipe le su'u me'oi .centralise.\ la'oi .Telegram.\
+ni'o la'oi .\AgdaPostulate{tugcentra}.\ ctaipe le su'u me'oi .centralise.\ la'oi .Telegram.\
 
 \paragraph{English}
-\F{tugcentra} is a proof of that Telegram is centralised.
+\AgdaPostulate{tugcentra} is a proof of that Telegram is centralised.
 
 \begin{code}
 postulate tugcentra : me'oi-centralise la-telegram
 \end{code}
 
-\subsubsection{la'oi .\F{tugfonxa}.}
+\subsubsection{la'oi .\AgdaPostulate{tugfonxa}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Telegram.
+ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Telegram.
 
 \paragraph{English}
-\F{fugfonxa} is a proof of that a telephone number is necessary for that uses Telegram.
+\AgdaPostulate{fugfonxa} is a proof of that a telephone number is necessary for that uses Telegram.
 
 \begin{code}
 postulate tugfonxa : fonxysarcu la-telegram
@@ -352,34 +352,34 @@ tolnei-la'oi-Telegram = tolnei-nibli $ that $ this centfon
 
 \subsection{le jicmu / The Foundational Stuff}
 
-\subsubsection{la'o zoi.\ \F{la-irk}\ .zoi.}
+\subsubsection{la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-irk}\ .zoi.\ sinxa la'o glibau.\ Internet Relay Chat .glibau.\ poi ke'a se me'oi .RFC.\ li pavomuso
+ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ sinxa la'o glibau.\ Internet Relay Chat .glibau.\ poi ke'a se me'oi .RFC.\ li pavomuso
 
 \paragraph{English}
-\F{la-irk} represents Internet Relay Chat, which is described by RFC 1459.
+\AgdaPostulate{la-irk} represents Internet Relay Chat, which is described by RFC 1459.
 
 \begin{code}
 postulate la-irk : IMS
 \end{code}
 
-\subsubsection{la'oi .\F{irkypixra}.}
+\subsubsection{la'oi .\AgdaPostulate{irkypixra}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Relay Chat .glibau.\ na mapti lo nu benji lo pixra
+ni'o la'oi .\AgdaPostulate{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Relay Chat .glibau.\ na mapti lo nu benji lo pixra
 
 \paragraph{English}
-\F{irkypixra} is a proof of that Internet Relay Chat not supports that sends images.
+\AgdaPostulate{irkypixra} is a proof of that Internet Relay Chat not supports that sends images.
 
 \begin{code}
 postulate irkypixra : lo-pixra-cu-na-se-mapti la-irk
 \end{code}
 
-\subsubsection{la'oi .\F{irkyclani}.}
+\subsubsection{la'oi .\AgdaPostulate{irkyclani}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo clani je selci'a fo la'o glibau.\ Internet Relay Chat .glibau.
+ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo clani je selci'a fo la'o glibau.\ Internet Relay Chat .glibau.
 
 \paragraph{English}
-\F{irkyclani} is a proof of that forbids that sends (via Internet Relay Chat) lengthy texts.
+\AgdaPostulate{irkyclani} is a proof of that forbids that sends (via Internet Relay Chat) lengthy texts.
 
 \begin{code}
 postulate irkyclani : tolcru-clanybenji la-irk
