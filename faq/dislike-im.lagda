@@ -141,7 +141,7 @@ postulate me'oi-centralise : IMS → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{fonxysarcu} \B a .zoi.\ gi ro da zo'u lo nu da pilno ko'a goi la'o zoi.\ \B a .zoi.\ cu selsa'u lo nu lo me'oi .database.\ pe ko'a cu vasru lo datni be lo fonjudri be da
 
 \paragraph{English}
-If a proof of \AgdaPostulate{fonxysarcu} \B a exists, then for all $A$, that ($A$ gives to \B a information regarding the phone number of $A$) is necessary for that $A$ uses \B a.
+If a proof of \AgdaPostulate{fonxysarcu} \B a exists, then for all $A$, that (the database of $A$ contains information regarding the phone number of $A$) is necessary for that $A$ uses \B a.
 
 \begin{code}
 postulate fonxysarcu : IMS → Set
