@@ -296,10 +296,10 @@ postulate diskpei : me'oi-paywall la-diskord
 
 \begin{code}
 tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
-tolnei-la'oi-Discord = tolnei-nibli $ these ladi cenclapei
+tolnei-la'oi-Discord = tolnei-nibli $ these ladistrol cenclapei
   where
   cenclapei = these (this diskentral) $ these diskcla diskpei
-  ladi = these ladinafil diskustrol
+  ladistrol = these ladinafil diskustrol
 \end{code}
 
 \section{la'oi .Telegram.}
