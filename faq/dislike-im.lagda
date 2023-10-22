@@ -169,15 +169,15 @@ A proof of \AgdaPostulate{me'oi-paywall} \B a exists iff some part (of \B a) $Q$
 postulate me'oi-paywall : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{lo-pixra-cu-na-se-mapti}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-na-mapti-lo-pixra}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{lo-pixra-cu-na-se-mapti} \B a .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-na-mapti-lo-pixra} .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
 
 \paragraph{English}
-A proof of \AgdaPostulate{lo-pixra-cu-na-se-mapti} \B a exists iff \B a not supports that sends images.
+A proof of \B a \OpF{cu-na-mapti-lo-pixra} exists iff \B a not supports that sends images.
 
 \begin{code}
-postulate lo-pixra-cu-na-se-mapti : IMS → Set
+postulate _cu-na-mapti-lo-pixra : IMS → Set
 \end{code}
 
 \subsection{la'o zoi.\ \F{narnei-nibli}\ .zoi.}
@@ -189,7 +189,7 @@ VARIK hopes that unnecessary is that writes an English explanation.
 
 \begin{code}
 postulate narnei-nibli : {A : IMS}
-                       → lo-pixra-cu-na-se-mapti A
+                       → A cu-na-mapti-lo-pixra
                        → tolcru-clanybenji A
                        → la-varik cu-na-nelci A
 \end{code}
@@ -371,7 +371,7 @@ ni'o la'oi .\AgdaPostulate{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Re
 \AgdaPostulate{irkypixra} is a proof of that Internet Relay Chat not supports that sends images.
 
 \begin{code}
-postulate irkypixra : lo-pixra-cu-na-se-mapti la-irk
+postulate irkypixra : la-irk cu-na-mapti-lo-pixra
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{irkyclani}.}
