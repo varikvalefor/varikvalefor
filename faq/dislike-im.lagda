@@ -182,7 +182,7 @@ postulate _cu-na-mapti-lo-pixra : IMS → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{narnei-nibli}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
+ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
 VARIK hopes that unnecessary is that writes an English explanation.
@@ -196,7 +196,7 @@ postulate narnei-nibli : {A : IMS}
 
 \subsection{la'o zoi.\ \AgdaPostulate{tolnei-nibli}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
+ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
 VARIK hopes that unnecessary is that writes an English explanation.
