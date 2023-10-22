@@ -184,7 +184,7 @@ A proof of \AgdaPostulate{togbau-fa} \B a exists iff \B a is a tonal language.
 postulate togbau-fa : Bangu → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\AgdaUnderscore{}vlaba'u-kakne\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-vlaba'u-kakne\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-vlaba'u-kakne} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ ka'e vlaba'u lo valsi be fi la'o zoi.\ \B b .zoi.
 
