@@ -116,7 +116,7 @@ postulate to'e-fingubni-fa : IMS → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru} \B a .zoi.\ gi tolcru lo nu pilno lo se kibyse'u be fi la'o zoi.\ \B a .zoi.\ be'o poi ke'a me'oi .unofficial.\ ja me'oi .\F{custom}.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru} \B a .zoi.\ gi tolcru lo nu pilno lo se kibyse'u be fi la'o zoi.\ \B a .zoi.\ be'o poi ke'a me'oi .unofficial.\ ja me'oi .custom.
 
 \paragraph{English}
 A proof of \AgdaPostulate{me'oi-custom-tolcru} \B a exists iff forbids that uses a custom or unofficial client of \B a.
