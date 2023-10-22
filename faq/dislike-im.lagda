@@ -180,7 +180,7 @@ A proof of \B a \OpP{cu-na-mapti-lo-pixra} exists iff \B a not supports that sen
 postulate _cu-na-mapti-lo-pixra : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{narnei-nibli}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{narnei-nibli}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
 
@@ -194,7 +194,7 @@ postulate narnei-nibli : {A : IMS}
                        → la-varik cu-na-nelci A
 \end{code}
 
-\subsection{la'o zoi.\ \F{tolnei-nibli}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{tolnei-nibli}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu .lojban.\ ciksi
 
