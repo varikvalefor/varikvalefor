@@ -301,7 +301,7 @@ postulate le-lojban-me'oi-semantics : Semantics
 
 \subsection{la'o zoi.\ \F{la-lojban}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-lojban}\ .zoi.\ cu du la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'o zoi.\ \F{la-lojban}\ .zoi.\ cu jbobau la .varik.
 
 \paragraph{English}
 \F{la-lojban} is the Lojban which is used by VARIK.
