@@ -171,10 +171,10 @@ postulate me'oi-paywall : IMS → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-na-mapti-lo-pixra}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-na-mapti-lo-pixra} .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-na-mapti-lo-pixra} .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
 
 \paragraph{English}
-A proof of \B a \OpF{cu-na-mapti-lo-pixra} exists iff \B a not supports that sends images.
+A proof of \B a \OpP{cu-na-mapti-lo-pixra} exists iff \B a not supports that sends images.
 
 \begin{code}
 postulate _cu-na-mapti-lo-pixra : IMS → Set
