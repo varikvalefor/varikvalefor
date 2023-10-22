@@ -38,6 +38,7 @@
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
+\newcommand\OpP[1]{\AgdaOperator{\AgdaPostulate{#1}}}
 
 \title{le ctaipe be le su'u la .varik.\ cu baupli la .lojban.\ / The Proof of that VARIK uses Lojban}
 \author{la .varik.\ .VALefor.}
@@ -186,10 +187,10 @@ postulate togbau-fa : Bangu → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-vlaba'u-kakne\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-vlaba'u-kakne} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ ka'e vlaba'u lo valsi be fi la'o zoi.\ \B b .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-vlaba'u-kakne} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ ka'e vlaba'u lo valsi be fi la'o zoi.\ \B b .zoi.
 
 \paragraph{English}
-A proof of \B a \F{cu-vlaba'u-kakne} \B b exists iff \B a is capable of that \B a pronounces the words of \B b.
+A proof of \B a \OpP{cu-vlaba'u-kakne} \B b exists iff \B a is capable of that \B a pronounces the words of \B b.
 
 \begin{code}
 postulate _cu-vlaba'u-kakne_ : Prenu → Leksiko → Set
@@ -219,10 +220,10 @@ postulate gernypavysmu-fa : Gerna → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-slabu\AgdaUnderscore} .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-slabu} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ slabu la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-slabu} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ slabu la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a \F{cu-slabu} \B b exists iff \B a is familiar to \B b.
+A proof of \B a \OpP{cu-slabu} \B b exists iff \B a is familiar to \B b.
 
 \begin{code}
 postulate _cu-slabu_ : ∀ {a} → {A : Set a} → A → Prenu → Set
@@ -230,10 +231,10 @@ postulate _cu-slabu_ : ∀ {a} → {A : Set a} → A → Prenu → Set
 
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a \F{cu-nelci} \B b exists iff \B a likes \B b.
+A proof of \B a \OpP{cu-nelci} \B b exists iff \B a likes \B b.
 
 \begin{code}
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
@@ -241,10 +242,10 @@ postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-baupli\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \F{cu-baupli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ baupli la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-baupli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ baupli la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a \F{cu-baupli} \B b exists iff \B a uses \B b.
+A proof of \B a \OpP{cu-baupli} \B b exists iff \B a uses \B b.
 
 \begin{code}
 postulate _cu-baupli_ : Prenu → Bangu → Set
