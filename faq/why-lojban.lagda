@@ -198,7 +198,7 @@ postulate _cu-vlaba'u-kakne_ : Prenu → Leksiko → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u tu'a la'o zoi.\ \B a\ .zoi.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo drani je sampu
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u tu'a la'o zoi.\ \B a\ .zoi.\ filri'a lo nu ciksi ja skicu lo pluja fo lo drani je sampu
 
 \paragraph{english}
 A proof of \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a exists iff VARIK opines (or whatever \{V\}) that \B a facilitates that simply and correctly explains (or describes) the complex.
@@ -255,7 +255,7 @@ postulate _cu-baupli_ : Prenu → Bangu → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{-la-varik}\ .zoi.\ cu du la .varik.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu ciska dei je cu co'e
+ni'o la'o zoi.\ \AgdaPostulate{-la-varik}\ .zoi.\ du la .varik.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu ciska dei je cu co'e
 
 \paragraph{English}
 \AgdaPostulate{la-varik} is the VARIK which is American, is a mathematician, writes the current sentence, and whatnot \{V\}.
@@ -301,7 +301,7 @@ postulate le-lojban-me'oi-semantics : Semantics
 
 \subsection{la'o zoi.\ \F{la-lojban}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-lojban}\ .zoi.\ cu jbobau la .varik.
+ni'o la'o zoi.\ \F{la-lojban}\ .zoi.\ jbobau la .varik.
 
 \paragraph{English}
 \F{la-lojban} is the Lojban which is used by VARIK.
