@@ -110,6 +110,9 @@ postulate Prenu : Set
 \paragraph{la .lojban.}
 ni'o ro da zo'u da ctaipe la'oi .\F{Fasnu}.\ jo cu fasnu
 
+\paragraph{English}
+For all $A$, \F{Fasnu} is the type of $A$ iff $A$ is an event.
+
 \begin{code}
 postulate Fasnu : Set
 \end{code}
