@@ -141,7 +141,7 @@ postulate zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
                    → A → B → Selkai → Set
 \end{code}
 
-\section{le selckaji / The Properties/Qualities/Whatever}
+\section{le selkai / The Properties/Qualities/Whatever}
 
 \subsection{la'o zoi.\ \F{la-kafrilis}\ .zoi.}
 
