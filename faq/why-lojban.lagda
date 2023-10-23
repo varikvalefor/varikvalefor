@@ -55,7 +55,7 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu baupli la .lojban.\ 
 
 \subsection{le me'oi .disclaimer.}
 \paragraph{la .lojban.}
-ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u le su'u le tcita be lo se ctaipe cu smimlu lo tcita be lo jufmei
+ni'o le su'u pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ cu se krinu le su'u le tcita be lo se ctaipe cu smimlu lo tcita be lo jufmei
 
 \paragraph{English}
 That (labels of proofs resemble labels of paragraphs) justifies that uses \texttt{subsection} and not \texttt{paragraph}.
