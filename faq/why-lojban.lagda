@@ -363,17 +363,17 @@ postulate jboslabu : la-lojban cu-slabu la-varik
 
 \subsection{la'oi .\AgdaPostulate{pavybaupli}.}
 \paragraph{la .lojban.}
-ni'o ro da poi ke'a bangu zo'u ga naja\ldots
+ni'o ro da poi ke'a bangu zo'u ga janai\ldots
 \begin{itemize}
+	\item la .varik.\ cu baupli da gi
 	\item ga je la .varik.\ cu ka'e vlaba'u lo valsi be da gi\ldots
 	\begin{itemize}
 		\item ga je da slabu la .varik.\ gi
 		\item ga je da na tonga bangu gi
 		\item ga je la .varik.\ cu nelci le gerna be da gi
 		\item ga je gerna pavysmu fa lo ro jufra be fi da gi
-		\item ga je la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani gi
+		\item la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani
 	\end{itemize}
-	\item la .varik.\ cu baupli da
 \end{itemize}
 
 \paragraph{English}
