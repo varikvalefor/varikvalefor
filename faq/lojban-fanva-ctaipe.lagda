@@ -95,46 +95,46 @@ open import Relation.Nullary
 
 \section{le jicmu ja co'e / The Basic}
 
-\subsection{la'oi .\F{Prenu}.}
+\subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Prenu}.\ jo cu prenu
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Prenu}.\ jo cu prenu
 
 \paragraph{English}
-For all $A$, \F{Prenu} is the type of $A$ iff $A$ is a prenu.
+For all $A$, \AgdaPostulate{Prenu} is the type of $A$ iff $A$ is a prenu.
 
 \begin{code}
 postulate Prenu : Set
 \end{code}
 
-\subsection{la'oi .\F{Fasnu}.}
+\subsection{la'oi .\AgdaPostulate{Fasnu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Fasnu}.\ jo cu fasnu
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Fasnu}.\ jo cu fasnu
 
 \paragraph{English}
-For all $A$, \F{Fasnu} is the type of $A$ iff $A$ is an event.
+For all $A$, \AgdaPostulate{Fasnu} is the type of $A$ iff $A$ is an event.
 
 \begin{code}
 postulate Fasnu : Set
 \end{code}
 
-\subsection{la'oi .\F{Selkai}.}
+\subsection{la'oi .\AgdaPostulate{Selkai}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Selkai}.\ jo cu se ckaji
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Selkai}.\ jo cu se ckaji
 
 \paragraph{English}
-For all $A$, \F{Selkai}\ is the type of $A$ iff $A$ is a property/quality.
+For all $A$, \AgdaPostulate{Selkai}\ is the type of $A$ iff $A$ is a property/quality.
 
 \begin{code}
 postulate Selkai : Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{zmadu-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{zmadu-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{zmadu-fa} \B a \B b \B c\ .zoi.\ gi la'o zoi.\ \B a\ .zoi. zmadu la'o zoi.\ \B b\ .zoi.\ la'o zoi.\ \B c\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{zmadu-fa} \B a \B b \B c\ .zoi.\ gi la'o zoi.\ \B a\ .zoi. zmadu la'o zoi.\ \B b\ .zoi.\ la'o zoi.\ \B c\ .zoi.
 
 \paragraph{English}
 \newcommand\epdisp{exhibits/possesses/displays}
-A proof of \F{zmadu-fa} \B a \B b \B c\ exists iff the extent (of that \B a\ \epdisp\ \B c) exceeds the extent of that \B b \epdisp\ \B c.
+A proof of \AgdaPostulate{zmadu-fa} \B a \B b \B c\ exists iff the extent (of that \B a\ \epdisp\ \B c) exceeds the extent of that \B b \epdisp\ \B c.
 
 \begin{code}
 postulate zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
@@ -143,37 +143,37 @@ postulate zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
 
 \section{le selkai / The Properties/Qualities/Whatever}
 
-\subsection{la'o zoi.\ \F{la-kafrilis}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-kafrilis}\ .zoi.}
 
 \newcommand\propglis{is the property/quality/whatever which is expressed/displayed by}
 
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-kafrilis}\ .zoi.\ cu ka ce'u frili la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{la-kafrilis}\ .zoi.\ cu ka ce'u frili la .varik.
 
 \paragraph{English}
-For all $A$, \F{la-kafrilis} \propglis\ $A$ iff VARIK finds that $A$ is easy.
+For all $A$, \AgdaPostulate{la-kafrilis} \propglis\ $A$ iff VARIK finds that $A$ is easy.
 
 \begin{code}
 postulate la-kafrilis : Selkai
 \end{code}
 
-\subsection{la'o zoi.\ \F{la-kajalneis}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-kajalneis}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-kajalneis}\ .zoi.\ cu ka la .varik.\ cu nelci lo jalge be ce'u
+ni'o la'o zoi.\ \AgdaPostulate{la-kajalneis}\ .zoi.\ cu ka la .varik.\ cu nelci lo jalge be ce'u
 
 \paragraph{English}
-For all $A$, \F{la-kajalneis} \propglis\ $A$ iff VARIK likes the result of $A$.
+For all $A$, \AgdaPostulate{la-kajalneis} \propglis\ $A$ iff VARIK likes the result of $A$.
 
 \begin{code}
 postulate la-kajalneis : Selkai
 \end{code}
 
-\subsection{la'o zoi.\ \F{la-kaselneis}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-kaselneis}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-kaselneis}\ .zoi.\ cu ka ce'u selnei la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{la-kaselneis}\ .zoi.\ cu ka ce'u selnei la .varik.
 
 \paragraph{English}
-For all $A$, \F{la-kaselneis} \propglis\ $A$ iff VARIK likes $A$.
+For all $A$, \AgdaPostulate{la-kaselneis} \propglis\ $A$ iff VARIK likes $A$.
 
 \begin{code}
 postulate la-kaselneis : Selkai
@@ -181,30 +181,30 @@ postulate la-kaselneis : Selkai
 
 \section{le fasnu / The Events}
 
-\newcommand\cmene{la'o zoi.\ \F{la-nufanvas}\ .zoi.}
+\newcommand\cmene{la'o zoi.\ \AgdaPostulate{la-nufanvas}\ .zoi.}
 \subsection{\cmene}
 \paragraph{la .lojban.}
 ni'o \cmene\ cu nu la .varik.\ cu fanva fi le glibau fo la .lojban.
 
 \paragraph{English}
-\F{la-nufanvas} is an event of that VARIK translates to English and from Lojban.
+\AgdaPostulate{la-nufanvas} is an event of that VARIK translates to English and from Lojban.
 
 \begin{code}
 postulate la-nufanvas : Fasnu
 \end{code}
 
-\subsection{la'o zoi.\ \F{la-nunafanvas}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-nunafanvas}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-nunafanvas}\ .zoi.\ nu la .varik.\ cu se glibau jenai cu fanva fi le glibau fo la .lojban.
+ni'o la'o zoi.\ \AgdaPostulate{la-nunafanvas}\ .zoi.\ nu la .varik.\ cu se glibau jenai cu fanva fi le glibau fo la .lojban.
 
 \paragraph{English}
-\F{la-nunafanvas} is an event of that VARIK uses English and not translates to English and from Lojban.
+\AgdaPostulate{la-nunafanvas} is an event of that VARIK uses English and not translates to English and from Lojban.
 
 \begin{code}
 postulate la-nunafanvas : Fasnu
 \end{code}
 
-\section{la .\F{frijalnei-fa}.}
+\section{la .\AgdaPostulate{frijalnei-fa}.}
 \paragraph{la .lojban.}
 ni'o ro da zo'u ro de zo'u da zmadu de le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo jalge be ce'u kei naja le ka ce'u selnei la .varik.
 
