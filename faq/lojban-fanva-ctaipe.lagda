@@ -117,15 +117,15 @@ For all $A$, \F{Fasnu} is the type of $A$ iff $A$ is an event.
 postulate Fasnu : Set
 \end{code}
 
-\subsection{la'oi .\F{Selckaji}.}
+\subsection{la'oi .\F{Selkai}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Selckaji}.\ jo cu se ckaji
+ni'o ro da zo'u da ctaipe la'oi .\F{Selkai}.\ jo cu se ckaji
 
 \paragraph{English}
-For all $A$, \F{Selckaji}\ is the type of $A$ iff $A$ is a property/quality.
+For all $A$, \F{Selkai}\ is the type of $A$ iff $A$ is a property/quality.
 
 \begin{code}
-postulate Selckaji : Set
+postulate Selkai : Set
 \end{code}
 
 \subsection{la'o zoi.\ \F{zmadu-fa}\ .zoi.}
@@ -138,7 +138,7 @@ A proof of \F{zmadu-fa} \B a \B b \B c\ exists iff the extent (of that \B a\ \ep
 
 \begin{code}
 postulate zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
-                   → A → B → Selckaji → Set
+                   → A → B → Selkai → Set
 \end{code}
 
 \section{le selckaji / The Properties/Qualities/Whatever}
@@ -154,7 +154,7 @@ ni'o la'o zoi.\ \F{la-kafrilis}\ .zoi.\ cu ka ce'u frili la .varik.
 For all $A$, \F{la-kafrilis} \propglis\ $A$ iff VARIK finds that $A$ is easy.
 
 \begin{code}
-postulate la-kafrilis : Selckaji
+postulate la-kafrilis : Selkai
 \end{code}
 
 \subsection{la'o zoi.\ \F{la-kajalneis}\ .zoi.}
@@ -165,7 +165,7 @@ ni'o la'o zoi.\ \F{la-kajalneis}\ .zoi.\ cu ka la .varik.\ cu nelci lo jalge be 
 For all $A$, \F{la-kajalneis} \propglis\ $A$ iff VARIK likes the result of $A$.
 
 \begin{code}
-postulate la-kajalneis : Selckaji
+postulate la-kajalneis : Selkai
 \end{code}
 
 \subsection{la'o zoi.\ \F{la-kaselneis}\ .zoi.}
@@ -176,7 +176,7 @@ ni'o la'o zoi.\ \F{la-kaselneis}\ .zoi.\ cu ka ce'u selnei la .varik.
 For all $A$, \F{la-kaselneis} \propglis\ $A$ iff VARIK likes $A$.
 
 \begin{code}
-postulate la-kaselneis : Selckaji
+postulate la-kaselneis : Selkai
 \end{code}
 
 \section{le fasnu / The Events}
