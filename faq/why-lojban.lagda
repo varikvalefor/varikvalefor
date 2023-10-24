@@ -268,7 +268,7 @@ postulate la-varik : Prenu
 
 \subsection{la'o zoi.\ \AgdaPostulate{le-lojban-leksiko}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{le-lojban-leksiko}\ .zoi.\ leksiko la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{le-lojban-leksiko}\ .zoi.\ leksiko le jbobau be la .varik.
 
 \paragraph{English}
 \AgdaPostulate{le-lojban-leksiko} is the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
@@ -279,7 +279,7 @@ postulate le-lojban-leksiko : Leksiko
 
 \subsection{la'o zoi.\ \AgdaPostulate{le-lojban-gerna}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{le-lojban-gerna}\ .zoi.\ gerna la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{le-lojban-gerna}\ .zoi.\ gerna le jbobau be la .varik.
 
 \paragraph{English}
 \AgdaPostulate{le-lojban-gerna} is the grammar of the Lojban which is used by VARIK.
@@ -290,7 +290,7 @@ postulate le-lojban-gerna : Gerna
 
 \subsection{la'o zoi.\ \AgdaPostulate{le-lojban-me'oi-semantics}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{le-lojban-me'oi-semantics}\ .zoi.\ me'oi .semantics.\ la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{le-lojban-me'oi-semantics}\ .zoi.\ me'oi .semantics.\ le jbobau be la .varik.
 
 \paragraph{English}
 \AgdaPostulate{le-lojban-me'oi-semantics} is the semantics of the Lojban which is used by VARIK.
@@ -330,7 +330,7 @@ postulate jbonartogbau : ¬ (togbau-fa la-lojban)
 
 \subsection{la'oi .\AgdaPostulate{jbogernypavysmu}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be fi la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'oi .\AgdaPostulate{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be fi le jbobau be la .varik.
 
 \paragraph{English}
 \AgdaPostulate{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which ``fit'' the grammar of the Lojban which is used by VARIK.
@@ -341,7 +341,7 @@ postulate jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
 
 \subsection{la'oi .\AgdaPostulate{ozvraka'e}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik.\ cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be la .lojban.\ poi ke'a se baupli la .varik.
+ni'o la'oi .\AgdaPostulate{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik.\ cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be le jbobau be la .varik.
 
 \paragraph{English}
 \AgdaPostulate{ozvraka'e} is a proof of that easy for VARIK is that VARIK pronounces the words of the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
