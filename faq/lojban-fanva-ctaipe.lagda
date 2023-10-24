@@ -47,7 +47,11 @@
 
 \begin{abstract}
 \noindent
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu te selneimau fi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ kei lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban. / Contains the definition of the proof of that VARIK prefers (over that VARIK uses English and not translates to English and from Lojban) that VARIK translates to English and from Lojban.
+\paragraph{la .lojban.}
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu te selneimau fi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ kei lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.
+
+\paragraph{English}
+Contains the definition of the proof of that VARIK prefers (over that VARIK uses English and not translates to English and from Lojban) that VARIK translates to English and from Lojban.
 \end{abstract}
 
 \section{le torveki / The Summary}
