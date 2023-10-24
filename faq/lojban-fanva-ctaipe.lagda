@@ -228,11 +228,11 @@ ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 VARIK not finds that necessary is that VARIK provides English definitions.
 
 \begin{code}
-postulate
-  la-fanvafrilis : zmadu-fa la-nufanvas la-nunafanvas la-kafrilis
-  la-fanvajalges : zmadu-fa la-nufanvas la-nunafanvas la-kajalneis
-
 la-fanvynelcis : zmadu-fa la-nufanvas la-nunafanvas la-kaselneis
 la-fanvynelcis = frijalnei-fa la-fanvafrilis la-fanvajalges
+  where
+  postulate
+    la-fanvafrilis : zmadu-fa la-nufanvas la-nunafanvas la-kafrilis
+    la-fanvajalges : zmadu-fa la-nufanvas la-nunafanvas la-kajalneis
 \end{code}
 \end{document}
