@@ -81,7 +81,7 @@ VARIK prefers (over that \nafanvas) that \fanvas.
 
 	VARIK finds that the ease (of that \fanvas) exceeds the ease of that \nafanvas.
 
-	The extent (of that VARIK likes the result of that \fanvas) exceeds the extent (of that VARIK likes the result of that \nafanvas.
+	The extent (of that VARIK likes the result of that \fanvas) exceeds the extent of that VARIK likes the result of that \nafanvas.
 
 	Therefore, VARIK prefers (that \fanvas) over that \nafanvas.
 \end{proof}
