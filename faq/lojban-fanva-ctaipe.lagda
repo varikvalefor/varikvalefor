@@ -206,7 +206,7 @@ postulate la-nunafanvas : Fasnu
 
 \section{la .\AgdaPostulate{frijalnei-fa}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u ro de zo'u da zmadu de le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo jalge be ce'u kei naja le ka ce'u selnei la .varik.
+ni'o ro da zo'u ro de zo'u da zmadu de le ka ce'u selnei la .varik.\ janai le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo jalge be ce'u
 
 \paragraph{English}
 For all $A$, for all $B$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if the extent (of that VARIK likes the result of $A$) exceeds the extent of that VARIK likes the result of $B$, then VARIK prefers (over $B$) $A$.
