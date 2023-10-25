@@ -69,7 +69,7 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 	\item ga je la .varik.\ cu nelci le gerna be la .lojban.\ gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu jinvi le du'u tu'a la .lojban.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani\ gi
-	\item ro da poi ke'a bangu zo'u ga naja ga je da slabu la .varik.\ gi ga je da na tonga bangu gi ga je la .varik.\ cu ka'e vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi ga je la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani gi la .varik.\ cu baupli da
+	\item ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi ga je da slabu la .varik.\ gi ga je da na tonga bangu gi ga je la .varik.\ cu ka'e vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani
 \end{itemize}
 
 \subsection{English}
@@ -330,10 +330,10 @@ postulate jbonartogbau : ¬ (togbau-fa la-lojban)
 
 \subsection{la'oi .\AgdaPostulate{jbogernypavysmu}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be fi le jbobau be la .varik.
+ni'o la'oi .\AgdaPostulate{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be le jbobau be la .varik.
 
 \paragraph{English}
-\AgdaPostulate{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which ``fit'' the grammar of the Lojban which is used by VARIK.
+\AgdaPostulate{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which are grammatical with regard to the Lojban which is used by VARIK.
 
 \begin{code}
 postulate jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
