@@ -36,7 +36,7 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu cimoi prenu pe'a cus
 \tableofcontents
 
 \chapter{le torveki / The Summary}
-\subsection{le me'oi .disclaimer.}
+\section{le me'oi .disclaimer.}
 \paragraph{la .lojban.}
 ni'o pilno la'oi .\texttt{section}.\ jenai la'oi .\texttt{paragraph}.\ ki'u le su'u lo tcita be lo velcki be lo se ctaipe cu smimlu lo tcita be lo jufmei
 
