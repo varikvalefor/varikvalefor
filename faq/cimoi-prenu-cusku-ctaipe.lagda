@@ -15,6 +15,8 @@
 
 \renewcommand\abstractname{le me'oi .abstract.}
 
+\newunicodechar{∀}{\ensuremath{\mathnormal{\forall}}}
+
 \newcommand\Sym\AgdaSymbol
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
