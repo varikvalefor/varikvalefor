@@ -156,8 +156,6 @@ A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via predicate
 postulate jufra-cusku-fa : Prenu → Set
 \end{code}
 
-\section{le fancu / The Functions}
-
 \subsection{la'o zoi.\ \F{mleskutolvrici-fa}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{mleskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .minimise.\ la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
@@ -168,6 +166,8 @@ A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of th
 \begin{code}
 postulate mleskutolvrici-fa : Prenu → Set
 \end{code}
+
+\section{le fancu / The Functions}
 
 \subsection{la'oi .\F{mleskunargaubasyvla}.}
 \paragraph{la .lojban.}
