@@ -86,7 +86,7 @@ For all $A$, \F{Prenu} is the type of $A$ iff $A$ is a prenu.
 postulate Prenu : Set
 \end{code}
 
-\section{le fancu / The Functions}
+\section{le bridi / The Predicates}
 
 \subsection{la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
@@ -142,6 +142,8 @@ A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via predicate
 \begin{code}
 postulate jufra-cusku-fa : Prenu → Set
 \end{code}
+
+\section{le fancu / The Functions}
 
 \subsection{la'o zoi.\ \F{mleskutolvrici-fa}\ .zoi.}
 \paragraph{la .lojban.}
