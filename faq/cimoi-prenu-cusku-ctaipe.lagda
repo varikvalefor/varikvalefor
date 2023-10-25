@@ -86,6 +86,19 @@ For all $A$, \F{Prenu} is the type of $A$ iff $A$ is a prenu.
 postulate Prenu : Set
 \end{code}
 
+\section{le prenu / The Prenu}
+
+\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.\ .VALefor.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu cusku dei je cu nelci le .else poi la'o glibau.\ Limp Bizkit .glibau.\ zbasu ke'a xi re
+
+\paragraph{English}
+\F{la-varik} is the VARIK VALEFOR which is an American, is a mathematician, writes the current sentence, and likes the songs which are created by Limp Bizkit.
+
+\begin{code}
+postulate la-varik : Prenu
+\end{code}
+
 \section{le bridi / The Predicates}
 
 \subsection{la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ .zoi.}
@@ -183,19 +196,6 @@ postulate
                       → jufra-cusku-fa z
                       → ¬ (nargaubasyvla-cusku-fa z)
                       → cimoi-prenu-cusku-fa z
-\end{code}
-
-\section{le sampu / The Simple}
-
-\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.\ .VALefor.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu cusku dei je cu nelci le .else poi la'o glibau.\ Limp Bizkit .glibau.\ zbasu ke'a xi re
-
-\paragraph{English}
-\F{la-varik} is the VARIK VALEFOR which is an American, is a mathematician, writes the current sentence, and likes the songs which are created by Limp Bizkit.
-
-\begin{code}
-postulate la-varik : Prenu
 \end{code}
 
 \section{le ctaipe / The Proof}
