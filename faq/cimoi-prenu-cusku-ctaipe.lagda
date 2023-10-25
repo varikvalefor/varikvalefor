@@ -29,8 +29,11 @@
 \maketitle
 
 \begin{abstract}
-\noindent
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu cimoi prenu pe'a cusku / Contains the definition of the proof of that VARIK communicates in the third person.
+\paragraph{la .lojban.}
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu cimoi prenu pe'a cusku
+
+\paragraph{English}
+Contains the definition of the proof of that VARIK communicates in the third person.
 \end{abstract}
 
 \tableofcontents
