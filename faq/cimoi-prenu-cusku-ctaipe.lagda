@@ -47,6 +47,12 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 	\item me'oi .minimise.\ la .varik.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
 \end{itemize}
 
+.i ji'a la .varik.\ te selneimau lo nu la .varik.\ cu cimoi prenu pe'a cusku kei lo nu la .varik.\ cu ke pamoi ja remoi ke'e prenu pe'a cusku kei ni'i le su'u\ldots
+\begin{itemize}
+	\item ga je ro da zo'u ro de zo'u da zmadu de le ka ce'u selnei la .varik.\ kei janai le ka ce'u frili la .varik.\ kei je bo le ka la .varik.\ cu nandu lo jalge be ce'u gi
+        \item lo nu la .varik.\ cu cimoi prenu pe'a cusku cu zmadu lo nu la .varik.\ cu ke pamoi ja remoi ke'e prenu pe'a cusku kei le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo jalge be ce'u
+\end{itemize}
+
 \subsection{English}
 \begin{thm}
 	VARIK communicates in the third person.
@@ -63,10 +69,30 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 	Therefore, VARIK communicates in the third person.
 \end{proof}
 
+\begin{thm}
+	VARIK prefers (over that (VARIK communicates in the first person) and that VARIK communicates in the second person) that VARIK communicates in the third person.
+\end{thm}
+\begin{proof}
+	${}$
+
+	For all $A$, for all $B$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if the extent (of that VARIK likes the result of $A$) exceeds the extent of that VARIK likes the result of $B$, then VARIK prefers (over $B$) $A$.
+
+	VARIK finds that the ease (of that VARIK communicates in the third person) exceeds the ease (of that VARIK communicates in the first person) and the ease of that VARIK communicates in the second person.
+
+	The extent (of that VARIK likes the result of that VARIK communicates in the third person) exceeds the extent (of that VARIK likes the result of that VARIK communicates in the third person) and the extent of that VARIK communicates in the second person.
+
+	Therefore, VARIK prefers (over that (VARIK communicates in the first person) and that VARIK communicates in the second person) that VARIK communicates in the third person.
+\end{proof}
+
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
 open import Function
+open import Data.Product
+  using (
+    _×_;
+    _,_
+  )
 open import Relation.Nullary
   using (
     ¬_
@@ -97,6 +123,73 @@ ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.\ .VALefor.\ poi ke'a se gugde
 
 \begin{code}
 postulate la-varik : Prenu
+\end{code}
+
+\section{le fasnu / The Events}
+
+\newcommand\fsn{\AgdaPostulate{la-pamoicuskus}}
+\subsection{la'o zoi.\ \fsn\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu pamoi prenu pe'a cusku
+
+\paragraph{English}
+\fsn\ is an event of that VARIK communicates in the first person.
+
+\begin{code}
+postulate la-pamoicuskus : Set
+\end{code}
+
+\renewcommand\fsn{\AgdaPostulate{la-remoicuskus}}
+\subsection{la'o zoi.\ \fsn\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu remoi prenu pe'a cusku
+
+\paragraph{English}
+\fsn\ is an event of that VARIK communicates in the second person.
+
+\begin{code}
+postulate la-remoicuskus : Set
+\end{code}
+
+\renewcommand\fsn{\AgdaPostulate{la-cimoicuskus}}
+\subsection{la'o zoi.\ \fsn\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu cimoi prenu pe'a cusku
+
+\paragraph{English}
+\fsn\ is an event of that VARIK communicates in the third person.
+
+\begin{code}
+postulate la-cimoicuskus : Set
+\end{code}
+
+\section{le se ckaji / The Properties}
+
+\renewcommand\fsn{\AgdaPostulate{la-kafrilis}}
+\subsection{la'o zoi.\ \fsn\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
+
+\begin{code}
+postulate la-kafrilis : Prenu → Set
+\end{code}
+
+\renewcommand\fsn{\AgdaPostulate{la-kajalneis}}
+\subsection{la'o zoi.\ \fsn\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci lo jalge be ce'u
+
+\begin{code}
+postulate la-kajalneis : Prenu → Set
+\end{code}
+
+\renewcommand\fsn{\AgdaPostulate{la-kanelcis}}
+\subsection{la'o zoi.\ \fsn\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
+
+\begin{code}
+postulate la-kanelcis : Prenu → Set
 \end{code}
 
 \section{le bridi / The Predicates}
@@ -167,6 +260,18 @@ A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of th
 postulate mleskutolvrici-fa : Prenu → Set
 \end{code}
 
+\subsection{la'o zoi.\ \AgdaPostulate{zmadu-fa}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{zmadu-fa} \B a \B b \B c\ .zoi.\ gi la'oi .\B{a}.\ zmadu la'oi .\B{b}.\ la'oi .\B{c}.
+
+\paragraph{English}
+A proof of \AgdaPostulate{zmadu-fa} \B a \B b \B c\ exists iff (the extent (of that \B a\ exhibits/possesses/displays \B c) exceeds the extent (of that \B b\ exhibits/possesses/displays \B b), and \B c\ is a property/quality/whatever).
+\begin{code}
+postulate
+  zmadu-fa : ∀ {a b c} → {A : Set a} → {B : Set b} → {C : Set c}
+           → A → B → C → Set
+\end{code}
+
 \section{le fancu / The Functions}
 
 \subsection{la'oi .\F{mleskunargaubasyvla}.}
@@ -198,6 +303,22 @@ postulate
                       → cimoi-prenu-cusku-fa z
 \end{code}
 
+\subsection{la'oi .\F{frijalnei}.}
+\paragraph{la .lojban.}
+ni'o ro da zo'u ro de zo'u da zmadu de le ka ce'u selnei la .varik.\ kei janai le ka ce'u frili la .varik.\ kei je bo le ka la .varik.\ cu nelci lo jalge be ce'u
+
+\paragraph{English}
+For all $A$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if VARIK prefers (over the result of $A$) the result of $B$, then VARIK prefers (over $B$) $A$.
+
+\begin{code}
+postulate
+  frijalnei : ∀ {a b} → {A : Set a} → {B : Set b}
+            → {p : A} → {r : B}
+            → zmadu-fa p r (la-kafrilis la-varik)
+            → zmadu-fa p r (la-kajalneis la-varik)
+            → zmadu-fa p r (la-kanelcis la-varik)
+\end{code}
+
 \section{le ctaipe / The Proof}
 \paragraph{la .lojban.}
 ni'o le me'oi .section.\ cu vasru le velcki be ko'a goi le ctaipe bei bau la'oi .Agda.  .i la .varik.\ cu na jinvi le du'u sarcu fa lo nu la .varik.\ cu ciksi ko'a bau la .lojban.
@@ -214,5 +335,24 @@ le-suvnarpli = mleskunargaubasyvla le-suvmlesmu
 
 la-cimois : cimoi-prenu-cusku-fa la-varik
 la-cimois = nargaubasyvla-cusku le-suvjufsku le-suvnarpli
+
+la-revycimois : (_×_
+                  (zmadu-fa
+                    la-cimoicuskus
+                    la-pamoicuskus
+                    (la-kanelcis la-varik))
+                  (zmadu-fa
+                    la-cimoicuskus
+                    la-remoicuskus
+                    (la-kanelcis la-varik)))
+la-revycimois = frijalnei pif pij , frijalnei rif rij
+  where
+  j = la-kajalneis la-varik
+  f = la-kafrilis la-varik
+  postulate
+    pij : zmadu-fa la-cimoicuskus la-pamoicuskus j
+    pif : zmadu-fa la-cimoicuskus la-pamoicuskus f
+    rij : zmadu-fa la-cimoicuskus la-remoicuskus j
+    rif : zmadu-fa la-cimoicuskus la-remoicuskus f
 \end{code}
 \end{document}
