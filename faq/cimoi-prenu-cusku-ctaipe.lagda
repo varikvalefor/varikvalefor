@@ -273,7 +273,7 @@ postulate mleskutolvrici-fa : Prenu → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{zmadu-fa} \B a \B b \B c\ .zoi.\ gi la'oi .\B{a}.\ zmadu la'oi .\B{b}.\ la'oi .\B{c}.
 
 \paragraph{English}
-A proof of \AgdaPostulate{zmadu-fa} \B a \B b \B c\ exists iff (the extent (of that \B a\ exhibits/possesses/displays \B c) exceeds the extent (of that \B b\ exhibits/possesses/displays \B b), and \B c\ is a property/quality/whatever).
+A proof of \AgdaPostulate{zmadu-fa} \B a \B b \B c\ exists iff (\B c\ is a property/quality/whatever, and the extent (of that \B a\ exhibits/possesses/displays \B c) exceeds the extent (of that \B b\ exhibits/possesses/displays \B b)).
 \begin{code}
 postulate
   zmadu-fa : ∀ {a b c} → {A : Set a} → {B : Set b} → {C : Set c}
