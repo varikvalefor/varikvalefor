@@ -206,13 +206,13 @@ ni'o le me'oi .section.\ cu vasru le velcki be ko'a goi le ctaipe bei bau la'oi 
 The section contains the Agda definition of the proof\@.  VARIK not opines that necessary is that VARIK provides an English explanation of the Agda definition of the proof.
 
 \begin{code}
-postulate le-suvmlesmu : mleskutolvrici-fa la-varik
-postulate le-suvjufsku : jufra-cusku-fa la-varik
-
-le-suvnarpli : ¬ (nargaubasyvla-cusku-fa la-varik)
-le-suvnarpli = mleskunargaubasyvla le-suvmlesmu
-
 la-cimois : cimoi-prenu-cusku-fa la-varik
 la-cimois = nargaubasyvla-cusku le-suvjufsku le-suvnarpli
+  where
+  postulate le-suvmlesmu : mleskutolvrici-fa la-varik
+  postulate le-suvjufsku : jufra-cusku-fa la-varik
+
+  le-suvnarpli : ¬ (nargaubasyvla-cusku-fa la-varik)
+  le-suvnarpli = mleskunargaubasyvla le-suvmlesmu
 \end{code}
 \end{document}
