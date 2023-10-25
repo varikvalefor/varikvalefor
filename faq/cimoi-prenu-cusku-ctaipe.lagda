@@ -79,7 +79,7 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 
 	VARIK finds that the ease (of that VARIK communicates in the third person) exceeds the ease (of that VARIK communicates in the first person) and the ease of that VARIK communicates in the second person.
 
-	The extent (of that VARIK likes the result of that VARIK communicates in the third person) exceeds the extent (of that VARIK likes the result of that VARIK communicates in the third person) and the extent of that VARIK likes the result of that VARIK communicates in the second person.
+	The extent (of that VARIK likes the result of that VARIK communicates in the third person) exceeds the extent (of that VARIK likes the result of that VARIK communicates in the first person) and the extent of that VARIK likes the result of that VARIK communicates in the second person.
 
 	Therefore, VARIK prefers (over that (VARIK communicates in the first person) and that VARIK communicates in the second person) that VARIK communicates in the third person.
 \end{proof}
