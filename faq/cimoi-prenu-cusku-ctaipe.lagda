@@ -30,10 +30,10 @@
 
 \begin{abstract}
 \paragraph{la .lojban.}
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu cimoi prenu pe'a cusku
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu cimoi prenu pe'a cusku kei be'o be'o je le ctaipe be le su'u la .varik.\ cu te selneimau lo nu la .varik.\ cu cimoi prenu pe'a cusku kei lo nu la .varik.\ cu ke pamoi ja remoi ke'e prenu pe'a cusku
 
 \paragraph{English}
-Contains the definition of the proof of that VARIK communicates in the third person.
+Contains the definition of the proof of that VARIK communicates in the third person.  Additionally, contains the proof of that VARIK prefers (over that VARIK communicates in the first (or third) person) that VARIK communicates in the third person.
 \end{abstract}
 
 \tableofcontents
