@@ -82,11 +82,11 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 \begin{proof}
 	${}$
 
-	``$f_1$'' is some event of that VARIK communicates in the first person.
+	$f_1$ is some event of that VARIK communicates in the first person.
 
-	``$f_2$'' is some event of that VARIK communicates in the second person.
+	$f_2$ is some event of that VARIK communicates in the second person.
 
-	``$f_3$'' is some event of that VARIK communicates in the third person.
+	$f_3$ is some event of that VARIK communicates in the third person.
 
 	For all $A$, for all $B$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if the extent (of that VARIK likes the result of $A$) exceeds the extent of that VARIK likes the result of $B$, then VARIK prefers (over $B$) $A$.
 
