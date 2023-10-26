@@ -199,7 +199,7 @@ postulate la-nufanvas : Fasnu
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-nunafanvas}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-nunafanvas}\ .zoi.\ nu la .varik.\ cu se glibau jenai cu fanva fi le glibau fo la .lojban.
+ni'o la'o zoi.\ \AgdaPostulate{la-nunafanvas}\ .zoi.\ nu la .varik.\ cu baupli le glibau jenai cu fanva fi le glibau fo la .lojban.
 
 \paragraph{English}
 \AgdaPostulate{la-nunafanvas} is an event of that VARIK uses English and not translates to English and from Lojban.
