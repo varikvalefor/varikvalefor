@@ -90,7 +90,7 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 
 	For all $A$, for all $B$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if the extent (of that VARIK likes the result of $A$) exceeds the extent of that VARIK likes the result of $B$, then VARIK prefers (over $B$) $A$.
 
-	VARIK finds that the ease of $f_3$ exceeds the ease of $f_1$ and the ease of $f_2$.
+	VARIK finds that the ease of $f_3$ exceeds the ease (of $f_1$) and the ease of $f_2$.
 
 	The extent (of that VARIK likes the result of $f_3$) exceeds the extent (of that VARIK likes the result of $f_1$) and the extent of that VARIK likes the result of $f_1$.
 
