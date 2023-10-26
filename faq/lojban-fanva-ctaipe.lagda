@@ -72,29 +72,29 @@ ni'o ko'a goi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ cu selneim
 
 \subsection{English}
 
-\newcommand\fanvas{VARIK translates to English and from Lojban}
-\newcommand\nafanvas{VARIK uses English and not translates to English and from Lojban}
-
 \begin{thm}
-VARIK prefers (over that \nafanvas) that \fanvas.
+VARIK prefers (over that VARIK uses English and not translates to English and from Lojban) that VARIK translates to English and from Lojban.
 \end{thm}
 \begin{proof}
 	${}$
 
+	$F$ is some event of that VARIK translates to English and from Lojban.
+
+	$N$ is some event of that (VARIK uses English and not translates to English and from Lojban).
+
 	For all $A$, for all $B$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if the extent (of that VARIK likes the result of $A$) exceeds the extent (of that VARIK likes the result of $B$, then VARIK prefers (over $B$) $A$.
 
-	VARIK finds that the ease (of that \fanvas) exceeds the ease of that \nafanvas.
+	VARIK finds that the ease of $F$ exceeds the ease of $N$.
 
-	The extent (of that VARIK likes the result of that \fanvas) exceeds the extent of that VARIK likes the result of that \nafanvas.
+	The extent (of that VARIK likes the result of $F$) exceeds the extent of that VARIK likes the result of $N$.
 
-	Therefore, VARIK prefers (over that \nafanvas) that \fanvas.
+	Therefore, VARIK prefers (over $N$) $F$.
 \end{proof}
 
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
 open import Function
-open import Relation.Nullary
 \end{code}
 
 \section{le jicmu ja co'e / The Basic}
