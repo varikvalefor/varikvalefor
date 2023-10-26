@@ -152,7 +152,7 @@ postulate zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
 \newcommand\propglis{is the property/quality/whatever which is expressed/displayed by}
 
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-kafrilis}\ .zoi.\ cu ka ce'u frili la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{la-kafrilis}\ .zoi.\ ka ce'u frili la .varik.
 
 \paragraph{English}
 For all $A$, \AgdaPostulate{la-kafrilis} \propglis\ $A$ iff VARIK finds that $A$ is easy.
@@ -163,7 +163,7 @@ postulate la-kafrilis : Selkai
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-kajalneis}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-kajalneis}\ .zoi.\ cu ka la .varik.\ cu nelci lo jalge be ce'u
+ni'o la'o zoi.\ \AgdaPostulate{la-kajalneis}\ .zoi.\ ka la .varik.\ cu nelci lo jalge be ce'u
 
 \paragraph{English}
 For all $A$, \AgdaPostulate{la-kajalneis} \propglis\ $A$ iff VARIK likes the result of $A$.
@@ -174,7 +174,7 @@ postulate la-kajalneis : Selkai
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-kaselneis}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-kaselneis}\ .zoi.\ cu ka ce'u selnei la .varik.
+ni'o la'o zoi.\ \AgdaPostulate{la-kaselneis}\ .zoi.\ ka ce'u selnei la .varik.
 
 \paragraph{English}
 For all $A$, \AgdaPostulate{la-kaselneis} \propglis\ $A$ iff VARIK likes $A$.
