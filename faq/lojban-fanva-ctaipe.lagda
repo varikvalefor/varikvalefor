@@ -67,7 +67,7 @@ That (labels of proofs resemble labels of paragraphs) justifies that uses \textt
 ni'o ko'a goi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ cu selneimau ko'e goi lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.\ ni'i le su'u\ldots
 \begin{itemize}
 	\item ga je ro da zo'u ro de zo'u ga naja da zmadu de le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo selri'a be ce'u gi da de selneimau la .varik.\ gi
-	\item ko'a zmadu ko'e le ka ce'u frili la .varik. kei je le ka la .varik.\ cu nelci lo selri'a be ce'u
+	\item ko'a zmadu ko'e le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo selri'a be ce'u
 \end{itemize}
 
 \subsection{English}
@@ -134,7 +134,7 @@ postulate Selkai : Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{zmadu-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{zmadu-fa} \B a \B b \B c\ .zoi.\ gi la'o zoi.\ \B a\ .zoi. zmadu la'o zoi.\ \B b\ .zoi.\ la'o zoi.\ \B c\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{zmadu-fa} \B a \B b \B c\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ zmadu la'o zoi.\ \B b\ .zoi.\ la'o zoi.\ \B c\ .zoi.
 
 \paragraph{English}
 \newcommand\epdisp{exhibits/possesses/displays}
