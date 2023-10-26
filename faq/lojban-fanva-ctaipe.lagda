@@ -87,7 +87,7 @@ VARIK prefers (over that \nafanvas) that \fanvas.
 
 	The extent (of that VARIK likes the result of that \fanvas) exceeds the extent of that VARIK likes the result of that \nafanvas.
 
-	Therefore, VARIK prefers (that \fanvas) over that \nafanvas.
+	Therefore, VARIK prefers (over that \nafanvas) that \fanvas.
 \end{proof}
 
 \section{le vrici / The Miscellaneous}
