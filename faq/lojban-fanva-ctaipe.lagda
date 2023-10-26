@@ -188,7 +188,7 @@ postulate la-kaselneis : Selkai
 \newcommand\cmene{la'o zoi.\ \AgdaPostulate{la-nufanvas}\ .zoi.}
 \subsection{\cmene}
 \paragraph{la .lojban.}
-ni'o \cmene\ cu nu la .varik.\ cu fanva fi le glibau fo la .lojban.
+ni'o \cmene\ nu la .varik.\ cu fanva fi le glibau fo la .lojban.
 
 \paragraph{English}
 \AgdaPostulate{la-nufanvas} is an event of that VARIK translates to English and from Lojban.
