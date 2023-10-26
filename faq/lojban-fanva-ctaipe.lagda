@@ -233,10 +233,10 @@ VARIK not finds that necessary is that VARIK provides English definitions.
 
 \begin{code}
 la-fanvynelcis : zmadu-fa la-nufanvas la-nunafanvas la-kaselneis
-la-fanvynelcis = frijalnei-fa la-fanvafrilis la-fanvajalges
+la-fanvynelcis = frijalnei-fa la-fanvyfrilis la-fanvyjalges
   where
   postulate
-    la-fanvafrilis : zmadu-fa la-nufanvas la-nunafanvas la-kafrilis
-    la-fanvajalges : zmadu-fa la-nufanvas la-nunafanvas la-kajalneis
+    la-fanvyfrilis : zmadu-fa la-nufanvas la-nunafanvas la-kafrilis
+    la-fanvyjalges : zmadu-fa la-nufanvas la-nunafanvas la-kajalneis
 \end{code}
 \end{document}
