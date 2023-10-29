@@ -56,7 +56,7 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 
 .i ji'a la .varik.\ cu te selneimau ko'a goi lo nu la .varik.\ cu cimoi prenu pe'a cusku kei ko'e goi lo nu la .varik.\ cu ke pamoi ja remoi ke'e prenu pe'a cusku kei ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ro da zo'u ro de zo'u da zmadu de le ka ce'u selnei la .varik.\ kei janai le ka ce'u frili la .varik.\ kei je bo le ka la .varik.\ cu nandu lo jalge be ce'u gi
+	\item ga je ro da zo'u ro de zo'u da zmadu de le ka ce'u selnei la .varik.\ kei janai le ka ce'u frili la .varik.\ kei je bo le ka la .varik.\ cu nelci lo jalge be ce'u gi
         \item ko'a zmadu ko'e le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo jalge be ce'u
 \end{itemize}
 
