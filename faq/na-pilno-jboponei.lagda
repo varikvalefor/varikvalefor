@@ -34,8 +34,8 @@
 \newcommand\jbolojysra{
 	la .varik.\ cu na pilno la jboponei ni'i le su'u\ldots
 	\begin{itemize}
-		\item ga je no da zo'u gerna fi da fe ko'a goi la .lojban.\ poi ke'a se baupli la .varik.\ ge'u jenai ko'e goi la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.\ gi
-		\item ga naja la .varik.\ cu pilno la jboponei gi su'o da zo'u gerna fi da fe ko'a jenai ko'e
+		\item ga je no da zo'u gerna fi da fe ko'a goi la .lojban.\ poi ke'a se baupli la .varik.\ ge'u naje ko'e goi la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.\ gi
+		\item ga naja la .varik.\ cu pilno la jboponei gi su'o da zo'u gerna fi da fe ko'a naje ko'e
 	\end{itemize}
 }
 
