@@ -35,7 +35,7 @@
 \newcommand\jbolojysra{
 	la .varik.\ cu na pilno la jboponei ni'i le su'u\ldots
 	\begin{itemize}
-		\item ga je no da zo'u gerna fi da fe ko'a goi la .lojban.\ poi ke'a se baupli la .varik.\ ge'u naje ko'e goi la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.\ gi
+		\item ga je no da zo'u gerna fi da fe ko'a goi le jbobau be la .varik.\ ge'u naje ko'e goi la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.\ gi
 		\item ga naja la .varik.\ cu pilno la jboponei gi su'o da zo'u gerna fi da fe ko'a naje ko'e
 	\end{itemize}
 }
@@ -73,7 +73,7 @@ postulate Bangu : Set
 \end{code}
 
 \subsection{la'o zoi.\ \F{le-jbobau-be}\ .zoi.}
-ni'o ro da zo'u ga jo da ctaipe la'o zoi.\ \F{le-jbobau-be} \B a .zoi.\ gi da du la .lojban.\ poi ke'a se baupli la'o zoi.\ \B a .zoi.
+ni'o ro da zo'u ga jo da ctaipe la'o zoi.\ \F{le-jbobau-be} \B a .zoi.\ gi da jbobau la'o zoi.\ \B a .zoi.
 
 \begin{code}
 postulate le-jbobau-be : Prenu → Bangu
@@ -112,7 +112,7 @@ postulate rolmapge'a : Bangu → Set
 \section{le barda ja co'e je ctaipe}
 
 \subsection{la'oi .\F{plinamapti}.}
-ni'o la'oi .\F{plinamapti}.\ ctaipe le su'u ro da poi ke'a prenu zo'u ga naja da pilno la jboponei gi su'o de zo'u gerna fi de fe la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.\ naje la .lojban.\ poi ke'a bangu da
+ni'o la'oi .\F{plinamapti}.\ ctaipe le su'u ro da poi ke'a prenu zo'u ga naja da pilno la jboponei gi su'o de zo'u gerna fi de fe la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.\ naje lo jbobau be da
 
 \begin{code}
 postulate
@@ -122,7 +122,7 @@ postulate
 \end{code}
 
 \subsection{la'o zoi.\ \F{vjms}\ .zoi.}
-ni'o la'o zoi.\ \F{vjms}\ .zoi.\ ctaipe le su'u gerna la .lojban.\ poi ke'a selpli la .varik.\ cu se gerna fi lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
+ni'o la'o zoi.\ \F{vjms}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ cu se gerna fi lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
 
 \begin{code}
 postulate vjms : rolmapge'a $ le-jbobau-be la-varik
