@@ -23,6 +23,7 @@
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
+\newcommand\OpF[1]{\AgdaOperator{\F{#1}}}
 
 \title{le ctaipe be le su'u la .varik.\ cu na pilno la jboponei}
 \author{la .varik.\ .VALefor.}
@@ -79,7 +80,7 @@ postulate le-jbobau-be : Prenu → Bangu
 \end{code}
 
 \subsection{la'o zoi.\ \F{\_cu-pilno\_}\ .zoi.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-pilno} \B b\ .zoi.\ gi la'o zoi.\ \B a .zoi.\ pilno la'o zoi.\ \B b .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-pilno} \B b\ .zoi.\ gi la'o zoi.\ \B a .zoi.\ pilno la'o zoi.\ \B b .zoi.
 
 \begin{code}
 postulate _cu-pilno_ : ∀ {a} → {A : Set a} → Prenu → A → Set
