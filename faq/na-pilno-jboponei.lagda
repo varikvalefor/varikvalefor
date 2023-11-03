@@ -103,7 +103,7 @@ postulate la-jboponei : Bangu
 \end{code}
 
 \subsection{la'oi .\F{rolmapge'a}.}
-ni'o ga jo ctaipe la'o zoi.\ \F{rolmapge'a} \B a\ .zoi.\ gi ga je la'o zoi.\ \B a\ .zoi.\ jbobau gi gerna la'o zoi.\ \B a\ .zoi.\ lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
+ni'o ga jo ctaipe la'o zoi.\ \F{rolmapge'a} \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jbobau je cu se gerna fi lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
 
 \begin{code}
 postulate rolmapge'a : Bangu → Set
