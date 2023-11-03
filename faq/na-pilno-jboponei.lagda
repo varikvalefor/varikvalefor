@@ -122,7 +122,7 @@ postulate
 \end{code}
 
 \subsection{la'o zoi.\ \F{vjms}\ .zoi.}
-ni'o la'o zoi.\ \F{vjms}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ cu se gerna fi lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
+ni'o la'o zoi.\ \F{vjms}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
 
 \begin{code}
 postulate vjms : rolmapge'a $ le-jbobau-be la-varik
