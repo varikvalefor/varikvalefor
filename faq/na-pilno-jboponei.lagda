@@ -93,7 +93,7 @@ postulate la-varik : Prenu
 \end{code}
 
 \subsection{la'o zoi.\ \F{la-jboponei}\ .zoi.}
-ni'o ko'a goi la'o zoi.\ \F{la-jboponei}\ .zoi.\ cu du la jboponei
+ni'o ko'a goi la'o zoi.\ \F{la-jboponei}\ .zoi.\ du la jboponei
 
 .i xu cadga fa lo nu ko'a ctaipe lo na du be la'oi .\F{Bangu}.
 
