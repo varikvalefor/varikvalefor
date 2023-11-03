@@ -79,7 +79,7 @@ ni'o ro da zo'u ga jo da ctaipe la'o zoi.\ \F{le-jbobau-be} \B a .zoi.\ gi da jb
 postulate le-jbobau-be : Prenu → Bangu
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-pilno\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-pilno\AgdaUnderscore}\ .zoi.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpF{cu-pilno} \B b\ .zoi.\ gi la'o zoi.\ \B a .zoi.\ pilno la'o zoi.\ \B b .zoi.
 
 \begin{code}
