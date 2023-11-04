@@ -396,7 +396,7 @@ postulate
 ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ bau la .lojban.  .i la .varik.\ cu stidi lo nu tcidu fi le torveki be bau la .lojban.\ fe lo ro prenu poi ke'a baupli la .lojban.\ je cu djica lo nu ke'a jimpe fi le me'oi .Agda.\ velcki kei jenai cu jimpe fi le ctaipe
 
 \paragraph{English}
-VARIK not finds that necessary is that VARIK uses (for that VARIK explains \F{jbobau-la-varik}) English.  VARIK suggests that for all prenu $A$, if $A$ uses English, then if $A$ desires that $A$ understands about the proof, then if $A$ not understands about the Agda definition, then $A$ reads the English summary.
+VARIK not finds that necessary is that VARIK uses (for that VARIK explains \F{jbobau-la-varik}) English\@.  VARIK suggests that for all prenu $A$, if $A$ uses English, then if $A$ desires that $A$ understands about the proof, then if $A$ not understands about the Agda definition, then $A$ reads the English summary.
 
 \begin{code}
 jbobau-la-varik : la-varik cu-baupli la-lojban
