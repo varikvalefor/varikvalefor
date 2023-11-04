@@ -180,7 +180,7 @@ A proof of \B a \OpP{cu-na-mapti-lo-pixra} exists iff \B a not supports that sen
 postulate _cu-na-mapti-lo-pixra : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{narnei-nibli}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{narnei-ctaipe}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu ciksi bau la .lojban.
 
@@ -188,13 +188,13 @@ ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu ciksi bau la .lojban.
 VARIK hopes that unnecessary is that writes an English explanation.
 
 \begin{code}
-postulate narnei-nibli : {A : IMS}
-                       → A cu-na-mapti-lo-pixra
-                       → tolcru-clanybenji A
-                       → la-varik cu-na-nelci A
+postulate narnei-ctaipe : {A : IMS}
+                        → A cu-na-mapti-lo-pixra
+                        → tolcru-clanybenji A
+                        → la-varik cu-na-nelci A
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{tolnei-nibli}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{tolnei-ctaipe}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu ciksi bau la .lojban.
 
@@ -203,23 +203,23 @@ VARIK hopes that unnecessary is that writes an English explanation.
 
 \begin{code}
 postulate
-  tolnei-nibli : {A : IMS}
-               → These
-                 (These
-                   (to'e-fingubni-fa A)
-                   (me'oi-custom-tolcru A)
-                 )
-                 (These
-                   (These
-                     (me'oi-centralise A)
-                     (fonxysarcu A)
-                   )
-                   (These
-                     (tolcru-clanybenji A)
-                     (me'oi-paywall A)
-                   )
-                 )
-               → la-varik cu-tolnei A
+  tolnei-ctaipe : {A : IMS}
+                → These
+                  (These
+                    (to'e-fingubni-fa A)
+                    (me'oi-custom-tolcru A)
+                  )
+                  (These
+                    (These
+                      (me'oi-centralise A)
+                      (fonxysarcu A)
+                    )
+                    (These
+                      (tolcru-clanybenji A)
+                      (me'oi-paywall A)
+                    )
+                  )
+                → la-varik cu-tolnei A
 \end{code}
 
 \section{la'oi .Discord.}
@@ -292,11 +292,11 @@ ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu la'o
 postulate diskpei : me'oi-paywall la-diskord
 \end{code}
 
-\subsection{le nibli be le su'u tolnei / The Proof of that Dislikes}
+\subsection{le ctaipe be le su'u tolnei / The Proof of that Dislikes}
 
 \begin{code}
 tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
-tolnei-la'oi-Discord = tolnei-nibli $ these ladistrol cenclapei
+tolnei-la'oi-Discord = tolnei-ctaipe $ these ladistrol cenclapei
   where
   cenclapei = these (this diskentral) $ these diskcla diskpei
   ladistrol = these ladinafil diskustrol
@@ -339,11 +339,11 @@ ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu 
 postulate tugfonxa : fonxysarcu la-telegram
 \end{code}
 
-\subsection{le nibli be le su'u tolnei / The Proof of that Dislikes}
+\subsection{le ctaipe be le su'u tolnei / The Proof of that Dislikes}
 
 \begin{code}
 tolnei-la'oi-Telegram : la-varik cu-tolnei la-telegram
-tolnei-la'oi-Telegram = tolnei-nibli $ that $ this centfon
+tolnei-la'oi-Telegram = tolnei-ctaipe $ that $ this centfon
   where
   centfon = these tugcentra tugfonxa
 \end{code}
@@ -385,7 +385,7 @@ ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo cla
 postulate irkyclani : tolcru-clanybenji la-irk
 \end{code}
 
-\subsection{le nibli be le su'u na nelci / The Proof of that Not Likes}
+\subsection{le ctaipe be le su'u na nelci / The Proof of that Not Likes}
 
 \begin{code}
 la-varik-cu-na-nelci-la-irk : la-varik cu-na-nelci la-irk
