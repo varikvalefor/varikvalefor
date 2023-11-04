@@ -283,7 +283,7 @@ postulate diskcla : tolcru-clanybenji la-diskord
 
 \subsubsection{la'oi .\AgdaPostulate{diskpei}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu la'oi .Discord.\ zo'u ro de poi ke'a pilno la'oi .Discord.\ zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
+ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu ko'a goi la'oi .Discord.\ zo'u ro de poi ke'a pilno ko'a zo'u ga naja fladra fa lo nu de da pilno gi de pleji fo da
 
 \paragraph{English}
 \AgdaPostulate{diskpei} is a proof of that some part (of Discord) $Q$ exists such that for all users (of Discord) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
