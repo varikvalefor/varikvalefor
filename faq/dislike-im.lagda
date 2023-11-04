@@ -275,7 +275,7 @@ postulate diskentral : me'oi-centralise la-diskord
 ni'o la'oi .\AgdaPostulate{diskcla}.\ ctaipe le su'u tolcru lo nu benji lo clani je selcil'a fu la'oi .Discord.
 
 \paragraph{English}
-\AgdaPostulate{diskcla} is a proof of that forbids that sends via Discord lengthy texts.
+\AgdaPostulate{diskcla} is a proof of that forbidden is sending via Discord lengthy texts.
 
 \begin{code}
 postulate diskcla : tolcru-clanybenji la-diskord
