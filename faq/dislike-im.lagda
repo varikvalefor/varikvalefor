@@ -253,7 +253,7 @@ postulate ladinafil : to'e-fingubni-fa la-diskord
 ni'o la'oi .\AgdaPostulate{diskustrol}.\ ctaipe le su'u tolcru lo nu pilno lo me'oi .custom.\ ja co'e tu'a la'oi .Discord.
 
 \paragraph{English}
-\AgdaPostulate{diskustrol} is a proof of that forbids that uses custom or unofficial clients of Discord.
+\AgdaPostulate{diskustrol} is a proof of that forbidden is using custom or unofficial clients of Discord.
 
 \begin{code}
 postulate diskustrol : me'oi-custom-tolcru la-diskord
