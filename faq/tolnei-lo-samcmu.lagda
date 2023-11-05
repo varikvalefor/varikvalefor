@@ -44,7 +44,6 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei lo samcmu be'
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
-open import Level
 open import Function
 open import Data.List
 open import Data.String
