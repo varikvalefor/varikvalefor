@@ -97,7 +97,7 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 	Therefore, VARIK prefers (over $f_1$ and $f_2$) $f_3$.
 \end{proof}
 
-\chapter{le mapti be ro le re ctaipe / The Things which Apply to Both Proofs}
+\chapter{le mapti be ro le re ctaipe / The Things which are Relevant to Both Proofs}
 
 \section{le vrici / The Miscellaneous}
 
