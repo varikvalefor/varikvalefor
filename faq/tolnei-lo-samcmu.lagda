@@ -300,7 +300,7 @@ postulate vistymasno : la-varik cu-jinvycafnysamfli la-vista
 ni'o la .varik.\ cu tolnei ko'a ki'u le su'u jitfa fa le du'u ro da poi ke'a prenu zo'u ro de poi ke'a fukpi ko'a je cu se ponse da zo'u de curmi lo ro nu da gasnu lo srana be po'o da je de
 
 \paragraph{English}
-That (VARIK dislikes Microsoft Windows Vista, a.k.a.\ ``$A$'') is justified by that false is that for all prenu $B$, for all copies (of $A$) $C$, false is that (for all events $D$ which pertain only to $B$ and $C$, $A$ permits that $B$ causes $D$).
+That (VARIK dislikes Microsoft Windows Vista, a.k.a.\ ``$A$'') is justified by that false is that for all prenu $B$, for all copies (of $A$) $C$, for all events $D$ which pertain only to $B$ and $C$, $A$ permits that $B$ causes $D$.
 
 \begin{code}
 vistytolnei₁ : la-varik cu-tolnei la-vista
