@@ -46,8 +46,19 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei lo samcmu be'
 \begin{code}
 open import Function
 open import Data.List
+  using (
+    List;
+    _∷_;
+    []
+  )
 open import Data.String
+  using (
+    String
+  )
 open import Relation.Nullary
+  using (
+    ¬_
+  )
 \end{code}
 
 \section{le jicmu / The Basic}
