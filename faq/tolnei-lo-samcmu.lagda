@@ -134,7 +134,7 @@ A proof of \F{fingubni-fa} \B a exists iff \B a is free and open-source.
 postulate fingubni-fa : ∀ {a} → {A : Set a} → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-tolnei\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-tolnei} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei la'o zoi.\ \B b\ .zoi.
 
@@ -167,7 +167,7 @@ A proof of \F{plivlipa-fa} \B a\ exists iff for all prenu $A$, for all operating
 postulate plivlipa-fa : Samcmu → Set
 \end{code}
 
-\subsection{la'oi .\F{\_cu-jinvycafnysamfli}.}
+\subsection{la'oi .\F{\AgdaUnderscore{}cu-jinvycafnysamfli}.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-jinvycafnysamfli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'o zoi.\ \B b\ .zoi.\ samfli
 
@@ -178,7 +178,7 @@ A proof of \B a \Sym{cu-jinvycafnysamfli} \B b\ exists iff \B a\ opines that fre
 postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\_cu-tcimi'etolnei\_}\ .zoi.}
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tcimi'etolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-tcimi'etolnei} \B b .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei lo tutci be lo nu tcimi'e la'o zoi.\ \B b\ .zoi.
 
