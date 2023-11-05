@@ -29,6 +29,7 @@
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
 \newcommand\B\AgdaBound
+\newcommand\OpP[1]{\AgdaOperator{\AgdaPostulate{#1}}}
 
 \title{le ctaipe be le su'u la .varik.\ cu tolnei lo samcmu / Proofs of that VARIK Dislikes Operating Systems}
 \author{la .varik.\ .VALefor.}
@@ -136,10 +137,10 @@ postulate fingubni-fa : ∀ {a} → {A : Set a} → A → Set
 
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-tolnei} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tolnei} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a \Sym{cu-tolnei} \B b exists iff \B a dislikes \B b.
+A proof of \B a \OpP{cu-tolnei} \B b exists iff \B a dislikes \B b.
 
 \begin{code}
 postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
@@ -169,10 +170,10 @@ postulate plivlipa-fa : Samcmu → Set
 
 \subsection{la'oi .\F{\AgdaUnderscore{}cu-jinvycafnysamfli}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-jinvycafnysamfli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'o zoi.\ \B b\ .zoi.\ samfli
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-jinvycafnysamfli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'o zoi.\ \B b\ .zoi.\ samfli
 
 \paragraph{English}
-A proof of \B a \Sym{cu-jinvycafnysamfli} \B b\ exists iff \B a\ opines that frequent is that \B b\ crashes.
+A proof of \B a \OpP{cu-jinvycafnysamfli} \B b\ exists iff \B a\ opines that frequent is that \B b\ crashes.
 
 \begin{code}
 postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Set
@@ -180,10 +181,10 @@ postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Se
 
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tcimi'etolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \Sym{cu-tcimi'etolnei} \B b .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei lo tutci be lo nu tcimi'e la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tcimi'etolnei} \B b .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei lo tutci be lo nu tcimi'e la'o zoi.\ \B b\ .zoi.
 
 \paragraph{English}
-A proof of \B a \Sym{cu-tcimi'etolnei} \B b\ exists iff \B a\ dislikes the tools which facilitate that \B a\ configures \B b.
+A proof of \B a \OpP{cu-tcimi'etolnei} \B b\ exists iff \B a\ dislikes the tools which facilitate that \B a\ configures \B b.
 
 \begin{code}
 postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
