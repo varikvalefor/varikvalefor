@@ -236,7 +236,7 @@ postulate samflitolnei : {x : Samcmu}
 ni'o ro da poi ke'a samcmu zo'u ga naja la .varik.\ cu tolnei lo tutci ja proga ja co'e be lo nu tcimi'e da gi la .varik.\ cu tolnei da
 
 \paragraph{English}
-For all operating systems $A$, if VARIK dislikes the tools/programs/things which facilitate that configures $A$, then VARIK dislikes $A$.
+For all operating systems $A$, if VARIK dislikes the tools/programs/things which facilitate configuring $A$, then VARIK dislikes $A$.
 
 \begin{code}
 postulate tcimi'ebratolnei : {x : Samcmu}
