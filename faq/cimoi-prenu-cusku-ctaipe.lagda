@@ -268,6 +268,19 @@ The section contains the Agda definition of the proof.  VARIK not opines that ne
 module Selneimauctaipe where
 \end{code}
 
+\section{le jicmu / The Basic}
+
+\subsection{la'oi .\F{Fasnu}.}
+\paragraph{la .lojban.}
+ni'o ro da zo'u da ctaipe la'oi .\F{Fasnu}.\ jo cu fasnu
+
+\paragraph{English}
+For all $A$, \F{Prenu} is the type of $A$ iff $A$ is an event.
+
+\begin{code}
+  postulate Fasnu : Set
+\end{code}
+
 \section{le fasnu / The Events}
 
 \newcommand\fsn{\AgdaPostulate{la-pamoicuskus}}
@@ -279,7 +292,7 @@ ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu pamoi prenu pe'a cusku
 \fsn\ is an event of that VARIK communicates in the first person.
 
 \begin{code}
-  postulate la-pamoicuskus : Set
+  postulate la-pamoicuskus : Fasnu
 \end{code}
 
 \renewcommand\fsn{\AgdaPostulate{la-remoicuskus}}
@@ -291,7 +304,7 @@ ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu remoi prenu pe'a cusku
 \fsn\ is an event of that VARIK communicates in the second person.
 
 \begin{code}
-  postulate la-remoicuskus : Set
+  postulate la-remoicuskus : Fasnu
 \end{code}
 
 \renewcommand\fsn{\AgdaPostulate{la-cimoicuskus}}
@@ -303,7 +316,7 @@ ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu cimoi prenu pe'a cusku
 \fsn\ is an event of that VARIK communicates in the third person.
 
 \begin{code}
-  postulate la-cimoicuskus : Set
+  postulate la-cimoicuskus : Fasnu
 \end{code}
 
 \section{le se ckaji / The Properties}
