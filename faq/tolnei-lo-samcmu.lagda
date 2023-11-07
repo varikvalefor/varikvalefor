@@ -85,12 +85,12 @@ data Skamyklesi : Set
 \paragraph{la .lojban.}
 ni'o ga jo ko'a goi la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\AgdaRecord{Samcmu}.\ gi ga je ko'a samcmu gi\ldots
 \begin{itemize}
-	\item ga je la'o zoi.\ \F{Samcmu.cmene} \B a\ .zoi.\ cmene ko'a gi
-	\item la'o zoi.\ \F{Samcmu.skamyklesi} \B a\ .zoi.\ velski ja co'e lo klesi be lo'i ro skami bei lo ka ce'u se mapti ko'a
+	\item ga je la'o zoi.\ \AgdaField{Samcmu.cmene} \B a\ .zoi.\ cmene ko'a gi
+	\item la'o zoi.\ \AgdaField{Samcmu.skamyklesi} \B a\ .zoi.\ velski ja co'e lo klesi be lo'i ro skami bei lo ka ce'u se mapti ko'a
 \end{itemize}
 
 \paragraph{English}
-\B a is a value of \AgdaRecord{Samcmu} iff (\F{Samcmu.cmene} \B a is the name of \B a, and \F{Samcmu.skamyklesi} \B a is a description (or whatever) of the computer which is compatible with \B a).
+\B a is a value of \AgdaRecord{Samcmu} iff (\AgdaField{Samcmu.cmene} \B a is the name of \B a, and \AgdaField{Samcmu.skamyklesi} \B a is a description (or whatever) of the computer which is compatible with \B a).
 
 \begin{code}
 record Samcmu : Set
