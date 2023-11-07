@@ -66,8 +66,8 @@ That (labels of proofs resemble labels of paragraphs) justifies that uses \textt
 \subsection{la .lojban.}
 ni'o ko'a goi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ cu selneimau ko'e goi lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.\ ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ro da zo'u ro de zo'u ga naja da zmadu de le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo selri'a be ce'u gi da de selneimau la .varik.\ gi
-	\item ko'a zmadu ko'e le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo selri'a be ce'u
+	\item ga je ko'a zmadu ko'e le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo selri'a be ce'u gi
+	\item ro da zo'u ro de zo'u ga naja da zmadu de le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo selri'a be ce'u gi da de selneimau la .varik.
 \end{itemize}
 
 \subsection{English}
