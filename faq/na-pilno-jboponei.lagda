@@ -50,7 +50,6 @@ ni'o le nu la .varik.\ cu na zu'edji lo ka ce'u fanva ko'e goi la'au le ctaipe b
 \section{le vrici}
 
 \begin{code}
-open import Level
 open import Function
 open import Relation.Nullary
 \end{code}
