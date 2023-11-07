@@ -42,7 +42,7 @@
 
 ni'o \jbolojysra
 
-ni'o la .varik.\ cu na zu'edji lo ka ce'u fanva le velcki be le ctaipe le glibau fo la .lojban.
+ni'o la .varik.\ cu na zu'edji lo ka ce'u fanva le velcki be le ctaipe le glibau le glibau
 
 \section{le su'u na fanva}
 ni'o le nu la .varik.\ cu na zu'edji lo ka ce'u fanva ko'e goi la'au le ctaipe be le su'u la .varik.\ cu na pilno la jboponei li'u le glibau la .lojban.\ cu se krinu le su'u la .varik.\ cu jinvi le du'u lakne fa lo nu lo ro selci'i be ko'e cu jbopre je cu kakne lo ka ce'u jimpe fi le selci'a
