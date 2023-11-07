@@ -33,7 +33,7 @@
 ni'o vasru le velcki be le ctaipe be le su'u ko'a goi la .varik.\ cu cimoi prenu pe'a cusku kei be'o be'o je le velcki be le ctaipe be le su'u ko'a te selneimau lo nu ko'a cimoi prenu pe'a cusku kei lo nu ko'a ke pamoi ja remoi ke'e prenu pe'a cusku
 
 \paragraph{English}
-Contains the definition of the proof of that VARIK communicates in the third person.  Additionally, contains the definition of the proof of that VARIK prefers (over that VARIK communicates in the first (or third) person) that VARIK communicates in the third person.
+The thing contains the definition of the proof of that VARIK communicates in the third person.  Additionally, the thing contains the definition of the proof of that VARIK prefers (over that VARIK communicates in the first (or third) person) that VARIK communicates in the third person.
 \end{abstract}
 
 \tableofcontents
