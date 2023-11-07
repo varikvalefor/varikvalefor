@@ -100,23 +100,23 @@ record Samcmu : Set
     skamyklesi : List Skamyklesi
 \end{code}
 
-\subsection{la'oi .\F{Prenu}.}
+\subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Prenu}.\ jo cu prenu
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Prenu}.\ jo cu prenu
 
 \paragraph{English}
-For all $A$, \F{Prenu} is the type of $A$ iff $A$ is a prenu.
+For all $A$, \AgdaPostulate{Prenu} is the type of $A$ iff $A$ is a prenu.
 
 \begin{code}
 postulate Prenu : Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu tolnei lo skami je cu seljda le cizra je cu xamsku lo mabla
+ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu tolnei lo skami je cu seljda le cizra je cu xamsku lo mabla
 
 \paragraph{English}
-\F{la-varik} is the VARIK which is an American, is a mathematician, dislikes computers, follows a religion which is weird, and communicates jokes which fuckin' suck.
+\AgdaPostulate{la-varik} is the VARIK which is an American, is a mathematician, dislikes computers, follows a religion which is weird, and communicates jokes which fuckin' suck.
 
 \begin{code}
 postulate la-varik : Prenu
@@ -124,18 +124,18 @@ postulate la-varik : Prenu
 
 \section{le bridi / The Predicates}
 
-\subsection{la'oi .\F{fingubni-fa}.}
+\subsection{la'oi .\AgdaPostulate{fingubni-fa}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{fingubni-fa} \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ fingubni
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{fingubni-fa} \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ fingubni
 
 \paragraph{English}
-A proof of \F{fingubni-fa} \B a exists iff \B a is free and open-source.
+A proof of \AgdaPostulate{fingubni-fa} \B a exists iff \B a is free and open-source.
 
 \begin{code}
 postulate fingubni-fa : ∀ {a} → {A : Set a} → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tolnei} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei la'o zoi.\ \B b\ .zoi.
 
@@ -146,29 +146,29 @@ A proof of \B a \OpP{cu-tolnei} \B b exists iff \B a dislikes \B b.
 postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'oi .\F{tolcru-lo-nu-spogau-kei-fa}.}
+\subsection{la'oi .\AgdaPostulate{tolcru-lo-nu-spogau-kei-fa}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{tolcru-lo-nu-spogau-kei-fa} \B a .zoi.\ gi ko'a troci pe'a ru'e lo nu tolcru lo nu vimcu lo datnyvei ja co'e poi tu'a ke'a sarcu lo nu ko'a tolpo'u
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a .zoi.\ gi ko'a troci pe'a ru'e lo nu tolcru lo nu vimcu lo datnyvei ja co'e poi tu'a ke'a sarcu lo nu ko'a tolpo'u
 
 \paragraph{English}
-A proof of \F{tolcru-lo-nu-spogau-kei-fa} \B a\ exists iff \B a\ ``attempts'' that forbids that removes files which are necessary for that \B a\ correctly functions.
+A proof of \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a\ exists iff \B a\ ``attempts'' that forbids that removes files which are necessary for that \B a\ correctly functions.
 
 \begin{code}
 postulate tolcru-lo-nu-spogau-kei-fa : Samcmu → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{plivlipa-fa} .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{plivlipa-fa} .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{plivlipa-fa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je poi lo ro se srana be ke'a cu du da ja de zo'u de curmi lo ro nu da gasnu di
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{plivlipa-fa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je poi lo ro se srana be ke'a cu du da ja de zo'u de curmi lo ro nu da gasnu di
 
 \paragraph{English}
-A proof of \F{plivlipa-fa} \B a\ exists iff for all prenu $A$, for all operating systems $B$, for all copies (of $B$) $C$, for all (events which are relevant only to $A$ and $C$) $D$, if $A$ owns $C$, then $B$ permits that $A$ causes $D$.
+A proof of \AgdaPostulate{plivlipa-fa} \B a\ exists iff for all prenu $A$, for all operating systems $B$, for all copies (of $B$) $C$, for all (events which are relevant only to $A$ and $C$) $D$, if $A$ owns $C$, then $B$ permits that $A$ causes $D$.
 
 \begin{code}
 postulate plivlipa-fa : Samcmu → Set
 \end{code}
 
-\subsection{la'oi .\F{\AgdaUnderscore{}cu-jinvycafnysamfli}.}
+\subsection{la'oi .\AgdaPostulate{\AgdaUnderscore{}cu-jinvycafnysamfli}.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-jinvycafnysamfli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'o zoi.\ \B b\ .zoi.\ samfli
 
@@ -179,7 +179,7 @@ A proof of \B a \OpP{cu-jinvycafnysamfli} \B b\ exists iff \B a\ opines that fre
 postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tcimi'etolnei\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-tcimi'etolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tcimi'etolnei} \B b .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei lo tutci be lo nu tcimi'e la'o zoi.\ \B b\ .zoi.
 
@@ -192,7 +192,7 @@ postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
 
 \section{le barda ja co'e je ctaipe / The Proofs which are Large or Something}
 
-\subsection{la'oi .\F{narvlipa}.}
+\subsection{la'oi .\AgdaPostulate{narvlipa}.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
@@ -205,7 +205,7 @@ postulate narvlipa : {x : Samcmu}
                    → ¬ (plivlipa-fa x)
 \end{code}
 
-\subsection{la'oi .\F{vlipytolnei}.}
+\subsection{la'oi .\AgdaPostulate{vlipytolnei}.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
@@ -218,7 +218,7 @@ postulate vlipytolnei : {x : Samcmu}
                       → la-varik cu-tolnei x
 \end{code}
 
-\subsection{la'oi .\F{samflitolnei}.}
+\subsection{la'oi .\AgdaPostulate{samflitolnei}.}
 \paragraph{la .lojban.}
 ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
@@ -231,7 +231,7 @@ postulate samflitolnei : {x : Samcmu}
                        → la-varik cu-tolnei x
 \end{code}
 
-\subsection{la'oi .\F{tcimi'ebratolnei}.}
+\subsection{la'oi .\AgdaPostulate{tcimi'ebratolnei}.}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a samcmu zo'u ga naja la .varik.\ cu tolnei lo tutci ja proga ja co'e be lo nu tcimi'e da gi la .varik.\ cu tolnei da
 
@@ -263,34 +263,34 @@ la-vista = record {
   }
 \end{code}
 
-\subsubsection{la'oi .\F{vistynarfingubni}.}
+\subsubsection{la'oi .\AgdaPostulatw{vistynarfingubni}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{vistynarfingubni}.\ ctaipe le su'u ko'a na fingubni
+ni'o la'oi .\AgdaPostulate{vistynarfingubni}.\ ctaipe le su'u ko'a na fingubni
 
 \paragraph{English}
-\F{vistynarfingubni} is a proof of that Microsoft Windows Vista is not a thing which is free and open-source.
+\AgdaPostulate{vistynarfingubni} is a proof of that Microsoft Windows Vista is not a thing which is free and open-source.
 
 \begin{code}
 postulate vistynarfingubni : ¬ (fingubni-fa la-vista)
 \end{code}
 
-\subsubsection{la'oi .\F{vistytolspocru}.}
+\subsubsection{la'oi .\AgdaPostulate{vistytolspocru}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{vistytolspocru}.\ ctaipe le su'u ko'a troci pe'a ru'e lo nu ko'a tolcru lo nu lo pilno be ko'a cu vimcu lo datnyvei poi tu'a ke'a sarcu lo nu ko'a tolpo'u
+ni'o la'oi .\AgdaPostulate{vistytolspocru}.\ ctaipe le su'u ko'a troci pe'a ru'e lo nu ko'a tolcru lo nu lo pilno be ko'a cu vimcu lo datnyvei poi tu'a ke'a sarcu lo nu ko'a tolpo'u
 
 \paragraph{English}
-\F{vistytolspocru} is a proof of that Microsoft Windows Vista, a.k.a.\ ``$A$'', forbids that the user of $A$ removes files which are necessary for that $A$ correctly functions.
+\AgdaPostulate{vistytolspocru} is a proof of that Microsoft Windows Vista, a.k.a.\ ``$A$'', forbids that the user of $A$ removes files which are necessary for that $A$ correctly functions.
 
 \begin{code}
 postulate vistytolspocru : tolcru-lo-nu-spogau-kei-fa la-vista
 \end{code}
 
-\subsubsection{la'oi .\F{vistycafnysamfli}.}
+\subsubsection{la'oi .\AgdaPostulate{vistycafnysamfli}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{vistymasno}.\ ctaipe le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
+ni'o la'oi .\AgdaPostulate{vistymasno}.\ ctaipe le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
 
 \paragraph{English}
-\F{vistymasno} is a proof of that VARIK opines that frequent is that Microsoft Windows Vista crashes.
+\AgdaPostulate{vistymasno} is a proof of that VARIK opines that frequent is that Microsoft Windows Vista crashes.
 
 \begin{code}
 postulate vistymasno : la-varik cu-jinvycafnysamfli la-vista
@@ -337,12 +337,12 @@ la-parparuin = record {
   }
 \end{code}
 
-\subsubsection{la'oi .\F{parpartcimi'etolnei}.}
+\subsubsection{la'oi .\AgdaPostulate{parpartcimi'etolnei}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{parpartcimi'etolnei}.\ ctaipe le su'u la .varik. cu tolnei lo tutci be lo nu tcimi'e ko'a
+ni'o la'oi .\AgdaPostulate{parpartcimi'etolnei}.\ ctaipe le su'u la .varik. cu tolnei lo tutci be lo nu tcimi'e ko'a
 
 \paragraph{English}
-\F{parpartcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Microsoft Windows 11.
+\AgdaPostulate{parpartcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Microsoft Windows 11.
 
 \begin{code}
 postulate parpartcimi'etolnei : la-varik cu-tcimi'etolnei la-parparuin
@@ -377,12 +377,12 @@ la-ubuntus = record {
   }
 \end{code}
 
-\subsubsection{la'oi .\F{buntcimi'etcitolnei}\ .zoi.}
+\subsubsection{la'oi .\AgdaPostulate{buntcimi'etcitolnei}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'oi .\F{buntcimi'etolnei}.\ ctaipe le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
+ni'o la'oi .\AgdaPostulate{buntcimi'etolnei}.\ ctaipe le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
 
 \paragraph{English}
-\F{buntcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Ubuntu.
+\AgdaPostulate{buntcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Ubuntu.
 
 \begin{code}
 postulate buntcimi'etolnei : la-varik cu-tcimi'etolnei la-ubuntus
@@ -417,12 +417,12 @@ la-openbysydys = record {
   }
 \end{code}
 
-\subsubsection{la'o zoi.\ \F{openbysydys-samfli}\ .zoi.}
+\subsubsection{la'o zoi.\ \AgdaPostulate{openbysydys-samfli}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{openbysydys-samfli}\ .zoi.\ ctaipe le su'u la .varik. cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
+ni'o la'o zoi.\ \AgdaPostulate{openbysydys-samfli}\ .zoi.\ ctaipe le su'u la .varik. cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
 
 \paragraph{English}
-\F{openbysydys-samfli} is a proof of that VARIK opines that frequent is that OpenBSD crashes.
+\AgdaPostulate{openbysydys-samfli} is a proof of that VARIK opines that frequent is that OpenBSD crashes.
 
 \begin{code}
 postulate openbysydys-samfli : la-varik cu-jinvycafnysamfli la-openbysydys
