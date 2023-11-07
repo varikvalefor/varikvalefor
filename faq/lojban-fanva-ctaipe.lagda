@@ -64,7 +64,7 @@ ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u l
 That (labels of proofs resemble labels of paragraphs) justifies that uses \texttt{subsection} and not \texttt{paragraph}.
 
 \subsection{la .lojban.}
-ni'o ko'a goi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ cu selneimau ko'e goi lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.\ kei la .varik.\ ni'i le su'u\ldots
+ni'o la .varik.\ cu te selneimau fi ko'a goi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ kei fe ko'e goi lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.\ kei ni'i le su'u\ldots
 \begin{itemize}
 	\item ga je ko'a zmadu ko'e le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo selri'a be ce'u gi
 	\item ro da zo'u ro de zo'u ga naja da zmadu de le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo selri'a be ce'u gi da de selneimau la .varik.
