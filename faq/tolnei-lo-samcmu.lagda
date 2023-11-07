@@ -64,13 +64,13 @@ open import Relation.Nullary
 
 \section{le jicmu / The Basic}
 
-\subsection{la'oi .\F{Skamyklesi}.}
+\subsection{la'oi .\D{Skamyklesi}.}
 \paragraph{la .lojban.}
-ni'o lo ro ctaipe be la'oi .\F{Skamyklesi}.\ cu velski ja co'e lo klesi be lo'i skami
+ni'o lo ro ctaipe be la'oi .\D{Skamyklesi}.\ cu velski ja co'e lo klesi be lo'i skami
 .i skicu ja co'e le si'o jbuskami kei fa'u le si'o samfonxa kei fo la'o zoi.\ \F{lo-jbuskami}\ .zoi.\ fa'u la'o zoi.\ \F{lo-samfonxa}\ .zoi.
 
 \paragraph{English}
-Values of \F{Skamyklesi} are descriptions of subsets of the set of computers.
+Values of \D{Skamyklesi} are descriptions of subsets of the set of computers.
 \F{lo-jbuskami} is a description (or whatever) of the desktop computer.  \F{lo-samfonxa} is a description (or whatever) of the smartphone.
 
 
