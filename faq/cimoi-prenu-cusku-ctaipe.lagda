@@ -321,31 +321,31 @@ ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu cimoi prenu pe'a cusku
 
 \section{le se ckaji / The Properties}
 
-\renewcommand\fsn{\AgdaPostulate{la-kafrilis}}
+\renewcommand\fsn{\AgdaPostulate{kafrilis}}
 \subsection{la'o zoi.\ \fsn\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
 
 \begin{code}
-  postulate la-kafrilis : Prenu → Set
+  postulate kafrilis : Prenu → Set
 \end{code}
 
-\renewcommand\fsn{\AgdaPostulate{la-kajalneis}}
+\renewcommand\fsn{\AgdaPostulate{kajalneis}}
 \subsection{la'o zoi.\ \fsn\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci lo jalge be ce'u
 
 \begin{code}
-  postulate la-kajalneis : Prenu → Set
+  postulate kajalneis : Prenu → Set
 \end{code}
 
-\renewcommand\fsn{\AgdaPostulate{la-kanelcis}}
+\renewcommand\fsn{\AgdaPostulate{kanelcis}}
 \subsection{la'o zoi.\ \fsn\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
 
 \begin{code}
-  postulate la-kanelcis : Prenu → Set
+  postulate kanelcis : Prenu → Set
 \end{code}
 
 \section{le bridi / The Predicates}
@@ -375,9 +375,9 @@ For all $A$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then i
   postulate
     frijalnei : ∀ {a b} → {A : Set a} → {B : Set b}
               → {p : A} → {r : B}
-              → zmadu-fa p r (la-kafrilis la-varik)
-              → zmadu-fa p r (la-kajalneis la-varik)
-              → zmadu-fa p r (la-kanelcis la-varik)
+              → zmadu-fa p r (kafrilis la-varik)
+              → zmadu-fa p r (kajalneis la-varik)
+              → zmadu-fa p r (kanelcis la-varik)
 \end{code}
 
 \section{le ctaipe / The Proof}
@@ -389,14 +389,14 @@ ni'o le me'oi .section.\ cu vasru le velcki be ko'a goi le ctaipe bei bau la'oi 
 The section contains the Agda definition of the proof\@.  VARIK not opines that necessary is that VARIK provides an English explanation of the Agda definition of the proof.
 
 \begin{code}
-  la-recimois : let la-kin = la-kanelcis la-varik in
+  la-recimois : let la-kin = kanelcis la-varik in
                 (_×_
                   (zmadu-fa la-cimoicuskus la-pamoicuskus la-kin)
                   (zmadu-fa la-cimoicuskus la-remoicuskus la-kin))
   la-recimois = frijalnei pif pij , frijalnei rif rij
     where
-    j = la-kajalneis la-varik
-    f = la-kafrilis la-varik
+    j = kajalneis la-varik
+    f = kafrilis la-varik
     postulate
       pij : zmadu-fa la-cimoicuskus la-pamoicuskus j
       pif : zmadu-fa la-cimoicuskus la-pamoicuskus f
