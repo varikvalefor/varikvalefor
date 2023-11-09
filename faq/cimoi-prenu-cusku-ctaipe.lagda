@@ -326,6 +326,9 @@ ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu cimoi prenu pe'a cusku
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
 
+\paragraph{English}
+\AgdaPostulate{kafrilis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{kafrilis} iff \B a finds that easy (for \B a) is $A$.
+
 \begin{code}
   postulate kafrilis : Prenu → Set
 \end{code}
@@ -335,6 +338,9 @@ ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci lo jalge be ce'u
 
+\paragraph{English}
+\AgdaPostulate{kajalneis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{jalneis} iff \B a likes the result/outcome of $A$.
+
 \begin{code}
   postulate kajalneis : Prenu → Set
 \end{code}
@@ -343,6 +349,9 @@ ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci lo jalge be ce'u
 \subsection{la'o zoi.\ \fsn\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
+
+\paragraph{English}
+\AgdaPostulate{kanelcis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{kanelcis} iff \B a likes $A$.
 
 \begin{code}
   postulate kanelcis : Prenu → Set
