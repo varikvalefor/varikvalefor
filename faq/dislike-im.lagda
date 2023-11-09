@@ -185,7 +185,7 @@ postulate _cu-na-mapti-lo-pixra : IMS → Set
 ni'o la .varik.\ cu pacna lo nu na sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
-VARIK hopes that unnecessary is that writes an English explanation.
+VARIK hopes that unnecessary is writing an English explanation.
 
 \begin{code}
 postulate narnei-ctaipe : {A : IMS}
