@@ -270,12 +270,12 @@ module Selneimauctaipe where
 
 \section{le jicmu / The Basic}
 
-\subsection{la'oi .\F{Fasnu}.}
+\subsection{la'oi .\AgdaPostulate{Fasnu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Fasnu}.\ jo cu fasnu
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Fasnu}.\ jo cu fasnu
 
 \paragraph{English}
-For all $A$, \F{Prenu} is the type of $A$ iff $A$ is an event.
+For all $A$, \AgdaPostulate{Prenu} is the type of $A$ iff $A$ is an event.
 
 \begin{code}
   postulate Fasnu : Set
