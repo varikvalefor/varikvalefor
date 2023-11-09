@@ -379,7 +379,7 @@ postulate irkypixra : la-irk cu-na-mapti-lo-pixra
 ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo clani je selci'a fo la'o glibau.\ Internet Relay Chat .glibau.
 
 \paragraph{English}
-\AgdaPostulate{irkyclani} is a proof of that forbids that sends (via Internet Relay Chat) lengthy texts.
+\AgdaPostulate{irkyclani} is a proof of that forbidden is sending (via Internet Relay Chat) lengthy texts.
 
 \begin{code}
 postulate irkyclani : tolcru-clanybenji la-irk
