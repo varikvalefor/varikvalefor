@@ -230,7 +230,7 @@ For all $A$, if minimised is the extent of that referentially ambiguous are the 
 
 \subsection{la'o zoi.\ \F{nargaubasyvla-cusku}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ro da poi ke'a prenu zo'u ga naja ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku gi da cimoi prenu pe'a cusku
+ni'o ro da poi ke'a prenu zo'u ga janai da cimoi prenu pe'a cusku gi ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku
 
 \paragraph{English}
 For all prenu $A$, if $A$ communicates via predicate-based sentences, then if every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes, then $A$ communicates in the ``third person''.
