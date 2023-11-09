@@ -354,7 +354,7 @@ tolnei-la'oi-Telegram = tolnei-ctaipe $ that $ this centfon
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ du la'o glibau.\ Internet Relay Chat .glibau.\ poi ke'a se me'oi .RFC.\ li pavomuso
+ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ du la'o glibau.\ Internet Relay Chat .glibau.\ poi li pavomuso me'oi .RFC.\ ke'a
 
 \paragraph{English}
 \AgdaPostulate{la-irk} is Internet Relay Chat, which is described by RFC 1459.
