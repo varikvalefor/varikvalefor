@@ -233,7 +233,7 @@ postulate samflitolnei : {x : Samcmu}
 
 \subsection{la'oi .\AgdaPostulate{tcimi'ebratolnei}.}
 \paragraph{la .lojban.}
-ni'o ro da poi ke'a samcmu zo'u ga naja la .varik.\ cu tolnei lo tutci ja proga ja co'e be lo nu tcimi'e da gi la .varik.\ cu tolnei da
+ni'o ro da poi ke'a samcmu zo'u la .varik.\ cu tolnei lo tutci ja proga ja co'e be lo nu tcimi'e da kei naja cu tolnei da
 
 \paragraph{English}
 For all operating systems $A$, if VARIK dislikes the tools/programs/things which facilitate configuring $A$, then VARIK dislikes $A$.
