@@ -338,7 +338,7 @@ ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu cimoi prenu pe'a cusku
 ni'o la'o zoi.\ \fsn\ \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
 
 \paragraph{English}
-\AgdaPostulate{kafrilis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{kafrilis} iff \B a finds that easy (for \B a) is $A$.
+For all $A$, $A$ displays/exhibits \AgdaPostulate{kafrilis} iff \B a finds that easy (for \B a) is $A$.
 
 \begin{code}
   postulate kafrilis : Prenu → Selckaji
@@ -350,7 +350,7 @@ ni'o la'o zoi.\ \fsn\ \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
 ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
 
 \paragraph{English}
-\AgdaPostulate{kanelcis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{kanelcis} iff \B a likes $A$.
+For all $A$, $A$ displays/exhibits \AgdaPostulate{kanelcis} iff \B a likes $A$.
 
 \begin{code}
   postulate kanelcis : Prenu → Selckaji
@@ -363,7 +363,7 @@ ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{zmadu-fa} \B a \B b \B c\ .zoi.\ gi la'oi .\B{a}.\ zmadu la'oi .\B{b}.\ la'oi .\B{c}.
 
 \paragraph{English}
-A proof of \AgdaPostulate{zmadu-fa} \B a \B b \B c\ exists iff (\B c\ is a property/quality/whatever, and the extent (of that \B a\ exhibits/possesses/displays \B c) exceeds the extent of that \B b\ exhibits/possesses/displays \B b).
+A proof of \AgdaPostulate{zmadu-fa} \B a \B b \B c\ exists iff the extent (of that \B a\ exhibits/possesses/displays \B c) exceeds the extent of that \B b\ exhibits/possesses/displays \B b.
 \begin{code}
   postulate
     zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
