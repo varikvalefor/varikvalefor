@@ -335,25 +335,13 @@ ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu cimoi prenu pe'a cusku
 \renewcommand\fsn{\AgdaPostulate{kafrilis}}
 \subsection{la'o zoi.\ \fsn\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
+ni'o la'o zoi.\ \fsn\ \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
 
 \paragraph{English}
 \AgdaPostulate{kafrilis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{kafrilis} iff \B a finds that easy (for \B a) is $A$.
 
 \begin{code}
   postulate kafrilis : Prenu → Selckaji
-\end{code}
-
-\renewcommand\fsn{\AgdaPostulate{kajalneis}}
-\subsection{la'o zoi.\ \fsn\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci lo jalge be ce'u
-
-\paragraph{English}
-\AgdaPostulate{kajalneis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{jalneis} iff \B a likes the result/outcome of $A$.
-
-\begin{code}
-  postulate kajalneis : Prenu → Selckaji
 \end{code}
 
 \renewcommand\fsn{\AgdaPostulate{kanelcis}}
@@ -384,6 +372,17 @@ A proof of \AgdaPostulate{zmadu-fa} \B a \B b \B c\ exists iff (\B c\ is a prope
 
 \section{le fancu / The Functions}
 
+\subsection{la'oi .\AgdaPostulate{jalge}.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \AgdaPostulate{jalge} \B a\ .zoi.\ jalge la'o zoi.\ \B a\ .zoi.
+
+\paragraph{English}
+\AgdaPostulate{jalge} \B a\ is the result/outcome of \B a.
+
+\begin{code}
+  postulate jalge : ∀ {a} → {A : Set a} → A → Fasnu
+\end{code}
+
 \subsection{la'oi .\F{frijalnei}.}
 \paragraph{la .lojban.}
 ni'o ro da zo'u ro de zo'u da zmadu de le ka ce'u selnei la .varik.\ kei janai le ka ce'u frili la .varik.\ kei je bo le ka la .varik.\ cu nelci lo jalge be ce'u
@@ -396,7 +395,7 @@ For all $A$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then i
     frijalnei : ∀ {a b} → {A : Set a} → {B : Set b}
               → {p : A} → {r : B}
               → zmadu-fa p r (kafrilis la-varik)
-              → zmadu-fa p r (kajalneis la-varik)
+              → zmadu-fa (jalge p) (jalge r) (kanelcis la-varik)
               → zmadu-fa p r (kanelcis la-varik)
 \end{code}
 
@@ -415,12 +414,13 @@ The section contains the Agda definition of the proof\@.  VARIK not opines that 
                   (zmadu-fa la-cimoicuskus la-remoicuskus la-kin))
   la-recimois = frijalnei pif pij , frijalnei rif rij
     where
-    j = kajalneis la-varik
+    j = jalge
+    n = kanelcis la-varik
     f = kafrilis la-varik
     postulate
-      pij : zmadu-fa la-cimoicuskus la-pamoicuskus j
+      pij : zmadu-fa (jalge la-cimoicuskus)(jalge la-pamoicuskus) n
       pif : zmadu-fa la-cimoicuskus la-pamoicuskus f
-      rij : zmadu-fa la-cimoicuskus la-remoicuskus j
+      rij : zmadu-fa (jalge la-cimoicuskus) (jalge la-remoicuskus) n
       rif : zmadu-fa la-cimoicuskus la-remoicuskus f
 \end{code}
 \end{document}
