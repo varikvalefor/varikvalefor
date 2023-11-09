@@ -216,7 +216,7 @@ A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of th
 
 \subsection{la'oi .\F{mleskunargaubasyvla}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .minimise.\ la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
+ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .minimise.\ da le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
 
 \paragraph{English}
 For all $A$, if minimised is the extent of that referentially ambiguous are the things which are written/spoken by $A$, then every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes.
