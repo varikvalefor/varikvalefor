@@ -281,6 +281,17 @@ For all $A$, \AgdaPostulate{Prenu} is the type of $A$ iff $A$ is an event.
   postulate Fasnu : Set
 \end{code}
 
+\subsection{la'oi .\AgdaPostulate{Selckaji}.}
+\paragraph{la .lojban.}
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Selckaji}.\ jo cu se ckaji
+
+\paragraph{English}
+For all $A$, \AgdaPostulate{Selckaji} is the type of $A$ iff $A$ is a property/quality/whatever.
+
+\begin{code}
+  postulate Selckaji : Set
+\end{code}
+
 \section{le fasnu / The Events}
 
 \newcommand\fsn{\AgdaPostulate{la-pamoicuskus}}
@@ -330,7 +341,7 @@ ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
 \AgdaPostulate{kafrilis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{kafrilis} iff \B a finds that easy (for \B a) is $A$.
 
 \begin{code}
-  postulate kafrilis : Prenu → Set
+  postulate kafrilis : Prenu → Selckaji
 \end{code}
 
 \renewcommand\fsn{\AgdaPostulate{kajalneis}}
@@ -342,7 +353,7 @@ ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci lo jalge be ce'u
 \AgdaPostulate{kajalneis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{jalneis} iff \B a likes the result/outcome of $A$.
 
 \begin{code}
-  postulate kajalneis : Prenu → Set
+  postulate kajalneis : Prenu → Selckaji
 \end{code}
 
 \renewcommand\fsn{\AgdaPostulate{kanelcis}}
@@ -354,7 +365,7 @@ ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
 \AgdaPostulate{kanelcis} \B a is a property/quality.  For all $A$, $A$ displays/exhibits \AgdaPostulate{kanelcis} iff \B a likes $A$.
 
 \begin{code}
-  postulate kanelcis : Prenu → Set
+  postulate kanelcis : Prenu → Selckaji
 \end{code}
 
 \section{le bridi / The Predicates}
@@ -367,8 +378,8 @@ ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{zmadu-fa} \B a \B b \B c\ .zoi.\ gi 
 A proof of \AgdaPostulate{zmadu-fa} \B a \B b \B c\ exists iff (\B c\ is a property/quality/whatever, and the extent (of that \B a\ exhibits/possesses/displays \B c) exceeds the extent of that \B b\ exhibits/possesses/displays \B b).
 \begin{code}
   postulate
-    zmadu-fa : ∀ {a b c} → {A : Set a} → {B : Set b} → {C : Set c}
-             → A → B → C → Set
+    zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
+             → A → B → Selckaji → Set
 \end{code}
 
 \section{le fancu / The Functions}
