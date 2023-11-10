@@ -255,7 +255,7 @@ postulate _cu-baupli_ : Prenu → Bangu → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{-la-varik}\ .zoi.\ du la .varik.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu cusku dei je cu co'e
+ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu cusku dei je cu co'e
 
 \paragraph{English}
 \AgdaPostulate{la-varik} is the VARIK which is American, is a mathematician, communicates/expresses/writes the current sentence, and does whatnot.
