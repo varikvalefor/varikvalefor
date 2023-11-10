@@ -209,10 +209,10 @@ postulate sapydrackifilri'a-fa-tu'a : Bangu → Set
 
 \subsection{la'oi .\AgdaPostulate{gernypavysmu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{gernypavysmu-fa} \B a\ .zoi.\ gi lo ro jufra be fi la'o zoi.\ \B a .zoi.\ cu gerna pavysmu
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{gernypavysmu-fa} \B a\ .zoi.\ gi gerna pavysmu fa lo ro jufra be fi la'o zoi.\ \B a .zoi.
 
 \paragraph{English}
-A proof of \AgdaPostulate{gernypavysmu-fa} \B a exists iff all sentences which are grammatical with regard to \B a are syntactically unambiguous.
+A proof of \AgdaPostulate{gernypavysmu-fa} \B a exists iff syntantically ambiguous are all sentences which are grammatical with regard to \B a.
 
 \begin{code}
 postulate gernypavysmu-fa : Gerna → Set
