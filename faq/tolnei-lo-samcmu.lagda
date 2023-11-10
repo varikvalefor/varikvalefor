@@ -324,10 +324,10 @@ vistytolnei₂ = samflitolnei vistymasno
 
 \subsubsection{la'o zoi.\ \F{la-parparuin}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-parparuin}\ .zoi.\ du la'o zoi.\ Microsoft Windows 11 .zoi.\ poi ke'a selci'a la'oi .Microsoft.\ je poi le renorepa moi ca le nu gubgau ke'a
+ni'o la'o zoi.\ \F{la-parparuin}\ .zoi.\ du la'o zoi.\ Microsoft Windows 11 .zoi.\ poi ke'a se ciksi la'oi .Microsoft.\ je poi le renorepa moi ca le nu gubgau ke'a
 
 \paragraph{English}
-\F{la-parparuin} is the Microsoft Windows 11 which is written by Microsoft and is released circa 2021.
+\F{la-parparuin} is the Microsoft Windows 11 which is defined by Microsoft and is released circa 2021.
 
 \begin{code}
 la-parparuin : Samcmu
