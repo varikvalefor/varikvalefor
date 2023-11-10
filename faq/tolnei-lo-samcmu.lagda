@@ -250,10 +250,10 @@ postulate tcimi'ebratolnei : {x : Samcmu}
 
 \subsubsection{la'o zoi.\ \F{la-vista}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-vista}\ .zoi.\ no'u ko'a du la'o glibau.\ Microsoft Windows Vista .glibau.\ poi ke'a selci'a la'oi .Microsoft.\ je poi gubgau ja co'e le velcki be ke'a ca le renonoze moi
+ni'o la'o zoi.\ \F{la-vista}\ .zoi.\ no'u ko'a du la'o glibau.\ Microsoft Windows Vista .glibau.\ poi ke'a se ciksi la'oi .Microsoft.\ je poi gubgau ja co'e le velcki be ke'a ca le renonoze moi
 
 \paragraph{English}
-\F{la-vista} is the Microsoft Windows Vista which is written by Microsoft and is ``published'' circa 2007.
+\F{la-vista} is the Microsoft Windows Vista which is defined by Microsoft and is ``published'' circa 2007.
 
 \begin{code}
 la-vista : Samcmu
