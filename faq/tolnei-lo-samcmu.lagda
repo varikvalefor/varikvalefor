@@ -279,7 +279,7 @@ postulate vistynarfingubni : ¬ (fingubni-fa la-vista)
 ni'o la'oi .\AgdaPostulate{vistytolspocru}.\ ctaipe le su'u ko'a troci pe'a ru'e lo nu ko'a tolcru lo nu lo pilno be ko'a cu vimcu lo datnyvei poi tu'a ke'a sarcu lo nu ko'a tolpo'u
 
 \paragraph{English}
-\AgdaPostulate{vistytolspocru} is a proof of that Microsoft Windows Vista, a.k.a.\ ``$A$'', forbids that the user of $A$ removes files which are necessary for that $A$ correctly functions.
+\AgdaPostulate{vistytolspocru} is a proof of that Microsoft Windows Vista, a.k.a.\ ``$A$'', ``attempts'' that $A$ forbids that the user of $A$ removes files which are necessary for that $A$ correctly functions.
 
 \begin{code}
 postulate vistytolspocru : tolcru-lo-nu-spogau-kei-fa la-vista
