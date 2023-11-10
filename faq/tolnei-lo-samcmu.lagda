@@ -263,7 +263,7 @@ la-vista = record {
   }
 \end{code}
 
-\subsubsection{la'oi .\AgdaPostulatw{vistynarfingubni}.}
+\subsubsection{la'oi .\AgdaPostulate{vistynarfingubni}.}
 \paragraph{la .lojban.}
 ni'o la'oi .\AgdaPostulate{vistynarfingubni}.\ ctaipe le su'u ko'a na fingubni
 
