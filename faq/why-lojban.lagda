@@ -201,7 +201,7 @@ postulate _cu-vlaba'u-kakne_ : Prenu → Leksiko → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u tu'a la'o zoi.\ \B a\ .zoi.\ filri'a lo nu ciksi ja skicu lo pluja fo lo drani je sampu
 
 \paragraph{english}
-A proof of \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a exists iff VARIK opines (or whatever \{V\}) that \B a facilitates that simply and correctly explains (or describes) the complex.
+A proof of \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a exists iff VARIK opines (or whatever \{V\}) that \B a facilitates that a thing simply and correctly explains (or describes) the complex.
 
 \begin{code}
 postulate sapydrackifilri'a-fa-tu'a : Bangu → Set
