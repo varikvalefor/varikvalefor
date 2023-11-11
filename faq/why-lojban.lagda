@@ -146,7 +146,7 @@ postulate Semantics : Set
 ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Leksiko}.\ jo cu leksiko
 
 \paragraph{English}
-For all $A$, \AgdaPostulate{Leksiko} is the type of $A$ iff $A$ is a lexicon/vocabulary/whatever.
+For all $A$, $A$ is a lexicon/vocabulary/whatever iff \AgdaPostulate{Leksiko} is the type of $A$.
 
 \begin{code}
 postulate Leksiko : Set
