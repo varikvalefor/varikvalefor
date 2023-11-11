@@ -353,7 +353,7 @@ postulate parpartcimi'etolnei : la-varik cu-tcimi'etolnei la-parparuin
 ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
 
 \paragraph{English}
-That (VARIK dislikes Microsoft Windows 11) is justified by that VARIK dislikes the tools which facilitate that configures Microsoft Windows 11.
+That (VARIK dislikes Microsoft Windows 11) is justified by that VARIK dislikes the tools which facilitate configuring Microsoft Windows 11.
 
 \begin{code}
 parpartolnei₁ : la-varik cu-tolnei la-parparuin
