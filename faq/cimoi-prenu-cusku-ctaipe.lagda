@@ -159,28 +159,6 @@ A proof of \F{nargaybasyvla-cusku-fa}\ \B a\ exists iff some event of that \B a\
   postulate nargaubasyvla-cusku-fa : Prenu → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{pamoi-prenu-cusku-fa}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{pamoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ pamoi prenu pe'a cusku
-
-\paragraph{English}
-A proof of \F{pamoi-prenu-cusku-fa}\ \B a\ exists iff \B a\ communicates in the first person.
-
-\begin{code}
-  postulate pamoi-prenu-cusku-fa : Prenu → Set
-\end{code}
-
-\subsection{la'o zoi.\ \F{remoi-prenu-cusku-fa}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{remoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ remoi prenu pe'a cusku
-
-\paragraph{English}
-A proof of \F{remoi-prenu-cusku-fa}\ \B a\ exists iff \B a\ communicates in the second person.
-
-\begin{code}
-  postulate remoi-prenu-cusku-fa : Prenu → Set
-\end{code}
-
 \subsection{la'o zoi.\ \F{cimoi-prenu-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \F{cimoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cimoi prenu pe'a cusku
