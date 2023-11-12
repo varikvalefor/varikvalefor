@@ -65,11 +65,11 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{itemize}
 	\item ga je la .lojban.\ cu slabu la .varik.\ gi
 	\item ga je la .lojban.\ cu na tonga bangu gi
-	\item ga je la .varik.\ cu ka'e vlaba'u lo valsi be fi la .lojban.\ gi
+	\item ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be la .lojban.\ gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu jinvi le du'u tu'a la .lojban.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani\ gi
-	\item ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi ga je da slabu la .varik.\ gi ga je da na tonga bangu gi ga je la .varik.\ cu ka'e vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani
+	\item ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi ga je da slabu la .varik.\ gi ga je da na tonga bangu gi ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani
 \end{itemize}
 
 \subsection{English}
@@ -366,7 +366,7 @@ postulate jboslabu : la-lojban cu-slabu la-varik
 ni'o ro da poi ke'a bangu zo'u ga janai\ldots
 \begin{itemize}
 	\item la .varik.\ cu baupli da gi
-	\item ga je la .varik.\ cu ka'e vlaba'u lo valsi be da gi\ldots
+	\item ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be da gi\ldots
 	\begin{itemize}
 		\item ga je da slabu la .varik.\ gi
 		\item ga je da na tonga bangu gi
