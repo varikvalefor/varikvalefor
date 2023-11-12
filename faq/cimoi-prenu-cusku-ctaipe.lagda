@@ -150,7 +150,7 @@ module Cuskyctaipe where
 
 \subsection{la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ \B a\ .zoi.\ gi lo su'o nu la'o zoi.\ \B a\ .zoi.\ cusku lo nargaubasyvla cu na nu la'o zoi.\ \B a\ .zoi.\ sitsku
+ni'o ga jo ctaipe la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ \B a\ .zoi.\ gi su'o da zo'u da nu la'o zoi.\ \B a\ .zoi.\ cusku lo nargaubasyvla jenai cu sitsku
 
 \paragraph{English}
 A proof of \F{nargaybasyvla-cusku-fa}\ \B a\ exists iff some event of that \B a\ uses nargaubasyvla is not an event of that \B a\ quotes.
