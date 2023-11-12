@@ -49,9 +49,9 @@ That (labels of paragraphs resemble labels of definitions of proofs) justifies t
 \section{la .lojban.}
 ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ro da zo'u ga janai da cimoi prenu pe'a cusku gi ga je da cusku lo bridi jufra gi me'oi .minimise.\ da le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u gi
 	\item ga je la .varik.\ cu bridi jufra cusku gi
-	\item me'oi .minimise.\ la .varik.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
+	\item ga je me'oi .minimise.\ la .varik.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u\ gi
+	\item ro da zo'u ga janai da cimoi prenu pe'a cusku gi ga je da cusku lo bridi jufra gi me'oi .minimise.\ da le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
 \end{itemize}
 
 .i ji'a la .varik.\ cu te selneimau ko'a goi lo nu la .varik.\ cu cimoi prenu pe'a cusku kei ko'e goi lo nu la .varik.\ cu ke pamoi ja remoi ke'e prenu pe'a cusku kei ni'i le su'u\ldots
