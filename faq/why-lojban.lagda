@@ -251,7 +251,7 @@ A proof of \B a \OpP{cu-baupli} \B b exists iff \B a uses \B b.
 postulate _cu-baupli_ : Prenu → Bangu → Set
 \end{code}
 
-\section{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
+\section{le prenu / The Prenu}
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
