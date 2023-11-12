@@ -214,6 +214,8 @@ A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of th
   postulate mleskutolvrici-fa : Prenu → Set
 \end{code}
 
+\section{le fancu / The Functions}
+
 \subsection{la'oi .\F{mleskunargaubasyvla}.}
 \paragraph{la .lojban.}
 ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .minimise.\ da le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
