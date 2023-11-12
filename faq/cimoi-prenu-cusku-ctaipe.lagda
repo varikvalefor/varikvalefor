@@ -394,9 +394,9 @@ For all $A$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then i
   postulate
     frijalnei : ∀ {a b} → {A : Set a} → {B : Set b}
               → {p : A} → {r : B}
-              → zmadu-fa p r (kafrilis la-varik)
-              → zmadu-fa (jalge p) (jalge r) (kanelcis la-varik)
-              → zmadu-fa p r (kanelcis la-varik)
+              → zmadu-fa p r $ kafrilis la-varik
+              → zmadu-fa (jalge p) (jalge r) $ kanelcis la-varik
+              → zmadu-fa p r $ kanelcis la-varik
 \end{code}
 
 \section{le ctaipe / The Proof}
