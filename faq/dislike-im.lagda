@@ -327,7 +327,7 @@ tolnei-la'oi-Discord = tolnei-ctaipe $ these ladistrol cenclapei
 
 \section{la'oi .Telegram.}
 
-\subsection{le jicmu / The Foundational Stuff}
+\subsection{le jicmu / The Foundational}
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.}
 \paragraph{la .lojban.}
