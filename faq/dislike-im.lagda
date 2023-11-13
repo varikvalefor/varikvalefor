@@ -82,6 +82,17 @@ For all $A$, $A$ is a value of \AgdaPostulate{Prenu} iff $A$ is a prenu.
 postulate Prenu : Set
 \end{code}
 
+\subsection{la'oi .\AgdaPostulate{IMS}.}
+\paragraph{la .lojban.}
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{IMS}.\ jo cu mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u
+
+\paragraph{English}
+For all $A$, \AgdaPostulate{IMS}\ is the type of $A$ iff $A$ is an instant messaging service.
+
+\begin{code}
+postulate IMS : Set
+\end{code}
+
 \subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.
@@ -113,17 +124,6 @@ A proof of \B a \OpP{cu-na-nelci} \B b exists iff \B a not likes \B b.
 
 \begin{code}
 postulate _cu-na-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
-\end{code}
-
-\subsection{la'oi .\AgdaPostulate{IMS}.}
-\paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{IMS}.\ jo cu mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u
-
-\paragraph{English}
-For all $A$, \AgdaPostulate{IMS}\ is the type of $A$ iff $A$ is an instant messaging service.
-
-\begin{code}
-postulate IMS : Set
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{to'e-fingubni-fa}\ .zoi.}
