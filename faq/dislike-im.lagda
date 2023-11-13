@@ -41,7 +41,7 @@ Describes some instant messaging services, A.K.A.\ ``$A$'', and contains definit
 
 \subsection{la'oi .Discord.}
 \paragraph{la .lojban.}
-ni'o la .varik. cu tolnei ko'a goi la'oi .Discord.\ ki'u le su'u ko'a to'e fingubni je le su'u me'oi .centralise.\ ko'a kei je le su'u me'oi .paywall.\ lo su'o pagbu be ko'a kei je le su'u tolcru lo nu benji lo clani je selci'a fu ko'a kei kei je le su'u tolcru lo nu pilno lo se kibyse'u be fi ko'a be'o poi ke'a me'oi .unofficial.\ ja me'oi .custom.
+ni'o la .varik. cu tolnei ko'a goi la'oi .Discord.\ ki'u le su'u ko'a to'e fingubni je le su'u me'oi .centralise.\ ko'a kei je le su'u me'oi .paywall.\ lo su'o pagbu be ko'a kei je le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a kei kei je le su'u tolcru lo nu pilno lo se kibyse'u be fi ko'a be'o poi ke'a me'oi .unofficial.\ ja me'oi .custom.
 
 \paragraph{English}
 That (VARIK dislikes Discord) is justified by that (Discord is closed-source), that (Discord is centralised), that (paywalled are some parts of Discord), that (forbidden is sending (via Discord) lengthy text), and that forbidden is that uses a client (of Discord) which is custom or unofficial.
@@ -55,7 +55,7 @@ That (VARIK dislikes Telegram) is justified by that (Telegram is closed-source) 
 
 \subsection{la'oi .IRC.}
 \paragraph{la .lojban.}
-ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ga je ko'a na mapti lo nu benji lo pixra gi tolcru lo nu benji lo clani je selci'a fu ko'a
+ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ga je ko'a na mapti lo nu benji lo pixra gi tolcru lo nu benji lo clani je lerseltcidu fu ko'a
 
 \paragraph{English}
 That (VARIK not likes IRC) is justified by that (IRC not supports sending images, and forbidden is that sends (via IRC) lengthy text).
@@ -172,7 +172,7 @@ postulate fonxysarcu : IMS → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{tolcru-clanybenji}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-clanybenji} \B a .zoi.\ gi tolcru lo nu benji lo clani je selci'a fu la'o zoi.\ \B a .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-clanybenji} \B a .zoi.\ gi tolcru lo nu benji lo clani je lerselticdu fu la'o zoi.\ \B a .zoi.
 
 \paragraph{English}
 A proof of \AgdaPostulate{tolcru-clanybenji} \B a exists iff forbidden is sending (via \B a) lengthy text.
@@ -407,7 +407,7 @@ ni'o la'oi .\AgdaPostulate{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Re
 
 \subsubsection{la'oi .\AgdaPostulate{irkyclani}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo clani je selci'a fo la'o glibau.\ Internet Relay Chat .glibau.
+ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo clani je lerseltcidu fo la'o glibau.\ Internet Relay Chat .glibau.
 
 \paragraph{English}
 \AgdaPostulate{irkyclani} is a proof of that forbidden is sending (via Internet Relay Chat) lengthy texts.
