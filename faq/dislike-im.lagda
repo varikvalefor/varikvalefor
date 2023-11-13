@@ -66,7 +66,16 @@ That (VARIK not likes IRC) is justified by that (IRC not supports sending images
 import Level
 open import Function
 open import Data.These
+  using (
+    These;
+    these;
+    that;
+    this
+  )
 open import Relation.Nullary
+  using (
+    ¬_
+  )
 \end{code}
 
 \section{le jicmu / The Foundational Stuff}
