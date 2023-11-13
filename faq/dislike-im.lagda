@@ -317,8 +317,8 @@ ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu ko'a
 \subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
-  tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
-  tolnei-la'oi-Discord = tolnei-ctaipe $ these ladistrol cenclapei
+  la-tolneic : la-varik cu-tolnei la-diskord
+  la-tolneic = tolnei-ctaipe $ these ladistrol cenclapei
     where
     cenclapei = these (this diskentral) $ these diskcla diskpei
     ladistrol = these ladinafil diskustrol
@@ -368,8 +368,8 @@ ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu 
 \subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
-  tolnei-la'oi-Telegram : la-varik cu-tolnei la-telegram
-  tolnei-la'oi-Telegram = tolnei-ctaipe $ that $ this centfon
+  la-tolneic : la-varik cu-tolnei la-telegram
+  la-tolneic = tolnei-ctaipe $ that $ this centfon
     where
     centfon = these tugcentra tugfonxa
 \end{code}
@@ -418,7 +418,7 @@ ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo cla
 \subsection{le ctaipe be le su'u na nelci / The Proof of that Not Likes}
 
 \begin{code}
-  la-varik-cu-na-nelci-la-irk : la-varik cu-na-nelci la-irk
-  la-varik-cu-na-nelci-la-irk = narnei-ctaipe irkypixra
+  la-narneic : la-varik cu-na-nelci la-irk
+  la-narneic = narnei-ctaipe irkypixra
 \end{code}
 \end{document}
