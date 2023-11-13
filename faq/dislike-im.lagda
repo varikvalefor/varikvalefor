@@ -152,7 +152,7 @@ postulate fonxysarcu : IMS → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-clanybenji} \B a .zoi.\ gi tolcru lo nu benji lo clani je selci'a fu la'o zoi.\ \B a .zoi.
 
 \paragraph{English}
-A proof of \AgdaPostulate{tolcru-clanybenji} \B a exists iff forbids that sends via \B a lengthy text.
+A proof of \AgdaPostulate{tolcru-clanybenji} \B a exists iff forbidden is sending via \B a lengthy text.
 
 \begin{code}
 postulate tolcru-clanybenji : IMS → Set
@@ -174,7 +174,7 @@ postulate me'oi-paywall : IMS → Set
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-na-mapti-lo-pixra} .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
 
 \paragraph{English}
-A proof of \B a \OpP{cu-na-mapti-lo-pixra} exists iff \B a not supports that sends images.
+A proof of \B a \OpP{cu-na-mapti-lo-pixra} exists iff \B a not supports sending images.
 
 \begin{code}
 postulate _cu-na-mapti-lo-pixra : IMS → Set
@@ -199,7 +199,7 @@ postulate narnei-ctaipe : {A : IMS}
 ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
-VARIK hopes that unnecessary is that writes an English explanation.
+VARIK hopes that unnecessary is writing an English explanation.
 
 \begin{code}
 postulate
@@ -292,7 +292,7 @@ ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu ko'a
 postulate diskpei : me'oi-paywall la-diskord
 \end{code}
 
-\subsection{le ctaipe be le su'u tolnei / The Proof of that Dislikes}
+\subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
 tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
@@ -339,7 +339,7 @@ ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu 
 postulate tugfonxa : fonxysarcu la-telegram
 \end{code}
 
-\subsection{le ctaipe be le su'u tolnei / The Proof of that Dislikes}
+\subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
 tolnei-la'oi-Telegram : la-varik cu-tolnei la-telegram
