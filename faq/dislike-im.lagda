@@ -93,7 +93,7 @@ ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.
 postulate la-varik : Prenu
 \end{code}
 
-\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o zoi.\ \B a \OpP{cu-tolnei} \B b .zoi.
 
