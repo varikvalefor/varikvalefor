@@ -389,6 +389,6 @@ postulate irkyclani : tolcru-clanybenji la-irk
 
 \begin{code}
 la-varik-cu-na-nelci-la-irk : la-varik cu-na-nelci la-irk
-la-varik-cu-na-nelci-la-irk = narnei-nibli irkypixra irkyclani
+la-varik-cu-na-nelci-la-irk = narnei-ctaipe irkypixra irkyclani
 \end{code}
 \end{document}
