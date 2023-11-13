@@ -213,7 +213,6 @@ VARIK hopes that unnecessary is writing an English explanation.
 \begin{code}
 postulate narnei-ctaipe : {A : IMS}
                         → A cu-na-mapti-lo-pixra
-                        → tolcru-clanybenji A
                         → la-varik cu-na-nelci A
 \end{code}
 
@@ -420,6 +419,6 @@ ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo cla
 
 \begin{code}
   la-varik-cu-na-nelci-la-irk : la-varik cu-na-nelci la-irk
-  la-varik-cu-na-nelci-la-irk = narnei-ctaipe irkypixra irkyclani
+  la-varik-cu-na-nelci-la-irk = narnei-ctaipe irkypixra
 \end{code}
 \end{document}
