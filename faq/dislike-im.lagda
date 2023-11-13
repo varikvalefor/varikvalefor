@@ -175,7 +175,7 @@ postulate fonxysarcu : IMS → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-clanybenji} \B a .zoi.\ gi tolcru lo nu benji lo clani je selci'a fu la'o zoi.\ \B a .zoi.
 
 \paragraph{English}
-A proof of \AgdaPostulate{tolcru-clanybenji} \B a exists iff forbidden is sending via \B a lengthy text.
+A proof of \AgdaPostulate{tolcru-clanybenji} \B a exists iff forbidden is sending (via \B a) lengthy text.
 
 \begin{code}
 postulate tolcru-clanybenji : IMS → Set
@@ -298,7 +298,7 @@ ni'o la'oi .\AgdaPostulate{diskentral}.\ ctaipe le su'u me'oi .centralise.\ la'o
 ni'o la'oi .\AgdaPostulate{diskcla}.\ ctaipe le su'u tolcru lo nu benji lo clani je selcil'a fu la'oi .Discord.
 
 \paragraph{English}
-\AgdaPostulate{diskcla} is a proof of that forbidden is sending via Discord lengthy texts.
+\AgdaPostulate{diskcla} is a proof of that forbidden is sending (via Discord) lengthy texts.
 
 \begin{code}
   postulate diskcla : tolcru-clanybenji la-diskord
