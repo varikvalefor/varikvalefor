@@ -230,18 +230,14 @@ postulate
                 → These
                   (These
                     (to'e-fingubni-fa A)
-                    (me'oi-custom-tolcru A)
-                  )
+                    (me'oi-custom-tolcru A))
                   (These
                     (These
                       (me'oi-centralise A)
-                      (fonxysarcu A)
-                    )
+                      (fonxysarcu A))
                     (These
                       (tolcru-clanybenji A)
-                      (me'oi-paywall A)
-                    )
-                  )
+                      (me'oi-paywall A)))
                 → la-varik cu-tolnei A
 \end{code}
 
