@@ -243,6 +243,10 @@ postulate
 
 \section{la'oi .Discord.}
 
+\begin{code}
+module LaDiskord where
+\end{code}
+
 \subsection{le jicmu / The Foundational Stuff}
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.}
@@ -253,7 +257,7 @@ ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ du la'oi .Discord.\ noi zoi z
 \AgdaPostulate{la-diskord} is Discord, which is described at \url{https://www.discord.com}.
 
 \begin{code}
-postulate la-diskord : IMS
+  postulate la-diskord : IMS
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{ladinafil}.}
@@ -264,7 +268,7 @@ ni'o la'oi .\AgdaPostulate{ladinafil}.\ ctaipe le su'u la'oi .Discord.\ to'e fin
 \AgdaPostulate{ladinafil} is a proof of that Discord is closed-source.
 
 \begin{code}
-postulate ladinafil : to'e-fingubni-fa la-diskord
+  postulate ladinafil : to'e-fingubni-fa la-diskord
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{diskustrol}.}
@@ -275,7 +279,7 @@ ni'o la'oi .\AgdaPostulate{diskustrol}.\ ctaipe le su'u tolcru lo nu pilno lo me
 \AgdaPostulate{diskustrol} is a proof of that forbidden is using clients (of Discord) which are custom or unofficial.
 
 \begin{code}
-postulate diskustrol : me'oi-custom-tolcru la-diskord
+  postulate diskustrol : me'oi-custom-tolcru la-diskord
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{diskentral}.}
@@ -286,7 +290,7 @@ ni'o la'oi .\AgdaPostulate{diskentral}.\ ctaipe le su'u me'oi .centralise.\ la'o
 \AgdaPostulate{diskentral} is a proof of that Discord is centralised.
 
 \begin{code}
-postulate diskentral : me'oi-centralise la-diskord
+  postulate diskentral : me'oi-centralise la-diskord
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{diskcla}.}
@@ -297,7 +301,7 @@ ni'o la'oi .\AgdaPostulate{diskcla}.\ ctaipe le su'u tolcru lo nu benji lo clani
 \AgdaPostulate{diskcla} is a proof of that forbidden is sending via Discord lengthy texts.
 
 \begin{code}
-postulate diskcla : tolcru-clanybenji la-diskord
+  postulate diskcla : tolcru-clanybenji la-diskord
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{diskpei}.}
@@ -308,20 +312,24 @@ ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu ko'a
 \AgdaPostulate{diskpei} is a proof of that some part (of Discord) $Q$ exists such that for all users (of Discord) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
 
 \begin{code}
-postulate diskpei : me'oi-paywall la-diskord
+  postulate diskpei : me'oi-paywall la-diskord
 \end{code}
 
 \subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
-tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
-tolnei-la'oi-Discord = tolnei-ctaipe $ these ladistrol cenclapei
-  where
-  cenclapei = these (this diskentral) $ these diskcla diskpei
-  ladistrol = these ladinafil diskustrol
+  tolnei-la'oi-Discord : la-varik cu-tolnei la-diskord
+  tolnei-la'oi-Discord = tolnei-ctaipe $ these ladistrol cenclapei
+    where
+    cenclapei = these (this diskentral) $ these diskcla diskpei
+    ladistrol = these ladinafil diskustrol
 \end{code}
 
 \section{la'oi .Telegram.}
+
+\begin{code}
+module LaTelegram where
+\end{code}
 
 \subsection{le jicmu / The Foundational}
 
@@ -333,7 +341,7 @@ ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ du la'oi .Telegram.\ noi ke'
 \AgdaPostulate{la-telegram} is Telegram, which is described at \url{https://www.telegram.org}.
 
 \begin{code}
-postulate la-telegram : IMS
+  postulate la-telegram : IMS
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{tugcentra}.}
@@ -344,7 +352,7 @@ ni'o la'oi .\AgdaPostulate{tugcentra}.\ ctaipe le su'u me'oi .centralise.\ la'oi
 \AgdaPostulate{tugcentra} is a proof of that Telegram is centralised.
 
 \begin{code}
-postulate tugcentra : me'oi-centralise la-telegram
+  postulate tugcentra : me'oi-centralise la-telegram
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{tugfonxa}.}
@@ -355,19 +363,23 @@ ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu 
 \AgdaPostulate{fugfonxa} is a proof of that a telephone number is necessary for that uses Telegram.
 
 \begin{code}
-postulate tugfonxa : fonxysarcu la-telegram
+  postulate tugfonxa : fonxysarcu la-telegram
 \end{code}
 
 \subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
-tolnei-la'oi-Telegram : la-varik cu-tolnei la-telegram
-tolnei-la'oi-Telegram = tolnei-ctaipe $ that $ this centfon
-  where
-  centfon = these tugcentra tugfonxa
+  tolnei-la'oi-Telegram : la-varik cu-tolnei la-telegram
+  tolnei-la'oi-Telegram = tolnei-ctaipe $ that $ this centfon
+    where
+    centfon = these tugcentra tugfonxa
 \end{code}
 
 \section{la'o glibau.\ Internet Relay Chat .glibau.}
+
+\begin{code}
+module LaIrk where
+\end{code}
 
 \subsection{le jicmu / The Foundational Stuff}
 
@@ -379,7 +391,7 @@ ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ du la'o glibau.\ Internet Relay C
 \AgdaPostulate{la-irk} is Internet Relay Chat, which is described by RFC 1459.
 
 \begin{code}
-postulate la-irk : IMS
+  postulate la-irk : IMS
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{irkypixra}.}
@@ -390,7 +402,7 @@ ni'o la'oi .\AgdaPostulate{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Re
 \AgdaPostulate{irkypixra} is a proof of that Internet Relay Chat not supports that sends images.
 
 \begin{code}
-postulate irkypixra : la-irk cu-na-mapti-lo-pixra
+  postulate irkypixra : la-irk cu-na-mapti-lo-pixra
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{irkyclani}.}
@@ -401,13 +413,13 @@ ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo cla
 \AgdaPostulate{irkyclani} is a proof of that forbidden is sending (via Internet Relay Chat) lengthy texts.
 
 \begin{code}
-postulate irkyclani : tolcru-clanybenji la-irk
+  postulate irkyclani : tolcru-clanybenji la-irk
 \end{code}
 
 \subsection{le ctaipe be le su'u na nelci / The Proof of that Not Likes}
 
 \begin{code}
-la-varik-cu-na-nelci-la-irk : la-varik cu-na-nelci la-irk
-la-varik-cu-na-nelci-la-irk = narnei-ctaipe irkypixra irkyclani
+  la-varik-cu-na-nelci-la-irk : la-varik cu-na-nelci la-irk
+  la-varik-cu-na-nelci-la-irk = narnei-ctaipe irkypixra irkyclani
 \end{code}
 \end{document}
