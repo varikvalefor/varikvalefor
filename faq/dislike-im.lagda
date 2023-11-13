@@ -219,7 +219,7 @@ postulate narnei-ctaipe : {A : IMS}
 
 \subsection{la'o zoi.\ \AgdaPostulate{tolnei-ctaipe}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu sorpa'a lo nu na sarcu fa lo nu ciksi bau la .lojban.
+ni'o la .varik.\ cu pacna lo nu na sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
 VARIK hopes that unnecessary is writing an English explanation.
