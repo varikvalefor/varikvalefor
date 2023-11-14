@@ -173,10 +173,10 @@ postulate to'e-fingubni-fa : IMS → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru} \B a .zoi.\ gi tolcru lo nu pilno lo se kibyse'u be fi la'o zoi.\ \B a .zoi.\ be'o poi ke'a me'oi .unofficial.\ ja me'oi .custom.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru} \B a .zoi.\ gi ro da poi kibyse'u ke'a ko'a goi la'o zoi.\ \B a\ .zoi.\ jenai cu se zbasu lo zbasu be ko'a zo'u tolcru lo nu pilno da
 
 \paragraph{English}
-A proof of \AgdaPostulate{me'oi-custom-tolcru} \B a exists iff forbids that uses a custom or unofficial client of \B a.
+A proof of \AgdaPostulate{me'oi-custom-tolcru} \B a exists iff for all clients (of \B a) (which are not created by the creator of \B a) $x$, forbids that uses $x$.
 
 \begin{code}
 postulate me'oi-custom-tolcru : IMS → Set
