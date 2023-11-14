@@ -68,7 +68,8 @@ open import Function
 open import Data.Maybe
   using (
     nothing;
-    Maybe
+    Maybe;
+    just
   )
 open import Data.These
   using (
@@ -356,6 +357,18 @@ ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu ko'a
   postulate diskpei : me'oi-paywall la-diskord
 \end{code}
 
+\subsubsection{la'oi .\AgdaPostulate{diselkibyse'u}
+\paragraph{la .lojban.}
+ni'o xu cadga fa lo nu ciksi bau la .lojban.
+
+\paragraph{English}
+Necessary is writing an English explanation?
+
+\begin{code}
+  postulate diselkibyse'u : (x : Zauselkibyse'u la-diskord)
+                          → la-varik cu-tolnei x
+\end{code}
+
 \subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
@@ -363,7 +376,7 @@ ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu ko'a
   la-tolneic = tolnei-ctaipe $ these ladistrol cenclapei
     where
     cenclapei = these (this diskentral) $ these diskcla diskpei
-    ladistrol = these ladinafil $ diskustrol , nothing
+    ladistrol = these ladinafil $ diskustrol , just diselkibyse'u
 \end{code}
 
 \section{la'oi .Telegram.}
