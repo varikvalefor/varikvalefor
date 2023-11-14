@@ -41,7 +41,7 @@ Describes some instant messaging services, A.K.A.\ ``$A$'', and contains definit
 
 \subsection{la'oi .Discord.}
 \paragraph{la .lojban.}
-ni'o la .varik. cu tolnei ko'a goi la'oi .Discord.\ ki'u le su'u ko'a to'e fingubni je le su'u me'oi .centralise.\ ko'a kei je le su'u me'oi .paywall.\ lo su'o pagbu be ko'a kei je le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a kei kei je le su'u ga je tolcru lo nu pilno lo se kibyse'u be fi ko'a be'o poi ke'a me'oi .unofficial.\ ja me'oi .custom.\ gi la .varik.\ cu tolnei le ro se kibyse'u be fi ko'a be'o poi lo zbasu be ko'a cu curmi lo nu pilno ke'a 
+ni'o la .varik.\ cu tolnei ko'a goi la'oi .Discord.\ ki'u le su'u ko'a to'e fingubni je le su'u me'oi .centralise.\ ko'a kei je le su'u me'oi .paywall.\ lo su'o pagbu be ko'a kei je le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a kei kei je le su'u ga je tolcru lo nu pilno lo se kibyse'u be fi ko'a be'o poi ke'a me'oi .unofficial.\ ja me'oi .custom.\ gi la .varik.\ cu tolnei le ro se kibyse'u be fi ko'a be'o poi lo zbasu be ko'a cu curmi lo nu pilno ke'a 
 
 \paragraph{English}
 That (VARIK dislikes Discord) is justified by that (Discord is closed-source), that (Discord is centralised), that (paywalled are some parts of Discord), that (forbidden is sending (via Discord) lengthy text), and that (VARIK dislikes all official clients of Discord, and forbidden is that (uses a client (of Discord) which is custom or unofficial), and VARIK dislikes all official clients of Discord).
@@ -300,7 +300,7 @@ module LaDiskord where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ du la'oi .Discord.\ noi zoi zoi.\ \url{https://www.discord.com}\ .zoi. .urli ke'a
+ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ du la'oi .Discord.\ noi zoi zoi.\ \url{https://www.discord.com}\ .zoi.\ .urli ke'a
 
 \paragraph{English}
 \AgdaPostulate{la-diskord} is Discord, which is described at \url{https://www.discord.com}.
