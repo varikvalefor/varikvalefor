@@ -102,6 +102,8 @@ For all $A$, \AgdaPostulate{IMS}\ is the type of $A$ iff $A$ is an instant messa
 postulate IMS : Set
 \end{code}
 
+\section{le prenu / The Prenu}
+
 \subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.
@@ -112,6 +114,8 @@ ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.
 \begin{code}
 postulate la-varik : Prenu
 \end{code}
+
+\section{le bridi / The Predicates}
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
@@ -211,6 +215,8 @@ A proof of \B a \OpP{cu-na-mapti-lo-pixra} exists iff \B a not supports sending 
 \begin{code}
 postulate _cu-na-mapti-lo-pixra : IMS → Set
 \end{code}
+
+\section{le fancu / The Functions}
 
 \subsection{la'o zoi.\ \AgdaPostulate{narnei-ctaipe}\ .zoi.}
 \paragraph{la .lojban.}
