@@ -65,12 +65,22 @@ That (VARIK not likes IRC) is justified by that (IRC not supports sending images
 \begin{code}
 import Level
 open import Function
+open import Data.Maybe
+  using (
+    nothing;
+    Maybe
+  )
 open import Data.These
   using (
     These;
     these;
     that;
     this
+  )
+open import Data.Product
+  using (
+    _×_;
+    _,_
   )
 open import Relation.Nullary
   using (
@@ -102,8 +112,18 @@ For all $A$, \AgdaPostulate{IMS}\ is the type of $A$ iff $A$ is an instant messa
 postulate IMS : Set
 \end{code}
 
-\section{le prenu / The Prenu}
+\subsection{la'oi .\AgdaPostulate{Zauselkibyse'u}.}
+\paragraph{la .lojban.}
+ni'o ro da zo'u ga jo da ctaipe la'o zoi.\ \AgdaPostulate{Zauselkibyse'u} \B x\ .zoi.\ gi ga je kibyse'u da ko'a goi la'o zoi.\ \B x\ .zoi.\ gi lo zbasu ja co'e be ko'a cu na troci lo nu tolcru lo nu kibyse'u da ko'a
 
+\paragraph{English}
+For all $A$, \AgdaPostulate{Zauselkibyse'u} \B x is the type of $A$ iff ($A$ is a client of \B x, and the thing (which creates (or whatever \{VERB\}) \B x) not attempts to forbid that $A$ is a client of \B x).
+
+\begin{code}
+postulate Zauselkibyse'u : IMS → Set
+\end{code}
+
+\section{le prenu / The Prenu}
 \subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.
@@ -244,7 +264,14 @@ postulate
                 → These
                   (These
                     (to'e-fingubni-fa A)
-                    (me'oi-custom-tolcru A))
+                    (_×_
+                      (me'oi-custom-tolcru A)
+                      (Maybe
+                        -- | ni'o na fegli fa lo jalge
+                        -- be lo nu le degja'o lerfu
+                        -- cu zvati ma
+                        ((x : Zauselkibyse'u A) →
+                         la-varik cu-tolnei x))))
                   (These
                     (These
                       (me'oi-centralise A)
@@ -336,7 +363,7 @@ ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu ko'a
   la-tolneic = tolnei-ctaipe $ these ladistrol cenclapei
     where
     cenclapei = these (this diskentral) $ these diskcla diskpei
-    ladistrol = these ladinafil diskustrol
+    ladistrol = these ladinafil $ diskustrol , nothing
 \end{code}
 
 \section{la'oi .Telegram.}
