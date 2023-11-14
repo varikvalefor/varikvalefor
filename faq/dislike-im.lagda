@@ -283,6 +283,13 @@ postulate
                 → la-varik cu-tolnei A
 \end{code}
 
+\subsection{le su'u pluja / That the Thing is Complex}
+\paragraph{la .lojban.}
+ni'o xu ko'a goi la'o zoi.\ \AgdaPostulate{tolnei-ctaipe} .zoi.\ banzuka le ka ce'u pluja kei lo nu nandu fa lo nu jimpe fi lo me ko'a ctaipe  .i la .varik.\ cu djica curmi lo nu pinka
+
+\paragraph{English}
+The extent (of that \AgdaPostulate{tolnei-ctaipe} is complex) is sufficient for that difficult is understanding the \AgdaPostulate{tolnei-ctaipe} proofs?  VARIK welcomes commenting.
+
 \section{la'oi .Discord.}
 
 \begin{code}
