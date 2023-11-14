@@ -176,7 +176,7 @@ postulate to'e-fingubni-fa : IMS → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-custom-tolcru} \B a .zoi.\ gi ro da poi kibyse'u ke'a ko'a goi la'o zoi.\ \B a\ .zoi.\ jenai cu se zbasu lo zbasu be ko'a zo'u tolcru lo nu pilno da
 
 \paragraph{English}
-A proof of \AgdaPostulate{me'oi-custom-tolcru} \B a exists iff for all clients (of \B a) (which are not created by the creator of \B a) $x$, forbids that uses $x$.
+A proof of \AgdaPostulate{me'oi-custom-tolcru} \B a exists iff for all clients (of \B a) (which are not created by the creator of \B a) $x$, forbidden is using $x$.
 
 \begin{code}
 postulate me'oi-custom-tolcru : IMS → Set
