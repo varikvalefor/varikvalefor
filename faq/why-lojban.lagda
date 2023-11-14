@@ -333,7 +333,7 @@ postulate jbonartogbau : ¬ (togbau-fa la-lojban)
 ni'o la'oi .\AgdaPostulate{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be le jbobau be la .varik.
 
 \paragraph{English}
-\AgdaPostulate{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which are grammatical with regard to the Lojban which is used by VARIK.
+\AgdaPostulate{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which are grammatical with regard to the grammar of the Lojban which is used by VARIK.
 
 \begin{code}
 postulate jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
