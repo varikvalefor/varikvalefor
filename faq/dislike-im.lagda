@@ -357,7 +357,7 @@ ni'o la'oi .\AgdaPostulate{diskpei}.\ ctaipe le su'u su'o da poi ke'a pagbu ko'a
   postulate diskpei : me'oi-paywall la-diskord
 \end{code}
 
-\subsubsection{la'oi .\AgdaPostulate{diselkibyse'u}
+\subsubsection{la'oi .\AgdaPostulate{diselkibyse'u}}
 \paragraph{la .lojban.}
 ni'o xu cadga fa lo nu ciksi bau la .lojban.
 
