@@ -55,10 +55,10 @@ That (VARIK dislikes Telegram) is justified by that (Telegram is closed-source) 
 
 \subsection{la'oi .IRC.}
 \paragraph{la .lojban.}
-ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ga je ko'a na mapti lo nu benji lo pixra gi tolcru lo nu benji lo clani je lerseltcidu fu ko'a
+ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra
 
 \paragraph{English}
-That (VARIK not likes IRC) is justified by that (IRC not supports sending images, and forbidden is that sends (via IRC) lengthy text).
+That (VARIK not likes IRC) is justified by that IRC not supports sending images.
 
 \section{le vrici / Miscellaneous Crap}
 
