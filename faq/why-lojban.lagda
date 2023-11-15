@@ -317,50 +317,6 @@ la-lojban = record {
 
 \section{le barda ja co'e je ctaipe}
 
-\subsection{la'oi .\AgdaPostulate{jbonartogbau}.}
-\paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{jbonartogbau}.\ ctaipe le su'u la .lojban.\ cu na tonga bangu
-
-\paragraph{English}
-\AgdaPostulate{jbonartogbau} is a proof of that Lojban is not a tonal language.
-
-\begin{code}
-postulate jbonartogbau : ¬ (togbau-fa la-lojban)
-\end{code}
-
-\subsection{la'oi .\AgdaPostulate{jbogernypavysmu}.}
-\paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{jbogernypavysmu}.\ ctaipe le su'u gerna pavysmu fa lo ro te gerna be le jbobau be la .varik.
-
-\paragraph{English}
-\AgdaPostulate{jbogernypavysmu} is a proof of that syntactically unambiguous are all sentences which are grammatical with regard to the grammar of the Lojban which is used by VARIK.
-
-\begin{code}
-postulate jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
-\end{code}
-
-\subsection{la'oi .\AgdaPostulate{ozvraka'e}.}
-\paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{ozvraka'e}.\ ctaipe le su'u la .varik.\ cu se frili lo nu la .varik.\ cu vlaba'u lo valsi be fi lo se leksiko be le leksiko be le jbobau be la .varik.
-
-\paragraph{English}
-\AgdaPostulate{ozvraka'e} is a proof of that easy for VARIK is that VARIK pronounces the words of the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
-
-\begin{code}
-postulate ozvraka'e : la-varik cu-vlaba'u-kakne (Bangu.leksiko la-lojban)
-\end{code}
-
-\subsection{la'o zoi.\ \AgdaPostulate{jboslabu}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{jboslabu}.\ ctaipe le su'u la .lojban.\ cu slabu la .varik.
-
-\paragraph{English}
-\AgdaPostulate{jboslabu} is a proof of that Lojban is familiar to VARIK.
-
-\begin{code}
-postulate jboslabu : la-lojban cu-slabu la-varik
-\end{code}
-
 \subsection{la'oi .\AgdaPostulate{pavybaupli}.}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi\ldots
@@ -399,10 +355,12 @@ VARIK not finds that necessary is that VARIK uses (for that VARIK explains \F{jb
 jbobau-la-varik : la-varik cu-baupli la-lojban
 jbobau-la-varik = pavybaupli js jntb jbogernypavysmu ozvraka'e sdfr vnll
   where
-  js = jboslabu
-  jntb = jbonartogbau
   postulate
     sdfr : sapydrackifilri'a-fa-tu'a la-lojban
     vnll : la-varik cu-nelci (Bangu.leksiko la-lojban)
+    jntb : ¬ (togbau-fa la-lojban)
+    js : la-lojban cu-slabu la-varik
+    ozvraka'e : la-varik cu-vlaba'u-kakne (Bangu.leksiko la-lojban)
+    jbogernypavysmu : gernypavysmu-fa le-lojban-gerna
 \end{code}
 \end{document}
