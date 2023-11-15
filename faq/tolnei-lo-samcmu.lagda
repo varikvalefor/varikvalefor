@@ -248,6 +248,10 @@ postulate tcimi'ebratolnei : {x : Samcmu}
 
 \subsection{ko'a goi la'o glibau.\ Microsoft Windows Vista .glibau.\ po'u la'o zoi.\ \F{la-vista}\ .zoi.}
 
+\begin{code}
+module WindowsVista where
+\end{code}
+
 \subsubsection{la'o zoi.\ \F{la-vista}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \F{la-vista}\ .zoi.\ no'u ko'a du la'o glibau.\ Microsoft Windows Vista .glibau.\ poi ke'a se ciksi la'oi .Microsoft.\ je poi ca le rononoze moi ku gubgau ja co'e le velcki be ke'a
@@ -256,11 +260,11 @@ ni'o la'o zoi.\ \F{la-vista}\ .zoi.\ no'u ko'a du la'o glibau.\ Microsoft Window
 \F{la-vista} is the Microsoft Windows Vista which is defined by Microsoft and is ``published'' circa 2007.
 
 \begin{code}
-la-vista : Samcmu
-la-vista = record {
-  cmene = "Microsoft Windows Vista";
-  skamyklesi = lo-jbuskami ∷ []
-  }
+  la-vista : Samcmu
+  la-vista = record {
+    cmene = "Microsoft Windows Vista";
+    skamyklesi = lo-jbuskami ∷ []
+    }
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{vistynarfingubni}.}
@@ -271,7 +275,7 @@ ni'o la'oi .\AgdaPostulate{vistynarfingubni}.\ ctaipe le su'u ko'a na fingubni
 \AgdaPostulate{vistynarfingubni} is a proof of that Microsoft Windows Vista is not a thing which is free and open-source.
 
 \begin{code}
-postulate vistynarfingubni : ¬ (fingubni-fa la-vista)
+  postulate vistynarfingubni : ¬ (fingubni-fa la-vista)
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{vistytolspocru}.}
@@ -282,7 +286,7 @@ ni'o la'oi .\AgdaPostulate{vistytolspocru}.\ ctaipe le su'u ko'a troci pe'a ru'e
 \AgdaPostulate{vistytolspocru} is a proof of that Microsoft Windows Vista, a.k.a.\ ``$A$'', ``attempts'' that $A$ forbids that the user of $A$ removes files which are necessary for that $A$ correctly functions.
 
 \begin{code}
-postulate vistytolspocru : tolcru-lo-nu-spogau-kei-fa la-vista
+  postulate vistytolspocru : tolcru-lo-nu-spogau-kei-fa la-vista
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{vistycafnysamfli}.}
@@ -293,7 +297,7 @@ ni'o la'oi .\AgdaPostulate{vistymasno}.\ ctaipe le su'u la .varik.\ cu jinvi le 
 \AgdaPostulate{vistymasno} is a proof of that VARIK opines that frequent is that Microsoft Windows Vista crashes.
 
 \begin{code}
-postulate vistymasno : la-varik cu-jinvycafnysamfli la-vista
+  postulate vistymasno : la-varik cu-jinvycafnysamfli la-vista
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{vistytolnei₁}\ .zoi.}
@@ -304,8 +308,8 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u jitfa fa le du'u ro da poi ke'a pre
 That (VARIK dislikes Microsoft Windows Vista, a.k.a.\ ``$A$'') is justified by that false is that for all prenu $B$, for all copies (of $A$) $C$, for all events $D$ which pertain only to $B$ and $C$, $A$ permits that $B$ causes $D$.
 
 \begin{code}
-vistytolnei₁ : la-varik cu-tolnei la-vista
-vistytolnei₁ = vlipytolnei $ narvlipa vistytolspocru
+  vistytolnei₁ : la-varik cu-tolnei la-vista
+  vistytolnei₁ = vlipytolnei $ narvlipa vistytolspocru
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{vistytolnei₂}\ .zoi.}
@@ -316,11 +320,15 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne 
 That (VARIK dislikes Microsoft Windows Vista) is justified by that VARIK opines that frequent is that Microsoft Windows Vista crashes.
 
 \begin{code}
-vistytolnei₂ : la-varik cu-tolnei la-vista
-vistytolnei₂ = samflitolnei vistymasno
+  vistytolnei₂ : la-varik cu-tolnei la-vista
+  vistytolnei₂ = samflitolnei vistymasno
 \end{code}
 
 \subsection{ko'a goi la'o zoi.\ Microsoft Windows 11 .zoi.\ po'u la'o zoi.\ \F{la-parparuin}\ .zoi.}
+
+\begin{code}
+module Windows11 where
+\end{code}
 
 \subsubsection{la'o zoi.\ \F{la-parparuin}\ .zoi.}
 \paragraph{la .lojban.}
@@ -330,11 +338,11 @@ ni'o la'o zoi.\ \F{la-parparuin}\ .zoi.\ du la'o zoi.\ Microsoft Windows 11 .zoi
 \F{la-parparuin} is the Microsoft Windows 11 which is defined by Microsoft and is released circa 2021.
 
 \begin{code}
-la-parparuin : Samcmu
-la-parparuin = record {
-  cmene = "Microsoft Windows 11";
-  skamyklesi = lo-jbuskami ∷ []
-  }
+  la-parparuin : Samcmu
+  la-parparuin = record {
+    cmene = "Microsoft Windows 11";
+    skamyklesi = lo-jbuskami ∷ []
+    }
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{parpartcimi'etolnei}.}
@@ -345,7 +353,7 @@ ni'o la'oi .\AgdaPostulate{parpartcimi'etolnei}.\ ctaipe le su'u la .varik. cu t
 \AgdaPostulate{parpartcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Microsoft Windows 11.
 
 \begin{code}
-postulate parpartcimi'etolnei : la-varik cu-tcimi'etolnei la-parparuin
+  postulate parpartcimi'etolnei : la-varik cu-tcimi'etolnei la-parparuin
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{parpartolnei₁}\ .zoi.}
@@ -356,11 +364,15 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be l
 That (VARIK dislikes Microsoft Windows 11) is justified by that VARIK dislikes the tools which facilitate configuring Microsoft Windows 11.
 
 \begin{code}
-parpartolnei₁ : la-varik cu-tolnei la-parparuin
-parpartolnei₁ = tcimi'ebratolnei parpartcimi'etolnei
+  parpartolnei₁ : la-varik cu-tolnei la-parparuin
+  parpartolnei₁ = tcimi'ebratolnei parpartcimi'etolnei
 \end{code}
 
 \subsection{ko'a goi la'oi .Ubuntu.\ po'u la'o zoi.\ \F{la-ubuntus}\ .zoi.}
+
+\begin{code}
+module LinuxUbuntu where
+\end{code}
 
 \subsubsection{la'o zoi.\ \F{la-ubuntus}\ .zoi.}
 \paragraph{la .lojban.}
@@ -370,11 +382,11 @@ ni'o la'o zoi.\ \F{la-ubuntus}\ .zoi.\ du la'oi .Ubuntu.\ poi ke'a mu'oi glibau.
 \F{la-ubuntus} is the Ubuntu which is a Linux distribution.
 
 \begin{code}
-la-ubuntus : Samcmu
-la-ubuntus = record {
-  cmene = "Ubuntu";
-  skamyklesi = lo-jbuskami ∷ []
-  }
+  la-ubuntus : Samcmu
+  la-ubuntus = record {
+    cmene = "Ubuntu";
+    skamyklesi = lo-jbuskami ∷ []
+    }
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{buntcimi'etcitolnei}\ .zoi.}
@@ -385,7 +397,7 @@ ni'o la'oi .\AgdaPostulate{buntcimi'etolnei}.\ ctaipe le su'u la .varik.\ cu tol
 \AgdaPostulate{buntcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Ubuntu.
 
 \begin{code}
-postulate buntcimi'etolnei : la-varik cu-tcimi'etolnei la-ubuntus
+  postulate buntcimi'etolnei : la-varik cu-tcimi'etolnei la-ubuntus
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{buntolnei₁}\ .zoi.}
@@ -396,11 +408,15 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be l
 That (VARIK dislikes the tools which facilitate that configures Ubuntu) justifies that VARIK dislikes Ubuntu.
 
 \begin{code}
-buntolnei₁ : la-varik cu-tolnei la-ubuntus
-buntolnei₁ = tcimi'ebratolnei buntcimi'etolnei
+  buntolnei₁ : la-varik cu-tolnei la-ubuntus
+  buntolnei₁ = tcimi'ebratolnei buntcimi'etolnei
 \end{code}
 
 \subsection{ko'a goi la'o zoi.\ OpenBSD .zoi.}
+
+\begin{code}
+module OpenBSD where
+\end{code}
 
 \subsubsection{la'o zoi.\ \F{la-openbysydys}\ .zoi.}
 \paragraph{la .lojban.}
@@ -410,11 +426,11 @@ ni'o la'o zoi.\ \F{la-openbysydys}\ .zoi.\ du la'o zoi.\ OpenBSD .zoi.
 \F{la-openbysydys} is OpenBSD.
 
 \begin{code}
-la-openbysydys : Samcmu
-la-openbysydys = record {
-  cmene = "OpenBSD";
-  skamyklesi = lo-jbuskami ∷ []
-  }
+  la-openbysydys : Samcmu
+  la-openbysydys = record {
+    cmene = "OpenBSD";
+    skamyklesi = lo-jbuskami ∷ []
+    }
 \end{code}
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{openbysydys-samfli}\ .zoi.}
@@ -425,7 +441,7 @@ ni'o la'o zoi.\ \AgdaPostulate{openbysydys-samfli}\ .zoi.\ ctaipe le su'u la .va
 \AgdaPostulate{openbysydys-samfli} is a proof of that VARIK opines that frequent is that OpenBSD crashes.
 
 \begin{code}
-postulate openbysydys-samfli : la-varik cu-jinvycafnysamfli la-openbysydys
+  postulate openbysydys-samfli : la-varik cu-jinvycafnysamfli la-openbysydys
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{obstolnei₁}\ .zoi.}
@@ -436,7 +452,7 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne 
 That (VARIK dislikes OpenBSD) is justified by that VARIK opines that frequent is that OpenBSD crashes.
 
 \begin{code}
-obstolnei₁ : la-varik cu-tolnei la-openbysydys
-obstolnei₁ = samflitolnei openbysydys-samfli
+  obstolnei₁ : la-varik cu-tolnei la-openbysydys
+  obstolnei₁ = samflitolnei openbysydys-samfli
 \end{code}
 \end{document}
