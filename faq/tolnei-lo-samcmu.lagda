@@ -190,7 +190,7 @@ A proof of \B a \OpP{cu-tcimi'etolnei} \B b\ exists iff \B a\ dislikes the tools
 postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
 \end{code}
 
-\section{le barda ja co'e je ctaipe / The Proofs which are Large or Something}
+\section{le fancu / The Functions}
 
 \subsection{la'oi .\AgdaPostulate{narvlipa}.}
 \paragraph{la .lojban.}
