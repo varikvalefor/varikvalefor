@@ -55,10 +55,10 @@ That (VARIK dislikes Telegram) is justified by that (Telegram is closed-source) 
 
 \subsection{la'oi .IRC.}
 \paragraph{la .lojban.}
-ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra
+ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra  .i ji'a la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a
 
 \paragraph{English}
-That (VARIK not likes IRC) is justified by that IRC not supports sending images.
+That (VARIK not likes IRC) is justified by that IRC not supports sending images.  Additionally, that (VARIK dislikes IRC) is justified by that forbidden is sending (via IRC) lengthy text.
 
 \section{le vrici / Miscellaneous Crap}
 
@@ -482,5 +482,12 @@ ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo cla
 \begin{code}
   la-narneic : la-varik cu-na-nelci la-irk
   la-narneic = narnei-ctaipe irkypixra
+\end{code}
+
+\subsection{le ctaipe be le su'u tolnei / The Proof of that Dislikes}
+
+\begin{code}
+  la-tolneic : la-varik cu-tolnei la-irk
+  la-tolneic = tolnei-ctaipe $ that $ that $ this irkyclani
 \end{code}
 \end{document}
