@@ -92,7 +92,7 @@ postulate la-varik : Prenu
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-jboponei}\ .zoi.}
-ni'o ko'a goi la'o zoi.\ \AgdaPostulate{la-jboponei}\ .zoi.\ du la jboponei
+ni'o la jboponei cu du ko'a goi la'o zoi.\ \AgdaPostulate{la-jboponei}\ .zoi.
 
 .i xu cadga fa lo nu ko'a ctaipe lo na du be la'oi .\AgdaPostulate{Bangu}.
 
