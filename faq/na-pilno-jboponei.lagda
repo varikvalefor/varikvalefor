@@ -119,11 +119,11 @@ postulate
              → ¬ (rolmapge'a $ le-jbobau-be x)
 \end{code}
 
-\subsection{la'o zoi.\ \F{vjms}\ .zoi.}
-ni'o la'o zoi.\ \F{vjms}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
+\subsection{la'o zoi.\ \F{rolos}\ .zoi.}
+ni'o la'o zoi.\ \F{rolos}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
 
 \begin{code}
-postulate vjms : rolmapge'a $ le-jbobau-be la-varik
+postulate rolos : rolmapge'a $ le-jbobau-be la-varik
 \end{code}
 
 \subsection{la'oi .\F{vnpj}.}
@@ -131,6 +131,6 @@ ni'o la'o zoi.\ \F{vnpj}\ .zoi.\ ctaipe le su'u la .varik.\ cu na pilno la jbopo
 
 \begin{code}
 vnpj : ¬ (la-varik cu-pilno la-jboponei)
-vnpj = flip plinamapti vjms
+vnpj = flip plinamapti rolos
 \end{code}
 \end{document}
