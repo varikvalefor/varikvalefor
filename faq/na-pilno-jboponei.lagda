@@ -71,7 +71,7 @@ postulate Bangu : Set
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{le-jbobau-be}\ .zoi.}
-ni'o ro da zo'u ga jo da ctaipe la'o zoi.\ \AgdaPostulate{le-jbobau-be} \B a .zoi.\ gi da jbobau la'o zoi.\ \B a .zoi.
+ni'o ro da zo'u da ctaipe la'o zoi.\ \AgdaPostulate{le-jbobau-be} \B a .zoi.\ jo cu jbobau la'o zoi.\ \B a .zoi.
 
 \begin{code}
 postulate le-jbobau-be : Prenu → Bangu
