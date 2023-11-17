@@ -110,7 +110,7 @@ postulate rolmapge'a : Bangu → Set
 \section{le barda ja co'e je ctaipe}
 
 \subsection{la'oi .\AgdaPostulate{plinamapti}.}
-ni'o la'oi .\AgdaPostulate{plinamapti}.\ ctaipe le su'u ro da poi ke'a prenu zo'u ga naja da pilno la jboponei gi su'o de zo'u gerna fi de fe la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.\ naje lo jbobau be da
+ni'o la'oi .\AgdaPostulate{plinamapti}.\ ctaipe le su'u ro da poi ke'a prenu zo'u ga naja da pilno la jboponei gi su'o de zo'u gerna fi de fe la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.\ ge'u naje lo jbobau be da
 
 \begin{code}
 postulate
