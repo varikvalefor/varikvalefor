@@ -126,11 +126,11 @@ ni'o la'o zoi.\ \F{rolos}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ 
 postulate rolos : rolmapge'a $ le-jbobau-be la-varik
 \end{code}
 
-\subsection{la'oi .\F{vnpj}.}
-ni'o la'o zoi.\ \F{vnpj}\ .zoi.\ ctaipe le su'u la .varik.\ cu na pilno la jboponei
+\subsection{la'oi .\F{najboponeis}.}
+ni'o la'o zoi.\ \F{najboponeis}\ .zoi.\ ctaipe le su'u la .varik.\ cu na pilno la jboponei
 
 \begin{code}
-vnpj : ¬ (la-varik cu-pilno la-jboponei)
-vnpj = flip plinamapti rolos
+najboponeis : ¬ (la-varik cu-pilno la-jboponei)
+najboponeis = flip plinamapti rolos
 \end{code}
 \end{document}
