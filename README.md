@@ -74,7 +74,7 @@ ni'o la .varik. cu...
 
 * selcme lu .varik. .VALefor. li'u gi'e
 
-* jbene fi li pasobivopi'enosopi'epaso gi'e
+* jbene fi li pasobivo pi'e noso pi'e paso gi'e
 
 * nakni gi'e
 
