@@ -48,7 +48,7 @@ VARIK's skills include but are not limited to intelligence analysis, mathematics
 ## ASPERGER's Syndrome
 Clinically diagnoses that VARIK has ASPERGER's syndrome.
 
-VARIK knows that (some things claim that (should not use "ASPERGER's syndrome"))... but identifies with "ASPERGER's syndrome" and resists that attempts that causes that VARIK not uses "ASPERGER's syndrome".  That (VARIK uses (for that (describes VARIK)) "ASPERGER's syndrome") continues.
+VARIK knows that (some things claim that (things should not use "ASPERGER's syndrome"))... but identifies with "ASPERGER's syndrome" and resists that attempts that causes that VARIK not uses "ASPERGER's syndrome".  That (VARIK uses (for that (describes VARIK)) "ASPERGER's syndrome") continues.
 
 ## Contact
 VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
