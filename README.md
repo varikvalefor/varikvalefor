@@ -82,7 +82,7 @@ ni'o la .varik. cu...
 
 * seljibri le nu pilno lo cmaci gi'e
 
-* selbau la .lojban. .e le cmaci bangu .e le glibau gi'e
+* selbau la .lojban. .e le cmacybau .e le glibau gi'e
 
 * [selcei la .satan. poi ke'a cmacypre](faq/llblv-jbo.tex) ku'o gi'e
 
