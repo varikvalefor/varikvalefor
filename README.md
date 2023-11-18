@@ -112,11 +112,11 @@ ni'o le'i selpre be la .varik. cu vasru...
 
 * la'oi .TeSiNeFi. noi ke'a se skicu fo zo'e pe la'o gy. jungian cognitive functions .gy.
 
-.ije li ji'i vovo cu ni la .varik. cu ckaji la'oi .openness.
-.ije li panono cu ni la .varik. cu ckaji la'oi .conscientiousness.
-.ije li ji'i xaci cu ni la .varik. cu ckaji la'oi .extroversion.
-.ije li ji'i xarepimu cu ni la .varik. cu ckaji la'oi .agreeableness.
-.ije li pa cu ni la .varik. cu ckaji la'oi .neuroticism.
+.ije li ji'i vovo cu ni la .varik. cu ckaji le me'oi .openness.
+.ije li panono cu ni la .varik. cu ckaji le me'oi .conscientiousness.
+.ije li ji'i xaci cu ni la .varik. cu ckaji le me'oi .extroversion.
+.ije li ji'i xarepimu cu ni la .varik. cu ckaji le me'oi .agreeableness.
+.ije li pa cu ni la .varik. cu ckaji le me'oi .neuroticism.
 
 ## le se certu
 ni'o la .varik. cu certu ja stati ja se slabu le cmaci .e la'e zoi glibau. intelligence analysis .glibau. .e le me'oi .cybersecurity. .e la'e zoi glibau. national security .glibau. .e lo nu lanli lo datni kei .e lo nu platu fi lo gungunma kei .e le zbaske be lo ciste ku ku .e la'e zoi glibau. machine learning .glibau. .e le menske .e le cmaci jikske .e lo nu zbasu lo samseltcana kei .e lo nu cikre lo samseltcana kei .e le me'oi .cryptography. .e la'oi .OpenBSD. .e la'oi .Haskell. .e la'oi .APL. .e la'oi .Perl. .e la'oi .Agda. .e lo nu cusku kei .e lo nu kacmyterxra fi lo tolrunjavji'e kei .e le skami bauske
