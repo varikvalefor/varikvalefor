@@ -93,20 +93,20 @@ ni'o la .varik. cu...
 
 * pilno la'oi .OpenBSD. lo samcmu gi'e
 
-* pilno la'o gy. xmonad(1) .gy. la'o gy. window manager .gy. gi'e
+* pilno la'o zoi. xmonad(1) .zoi. la'o gy. window manager .gy. gi'e
 
-* pilno la'o gy. ksh(1) .gy. .e la'o gy. tcsh(1) .gy. lo samymi'etci gi'e
+* pilno la'o zoi. ksh(1) .zoi. .e la'o zoi. tcsh(1) .zoi. lo samymi'etci gi'e
 
-* pilno la'o gy. xterm(1) .gy. lo termine gi'e
+* pilno la'o zoi. xterm(1) .zoi. lo termine gi'e
 
-* pilno la'o gy. ed(1) .gy. .e la'o gy. vi(1) .gy. lo nu cusku'i
+* pilno la'o zoi. ed(1) .zoi. .e la'o zoi. vi(1) .zoi. lo nu cusku'i
 
 ## le selpre
 ni'o le'i selpre be la .varik. cu vasru...
 
 * la'oi .ESTJ. noi ke'a se skicu fo zo'e pe la'o gy. MYERS-BRIGGS Type Indicator .gy. ku'o.e
 
-* vu'oi la'o gy. 3w2 1w2 5w6 .gy. .e la'o gy. sp/so .gy. vu'o noi ke'a se skicu fo zo'e pe la'o gy. Enneagram of Personality .gy. ku'o .e
+* vu'oi la'o zoi. 3w2 1w2 5w6 .zoi. .e la'o zoi. sp/so .zoi. vu'o noi ke'a se skicu fo zo'e pe la'o gy. Enneagram of Personality .gy. ku'o .e
 
 * la'oi .LSE. noi ke'a se skicu fo zo'e pe la'oi .Socionics. ku'o .e
 
@@ -127,7 +127,7 @@ ni'o le su'o ci mikce cu facki le du'u la .varik. cu se xadzu'i le mu'oi glibau.
 .i ge la .varik. cu djuno le du'u le su'o co'e cu xusra le du'u cadga fa lo nu na pilno ko'a goi zoi glibau. ASPERGER's syndrome .glibau.  .i je ku'i la .varik. cu mu'oi glibau. identify with .glibau. ko'a gi'e xarnu fi lo nu troci lo nu tolcru lo nu pilno zo'e gi ranji fa le nu la .varik. cu pilno ko'a lo nu skicu ja ciksi la .varik.
 
 ## le te mrilu
-ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy. .a la'o gy. @varikvalefor:matrix.org .gy. gi lakne fa lo nu la .varik. cu viska da
+ni'o ro da zo'u ganai mrilu da la'o zoi. varikvalefor@aol.com .zoi. .a la'o zoi. @varikvalefor:matrix.org .zoi. gi lakne fa lo nu la .varik. cu viska da
 
 ## le cafrei
-ni'o le danfu be lu .i do pilno la'o gy. xterm(1) .gy. ki'u ma li'u cu kibzva la'o .urli. <faq/xterm-jbo.tex> .urli.  .ije le danfu be lu .i do cimoi pe'a prenu cusku ki'u ma li'u cu kibzva la'o .urli. <faq/cimoi-prenu-cusku.lagda> .urli.  .ije le danfu be lu .i jbobau do ki'u ma li'u cu kibzva la'o .urli. <faq/why-lojban.lagda> .urli.  .ije le danfu be lu .i do fanva fi le glibau fo la .lojban. ki'u ma li'u cu kibzva la'o .urli. <faq/lojban-fanva-ctaipe.lagda> .urli.  .ije le danfu be lu .i ma krinu le nu do na pilno la jboponei li'u cu kibzva la'o .urli. <faq/na-pilno-jboponei.lagda> .urli.
+ni'o le danfu be lu .i do pilno la'o zoi. xterm(1) .zoi. ki'u ma li'u cu kibzva la'o .urli. <faq/xterm-jbo.tex> .urli.  .ije le danfu be lu .i do cimoi pe'a prenu cusku ki'u ma li'u cu kibzva la'o .urli. <faq/cimoi-prenu-cusku.lagda> .urli.  .ije le danfu be lu .i jbobau do ki'u ma li'u cu kibzva la'o .urli. <faq/why-lojban.lagda> .urli.  .ije le danfu be lu .i do fanva fi le glibau fo la .lojban. ki'u ma li'u cu kibzva la'o .urli. <faq/lojban-fanva-ctaipe.lagda> .urli.  .ije le danfu be lu .i ma krinu le nu do na pilno la jboponei li'u cu kibzva la'o .urli. <faq/na-pilno-jboponei.lagda> .urli.
