@@ -124,7 +124,7 @@ ni'o la .varik. cu certu ja stati ja se slabu le cmaci .e la'e zoi glibau. intel
 ## le mu'oi glibau. ASPERGER's syndrome .glibau.
 ni'o le su'o ci mikce cu facki le du'u la .varik. cu se xadzu'i le mu'oi glibau. ASPERGER's syndrome .glibau.
 
-.i ge la .varik. cu djuno le du'u le su'o co'e cu xusra le du'u cadga fa lo nu na pilno ko'a goi zoi glibau. ASPERGER's syndrome .glibau... gi'e ku'i cu mu'oi glibau. identify with .glibau. ko'a gi'e xarnu fi lo nu troci lo nu tolcru lo nu pilno zo'e gi ranji fa le nu la .varik. cu pilno ko'a lo nu skicu ja ciksi la .varik.
+.i ge la .varik. cu djuno le du'u le su'o co'e cu xusra le du'u cadga fa lo nu na pilno ko'a goi zoi glibau. ASPERGER's syndrome .glibau.  .i je ku'i la .varik. cu mu'oi glibau. identify with .glibau. ko'a gi'e xarnu fi lo nu troci lo nu tolcru lo nu pilno zo'e gi ranji fa le nu la .varik. cu pilno ko'a lo nu skicu ja ciksi la .varik.
 
 ## le te mrilu
 ni'o ro da zo'u ganai mrilu da la'o gy. varikvalefor@aol.com .gy. .a la'o gy. @varikvalefor:matrix.org .gy. gi lakne fa lo nu la .varik. cu viska da
