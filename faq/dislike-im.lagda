@@ -262,24 +262,24 @@ VARIK hopes that unnecessary is writing an English explanation.
 \begin{code}
 postulate
   tolnei-ctaipe : {A : IMS}
-                → These
-                  (These
-                    (to'e-fingubni-fa A)
-                    (_×_
-                      (me'oi-custom-tolcru A)
-                      (Maybe
-                        -- | ni'o na fegli fa lo jalge
-                        -- be lo nu le degja'o lerfu
-                        -- cu zvati ma
-                        ((x : Zauselkibyse'u A) →
-                         la-varik cu-tolnei x))))
-                  (These
+                → (These
                     (These
-                      (me'oi-centralise A)
-                      (fonxysarcu A))
+                      (to'e-fingubni-fa A)
+                      (_×_
+                        (me'oi-custom-tolcru A)
+                        (Maybe
+                          -- | ni'o na fegli fa lo jalge
+                          -- be lo nu le degja'o lerfu
+                          -- cu zvati ma
+                          ((x : Zauselkibyse'u A) →
+                           la-varik cu-tolnei x))))
                     (These
-                      (tolcru-clanybenji A)
-                      (me'oi-paywall A)))
+                      (These
+                        (me'oi-centralise A)
+                        (fonxysarcu A))
+                      (These
+                        (tolcru-clanybenji A)
+                        (me'oi-paywall A))))
                 → la-varik cu-tolnei A
 \end{code}
 
