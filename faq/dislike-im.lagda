@@ -440,6 +440,11 @@ ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu 
   la-tolneic : la-varik cu-tolnei la-telegram
   la-tolneic = tolnei-ctaipe $ that $ this centfon
     where
+    -- | ni'o cumki fa lo nu le pa lerpinsle cu basti
+    -- le'i re lerpinsle  .i ku'i cumki fa lo nu tu'a
+    -- la'oi .centfon. filri'a lo nu jimpe
+    --
+    -- .i lakne fa lo nu jmina naja cu vimcu le pinka
     centfon = these tugcentra tugfonxa
 \end{code}
 
