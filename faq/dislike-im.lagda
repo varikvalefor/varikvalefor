@@ -283,6 +283,13 @@ postulate
                 → la-varik cu-tolnei A
 \end{code}
 
+\subsubsection{le krinu be tu'a le me'oi .\D{Maybe}.\ co'e / The Justification of the \D{Maybe} Thing}
+\paragraph{la .lojban.}
+ni'o le su'u la .varik.\ cu pilno le me'oi .\D{Maybe}.\ co'e ki'u le su'u la .varik.\ cu djica lo nu frili fa lo nu cusku lo se du'u la .varik.\ cu tolnei lo ro co'e  .i sarcu naje ku'i cu filri'a lo nu .indika lo du'u la .varik.\ cu ba'e mutce lo ka ce'u tolnei
+
+\paragraph{English}
+That (VARIK uses the \D{Maybe} thing) is justified by that VARIK desires that easy is expressing/stating that VARIK dislikes all what's-its \{PN\}.  The thing is unnecessary but facilitates indicating that VARIK \emph{very} dislikes.
+
 \subsection{le su'u pluja / That the Thing is Complex}
 \paragraph{la .lojban.}
 ni'o xu ko'a goi la'o zoi.\ \AgdaPostulate{tolnei-ctaipe} .zoi.\ banzuka le ka ce'u pluja kei lo nu nandu fa lo nu jimpe fi lo me ko'a ctaipe  .i la .varik.\ cu djica curmi lo nu pinka
