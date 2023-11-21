@@ -285,7 +285,7 @@ postulate
 
 \subsubsection{le krinu be tu'a le me'oi .\D{Maybe}.\ co'e / The Justification of the \D{Maybe} Thing}
 \paragraph{la .lojban.}
-ni'o le su'u la .varik.\ cu pilno le me'oi .\D{Maybe}.\ jenai me'oi .\D{These}.\ co'e ki'u le su'u ga je la .varik.\ cu djica lo nu frili fa lo nu cusku lo se du'u la .varik.\ cu tolnei lo ro co'e gi ro da poi ke'a sutra benji kubyse'u zo'u ga janai la .varik.\ cu tolnei da gi ga ba'e je tolcru lo nu pilno lo me'oi .custom.\ ja me'oi .unofficial.\ je ke se kibyse'u be fi da ke'e gi la .varik.\ cu tolnei lo ro co'e  .i sarcu naje ku'i cu filri'a lo nu .indika lo du'u la .varik.\ cu ba'e mutce lo ka ce'u tolnei
+ni'o le su'u la .varik.\ cu pilno le me'oi .\D{Maybe}.\ jenai me'oi .\D{These}.\ co'e ki'u le su'u ga je la .varik.\ cu djica ko'a goi lo nu frili fa lo nu cusku lo se du'u la .varik.\ cu tolnei lo ro co'e gi ro da poi ke'a sutra benji kubyse'u zo'u ga janai la .varik.\ cu tolnei da gi ga ba'e je tolcru lo nu pilno lo me'oi .custom.\ ja me'oi .unofficial.\ je ke se kibyse'u be fi da ke'e gi la .varik.\ cu tolnei lo ro co'e  .i ko'a sarcu naje ku'i cu filri'a lo nu .indika lo du'u la .varik.\ cu ba'e mutce lo ka ce'u tolnei
 
 \paragraph{English}
 That (VARIK uses the \D{Maybe} thing) is justified by that VARIK desires that easy is expressing/stating that VARIK dislikes all what's-its \{PN\}.  The thing is unnecessary but facilitates indicating that VARIK \emph{very} dislikes.  That (VARIK not uses a \D{These} thing is justified by that for all instant messaging services $A$, if (forbidden is using a client (of $A$) which is custom or unofficial, \emph{and} VARIK dislikes all what's-its \{PN\}), then VARIK dislikes $A$.
