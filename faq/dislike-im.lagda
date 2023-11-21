@@ -307,7 +307,7 @@ module LaDiskord where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ du la'oi .Discord.\ noi zoi zoi.\ \url{https://www.discord.com}\ .zoi.\ .urli ke'a
+ni'o la'o zoi.\ \AgdaPostulate{la-diskord}\ .zoi.\ du la'oi .Discord.\ noi zoi zoi.\ \url{https://www.discord.com}\ .zoi.\ .urli zo'e pe ke'a
 
 \paragraph{English}
 \AgdaPostulate{la-diskord} is Discord, which is described at \url{https://www.discord.com}.
