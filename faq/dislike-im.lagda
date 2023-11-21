@@ -35,7 +35,7 @@
 ni'o velski ko'a goi le su'o mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u je cu velcki le ctaipe be le su'u la .varik.\ cu tolnei ja na nelci ko'a
 
 \paragraph{English}
-Contains descriptions of (some instant messaging services, A.K.A.\ ``$A$'') and definitions of proofs of that (VARIK dislikes $A$) or that VARIK not likes $A$.
+Contains descriptions (of some instant messaging services, A.K.A.\ ``$A$'') and definitions of proofs of that (VARIK dislikes $A$) or that VARIK not likes $A$.
 
 \section{le torveki / The Summary}
 
