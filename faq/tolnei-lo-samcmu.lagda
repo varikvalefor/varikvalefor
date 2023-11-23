@@ -231,7 +231,7 @@ postulate samflitolnei : {x : Samcmu}
                        → la-varik cu-tolnei x
 \end{code}
 
-\subsection{la'oi .\AgdaPostulate{tcimi'ebratolnei}.}
+\subsection{la'oi .\AgdaPostulate{tcimi'etolnei}.}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a samcmu zo'u la .varik.\ cu tolnei da janai lo tutci ja proga ja co'e be lo nu tcimi'e da
 
@@ -239,7 +239,7 @@ ni'o ro da poi ke'a samcmu zo'u la .varik.\ cu tolnei da janai lo tutci ja proga
 For all operating systems $A$, if VARIK dislikes the tools/programs/things which facilitate configuring $A$, then VARIK dislikes $A$.
 
 \begin{code}
-postulate tcimi'ebratolnei : {x : Samcmu}
+postulate tcimi'etolnei : {x : Samcmu}
                            → la-varik cu-tcimi'etolnei x
                            → la-varik cu-tolnei x
 \end{code}
@@ -365,7 +365,7 @@ That (VARIK dislikes Microsoft Windows 11) is justified by that VARIK dislikes t
 
 \begin{code}
   parpartolnei₁ : la-varik cu-tolnei la-parparuin
-  parpartolnei₁ = tcimi'ebratolnei parpartcimi'etolnei
+  parpartolnei₁ = tcimi'etolnei parpartcimi'etolnei
 \end{code}
 
 \subsection{ko'a goi la'oi .Ubuntu.\ po'u la'o zoi.\ \F{la-ubuntus}\ .zoi.}
@@ -409,7 +409,7 @@ That (VARIK dislikes the tools which facilitate that configures Ubuntu) justifie
 
 \begin{code}
   buntolnei₁ : la-varik cu-tolnei la-ubuntus
-  buntolnei₁ = tcimi'ebratolnei buntcimi'etolnei
+  buntolnei₁ = tcimi'etolnei buntcimi'etolnei
 \end{code}
 
 \subsection{ko'a goi la'o zoi.\ OpenBSD .zoi.}
