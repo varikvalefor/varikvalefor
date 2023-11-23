@@ -184,7 +184,7 @@ postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Se
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tcimi'etolnei} \B b .zoi.\ gi la'oi .\B{a}.\ tolnei lo tutci be lo nu tcimi'e la'oi .\B{b}.
 
 \paragraph{English}
-A proof of \B a \OpP{cu-tcimi'etolnei} \B b\ exists iff \B a\ dislikes the tools which facilitate that \B a\ configures \B b.
+A proof of \B a \OpP{cu-tcimi'etolnei} \B b\ exists iff \B a\ dislikes the tools which facilitate configuring \B b.
 
 \begin{code}
 postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
