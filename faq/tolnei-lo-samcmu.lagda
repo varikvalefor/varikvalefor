@@ -240,8 +240,8 @@ For all operating systems $A$, if VARIK dislikes the tools/programs/things which
 
 \begin{code}
 postulate tcimi'etolnei : {x : Samcmu}
-                           → la-varik cu-tcimi'etolnei x
-                           → la-varik cu-tolnei x
+                        → la-varik cu-tcimi'etolnei x
+                        → la-varik cu-tolnei x
 \end{code}
 
 \section{le samcmu}
