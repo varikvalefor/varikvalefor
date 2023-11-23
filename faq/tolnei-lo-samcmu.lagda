@@ -86,7 +86,7 @@ data Skamyklesi : Set
 ni'o ga jo ko'a goi la'oi .\B{a}.\ ctaipe la'oi .\AgdaRecord{Samcmu}.\ gi ga je ko'a samcmu gi\ldots
 \begin{itemize}
 	\item ga je la'o zoi.\ \AgdaField{Samcmu.cmene} \B a\ .zoi.\ cmene ko'a gi
-	\item la'o zoi.\ \AgdaField{Samcmu.skamyklesi} \B a\ .zoi.\ velski ja co'e lo klesi be lo'i ro skami bei lo ka ce'u se mapti ko'a
+	\item la'o zoi.\ \AgdaField{Samcmu.skamyklesi} \B a\ .zoi.\ velski ja co'e lo klesi be lo'i ro skami lo ka ce'u se mapti ko'a
 \end{itemize}
 
 \paragraph{English}
