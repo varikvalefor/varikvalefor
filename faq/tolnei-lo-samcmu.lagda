@@ -159,7 +159,7 @@ postulate tolcru-lo-nu-spogau-kei-fa : Samcmu → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{plivlipa-fa} .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{plivlipa-fa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je poi lo ro se srana be ke'a cu du da ja de zo'u de curmi lo ro nu da gasnu di
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{plivlipa-fa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je poi da je de du lo ro se srana be ke'a zo'u de curmi lo ro nu da gasnu di
 
 \paragraph{English}
 A proof of \AgdaPostulate{plivlipa-fa} \B a\ exists iff for all prenu $A$, for all operating systems $B$, for all copies (of $B$) $C$, for all events (which are relevant only to $A$ and $C$) $D$, if $A$ owns $C$, then $B$ permits that $A$ causes $D$.
