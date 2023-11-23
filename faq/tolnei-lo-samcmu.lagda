@@ -67,7 +67,16 @@ open import Relation.Nullary
 \subsection{la'oi .\D{Skamyklesi}.}
 \paragraph{la .lojban.}
 ni'o lo ro ctaipe be la'oi .\D{Skamyklesi}.\ cu velski ja co'e lo klesi be lo'i skami
-.i skicu ja co'e le si'o jbuskami kei fa'u le si'o samfonxa kei fo la'o zoi.\ \AgdaInductiveConstructor{lo-jbuskami}\ .zoi.\ fa'u la'o zoi.\ \AgdaInductiveConstructor{lo-samfonxa}\ .zoi.
+.i skicu ja co'e\ldots
+\begin{enumerate}
+	\item le si'o jbuskami kei fa'u
+	\item le si'o samfonxa kei
+\end{enumerate}
+fo\ldots
+\begin{enumerate}
+	\item la'o zoi.\ \AgdaInductiveConstructor{lo-jbuskami}\ .zoi.\ fa'u
+	\item la'o zoi.\ \AgdaInductiveConstructor{lo-samfonxa}\ .zoi.
+\end{enumerate}
 
 \paragraph{English}
 Values of \D{Skamyklesi} are descriptions of subsets of the set of computers.
