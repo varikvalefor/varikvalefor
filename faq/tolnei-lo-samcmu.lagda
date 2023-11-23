@@ -350,7 +350,7 @@ ni'o la'o zoi.\ \F{la-parparuin}\ .zoi.\ du la'o zoi.\ Microsoft Windows 11 .zoi
 ni'o la'oi .\AgdaPostulate{parpartcimi'etolnei}.\ ctaipe le su'u la .varik. cu tolnei lo tutci be lo nu tcimi'e ko'a
 
 \paragraph{English}
-\AgdaPostulate{parpartcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Microsoft Windows 11.
+\AgdaPostulate{parpartcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate configuring Microsoft Windows 11.
 
 \begin{code}
   postulate parpartcimi'etolnei : la-varik cu-tcimi'etolnei la-parparuin
@@ -394,7 +394,7 @@ ni'o la'o zoi.\ \F{la-ubuntus}\ .zoi.\ du la'oi .Ubuntu.\ poi ke'a mu'oi glibau.
 ni'o la'oi .\AgdaPostulate{buntcimi'etolnei}.\ ctaipe le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
 
 \paragraph{English}
-\AgdaPostulate{buntcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate that configures Ubuntu.
+\AgdaPostulate{buntcimi'etolnei} is a proof of that VARIK dislikes the tools which facilitate configuring Ubuntu.
 
 \begin{code}
   postulate buntcimi'etolnei : la-varik cu-tcimi'etolnei la-ubuntus
@@ -405,7 +405,7 @@ ni'o la'oi .\AgdaPostulate{buntcimi'etolnei}.\ ctaipe le su'u la .varik.\ cu tol
 ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
 
 \paragraph{English}
-That (VARIK dislikes the tools which facilitate that configures Ubuntu) justifies that VARIK dislikes Ubuntu.
+That (VARIK dislikes the tools which facilitate configuring Ubuntu) justifies that VARIK dislikes Ubuntu.
 
 \begin{code}
   buntolnei₁ : la-varik cu-tolnei la-ubuntus
