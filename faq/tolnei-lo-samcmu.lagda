@@ -420,7 +420,7 @@ module OpenBSD where
 
 \subsubsection{la'o zoi.\ \F{la-openbysydys}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-openbysydys}\ .zoi.\ du la'oi .OpenBSD.
+ni'o la'o zoi.\ \F{la-openbysydys}\ .zoi.\ du ko'a
 
 \paragraph{English}
 \F{la-openbysydys} is OpenBSD.
