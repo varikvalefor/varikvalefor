@@ -83,7 +83,7 @@ data Skamyklesi : Set
 
 \subsection{la'oi .\AgdaRecord{Samcmu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ko'a goi la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\AgdaRecord{Samcmu}.\ gi ga je ko'a samcmu gi\ldots
+ni'o ga jo ko'a goi la'oi .\B{a}.\ ctaipe la'oi .\AgdaRecord{Samcmu}.\ gi ga je ko'a samcmu gi\ldots
 \begin{itemize}
 	\item ga je la'o zoi.\ \AgdaField{Samcmu.cmene} \B a\ .zoi.\ cmene ko'a gi
 	\item la'o zoi.\ \AgdaField{Samcmu.skamyklesi} \B a\ .zoi.\ velski ja co'e lo klesi be lo'i ro skami bei lo ka ce'u se mapti ko'a
@@ -126,7 +126,7 @@ postulate la-varik : Prenu
 
 \subsection{la'oi .\AgdaPostulate{fingubni-fa}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{fingubni-fa} \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ fingubni
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{fingubni-fa} \B a\ .zoi.\ gi la'oi .\B{a}.\ fingubni
 
 \paragraph{English}
 A proof of \AgdaPostulate{fingubni-fa} \B a exists iff \B a is free and open-source.
@@ -137,7 +137,7 @@ postulate fingubni-fa : ∀ {a} → {A : Set a} → A → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-tolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tolnei} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tolnei} \B b\ .zoi.\ gi la'oi .\B{a}.\ tolnei la'oi .\B{b}.
 
 \paragraph{English}
 A proof of \B a \OpP{cu-tolnei} \B b exists iff \B a dislikes \B b.
@@ -148,7 +148,7 @@ postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 
 \subsection{la'oi .\AgdaPostulate{tolcru-lo-nu-spogau-kei-fa}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a .zoi.\ gi ko'a goi la'o zoi.\ \B a\ .zoi.\ troci pe'a ru'e lo nu tolcru lo nu vimcu lo datnyvei ja co'e poi tu'a ke'a sarcu lo nu ko'a tolpo'u
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a .zoi.\ gi ko'a goi la'oi .\B{a}.\ troci pe'a ru'e lo nu tolcru lo nu vimcu lo datnyvei ja co'e poi tu'a ke'a sarcu lo nu ko'a tolpo'u
 
 \paragraph{English}
 A proof of \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a\ exists iff \B a\ ``attempts'' that forbids that removes files which are necessary for that \B a\ correctly functions.
@@ -159,7 +159,7 @@ postulate tolcru-lo-nu-spogau-kei-fa : Samcmu → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{plivlipa-fa} .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{plivlipa-fa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'o zoi.\ \B a\ .zoi.\ zo'u ro di poi ke'a fasnu je poi da je de xi re du lo ro se srana be ke'a zo'u de curmi lo ro nu da gasnu di
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{plivlipa-fa} \B a\ .zoi.\ gi ro da poi ke'a prenu zo'u ro de poi ke'a samcmu zo'u ro de xi re poi ke'a fukpi de je cu se ponse la'oi .\B{a}.\ zo'u ro di poi ke'a fasnu je poi da je de xi re du lo ro se srana be ke'a zo'u de curmi lo ro nu da gasnu di
 
 \paragraph{English}
 A proof of \AgdaPostulate{plivlipa-fa} \B a\ exists iff for all prenu $A$, for all operating systems $B$, for all things (which are copies of $B$ and are owned by $A$) $C$, for all events (which are relevant only to $A$ and $C$) $D$, if $A$ owns $C$, then $B$ permits that $A$ causes $D$.
@@ -170,7 +170,7 @@ postulate plivlipa-fa : Samcmu → Set
 
 \subsection{la'oi .\AgdaPostulate{\AgdaUnderscore{}cu-jinvycafnysamfli}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-jinvycafnysamfli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'o zoi.\ \B b\ .zoi.\ samfli
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-jinvycafnysamfli} \B b\ .zoi.\ gi la'oi .\B{a}.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'oi .\B{b}.\ samfli
 
 \paragraph{English}
 A proof of \B a \OpP{cu-jinvycafnysamfli} \B b\ exists iff \B a\ opines that frequent is that \B b\ crashes.
@@ -181,7 +181,7 @@ postulate _cu-jinvycafnysamfli_ : ∀ {a} → {A : Set a} → Prenu → A → Se
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-tcimi'etolnei\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tcimi'etolnei} \B b .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ tolnei lo tutci be lo nu tcimi'e la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-tcimi'etolnei} \B b .zoi.\ gi la'oi .\B{a}.\ tolnei lo tutci be lo nu tcimi'e la'oi .\B{b}.
 
 \paragraph{English}
 A proof of \B a \OpP{cu-tcimi'etolnei} \B b\ exists iff \B a\ dislikes the tools which facilitate that \B a\ configures \B b.
