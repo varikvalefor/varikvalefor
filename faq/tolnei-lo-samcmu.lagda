@@ -412,7 +412,7 @@ That (VARIK dislikes the tools which facilitate that configures Ubuntu) justifie
   buntolnei₁ = tcimi'etolnei buntcimi'etolnei
 \end{code}
 
-\subsection{ko'a goi la'o zoi.\ OpenBSD .zoi.}
+\subsection{ko'a goi la'oi .OpenBSD.}
 
 \begin{code}
 module OpenBSD where
@@ -420,7 +420,7 @@ module OpenBSD where
 
 \subsubsection{la'o zoi.\ \F{la-openbysydys}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-openbysydys}\ .zoi.\ du la'o zoi.\ OpenBSD .zoi.
+ni'o la'o zoi.\ \F{la-openbysydys}\ .zoi.\ du la'oi .OpenBSD.
 
 \paragraph{English}
 \F{la-openbysydys} is OpenBSD.
