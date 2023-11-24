@@ -82,7 +82,7 @@ VARIK prefers (over that VARIK uses English and not translates to English and fr
 
 	$N$ is some event of that (VARIK uses English and not translates to English and from Lojban).
 
-	For all $A$, for all $B$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if the extent (of that VARIK likes the result of $A$) exceeds the extent (of that VARIK likes the result of $B$, then VARIK prefers (over $B$) $A$.
+	For all $A$, for all $B$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if the extent (of that VARIK likes the result of $A$) exceeds the extent (of that VARIK likes the result of $B$), then VARIK prefers (over $B$) $A$.
 
 	VARIK finds that the ease of $F$ exceeds the ease of $N$.
 
