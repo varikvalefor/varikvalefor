@@ -293,8 +293,8 @@ la-lojban = record {
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi\ldots
 \begin{itemize}
-	\item ga je da na tonga bangu gi
 	\item ga je da slabu la .varik.\ gi
+	\item ga je da na tonga bangu gi
 	\item ga je la .varik.\ cu nelci le gerna be da gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi da gi
 	\item ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be da gi\ldots
