@@ -266,39 +266,6 @@ postulate la-varik : Prenu
 
 \section{la'o zoi.\ \F{la-lojban}\ .zoi.}
 
-\subsection{la'o zoi.\ \AgdaPostulate{le-lojban-leksiko}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{le-lojban-leksiko}\ .zoi.\ leksiko le jbobau be la .varik.
-
-\paragraph{English}
-\AgdaPostulate{le-lojban-leksiko} is the lexicon/vocabulary/whatever of the Lojban which is used by VARIK.
-
-\begin{code}
-postulate le-lojban-leksiko : Leksiko
-\end{code}
-
-\subsection{la'o zoi.\ \AgdaPostulate{le-lojban-gerna}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{le-lojban-gerna}\ .zoi.\ gerna le jbobau be la .varik.
-
-\paragraph{English}
-\AgdaPostulate{le-lojban-gerna} is the grammar of the Lojban which is used by VARIK.
-
-\begin{code}
-postulate le-lojban-gerna : Gerna
-\end{code}
-
-\subsection{la'o zoi.\ \AgdaPostulate{le-lojban-me'oi-semantics}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{le-lojban-me'oi-semantics}\ .zoi.\ me'oi .semantics.\ le jbobau be la .varik.
-
-\paragraph{English}
-\AgdaPostulate{le-lojban-me'oi-semantics} is the semantics of the Lojban which is used by VARIK.
-
-\begin{code}
-postulate le-lojban-me'oi-semantics : Semantics
-\end{code}
-
 \subsection{la'o zoi.\ \F{la-lojban}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \F{la-lojban}\ .zoi.\ jbobau la .varik.
@@ -313,6 +280,11 @@ la-lojban = record {
   gerna = le-lojban-gerna;
   semantics = le-lojban-me'oi-semantics
   }
+  where
+  postulate
+    le-lojban-leksiko : Leksiko
+    le-lojban-gerna : Gerna
+    le-lojban-me'oi-semantics : Semantics
 \end{code}
 
 \section{le barda ja co'e je ctaipe}
