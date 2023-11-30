@@ -126,7 +126,7 @@ postulate Fasnu : Set
 ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Selkai}.\ jo cu se ckaji
 
 \paragraph{English}
-For all $A$, \AgdaPostulate{Selkai}\ is the type of $A$ iff $A$ is a property/quality.
+For all $A$, \AgdaPostulate{Selkai}\ is the type of $A$ iff $A$ is a property/quality/whatever.
 
 \begin{code}
 postulate Selkai : Set
