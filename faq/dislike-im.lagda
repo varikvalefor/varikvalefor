@@ -89,7 +89,7 @@ open import Relation.Nullary
   )
 \end{code}
 
-\section{le jicmu / The Foundational Stuff}
+\section{le jicmu / The Foundational}
 
 \subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
@@ -454,7 +454,7 @@ ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu 
 module LaIrk where
 \end{code}
 
-\subsection{le jicmu / The Foundational Stuff}
+\subsection{le jicmu / The Foundational}
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.}
 \paragraph{la .lojban.}
