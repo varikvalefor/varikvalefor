@@ -318,7 +318,7 @@ ni'o la'o zoi.\ \fsn\ .zoi.\ nu la .varik.\ cu cimoi prenu pe'a cusku
 ni'o la'o zoi.\ \fsn\ \B a\ .zoi.\ ka ce'u frili la'oi .\B{a}.
 
 \paragraph{English}
-For all $A$, $A$ displays/exhibits \AgdaPostulate{kafrilis} iff \B a finds that easy (for \B a) is $A$.
+For all $A$, $A$ displays/exhibits \fsn\ iff \B a finds that easy (for \B a) is $A$.
 
 \begin{code}
   postulate kafrilis : Prenu → Selckaji
@@ -330,7 +330,7 @@ For all $A$, $A$ displays/exhibits \AgdaPostulate{kafrilis} iff \B a finds that 
 ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
 
 \paragraph{English}
-For all $A$, $A$ displays/exhibits \AgdaPostulate{kanelcis} iff \B a likes $A$.
+For all $A$, $A$ displays/exhibits \fsn\ iff \B a likes $A$.
 
 \begin{code}
   postulate kanelcis : Prenu → Selckaji
