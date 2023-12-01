@@ -34,6 +34,8 @@
 \newunicodechar{≟}{\ensuremath{\mathnormal{\stackrel{?}{=}}}}
 \newunicodechar{≤}{\ensuremath{\mathnormal{\leq}}}
 
+\newcommand\sds{\spacefactor\sfcode`.\ \space}
+
 \newcommand\Sym\AgdaSymbol
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
@@ -132,7 +134,7 @@ postulate Gerna : Set
 
 \subsection{la'oi .\AgdaPostulate{Semantics}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Semantics}.\ jo cu me'oi .semantics.  .i cumki fa lo nu cumki fa lo nu xagzengau le velcki be bau la .lojban.
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Semantics}.\ jo cu me'oi .semantics.\sds  .i cumki fa lo nu cumki fa lo nu xagzengau le velcki be bau la .lojban.
 
 \paragraph{English}
 For all $A$, \AgdaPostulate{Semantics} is the type of $A$ iff $A$ is a semantics.  Possible is that possible is improving the English definition.
@@ -318,7 +320,7 @@ postulate
 
 \subsection{la'o zoi.\ \F{jbobau-la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ bau la .lojban.  .i la .varik.\ cu stidi lo nu tcidu le torveki be bau la .lojban.\ fe lo ro prenu poi ke'a baupli la .lojban.\ je cu djica lo nu ke'a jimpe fi le me'oi .Agda.\ velcki kei jenai cu jimpe fi le ctaipe
+ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ bau la .lojban.\sds  .i la .varik.\ cu stidi lo nu tcidu le torveki be bau la .lojban.\ fe lo ro prenu poi ke'a baupli la .lojban.\ je cu djica lo nu ke'a jimpe fi le me'oi .Agda.\ velcki kei jenai cu jimpe fi le ctaipe
 
 \paragraph{English}
 VARIK not finds that necessary is that VARIK uses (for that VARIK explains \F{jbobau-la-varik}) English.  VARIK suggests that for all prenu $A$, if $A$ uses English, then if $A$ desires that $A$ understands about the proof, then if $A$ not understands about the Agda definition, then $A$ reads the English summary.
@@ -334,5 +336,11 @@ jbobau-la-varik = pavybaupli js jntb jbogernypavysmu ozvraka'e sdfr vnll
     js : la-lojban cu-slabu la-varik
     ozvraka'e : la-varik cu-vlaba'u-kakne_ $ Bangu.leksiko la-lojban
     jbogernypavysmu : gernypavysmu-fa $ Bangu.gerna la-lojban
+import Level
+∃₂ : ∀ {a b c} → {A : Set a} {B : A → Set b}
+     (C : (x : A) → B x → Set c) → Set (a Level.⊔ b Level.⊔ c)
+∃₂ = ∃ ∘ uncurry
+
 \end{code}
+
 \end{document}

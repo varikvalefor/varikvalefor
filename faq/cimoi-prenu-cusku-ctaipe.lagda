@@ -17,6 +17,8 @@
 
 \newunicodechar{∀}{\ensuremath{\mathnormal{\forall}}}
 
+\newcommand\sds{\spacefactor\sfcode`.\ \space}
+
 \newcommand\Sym\AgdaSymbol
 \newcommand\D\AgdaDatatype
 \newcommand\F\AgdaFunction
@@ -226,7 +228,7 @@ For all prenu $A$, if $A$ communicates via predicate-based sentences, then if ev
 \section{le ctaipe / The Proof}
 
 \paragraph{la .lojban.}
-ni'o le me'oi .section.\ cu vasru le velcki be ko'a goi le ctaipe bei bau la'oi .Agda.  .i la .varik.\ cu na jinvi le du'u sarcu fa lo nu la .varik.\ cu ciksi ko'a bau la .lojban.
+ni'o le me'oi .section.\ cu vasru le velcki be ko'a goi le ctaipe bei bau la'oi .Agda.\sds  .i la .varik.\ cu na jinvi le du'u sarcu fa lo nu la .varik.\ cu ciksi ko'a bau la .lojban.
 
 \paragraph{English}
 The section contains the Agda definition of the proof.  VARIK not opines that necessary is that VARIK provides an English explanation of the Agda definition of the proof.
@@ -382,7 +384,7 @@ For all $A$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then i
 \section{le ctaipe / The Proof}
 
 \paragraph{la .lojban.}
-ni'o le me'oi .section.\ cu vasru le velcki be ko'a goi le ctaipe bei bau la'oi .Agda.  .i la .varik.\ cu na jinvi le du'u sarcu fa lo nu la .varik.\ cu ciksi ko'a bau la .lojban.
+ni'o le me'oi .section.\ cu vasru le velcki be ko'a goi le ctaipe bei bau la'oi .Agda.\sds  .i la .varik.\ cu na jinvi le du'u sarcu fa lo nu la .varik.\ cu ciksi ko'a bau la .lojban.
 
 \paragraph{English}
 The section contains the Agda definition of the proof\@.  VARIK not opines that necessary is that VARIK provides an English explanation of the Agda definition of the proof.
