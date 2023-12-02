@@ -336,10 +336,6 @@ jbobau-la-varik = pavybaupli js jntb jbogernypavysmu ozvraka'e sdfr vnll
     js : la-lojban cu-slabu la-varik
     ozvraka'e : la-varik cu-vlaba'u-kakne_ $ Bangu.leksiko la-lojban
     jbogernypavysmu : gernypavysmu-fa $ Bangu.gerna la-lojban
-import Level
-∃₂ : ∀ {a b c} → {A : Set a} {B : A → Set b}
-     (C : (x : A) → B x → Set c) → Set (a Level.⊔ b Level.⊔ c)
-∃₂ = ∃ ∘ uncurry
 
 \end{code}
 
