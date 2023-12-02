@@ -177,15 +177,15 @@ A proof of \AgdaPostulate{plivlipa-fa} \B a\ exists iff for all prenu $A$, for a
 postulate plivlipa-fa : Samcmu → Set
 \end{code}
 
-\subsection{la'oi .\AgdaPostulate{\AgdaUnderscore{}cu-safnysamfliji'i}.}
+\subsection{la'oi .\AgdaPostulate{\AgdaUnderscore{}cu-cafnysamfliji'i}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-safnysamfliji'i} \B b\ .zoi.\ gi la'oi .\B{a}.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'oi .\B{b}.\ samfli
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-cafnysamfliji'i} \B b\ .zoi.\ gi la'oi .\B{a}.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'oi .\B{b}.\ samfli
 
 \paragraph{English}
-A proof of \B a \OpP{cu-safnysamfliji'i} \B b\ exists iff \B a\ opines that frequent is that \B b\ crashes.
+A proof of \B a \OpP{cu-cafnysamfliji'i} \B b\ exists iff \B a\ opines that frequent is that \B b\ crashes.
 
 \begin{code}
-postulate _cu-safnysamfliji'i_ : ∀ {a} → {A : Set a} → Prenu → A → Set
+postulate _cu-cafnysamfliji'i_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-tcimi'etolnei\AgdaUnderscore}\ .zoi.}
@@ -236,7 +236,7 @@ VARIK not opines that necessary is that VARIK writes an English explanation.
 
 \begin{code}
 postulate samflitolnei : {x : Samcmu}
-                       → la-varik cu-safnysamfliji'i x
+                       → la-varik cu-cafnysamfliji'i x
                        → la-varik cu-tolnei x
 \end{code}
 
@@ -306,7 +306,7 @@ ni'o la'oi .\AgdaPostulate{vistymasno}.\ ctaipe le su'u la .varik.\ cu jinvi le 
 \AgdaPostulate{vistymasno} is a proof of that VARIK opines that frequent is that Microsoft Windows Vista crashes.
 
 \begin{code}
-  postulate vistymasno : la-varik cu-safnysamfliji'i la-vista
+  postulate vistymasno : la-varik cu-cafnysamfliji'i la-vista
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{vistytolnei₁}\ .zoi.}
@@ -450,7 +450,7 @@ ni'o la'o zoi.\ \AgdaPostulate{openbysydys-samfli}\ .zoi.\ ctaipe le su'u la .va
 \AgdaPostulate{openbysydys-samfli} is a proof of that VARIK opines that frequent is that OpenBSD crashes.
 
 \begin{code}
-  postulate openbysydys-samfli : la-varik cu-safnysamfliji'i la-openbysydys
+  postulate openbysydys-samfli : la-varik cu-cafnysamfliji'i la-openbysydys
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{obstolnei₁}\ .zoi.}
