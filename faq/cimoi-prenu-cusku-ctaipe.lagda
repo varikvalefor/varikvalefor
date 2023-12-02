@@ -52,8 +52,8 @@ That (labels of paragraphs resemble labels of definitions of proofs) justifies t
 ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 \begin{itemize}
 	\item ga je la .varik.\ cu bridi jufra cusku gi
-	\item ga je me'oi .minimise.\ la .varik.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u\ gi
-	\item ro da zo'u ga janai da cimoi prenu pe'a cusku gi ga je da cusku lo bridi jufra gi me'oi .minimise.\ da le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
+	\item ga je me'oi .minimise.\ la .varik.\ le ka ce'u cusku lo mu'oi glibau.\ referentially ambiguous .glibau.\ gi
+	\item ro da zo'u ga janai da cimoi prenu pe'a cusku gi ga je da cusku lo bridi jufra gi me'oi .minimise.\ da le ka ce'u cusku lo mu'oi glibau.\ referentially ambiguous .glibau.
 \end{itemize}
 
 .i ji'a la .varik.\ cu te selneimau ko'a goi lo nu la .varik.\ cu cimoi prenu pe'a cusku kei ko'e goi lo nu la .varik.\ cu ke pamoi ja remoi ke'e prenu pe'a cusku kei ni'i le su'u\ldots
@@ -185,7 +185,7 @@ A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via predicate
 
 \subsection{la'o zoi.\ \F{mleskutolvrici-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{mleskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .minimise.\ la'o zoi.\ \B a\ .zoi.\ le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
+ni'o ga jo ctaipe la'o zoi.\ \F{mleskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .minimise.\ la'o zoi.\ \B a\ .zoi.\ le ka ce'u cusku lo mu'oi glibau.\ referentially ambiguous .glibau.
 
 \paragraph{English}
 A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of that referentially ambiguous are the things which are written/spoken by \B a.
@@ -198,7 +198,7 @@ A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of th
 
 \subsection{la'oi .\F{mleskunargaubasyvla}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .minimise.\ da le ka mu'oi glibau.\ referential ambiguity .glibau.\ lo selsku be ce'u
+ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .minimise.\ da le ka ce'u cusku lo mu'oi glibau.\ referentially ambiguous .glibau.
 
 \paragraph{English}
 For all $A$, if minimised is the extent of that referentially ambiguous are the things which are written/spoken by $A$, then every event (of that $A$ uses nargaubasyvla) is an event of that $A$ quotes.
