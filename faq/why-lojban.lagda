@@ -331,7 +331,7 @@ jbobau-la-varik = pavybaupli js jntb jbogernypavysmu ozvraka'e sdfr vnll
   where
   postulate
     sdfr : sapydrackifilri'a-fa-tu'a la-lojban
-    vnll : la-varik cu-nelci (Bangu.leksiko la-lojban)
+    vnll : la-varik cu-nelci_ $ Bangu.leksiko la-lojban
     jntb : ¬ (togbau-fa la-lojban)
     js : la-lojban cu-slabu la-varik
     ozvraka'e : la-varik cu-vlaba'u-kakne_ $ Bangu.leksiko la-lojban
