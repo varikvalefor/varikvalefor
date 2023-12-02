@@ -64,7 +64,7 @@ That (VARIK dislikes Signal) is justified by that (Signal is centralised) and th
 
 \subsection{la'oi .IRC.}
 \paragraph{la .lojban.}
-ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra  .i ji'a la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a
+ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra\sds  .i ji'a la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a
 
 \paragraph{English}
 That (VARIK not likes IRC) is justified by that IRC not supports sending images.  Additionally, that (VARIK dislikes IRC) is justified by that forbidden is sending (via IRC) lengthy text.
@@ -294,14 +294,14 @@ postulate
 
 \subsubsection{le krinu be tu'a le me'oi .\D{Maybe}.\ co'e / The Justification of the \D{Maybe} Thing}
 \paragraph{la .lojban.}
-ni'o le su'u la .varik.\ cu pilno le me'oi .\D{Maybe}.\ jenai me'oi .\D{These}.\ co'e ki'u le su'u ga je la .varik.\ cu djica ko'a goi lo nu frili fa lo nu cusku lo se du'u la .varik.\ cu tolnei lo ro co'e gi ro da poi ke'a sutra benji kubyse'u zo'u ga janai la .varik.\ cu tolnei da gi ga ba'e je tolcru lo nu pilno lo me'oi .custom.\ ja me'oi .unofficial.\ je ke se kibyse'u be fi da ke'e gi la .varik.\ cu tolnei lo ro co'e  .i ko'a sarcu naje ku'i cu filri'a lo nu .indika lo du'u la .varik.\ cu ba'e mutce lo ka ce'u tolnei
+ni'o le su'u la .varik.\ cu pilno le me'oi .\D{Maybe}.\ jenai me'oi .\D{These}.\ co'e ki'u le su'u ga je la .varik.\ cu djica ko'a goi lo nu frili fa lo nu cusku lo se du'u la .varik.\ cu tolnei lo ro co'e gi ro da poi ke'a sutra benji kubyse'u zo'u ga janai la .varik.\ cu tolnei da gi ga ba'e je tolcru lo nu pilno lo me'oi .custom.\ ja me'oi .unofficial.\ je ke se kibyse'u be fi da ke'e gi la .varik.\ cu tolnei lo ro co'e\sds  .i ko'a sarcu naje ku'i cu filri'a lo nu .indika lo du'u la .varik.\ cu ba'e mutce lo ka ce'u tolnei
 
 \paragraph{English}
 That (VARIK uses the \D{Maybe} thing) is justified by that VARIK desires that easy is expressing/stating that VARIK dislikes all what's-its \{PN\}.  That (easy is expressing/stating that VARIK dislikes) is unnecessary but facilitates indicating that VARIK \emph{very} dislikes.  That (VARIK not uses a \D{These} thing is justified by that for all instant messaging services $A$, if (forbidden is using a client (of $A$) which is custom or unofficial, \emph{and} VARIK dislikes all what's-its \{PN\}), then VARIK dislikes $A$.
 
 \subsection{le su'u pluja / That the Thing is Complex}
 \paragraph{la .lojban.}
-ni'o xu ko'a goi la'o zoi.\ \AgdaPostulate{tolnei-ctaipe} .zoi.\ banzuka le ka ce'u pluja kei lo nu nandu fa lo nu jimpe fi lo me ko'a ctaipe  .i la .varik.\ cu djica curmi lo nu pinka
+ni'o xu ko'a goi la'o zoi.\ \AgdaPostulate{tolnei-ctaipe} .zoi.\ banzuka le ka ce'u pluja kei lo nu nandu fa lo nu jimpe fi lo me ko'a ctaipe\sds  .i la .varik.\ cu djica curmi lo nu pinka
 
 \paragraph{English}
 The extent (of that \AgdaPostulate{tolnei-ctaipe} is complex) is sufficient for that difficult is understanding the \AgdaPostulate{tolnei-ctaipe} proofs?  VARIK welcomes commenting.
