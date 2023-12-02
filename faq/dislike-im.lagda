@@ -460,7 +460,7 @@ ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu 
 \section{la'oi .Signal.}
 
 \begin{code}
-module Signal where
+module LaSignal where
 \end{code}
 
 \subsection{le jicmu / The Foundational}
