@@ -55,6 +55,13 @@ ni'o la .varik.\ cu tolnei ko'a goi la'oi .Telegram.\ ki'u le su'u me'oi .centra
 \paragraph{English}
 That (VARIK dislikes Telegram) is justified by that (Telegram is closed-source) and that a phone number is necessary for using Telegram.
 
+\subsection{la'oi .Signal.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu tolnei la'oi ko'a goi .Signal.\ ki'u le su'u me'oi .centralise.\ ko'a kei je le su'u tu'a lo fonjudri cu sarcu lo nu pilno ko'a
+
+\paragraph{English}
+That (VARIK dislikes Signal) is justified by that (Signal is centralised) and that a phone number is necessary for using Signal.
+
 \subsection{la'oi .IRC.}
 \paragraph{la .lojban.}
 ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra  .i ji'a la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a
@@ -448,6 +455,54 @@ ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu 
     --
     -- .i lakne fa lo nu jmina naja cu vimcu le pinka
     centfon = these tugcentra tugfonxa
+\end{code}
+
+\section{la'oi .Signal.}
+
+\begin{code}
+module Signal where
+\end{code}
+
+\subsection{le jicmu / The Foundational}
+
+\subsubsection{la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.\ du la'oi .Signal.\ poi ke'a se velski le se .urli be zoi .urli. \url{https://www.signal.org}\ .urli.
+
+\paragraph{English}
+\AgdaPostulate{la-signal} is Signal, which is described at \url{https://www.signal.org}.
+
+\begin{code}
+  postulate la-signal : IMS
+\end{code}
+
+\subsubsection{la .\AgdaPostulate{sigcent}.}
+\paragraph{la .lojban.}
+ni'o la .\AgdaPostulate{sigcent}.\ cu ctaipe le su'u me'oi .centralise.\ la'oi .Signal.
+
+\paragraph{English}
+\AgdaPostulate{sigcent} is a proof of that Signal is centralised.
+
+\begin{code}
+  postulate sigcent : me'oi-centralise la-signal
+\end{code}
+
+\subsubsection{la .\AgdaPostulate{sigfon}.}
+\paragraph{la .lojban.}
+ni'o la .\AgdaPostulate{sigcent}.\ cu ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Signal.
+
+\paragraph{English}
+\AgdaPostulate{sigcent} is a proof of that a phone number is necessary for using Signal.
+
+\begin{code}
+  postulate sigfon : fonxysarcu la-signal
+\end{code}
+
+\subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
+
+\begin{code}
+  sigtolneis : la-varik cu-tolnei la-signal
+  sigtolneis = tolnei-ctaipe $ that $ this $ these sigcent sigfon
 \end{code}
 
 \section{la'o glibau.\ Internet Relay Chat .glibau.}
