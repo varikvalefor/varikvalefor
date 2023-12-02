@@ -505,6 +505,43 @@ ni'o la .\AgdaPostulate{sigcent}.\ cu ctaipe le su'u tu'a lo fonjudri cu sarcu l
   sigtolneis = tolnei-ctaipe $ that $ this $ these sigcent sigfon
 \end{code}
 
+\section{la'oi .Revolt.}
+
+\begin{code}
+module LaRevolt where
+\end{code}
+
+\subsection{le jicmu / The Foundational}
+
+\subsubsection{la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.\ du la'oi .Revolt.\ poi ke'a se velski le se .urli be zoi .urli. \url{https://revolt.chat}\ .urli.
+
+\paragraph{English}
+\AgdaPostulate{la-revolt} is Revolt, which is described at \url{https://revolt.chat}.
+
+\begin{code}
+  postulate la-revolt : IMS
+\end{code}
+
+\subsubsection{la .\AgdaPostulate{revent}.}
+\paragraph{la .lojban.}
+ni'o la .\AgdaPostulate{revent}.\ cu ctaipe le su'u me'oi .centralise.\ la'oi .Revolt.
+
+\paragraph{English}
+\AgdaPostulate{revent} is a proof of that Revolt is centralised.
+
+\begin{code}
+  postulate revent : me'oi-centralise la-revolt
+\end{code}
+
+\subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
+
+\begin{code}
+  revtolneis : la-varik cu-tolnei la-revolt
+  revtolneis = tolnei-ctaipe $ that $ this $ this revent
+\end{code}
+
 \section{la'o glibau.\ Internet Relay Chat .glibau.}
 
 \begin{code}
