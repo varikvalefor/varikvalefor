@@ -553,7 +553,7 @@ ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo cla
   la-narneic = narnei-ctaipe irkypixra
 \end{code}
 
-\subsection{le ctaipe be le su'u tolnei / The Proof of that Dislikes}
+\subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
   la-tolneic : la-varik cu-tolnei la-irk
