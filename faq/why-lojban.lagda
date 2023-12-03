@@ -336,7 +336,5 @@ jbobau-la-varik = pavybaupli js jntb jbogernypavysmu ozvraka'e sdfr vnll
     js : la-lojban cu-slabu la-varik
     ozvraka'e : la-varik cu-vlaba'u-kakne_ $ Bangu.leksiko la-lojban
     jbogernypavysmu : gernypavysmu-fa $ Bangu.gerna la-lojban
-
 \end{code}
-
 \end{document}
