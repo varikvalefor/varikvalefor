@@ -156,7 +156,7 @@ postulate Leksiko : Set
 
 \subsection{la'oi .\AgdaRecord{Bangu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ko'a goi la'o zoi.\ \B a\ .zoi.\ ctaipe la'oi .\AgdaRecord{Bangu}.\ gi\ldots
+ni'o ga jo ko'a goi la'oi .\B a.\ ctaipe la'oi .\AgdaRecord{Bangu}.\ gi\ldots
 \begin{itemize}
 	\item ga je ko'a bangu gi
 	\item ga je la'o zoi.\ \AgdaField{Bangu.leksiko} \B a\ .zoi.\ leksiko ko'a gi
@@ -178,7 +178,7 @@ record Bangu : Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{togbau-fa} .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{togbau-fa} \B a\ .zoi.\ gi la'o zoi.\ \B a .zoi.\ tonga bangu
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{togbau-fa} \B a\ .zoi.\ gi la'oi .\B a.\ tonga bangu
 
 \paragraph{English}
 A proof of \AgdaPostulate{togbau-fa} \B a exists iff \B a is a tonal language.
@@ -189,7 +189,7 @@ postulate togbau-fa : Bangu → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-vlaba'u-kakne\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-vlaba'u-kakne} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ ka'e vlaba'u lo valsi be fi lo se leksiko be la'o zoi.\ \B b .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-vlaba'u-kakne} \B b\ .zoi.\ gi la'oi .\B a.\ ka'e vlaba'u lo valsi be fi lo se leksiko be la'oi .\B b.
 
 \paragraph{English}
 A proof of \B a \OpP{cu-vlaba'u-kakne} \B b exists iff \B a is capable of that \B a pronounces the words of \B b.
@@ -200,7 +200,7 @@ postulate _cu-vlaba'u-kakne_ : Prenu → Leksiko → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u tu'a la'o zoi.\ \B a\ .zoi.\ filri'a lo nu ciksi ja skicu lo pluja fo lo drani je sampu
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u tu'a la'oi .\B a.\ filri'a lo nu ciksi ja skicu lo pluja fo lo drani je sampu
 
 \paragraph{english}
 A proof of \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a exists iff VARIK opines/whatever \{V\} that \B a facilitates that a thing simply and correctly explains/describes the complex.
@@ -211,7 +211,7 @@ postulate sapydrackifilri'a-fa-tu'a : Bangu → Set
 
 \subsection{la'oi .\AgdaPostulate{gernypavysmu}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{gernypavysmu-fa} \B a\ .zoi.\ gi gerna pavysmu fa lo ro jufra be fi la'o zoi.\ \B a .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{gernypavysmu-fa} \B a\ .zoi.\ gi gerna pavysmu fa lo ro jufra be fi la'oi .\B a.
 
 \paragraph{English}
 A proof of \AgdaPostulate{gernypavysmu-fa} \B a exists iff syntantically ambiguous are all sentences which are grammatical with regard to \B a.
@@ -222,7 +222,7 @@ postulate gernypavysmu-fa : Gerna → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-slabu\AgdaUnderscore} .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-slabu} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ slabu la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-slabu} \B b\ .zoi.\ gi la'oi .\B a.\ slabu la'oi .\B b.
 
 \paragraph{English}
 A proof of \B a \OpP{cu-slabu} \B b exists iff \B a is familiar to \B b.
@@ -233,7 +233,7 @@ postulate _cu-slabu_ : ∀ {a} → {A : Set a} → A → Prenu → Set
 
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-nelci} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ nelci la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-nelci} \B b\ .zoi.\ gi la'oi .\B a.\ nelci la'oi .\B b.
 
 \paragraph{English}
 A proof of \B a \OpP{cu-nelci} \B b exists iff \B a likes \B b.
@@ -244,7 +244,7 @@ postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-baupli\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-baupli} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ baupli la'o zoi.\ \B b\ .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-baupli} \B b\ .zoi.\ gi la'oi .\B a.\ baupli la'oi .\B b.
 
 \paragraph{English}
 A proof of \B a \OpP{cu-baupli} \B b exists iff \B a uses \B b.
