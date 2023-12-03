@@ -91,9 +91,9 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 
 	Syntactically unambiguous are all sentences which ``fit'' the grammar of Lojban.
 
-	VARIK opines that Lojban facilitates that a thing simply and correctly describes (or explains) the complex.
+	VARIK opines that Lojban facilitates that a thing simply and correctly describes/explains the complex.
 
-	For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that a thing simply and correctly explains (or describes) the complex, then VARIK uses $A$.
+	For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then VARIK uses $A$.
 
 	Therefore, VARIK uses Lojban.
 \end{proof}
@@ -203,7 +203,7 @@ postulate _cu-vlaba'u-kakne_ : Prenu → Leksiko → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u tu'a la'o zoi.\ \B a\ .zoi.\ filri'a lo nu ciksi ja skicu lo pluja fo lo drani je sampu
 
 \paragraph{english}
-A proof of \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a exists iff VARIK opines (or whatever \{V\}) that \B a facilitates that a thing simply and correctly explains (or describes) the complex.
+A proof of \AgdaPostulate{sapydrackifilri'a-fa-tu'a} \B a exists iff VARIK opines/whatever \{V\} that \B a facilitates that a thing simply and correctly explains/describes the complex.
 
 \begin{code}
 postulate sapydrackifilri'a-fa-tu'a : Bangu → Set
@@ -304,7 +304,7 @@ ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi\ldots
 \end{itemize}
 
 \paragraph{English}
-For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that a thing simply and correctly explains (or describes) the complex, then VARIK uses $A$.
+For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then VARIK uses $A$.
 
 \begin{code}
 postulate
