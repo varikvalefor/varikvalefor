@@ -46,7 +46,7 @@ The thing contains the definition of the proof of that VARIK communicates in the
 ni'o pilno la'oi .\texttt{section}.\ jenai la'oi .\texttt{paragraph}.\ ki'u le su'u lo tcita be lo jufmei cu smimlu lo tcita be lo velcki be lo se ctaipe
 
 \paragraph{English}
-That (labels of paragraphs resemble labels of definitions of proofs) justifies that the thing uses \texttt{subsection} and not \texttt{paragraph}.
+That (labels of paragraphs resemble labels of definitions of proofs) justifies using \texttt{subsection} and not \texttt{paragraph}.
 
 \section{la .lojban.}
 ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
