@@ -206,7 +206,7 @@ postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
 ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
-VARIK not opines that necessary is that VARIK writes an English explanation.
+VARIK not opines that necessary is writing an English explanation.
 
 \begin{code}
 postulate narvlipa : {x : Samcmu}
@@ -219,7 +219,7 @@ postulate narvlipa : {x : Samcmu}
 ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
-VARIK not opines that necessary is that VARIK writes an English explanation.
+VARIK not opines that necessary is writing an English explanation.
 
 \begin{code}
 postulate vlipytolnei : {x : Samcmu}
@@ -232,7 +232,7 @@ postulate vlipytolnei : {x : Samcmu}
 ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
-VARIK not opines that necessary is that VARIK writes an English explanation.
+VARIK not opines that necessary is writing an English explanation.
 
 \begin{code}
 postulate samflitolnei : {x : Samcmu}
