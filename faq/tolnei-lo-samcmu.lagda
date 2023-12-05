@@ -203,7 +203,7 @@ postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
 
 \subsection{la'oi .\AgdaPostulate{narvlipa}.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
+ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
 VARIK not opines that necessary is that VARIK writes an English explanation.
@@ -216,7 +216,7 @@ postulate narvlipa : {x : Samcmu}
 
 \subsection{la'oi .\AgdaPostulate{vlipytolnei}.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
+ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
 VARIK not opines that necessary is that VARIK writes an English explanation.
@@ -229,7 +229,7 @@ postulate vlipytolnei : {x : Samcmu}
 
 \subsection{la'oi .\AgdaPostulate{samflitolnei}.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
+ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
 VARIK not opines that necessary is that VARIK writes an English explanation.
