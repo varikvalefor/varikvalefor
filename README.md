@@ -91,13 +91,13 @@ ni'o la .varik. cu...
 ## le skami co'e
 ni'o la .varik. cu...
 
-* pilno la'oi .OpenBSD. lo samcmu gi'e
+* pilno lo se samcmu be la'oi .OpenBSD. gi'e
 
-* pilno la'o zoi. xmonad(1) .zoi. la'o gy. window manager .gy. gi'e
+* pilno la'o zoi. xmonad(1) .zoi. lo nu muvgau je co'e lo .uidje kei gi'e
 
-* pilno la'o zoi. ksh(1) .zoi. .e la'o zoi. tcsh(1) .zoi. lo samymi'etci gi'e
+* pilno la'o zoi. ksh(1) .zoi. .e la'o zoi. tcsh(1) .zoi. lo samymi'etci co'e gi'e
 
-* pilno la'o zoi. xterm(1) .zoi. lo termine gi'e
+* pilno la'o zoi. xterm(1) .zoi. zo'e je tu'a le samymi'etci je zo'e gi'e
 
 * pilno la'o zoi. ed(1) .zoi. .e la'o zoi. vi(1) .zoi. lo nu cusku'i
 
