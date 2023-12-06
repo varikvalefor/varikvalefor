@@ -104,7 +104,7 @@ ni'o la .varik. cu...
 ## le selpre
 ni'o le'i selpre be la .varik. cu se cmima...
 
-* la'oi .ESTJ. noi ke'a skicu ke'a fo zo'e pe la'o gy. MYERS-BRIGGS Type Indicator .gy. ku'o.e
+* la'oi .ESTJ. noi skicu ke'a fo zo'e pe la'o gy. MYERS-BRIGGS Type Indicator .gy. ku'o.e
 
 * vu'oi la'o zoi. 3w2 1w2 5w6 .zoi. .e la'o zoi. sp/so .zoi. vu'o noi skicu ke'a fo zo'e pe la'o gy. Enneagram of Personality .gy. ku'o .e
 
