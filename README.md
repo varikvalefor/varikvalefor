@@ -54,7 +54,7 @@ VARIK knows that some things claim that things should not use "ASPERGER's syndro
 VARIK can be reached at varikvalefor@aol.com and @varikvalefor:matrix.org.
 
 ## FAQ
-[Yo, why do you use XTERM in the year of our lord 2021?][1]
+[Yo, why do you use XTERM in the year of our lord 2023?][1]
 
 [Yo, dawg, must you write in the third person?][2]
 
