@@ -95,7 +95,7 @@ ni'o la .varik. cu...
 
 * pilno la'o zoi. xmonad(1) .zoi. lo nu muvgau je co'e lo .uidje kei gi'e
 
-* pilno la'o zoi. ksh(1) .zoi. .e la'o zoi. tcsh(1) .zoi. lo samymi'etci co'e gi'e
+* pilno la'o zoi. ksh(1) .zoi. .e la'o zoi. tcsh(1) .zoi. lo nu stika kei gi'e
 
 * pilno la'o zoi. xterm(1) .zoi. zo'e je tu'a le samymi'etci je zo'e gi'e
 
