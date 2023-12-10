@@ -165,7 +165,7 @@ ni'o ga jo ko'a goi la'oi .\B a.\ ctaipe la'oi .\AgdaRecord{Bangu}.\ gi\ldots
 \end{itemize}
 
 \paragraph{English}
-For all \B a, \F{Bangu} is the type of \B a iff (\B a is a language, \AgdaField{Bangu.leksiko} \B a is the lexicon/vocabulary/whatever of \B a, \AgdaField{Bangu.gerna} \B a is the grammar of \B a, and \AgdaField{Bangu.semantics} \B a is the semantics of \B a).
+For all \B a, \AgdaRecord{Bangu} is the type of \B a iff (\B a is a language, \AgdaField{Bangu.leksiko} \B a is the lexicon/vocabulary/whatever of \B a, \AgdaField{Bangu.gerna} \B a is the grammar of \B a, and \AgdaField{Bangu.semantics} \B a is the semantics of \B a).
 
 \begin{code}
 record Bangu : Set
