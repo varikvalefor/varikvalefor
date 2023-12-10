@@ -62,6 +62,35 @@ open import Relation.Nullary
   )
 \end{code}
 
+\section{le torveki / The Summary}
+
+\subsection{ko'a goi la'o zoi.\ Microsoft Windows Vista .zoi.}
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a kei kei kei je le su'u jitfa fa le du'u ro da poi ke'a prenu zo'u ro de poi ke'a fukpi ko'a je cu se ponse da zo'u de curmi lo ro nu da gasnu lo srana be po'o da je de
+
+\paragraph{English}
+``$A$'' denotes Microsoft Windows Vista.  That (VARIK dislikes $A$) is justified by that false is that for all prenu $B$, for all copies (of $A$) $C$, for all events (which pertain only to $B$ and $C$) $D$, $A$ permits that $B$ causes $D$.  Additionally, that (VARIK dislikes $A$) is justified by that VARIK opines that frequent is that $A$ crashes.
+
+\subsection{ko'a goi la'o zoi.\ Microsoft Windows 11 .zoi.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
+
+\paragraph{English}
+That (VARIK dislikes Microsoft Windows 11) is justified by that VARIK dislikes the tools which facilitate configuring Microsoft Windows 11.
+
+\subsection{ko'a goi la'oi .Ubuntu.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
+
+\paragraph{English}
+That (VARIK dislikes the tools which facilitate configuring Ubuntu) justifies that VARIK dislikes Ubuntu.
+
+\subsection{la'oi .OpenBSD.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
+
+\paragraph{English}
+That (VARIK dislikes OpenBSD) is justified by that VARIK opines that frequent is that OpenBSD crashes.
+
 \section{le jicmu / The Basic}
 
 \subsection{la'oi .\D{Skamyklesi}.}
@@ -311,10 +340,6 @@ ni'o la'oi .\AgdaPostulate{vistymasno}.\ ctaipe le su'u la .varik.\ cu jinvi le 
 
 \subsubsection{la'o zoi.\ \F{vistytolnei₁}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei ko'a ki'u le su'u jitfa fa le du'u ro da poi ke'a prenu zo'u ro de poi ke'a fukpi ko'a je cu se ponse da zo'u de curmi lo ro nu da gasnu lo srana be po'o da je de
-
-\paragraph{English}
-That (VARIK dislikes Microsoft Windows Vista, a.k.a.\ ``$A$'') is justified by that false is that for all prenu $B$, for all copies (of $A$) $C$, for all events (which pertain only to $B$ and $C$) $D$, $A$ permits that $B$ causes $D$.
 
 \begin{code}
   vistytolnei₁ : la-varik cu-tolnei la-vista
@@ -322,11 +347,6 @@ That (VARIK dislikes Microsoft Windows Vista, a.k.a.\ ``$A$'') is justified by t
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{vistytolnei₂}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
-
-\paragraph{English}
-That (VARIK dislikes Microsoft Windows Vista) is justified by that VARIK opines that frequent is that Microsoft Windows Vista crashes.
 
 \begin{code}
   vistytolnei₂ : la-varik cu-tolnei la-vista
@@ -366,11 +386,6 @@ ni'o la'oi .\AgdaPostulate{parpartcimi'etolnei}.\ ctaipe le su'u la .varik. cu t
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{parpartolnei₁}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
-
-\paragraph{English}
-That (VARIK dislikes Microsoft Windows 11) is justified by that VARIK dislikes the tools which facilitate configuring Microsoft Windows 11.
 
 \begin{code}
   parpartolnei₁ : la-varik cu-tolnei la-parparuin
@@ -410,11 +425,6 @@ ni'o la'oi .\AgdaPostulate{buntcimi'etolnei}.\ ctaipe le su'u la .varik.\ cu tol
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{buntolnei₁}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu tolnei lo tutci be lo nu tcimi'e ko'a
-
-\paragraph{English}
-That (VARIK dislikes the tools which facilitate configuring Ubuntu) justifies that VARIK dislikes Ubuntu.
 
 \begin{code}
   buntolnei₁ : la-varik cu-tolnei la-ubuntus
@@ -454,11 +464,6 @@ ni'o la'o zoi.\ \AgdaPostulate{openbysydys-samfli}\ .zoi.\ ctaipe le su'u la .va
 \end{code}
 
 \subsubsection{la'o zoi.\ \F{obstolnei₁}\ .zoi.}
-\paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a
-
-\paragraph{English}
-That (VARIK dislikes OpenBSD) is justified by that VARIK opines that frequent is that OpenBSD crashes.
 
 \begin{code}
   obstolnei₁ : la-varik cu-tolnei la-openbysydys
