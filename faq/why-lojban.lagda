@@ -50,7 +50,7 @@
 
 \begin{abstract}
 \noindent
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu baupli la .lojban.\ kei be'o poi ke'a srana le krinu je zo'e / Contains the explanation of the proof (of that VARIK uses Lojban) which is relevant to the justification and whatnot.
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu baupli la .lojban.\ kei be'o poi ke'a srana le krinu je zo'e / Contains the definition of the proof (of that VARIK uses Lojban) which is relevant to the justification and whatnot.
 \end{abstract}
 
 \section{le torveki / The Summary}
