@@ -266,7 +266,7 @@ ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.\ poi ke'a se gugd
 postulate la-varik : Prenu
 \end{code}
 
-\section{la'o zoi.\ \F{la-lojban}\ .zoi.}
+\section{le bangu / The Languages}
 
 \subsection{la'o zoi.\ \F{la-lojban}\ .zoi.}
 \paragraph{la .lojban.}
