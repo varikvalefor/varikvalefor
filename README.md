@@ -86,7 +86,7 @@ ni'o la .varik. cu...
 
 * [selcei la .satan. poi ke'a cmacypre](faq/llblv-jbo.tex) ku'o gi'e
 
-* baupli [le bankle be la .lojban. be'o pe la xorlo .e la .jacus.](https://github.com/varikvalefor/ilmentufa/blob/master/camxes-exp.peg)
+* baupli [le jbobau pe la xorlo .e la .jacus.](https://github.com/varikvalefor/ilmentufa/blob/master/camxes-exp.peg)
 
 ## le skami co'e
 ni'o la .varik. cu...
