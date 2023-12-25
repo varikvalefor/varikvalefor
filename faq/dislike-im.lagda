@@ -12,8 +12,8 @@
 \usepackage{newunicodechar}
 
 \newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
-\newunicodechar{∘}{\ensuremath{\mathnormal{\circ}}}
-\newunicodechar{∀}{\ensuremath{\mathnormal{\forall}}}
+\newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
+\newunicodechar{∀}{\ensuremath{\mathnormal\forall}}
 \newunicodechar{⦃}{\ensuremath{\mathnormal{\lbrace\!\lbrace}}}
 \newunicodechar{⦄}{\ensuremath{\mathnormal{\rbrace\!\rbrace}}}
 
