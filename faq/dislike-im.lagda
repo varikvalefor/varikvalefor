@@ -34,7 +34,7 @@
 
 \section{le me'oi .abstract.}
 \paragraph{la .lojban.}
-ni'o su'o da poi ke'a mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u zo'u da velski da je cu velcki lo ctaipe be lo su'u la .varik.\ cu tolnei janai nelci da
+ni'o su'o da poi ke'a mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u zo'u velski da je cu velcki lo ctaipe be lo su'u la .varik.\ cu tolnei janai nelci da
 
 \paragraph{English}
 Some instant messaging services $A$ exist such that the thing contains a description (of $A$) and a proof of that (VARIK dislikes $A$) or that VARIK not likes $A$.
