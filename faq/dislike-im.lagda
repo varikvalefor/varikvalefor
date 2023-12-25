@@ -57,7 +57,7 @@ That (VARIK dislikes Telegram) is justified by that (Telegram is closed-source) 
 
 \subsection{la'oi .Signal.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei la'oi ko'a goi .Signal.\ ki'u le su'u me'oi .centralise.\ ko'a kei je le su'u tu'a lo fonjudri cu sarcu lo nu pilno ko'a
+ni'o la .varik.\ cu tolnei la'oi ko'a goi la'oi .Signal.\ ki'u le su'u me'oi .centralise.\ ko'a kei je le su'u tu'a lo fonjudri cu sarcu lo nu pilno ko'a
 
 \paragraph{English}
 That (VARIK dislikes Signal) is justified by that (Signal is centralised) and that a phone number is necessary for using Signal.
