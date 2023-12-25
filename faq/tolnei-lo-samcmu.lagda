@@ -39,7 +39,7 @@
 
 \begin{abstract}
 \noindent
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei lo samcmu be'o poi ke'a srana le krinu je zo'e / Contains definitions of proofs (of that VARIK dislikes operating systems) which are relevant to justifications and whatnot.
+ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei le samcmu be'o poi ke'a srana le krinu je zo'e / Contains definitions of proofs (of that VARIK dislikes operating systems) which are relevant to justifications and whatnot.
 \end{abstract}
 
 \section{le vrici / The Miscellaneous}
