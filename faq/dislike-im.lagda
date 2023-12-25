@@ -25,7 +25,7 @@
 \newcommand\B\AgdaBound
 \newcommand\OpP[1]{\AgdaOperator{\AgdaPostulate{#1}}}
 
-\title{le ctaipe be le su'u la .varik.\ cu tolnei ja na nelci le mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u / Proofs of that VARIK Dislikes (or Not Likes) the Instant Messaging Services}
+\title{le ctaipe be le su'u la .varik.\ cu tolnei ja na nelci le mu'oi glibau.\ instant messaging .glibau.\ se kibyse'u / Proofs of that VARIK Dislikes (or Not Likes) the Instant Messaging Services}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}
@@ -34,7 +34,7 @@
 
 \section{le me'oi .abstract.}
 \paragraph{la .lojban.}
-ni'o su'o da poi ke'a mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u zo'u velski da je cu velcki lo ctaipe be lo su'u la .varik.\ cu tolnei janai nelci da
+ni'o su'o da poi ke'a mu'oi glibau.\ instant messaging .glibau.\ se kibyse'u zo'u velski da je cu velcki lo ctaipe be lo su'u la .varik.\ cu tolnei janai nelci da
 
 \paragraph{English}
 Some instant messaging services $A$ exist such that the thing contains a description (of $A$) and a proof of that (VARIK dislikes $A$) or that VARIK not likes $A$.
@@ -113,7 +113,7 @@ postulate Prenu : Set
 
 \subsection{la'oi .\AgdaPostulate{IMS}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{IMS}.\ jo cu mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{IMS}.\ jo cu mu'oi glibau.\ instant messaging .glibau.\ se kibyse'u
 
 \paragraph{English}
 For all $A$, \AgdaPostulate{IMS}\ is the type of $A$ iff $A$ is an instant messaging service.
