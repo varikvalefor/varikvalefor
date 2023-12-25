@@ -124,7 +124,7 @@ postulate IMS : Set
 
 \subsection{la'oi .\AgdaPostulate{Zauselkibyse'u}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u ga jo da ctaipe la'o zoi.\ \AgdaPostulate{Zauselkibyse'u} \B x\ .zoi.\ gi ga je kibyse'u da ko'a goi la'o zoi.\ \B x\ .zoi.\ gi lo zbasu ja co'e be ko'a cu na troci lo nu tolcru lo nu kibyse'u da ko'a
+ni'o ro da zo'u ga jo da ctaipe la'o zoi.\ \AgdaPostulate{Zauselkibyse'u} \B x\ .zoi.\ gi ga je kibyse'u da ko'a goi la'o zoi.\ \B x\ .zoi.\ gi lo co'e ja zbasu be ko'a cu na troci lo nu tolcru lo nu kibyse'u da ko'a
 
 \paragraph{English}
 For all $A$, \AgdaPostulate{Zauselkibyse'u} \B x is the type of $A$ iff ($A$ is a client of \B x, and the thing (which creates (or whatever \{VERB\}) \B x) not attempts to forbid that $A$ is a client of \B x).
