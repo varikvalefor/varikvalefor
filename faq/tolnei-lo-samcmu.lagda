@@ -46,6 +46,9 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei le samcmu be'
 
 \begin{code}
 open import Function
+  using (
+    _$_
+  )
 open import Data.List
   using (
     List;
