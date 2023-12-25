@@ -64,7 +64,7 @@ That (VARIK dislikes Signal) is justified by that (Signal is centralised) and th
 
 \subsection{la'oi .IRC.}
 \paragraph{la .lojban.}
-ni'o le su'u la .varik.\ cu na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra\sds  .i ji'a la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a
+ni'o le su'u la .varik.\ na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra\sds  .i ji'a la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a
 
 \paragraph{English}
 That (VARIK not likes IRC) is justified by that IRC not supports sending images.  Additionally, that (VARIK dislikes IRC) is justified by that forbidden is sending (via IRC) lengthy text.
