@@ -34,10 +34,10 @@
 
 \section{le me'oi .abstract.}
 \paragraph{la .lojban.}
-ni'o su'o da poi ke'a mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u zo'u da velski da je cu velcki lo ctaipe be lo su'u la .varik.\ cu tolnei ja na nelci da
+ni'o su'o da poi ke'a mu'oi glibau.\ instant messaging .glibau.\ te kibyse'u zo'u da velski da je cu velcki lo ctaipe be lo su'u la .varik.\ cu tolnei janai nelci da
 
 \paragraph{English}
-Contains descriptions (of some instant messaging services, A.K.A.\ ``$A$'') and definitions of proofs of that (VARIK dislikes $A$) or that VARIK not likes $A$.
+Some instant messaging services $A$ exist such that the thing contains a description (of $A$) and a proof of that (VARIK dislikes $A$) or that VARIK not likes $A$.
 
 \section{le torveki / The Summary}
 
