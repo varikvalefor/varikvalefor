@@ -412,7 +412,7 @@ module LaTelegram where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ du la'oi .Telegram.\ poi ke'a se .urli zoi zoi.\ \url{https://www.telegram.org}\ .zoi.
+ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ du la'oi .Telegram.\ poi ke'a se velski le se .urli be zoi zoi.\ \url{https://www.telegram.org}\ .zoi.
 
 \paragraph{English}
 \AgdaPostulate{la-telegram} is Telegram, which is described at \url{https://www.telegram.org}.
