@@ -226,7 +226,7 @@ postulate tolcru-clanybenji : IMS → Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{me'oi-paywall}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-paywall} \B a .zoi.\ gi su'o da poi ke'a pagbu la'o zoi.\ \B a .zoi.\ zo'u ro de poi ke'a pilno la'o zoi.\ \B a .zoi.\ zo'u ga janai de pleji fo da gi fladra fa lo nu de da pilno gi
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{me'oi-paywall} \B a .zoi.\ gi su'o da poi ke'a pagbu la'o zoi.\ \B a .zoi.\ zo'u ro de poi ke'a pilno la'o zoi.\ \B a .zoi.\ zo'u ga janai de pleji fo da gi fladra fa lo nu de da pilno
 
 \paragraph{English}
 A proof of \AgdaPostulate{me'oi-paywall} \B a exists iff some part (of \B a) $Q$ exists such that for all users (of \B a) $K$, if legal is that $K$ uses $Q$, then $K$ pays for $Q$.
