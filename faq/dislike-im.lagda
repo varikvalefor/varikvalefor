@@ -467,7 +467,7 @@ module LaSignal where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.\ du la'oi .Signal.\ poi ke'a se velski le se .urli be zoi .urli. \url{https://www.signal.org}\ .urli.
+ni'o la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.\ du la'oi .Signal.\ poi ke'a se velski le se .urli be zoi .urli.\ \url{https://www.signal.org}\ .urli.
 
 \paragraph{English}
 \AgdaPostulate{la-signal} is Signal, which is described at \url{https://www.signal.org}.
@@ -515,7 +515,7 @@ module LaRevolt where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.\ du la'oi .Revolt.\ poi ke'a se velski le se .urli be zoi .urli. \url{https://revolt.chat}\ .urli.
+ni'o la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.\ du la'oi .Revolt.\ poi ke'a se velski le se .urli be zoi .urli.\ \url{https://revolt.chat}\ .urli.
 
 \paragraph{English}
 \AgdaPostulate{la-revolt} is Revolt, which is described at \url{https://revolt.chat}.
