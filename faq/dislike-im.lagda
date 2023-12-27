@@ -467,7 +467,7 @@ module LaSignal where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.\ du la'oi .Signal.\ poi ke'a se velski le se .urli be zoi .urli.\ \url{https://www.signal.org}\ .urli.
+ni'o la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.\ du la'oi .Signal.\ je cu se velski le se .urli be zoi .urli.\ \url{https://www.signal.org}\ .urli.
 
 \paragraph{English}
 \AgdaPostulate{la-signal} is Signal, which is described at \url{https://www.signal.org}.
