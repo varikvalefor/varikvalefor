@@ -33,7 +33,7 @@
 
 \section{le torveki}
 
-ni'o la .varik.\ cu na pilno la jboponei ni'i le su'u\ldots
+ni'o le su'u la .varik.\ cu na pilno la jboponei cu se nibli le su'u\ldots
 \begin{itemize}
 	\item ga je ga naja la .varik.\ cu pilno la jboponei gi su'o da zo'u gerna fi da fe ko'a naje ko'e gi
 	\item no da zo'u gerna fi da fe ko'a goi le jbobau be la .varik.\ ge'u naje ko'e goi la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
