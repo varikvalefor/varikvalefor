@@ -127,7 +127,7 @@ postulate rolos : rolmapge'a $ le-jbobau-be la-varik
 \end{code}
 
 \subsection{la'oi .\F{najboponeis}.}
-ni'o la'o zoi.\ \F{najboponeis}\ .zoi.\ ctaipe le su'u la .varik.\ na pilno la jboponei
+ni'o la'oi .\F{najboponeis}.\ ctaipe le su'u la .varik.\ na pilno la jboponei
 
 \begin{code}
 najboponeis : ¬ (la-varik cu-pilno la-jboponei)
