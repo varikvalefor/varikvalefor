@@ -33,16 +33,16 @@
 
 \section{le torveki}
 
-ni'o le su'u la .varik.\ cu na pilno la jboponei cu se nibli le su'u\ldots
+ni'o le su'u la .varik.\ na pilno la jboponei cu se nibli le su'u\ldots
 \begin{itemize}
 	\item ga je ga naja la .varik.\ cu pilno la jboponei gi su'o da zo'u gerna fi da fe ko'a naje ko'e gi
 	\item no da zo'u gerna fi da fe ko'a goi le jbobau be la .varik.\ ge'u naje ko'e goi la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
 \end{itemize}
 
-ni'o la .varik.\ cu na zu'edji lo ka ce'u fanva le velcki be le ctaipe le glibau la .lojban.
+ni'o la .varik.\ na zu'edji lo ka ce'u fanva le velcki be le ctaipe le glibau la .lojban.
 
 \section{le su'u na fanva}
-ni'o la .varik.\ cu na zu'edji lo ka ce'u fanva ko'e goi la'au le ctaipe be le su'u la .varik.\ cu na pilno la jboponei li'u le glibau la .lojban.  .i la'e di'u se krinu le su'u la .varik.\ cu jinvi le du'u lakne fa lo nu lo ro selci'i be ko'e cu jbopre je cu kakne lo ka ce'u jimpe fi le te gerna be la .lojban.
+ni'o la .varik.\ na zu'edji lo ka ce'u fanva ko'e goi la'au le ctaipe be le su'u la .varik.\ na pilno la jboponei li'u le glibau la .lojban.  .i la'e di'u se krinu le su'u la .varik.\ cu jinvi le du'u lakne fa lo nu lo ro selci'i be ko'e cu jbopre je cu kakne lo ka ce'u jimpe fi le te gerna be la .lojban.
 
 \section{le vrici}
 
@@ -127,7 +127,7 @@ postulate rolos : rolmapge'a $ le-jbobau-be la-varik
 \end{code}
 
 \subsection{la'oi .\F{najboponeis}.}
-ni'o la'o zoi.\ \F{najboponeis}\ .zoi.\ ctaipe le su'u la .varik.\ cu na pilno la jboponei
+ni'o la'o zoi.\ \F{najboponeis}\ .zoi.\ ctaipe le su'u la .varik.\ na pilno la jboponei
 
 \begin{code}
 najboponeis : ¬ (la-varik cu-pilno la-jboponei)
