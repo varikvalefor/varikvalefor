@@ -25,7 +25,7 @@
 \newcommand\B\AgdaBound
 \newcommand\OpP[1]{\AgdaOperator{\AgdaPostulate{#1}}}
 
-\title{le ctaipe be le su'u la .varik.\ cu na pilno la jboponei}
+\title{le ctaipe be le su'u la .varik.\ na pilno la jboponei}
 \author{la .varik.\ .VALefor.}
 
 \begin{document}
