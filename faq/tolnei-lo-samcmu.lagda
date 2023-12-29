@@ -68,6 +68,7 @@ open import Relation.Nullary
 \section{le torveki / The Summary}
 
 \subsection{ko'a goi la'o zoi.\ Microsoft Windows Vista .zoi.}
+\paragraph{la .lojban.}
 ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne fa lo nu samfli ri'a tu'a ko'a kei kei kei je le su'u jitfa fa le du'u ro da poi ke'a prenu zo'u ro de poi ke'a fukpi ko'a je cu se ponse da zo'u de curmi lo ro nu da gasnu lo srana be po'o da je de
 
 \paragraph{English}
