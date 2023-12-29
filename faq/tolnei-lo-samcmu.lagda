@@ -16,12 +16,12 @@
 \renewcommand\abstractname{le me'oi .abstract.}
 
 \newunicodechar{∷}{\ensuremath{\mathnormal\Colon}}
-\newunicodechar{ℕ}{\ensuremath{\mathbb{N}}}
-\newunicodechar{∘}{\ensuremath{\mathnormal{\circ}}}
-\newunicodechar{∀}{\ensuremath{\mathnormal{\forall}}}
-\newunicodechar{⊤}{\ensuremath{\mathnormal{\top}}}
-\newunicodechar{λ}{\ensuremath{\mathnormal{\lambda}}}
-\newunicodechar{→}{\ensuremath{\mathnormal{\rightarrow}}}
+\newunicodechar{ℕ}{\ensuremath{\mathbb N}}
+\newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
+\newunicodechar{∀}{\ensuremath{\mathnormal\forall}}
+\newunicodechar{⊤}{\ensuremath{\mathnormal\top}}
+\newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
+\newunicodechar{→}{\ensuremath{\mathnormal\rightarrow}}
 \newunicodechar{₁}{\ensuremath{\mathnormal{_1}}}
 \newunicodechar{₂}{\ensuremath{\mathnormal{_2}}}
 
