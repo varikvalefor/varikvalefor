@@ -19,6 +19,8 @@
 \newunicodechar{ℕ}{\ensuremath{\mathbb N}}
 \newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
 \newunicodechar{∀}{\ensuremath{\mathnormal\forall}}
+\newunicodechar{∃}{\ensuremath{\mathnormal\exists}}
+\newunicodechar{≡}{\ensuremath{\mathnormal\equiv}}
 \newunicodechar{⊤}{\ensuremath{\mathnormal\top}}
 \newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
 \newunicodechar{→}{\ensuremath{\mathnormal\rightarrow}}
@@ -45,12 +47,18 @@ ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei le samcmu be'
 \section{le vrici / The Miscellaneous}
 
 \begin{code}
+open import Data.Fin
+  using (
+    zero
+  )
 open import Function
   using (
+    _∘_;
     _$_
   )
 open import Data.List
   using (
+    lookup;
     List;
     _∷_;
     []
@@ -59,9 +67,19 @@ open import Data.String
   using (
     String
   )
+open import Data.Product
+  using (
+    _,_;
+    ∃
+  )
 open import Relation.Nullary
   using (
     ¬_
+  )
+open import Relation.Binary.PropositionalEquality
+  using (
+    _≡_;
+    refl
   )
 \end{code}
 
@@ -94,6 +112,13 @@ ni'o la .varik.\ cu tolnei ko'a ki'u le su'u la .varik.\ cu jinvi le du'u cafne 
 
 \paragraph{English}
 That (VARIK dislikes OpenBSD) is justified by that VARIK opines that frequent is that OpenBSD crashes.
+
+\subsection{ko'a goi ka'oi .Haiku.}
+\paragraph{la .lojban.}
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu su'o da poi ke'a me ko'a samcmu zo'u ko'a goi lo prenu cu cmisau da ca lo nu cmisau ko'a fa lo na du be ko'a
+
+\paragraph{English}
+That (VARIK dislikes Haiku) is justified by that forbidden is that some Haiku system $A$ exists such that some prenu $B$ exists such that some prenu (which is not $B$) $C$ exists such that that $B$ is signed in to $A$ is contemporaneous with that $C$ is signed in to $A$.
 
 \section{le jicmu / The Basic}
 
@@ -232,6 +257,17 @@ A proof of \B a \OpP{cu-tcimi'etolnei} \B b\ exists iff \B a\ dislikes the tools
 postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
 \end{code}
 
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-pavyplico'e} .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \B x \OpP{cu-pavyplico'e} .zoi.\ gi curmi lo nu lo pa co'e cu cmisau lo me la'oi .\B x.\ skami kei je ku'i cu tolcru lo nu su'o da poi ke'a me la'oi .\B x.\ skami zo'u su'o de poi ke'a prenu zo'u su'o di poi ke'a prenu jenai cu du de zo'u de cmisau da ca lo nu di cmisau da
+
+\paragraph{English}
+A proof of \B g \OpP{cu-pavyplico'e} exists iff a thing permits that (1 thing logs in to a \B g computer)\ldots but forbids that some \B g computer $x$ exists such that some user $B$ exists such that some user (which is not $B$) $C$ exists such that contemporaneous with that ($B$ is signed into \B g) is that $C$ is signed into \B g.
+
+\begin{code}
+postulate _cu-pavyplico'e : Samcmu → Set
+\end{code}
+
 \section{le fancu / The Functions}
 
 \subsection{la'oi .\AgdaPostulate{narvlipa}.}
@@ -284,6 +320,22 @@ For all operating systems $A$, if VARIK dislikes the tools/programs/things which
 postulate tcimi'etolnei : {x : Samcmu}
                         → la-varik cu-tcimi'etolnei x
                         → la-varik cu-tolnei x
+\end{code}
+
+\subsection{la'oi .\AgdaPostulate{pavyplico'etolnei}.}
+\paragraph{la .lojban.}
+ni'o ro da zo'u ga naja da se tolnei la .varik.\ gi ga je da samcmu lo jbuskami gi ctaipe lo me'oi .\AgdaPostulate{\AgdaUnderscore{}cu-pavyplico'e}.\footnote{.i pilno le me'oi .Agda.\ co'e ki'u le su'u la .varik.\ cu toldji lo nu rapli fa lo nu la .varik.\ cu ciksi\ldots kei kei kei je le su'u la .varik.\ cu te cadga fi lo nu jimpe fi la'oi .Agda.\ fa lo troci be le ka ce'u jimpe fi la'oi .\AgdaPostulate{pavyplico'etolnei}.}\ be da
+
+\paragraph{English}
+If \B g is an operating system for desktop computers, then if a proof of \B g \OpP{cu-pavyplico'e}\footnote{Using the Agda thing is justified by that VARIK [OPPOSITE] \{ADVERB\} desires repeatedly defining.  Additionally, using the Agda thing is justified by that VARIK opines (or whatever \{VERB\}) that things $X$ which attempt to understand \AgdaPostulate{pavyplico'etolnei} should understand Agda.} exists, then VARIK dislikes \B g.
+
+\begin{code}
+postulate
+  pavyplico'etolnei : {x : Samcmu}
+                    → let sak = Samcmu.skamyklesi x in
+                      ∃ $ _≡_ lo-jbuskami ∘ lookup sak
+                    → x cu-pavyplico'e
+                    → la-varik cu-tolnei x
 \end{code}
 
 \section{le samcmu}
@@ -472,5 +524,44 @@ ni'o la'o zoi.\ \AgdaPostulate{openbysydys-samfli}\ .zoi.\ ctaipe le su'u la .va
 \begin{code}
   obstolnei₁ : la-varik cu-tolnei la-openbysydys
   obstolnei₁ = samflitolnei openbysydys-samfli
+\end{code}
+
+\subsection{ko'a goi la'oi .Haiku.}
+
+\begin{code}
+module Haiku where
+\end{code}
+
+\subsubsection{la'o zoi.\ \F{la-xaikus} .zoi.}
+\paragraph{la .lojban.}
+ni'o ko'a du la'o zoi.\ \F{la-xaikus} .zoi.
+
+\paragraph{English}
+Haiku is \F{la-xaikus}.
+
+\begin{code}
+  la-xaikus : Samcmu
+  la-xaikus = record {
+    cmene = "Haiku";
+    skamyklesi = lo-jbuskami ∷ []
+    }
+\end{code}
+
+\subsubsection{la'oi .\AgdaPostulate{xaikypavyplico'e}.}
+\paragraph{la .lojban.}
+ni'o ranji fa le nu la .varik. cu toldji lo nu rapli fa lo nu ciksi
+
+\paragraph{English}
+That (VARIK [OPPOSTE] \{ADVERB\} desires defining repeatedly) continues.
+
+\begin{code}
+  postulate xaikypavyplico'e : la-xaikus cu-pavyplico'e
+\end{code}
+
+\subsubsection{la'oi .\F{xaikytolnei₁}.}
+
+\begin{code}
+  xaikytolnei : la-varik cu-tolnei la-xaikus
+  xaikytolnei = pavyplico'etolnei (zero , refl) xaikypavyplico'e
 \end{code}
 \end{document}
