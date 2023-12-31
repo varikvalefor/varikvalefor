@@ -412,7 +412,7 @@ module LaTelegram where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ du la'oi .Telegram.\ poi ke'a se velski le se .urli be zoi .urli.\ \url{https://www.telegram.org}\ .urli.
+ni'o la'o zoi.\ \AgdaPostulate{la-telegram}\ .zoi.\ du la'oi .Telegram.\ je cu se velski le se .urli be zoi .urli.\ \url{https://www.telegram.org}\ .urli.
 
 \paragraph{English}
 \AgdaPostulate{la-telegram} is Telegram, which is described at \url{https://www.telegram.org}.
@@ -515,7 +515,7 @@ module LaRevolt where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.\ du la'oi .Revolt.\ poi ke'a se velski le se .urli be zoi .urli.\ \url{https://revolt.chat}\ .urli.
+ni'o la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.\ du la'oi .Revolt.\ je cu se velski le se .urli be zoi .urli.\ \url{https://revolt.chat}\ .urli.
 
 \paragraph{English}
 \AgdaPostulate{la-revolt} is Revolt, which is described at \url{https://revolt.chat}.
