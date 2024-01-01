@@ -157,7 +157,7 @@ ni'o ga jo ko'a goi la'oi .\B{a}.\ ctaipe la'oi .\AgdaRecord{Samcmu}.\ gi ga je 
 \end{itemize}
 
 \paragraph{English}
-\B a is a value of \AgdaRecord{Samcmu} iff (\AgdaField{Samcmu.cmene} \B a is the name of \B a, and \AgdaField{Samcmu.skamyklesi} \B a is a description (or whatever) of the computer which is compatible with \B a).
+\AgdaRecord{Samcmu} is the type of \B a iff (\AgdaField{Samcmu.cmene} \B a is the name of \B a, and \AgdaField{Samcmu.skamyklesi} \B a is a description (or whatever) of the computer which is compatible with \B a).
 
 \begin{code}
 record Samcmu : Set
