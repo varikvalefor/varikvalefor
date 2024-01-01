@@ -566,7 +566,7 @@ ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ du la'o glibau.\ Internet Relay C
 ni'o la'oi .\AgdaPostulate{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Relay Chat .glibau.\ na mapti lo nu benji lo pixra
 
 \paragraph{English}
-\AgdaPostulate{irkypixra} is a proof of that Internet Relay Chat not supports that sends images.
+\AgdaPostulate{irkypixra} is a proof of that Internet Relay Chat not supports sending images.
 
 \begin{code}
   postulate irkypixra : la-irk cu-na-mapti-lo-pixra
