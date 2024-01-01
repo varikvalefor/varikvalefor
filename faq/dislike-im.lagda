@@ -552,7 +552,7 @@ module LaIrk where
 
 \subsubsection{la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ du la'o glibau.\ Internet Relay Chat .glibau.\ poi li pavomuso me'oi .RFC.\ ke'a
+ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ du la'o glibau.\ Internet Relay Chat .glibau.\ poi ciksi ke'a fo le pavumoso moi be lo'i me'oi .RFC.
 
 \paragraph{English}
 \AgdaPostulate{la-irk} is Internet Relay Chat, which is described by RFC 1459.
