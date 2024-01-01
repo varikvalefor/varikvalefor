@@ -555,7 +555,7 @@ module LaIrk where
 ni'o la'o zoi.\ \AgdaPostulate{la-irk}\ .zoi.\ du la'o glibau.\ Internet Relay Chat .glibau.\ poi ciksi ke'a fo le pavumoso moi be lo'i me'oi .RFC.
 
 \paragraph{English}
-\AgdaPostulate{la-irk} is Internet Relay Chat, which is described by RFC 1459.
+\AgdaPostulate{la-irk} is Internet Relay Chat.  RFC 1459 is the definition of \AgdaPostulate{la-irk}.
 
 \begin{code}
   postulate la-irk : IMS
