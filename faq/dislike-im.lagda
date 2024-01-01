@@ -489,10 +489,10 @@ ni'o la .\AgdaPostulate{sigcent}.\ cu ctaipe le su'u me'oi .centralise.\ la'oi .
 
 \subsubsection{la .\AgdaPostulate{sigfon}.}
 \paragraph{la .lojban.}
-ni'o la .\AgdaPostulate{sigcent}.\ cu ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Signal.
+ni'o la .\AgdaPostulate{sigfon}.\ cu ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Signal.
 
 \paragraph{English}
-\AgdaPostulate{sigcent} is a proof of that a phone number is necessary for using Signal.
+\AgdaPostulate{sigfon} is a proof of that a phone number is necessary for using Signal.
 
 \begin{code}
   postulate sigfon : fonxysarcu la-signal
