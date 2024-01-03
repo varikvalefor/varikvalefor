@@ -437,7 +437,7 @@ ni'o la'oi .\AgdaPostulate{tugcentra}.\ ctaipe le su'u me'oi .centralise.\ la'oi
 ni'o la'oi .\AgdaPostulate{tugfonxa}.\ ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Telegram.
 
 \paragraph{English}
-\AgdaPostulate{fugfonxa} is a proof of that a telephone number is necessary for that uses Telegram.
+\AgdaPostulate{fugfonxa} is a proof of that a telephone number is necessary for using Telegram.
 
 \begin{code}
   postulate tugfonxa : fonxysarcu la-telegram
