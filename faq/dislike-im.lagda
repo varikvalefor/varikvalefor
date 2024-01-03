@@ -476,33 +476,33 @@ ni'o la'o zoi.\ \AgdaPostulate{la-signal}\ .zoi.\ du la'oi .Signal.\ je cu se ve
   postulate la-signal : IMS
 \end{code}
 
-\subsubsection{la .\AgdaPostulate{sigcent}.}
+\subsubsection{la .\AgdaPostulate{la-sigcent}.}
 \paragraph{la .lojban.}
-ni'o la .\AgdaPostulate{sigcent}.\ cu ctaipe le su'u me'oi .centralise.\ la'oi .Signal.
+ni'o la .\AgdaPostulate{la-sigcent}.\ cu ctaipe le su'u me'oi .centralise.\ la'oi .Signal.
 
 \paragraph{English}
-\AgdaPostulate{sigcent} is a proof of that Signal is centralised.
+\AgdaPostulate{la-sigcent} is a proof of that Signal is centralised.
 
 \begin{code}
-  postulate sigcent : me'oi-centralise la-signal
+  postulate la-sigcent : me'oi-centralise la-signal
 \end{code}
 
-\subsubsection{la .\AgdaPostulate{sigfon}.}
+\subsubsection{la .\AgdaPostulate{la-sigfon}.}
 \paragraph{la .lojban.}
-ni'o la .\AgdaPostulate{sigfon}.\ cu ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Signal.
+ni'o la .\AgdaPostulate{la-sigfon}.\ cu ctaipe le su'u tu'a lo fonjudri cu sarcu lo nu pilno la'oi .Signal.
 
 \paragraph{English}
-\AgdaPostulate{sigfon} is a proof of that a phone number is necessary for using Signal.
+\AgdaPostulate{la-sigfon} is a proof of that a phone number is necessary for using Signal.
 
 \begin{code}
-  postulate sigfon : fonxysarcu la-signal
+  postulate la-sigfon : fonxysarcu la-signal
 \end{code}
 
 \subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
   sigtolneis : la-varik cu-tolnei la-signal
-  sigtolneis = tolnei-ctaipe $ that $ this $ these sigcent sigfon
+  sigtolneis = tolnei-ctaipe $ that $ this $ these la-sigcent la-sigfon
 \end{code}
 
 \section{la'oi .Revolt.}
@@ -524,22 +524,22 @@ ni'o la'o zoi.\ \AgdaPostulate{la-revolt}\ .zoi.\ du la'oi .Revolt.\ je cu se ve
   postulate la-revolt : IMS
 \end{code}
 
-\subsubsection{la .\AgdaPostulate{revent}.}
+\subsubsection{la .\AgdaPostulate{la-revent}.}
 \paragraph{la .lojban.}
-ni'o la .\AgdaPostulate{revent}.\ cu ctaipe le su'u me'oi .centralise.\ la'oi .Revolt.
+ni'o la .\AgdaPostulate{la-revent}.\ cu ctaipe le su'u me'oi .centralise.\ la'oi .Revolt.
 
 \paragraph{English}
-\AgdaPostulate{revent} is a proof of that Revolt is centralised.
+\AgdaPostulate{la-revent} is a proof of that Revolt is centralised.
 
 \begin{code}
-  postulate revent : me'oi-centralise la-revolt
+  postulate la-revent : me'oi-centralise la-revolt
 \end{code}
 
 \subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
   revtolneis : la-varik cu-tolnei la-revolt
-  revtolneis = tolnei-ctaipe $ that $ this $ this revent
+  revtolneis = tolnei-ctaipe $ that $ this $ this la-revent
 \end{code}
 
 \section{la'o glibau.\ Internet Relay Chat .glibau.}
