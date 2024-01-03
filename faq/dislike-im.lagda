@@ -41,30 +41,30 @@ Some instant messaging services $A$ exist such that the thing contains a descrip
 
 \section{le torveki / The Summary}
 
-\subsection{la'oi .Discord.}
+\subsection{ko'a goi la'oi .Discord.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei ko'a goi la'oi .Discord.\ ki'u le su'u ko'a to'e fingubni je le su'u me'oi .centralise.\ ko'a kei je le su'u me'oi .paywall.\ lo su'o pagbu be ko'a kei je le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a kei kei je le su'u ga je tolcru lo nu pilno lo se kibyse'u be fi ko'a be'o poi ke'a me'oi .unofficial.\ ja me'oi .custom.\ gi la .varik.\ cu tolnei le ro se kibyse'u be fi ko'a be'o poi lo zbasu be ko'a cu curmi lo nu pilno ke'a 
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u ko'a to'e fingubni je le su'u me'oi .centralise.\ ko'a kei je le su'u me'oi .paywall.\ lo su'o pagbu be ko'a kei je le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a kei kei je le su'u ga je tolcru lo nu pilno lo se kibyse'u be fi ko'a be'o poi ke'a me'oi .unofficial.\ ja me'oi .custom.\ gi la .varik.\ cu tolnei le ro se kibyse'u be fi ko'a be'o poi lo zbasu be ko'a cu curmi lo nu pilno ke'a 
 
 \paragraph{English}
 That (VARIK dislikes Discord) is justified by that (Discord is closed-source), that (Discord is centralised), that (paywalled are some parts of Discord), that (forbidden is sending (via Discord) lengthy text), and that (VARIK dislikes all clients (of Discord) which are official, and forbidden is using a client (of Discord) which is custom or unofficial, and VARIK dislikes all clients (of Discord) which are official).
 
-\subsection{la'oi .Telegram.}
+\subsection{ko'a goi la'oi .Telegram.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei ko'a goi la'oi .Telegram.\ ki'u le su'u me'oi .centralise.\ ko'a kei je le su'u tu'a lo fonjudri cu sarcu lo nu pilno ko'a
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u me'oi .centralise.\ ko'a kei je le su'u tu'a lo fonjudri cu sarcu lo nu pilno ko'a
 
 \paragraph{English}
 That (VARIK dislikes Telegram) is justified by that (Telegram is closed-source) and that a phone number is necessary for using Telegram.
 
-\subsection{la'oi .Signal.}
+\subsection{ko'a goi la'oi .Signal.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu tolnei ko'a goi la'oi .Signal.\ ki'u le su'u me'oi .centralise.\ ko'a kei je le su'u tu'a lo fonjudri cu sarcu lo nu pilno ko'a
+ni'o la .varik.\ cu tolnei ko'a ki'u le su'u me'oi .centralise.\ ko'a kei je le su'u tu'a lo fonjudri cu sarcu lo nu pilno ko'a
 
 \paragraph{English}
 That (VARIK dislikes Signal) is justified by that (Signal is centralised) and that a phone number is necessary for using Signal.
 
-\subsection{la'oi .IRC.}
+\subsection{ko'a goi la'oi .IRC.}
 \paragraph{la .lojban.}
-ni'o le su'u la .varik.\ na nelci ko'a goi la'oi .IRC.\ cu se krinu le su'u ko'a na mapti lo nu benji lo pixra\sds  .i ji'a la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a
+ni'o le su'u la .varik.\ na nelci ko'a cu se krinu le su'u ko'a na mapti lo nu benji lo pixra\sds  .i ji'a la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu benji lo clani je lerseltcidu fu ko'a
 
 \paragraph{English}
 That (VARIK not likes IRC) is justified by that IRC not supports sending images.  Additionally, that (VARIK dislikes IRC) is justified by that forbidden is sending (via IRC) lengthy text.
