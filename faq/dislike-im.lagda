@@ -158,15 +158,15 @@ ni'o ga jo la'o zoi.\ \B a .zoi.\ tolnei la'o zoi.\ \B b .zoi.\ gi ctaipe la'o z
 postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-na-nelci\AgdaUnderscore}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}na-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-na-nelci} \B b .zoi.\ gi la'o zoi.\ \B a .zoi.\ na nelci la'o zoi.\ \B b .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{na-nelci} \B b .zoi.\ gi la'o zoi.\ \B a .zoi.\ na nelci la'o zoi.\ \B b .zoi.
 
 \paragraph{English}
-A proof of \B a \OpP{cu-na-nelci} \B b exists iff \B a not likes \B b.
+A proof of \B a \OpP{na-nelci} \B b exists iff \B a not likes \B b.
 
 \begin{code}
-postulate _cu-na-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
+postulate _na-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{to'e-fingubni-fa}\ .zoi.}
@@ -235,15 +235,15 @@ A proof of \AgdaPostulate{me'oi-paywall} \B a exists iff some part (of \B a) $Q$
 postulate me'oi-paywall : IMS → Set
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-na-mapti-lo-pixra}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}na-mapti-lo-pixra}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-na-mapti-lo-pixra} .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{na-mapti-lo-pixra} .zoi.\ gi la'o zoi.\ \B a .zoi.\ na mapti lo nu benji lo pixra
 
 \paragraph{English}
-A proof of \B a \OpP{cu-na-mapti-lo-pixra} exists iff \B a not supports sending images.
+A proof of \B a \OpP{na-mapti-lo-pixra} exists iff \B a not supports sending images.
 
 \begin{code}
-postulate _cu-na-mapti-lo-pixra : IMS → Set
+postulate _na-mapti-lo-pixra : IMS → Set
 \end{code}
 
 \section{le fancu / The Functions}
@@ -257,8 +257,8 @@ VARIK hopes that unnecessary is writing an English explanation.
 
 \begin{code}
 postulate narnei-ctaipe : {A : IMS}
-                        → A cu-na-mapti-lo-pixra
-                        → la-varik cu-na-nelci A
+                        → A na-mapti-lo-pixra
+                        → la-varik na-nelci A
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{tolnei-ctaipe}\ .zoi.}
@@ -569,7 +569,7 @@ ni'o la'oi .\AgdaPostulate{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Re
 \AgdaPostulate{irkypixra} is a proof of that Internet Relay Chat not supports sending images.
 
 \begin{code}
-  postulate irkypixra : la-irk cu-na-mapti-lo-pixra
+  postulate irkypixra : la-irk na-mapti-lo-pixra
 \end{code}
 
 \subsubsection{la'oi .\AgdaPostulate{irkyclani}.}
@@ -586,7 +586,7 @@ ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo cla
 \subsection{le ctaipe be le su'u na nelci / The Proof of that Not Likes}
 
 \begin{code}
-  la-narneic : la-varik cu-na-nelci la-irk
+  la-narneic : la-varik na-nelci la-irk
   la-narneic = narnei-ctaipe irkypixra
 \end{code}
 
