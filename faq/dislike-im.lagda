@@ -572,15 +572,15 @@ ni'o la'oi .\AgdaPostulate{irkypixra}.\ ctaipe le su'u la'o glibau.\ Internet Re
   postulate irkypixra : la-irk na-mapti-lo-pixra
 \end{code}
 
-\subsubsection{la'oi .\AgdaPostulate{irkyclani}.}
+\subsubsection{la'oi .\AgdaPostulate{la-irkyclanis}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo clani je lerseltcidu fo la'o glibau.\ Internet Relay Chat .glibau.
+ni'o la'oi .\AgdaPostulate{la-irkyclanis}.\ ctaipe le su'u tolcru lo nu benji lo clani je lerseltcidu fo la'o glibau.\ Internet Relay Chat .glibau.
 
 \paragraph{English}
-\AgdaPostulate{irkyclani} is a proof of that forbidden is sending (via Internet Relay Chat) lengthy texts.
+\AgdaPostulate{la-irkyclanis} is a proof of that forbidden is sending (via Internet Relay Chat) lengthy texts.
 
 \begin{code}
-  postulate irkyclani : tolcru-clanybenji la-irk
+  postulate la-irkyclanis : tolcru-clanybenji la-irk
 \end{code}
 
 \subsection{le ctaipe be le su'u na nelci / The Proof of that Not Likes}
@@ -594,6 +594,6 @@ ni'o la'oi .\AgdaPostulate{irkyclani}.\ ctaipe le su'u tolcru lo nu benji lo cla
 
 \begin{code}
   la-tolneic : la-varik cu-tolnei la-irk
-  la-tolneic = tolnei-ctaipe $ that $ that $ this irkyclani
+  la-tolneic = tolnei-ctaipe $ that $ that $ this la-irkyclanis
 \end{code}
 \end{document}
