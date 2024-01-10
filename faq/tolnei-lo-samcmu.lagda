@@ -218,7 +218,7 @@ postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a .zoi.\ gi ko'a goi la'oi .\B{a}.\ troci pe'a ru'e lo nu tolcru lo nu vimcu lo datnyvei ja co'e poi tu'a ke'a sarcu lo nu ko'a tolpo'u
 
 \paragraph{English}
-A proof of \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a\ exists iff \B a\ ``attempts'' that forbids that removes files which are necessary for that \B a\ correctly functions.
+A proof of \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a\ exists iff \B a\ ``attempts'' that forbidden is removing files which are necessary for that \B a\ correctly functions.
 
 \begin{code}
 postulate tolcru-lo-nu-spogau-kei-fa : Samcmu → Set
