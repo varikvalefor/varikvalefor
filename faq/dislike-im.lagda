@@ -538,8 +538,8 @@ ni'o la .\AgdaPostulate{la-revent}.\ cu ctaipe le su'u me'oi .centralise.\ la'oi
 \subsection{le ctaipe be le su'u tolnei / The Proof of Disliking}
 
 \begin{code}
-  revtolneis : la-varik cu-tolnei la-revolt
-  revtolneis = tolnei-ctaipe $ that $ this $ this la-revent
+  la-revtolneis : la-varik cu-tolnei la-revolt
+  la-revtolneis = tolnei-ctaipe $ that $ this $ this la-revent
 \end{code}
 
 \section{la'o glibau.\ Internet Relay Chat .glibau.}
