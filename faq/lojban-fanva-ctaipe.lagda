@@ -145,7 +145,7 @@ postulate zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
                    → A → B → Selkai → Set
 \end{code}
 
-\section{le selkai / The Properties/Qualities/Whatever}
+\section{le selkai / The Properties, Qualities, or Whatever}
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-kafrilis}\ .zoi.}
 
