@@ -61,7 +61,7 @@ Contains the definition of the proof of that VARIK prefers (over that VARIK uses
 ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u le su'u le tcita be lo se ctaipe cu smimlu lo tcita be lo jufmei
 
 \paragraph{English}
-That (labels of proofs resemble labels of paragraphs) justifies that uses \texttt{subsection} and not \texttt{paragraph}.
+That (labels of proofs resemble labels of paragraphs) justifies using \texttt{subsection} and not \texttt{paragraph}.
 
 \subsection{la .lojban.}
 ni'o la .varik.\ cu te selneimau fi ko'a goi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ kei fe ko'e goi lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.\ kei ni'i le su'u\ldots
