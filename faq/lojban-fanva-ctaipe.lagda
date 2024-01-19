@@ -64,10 +64,10 @@ ni'o pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ ki'u l
 That (labels of proofs resemble labels of paragraphs) justifies using \texttt{subsection} and not \texttt{paragraph}.
 
 \subsection{la .lojban.}
-ni'o la .varik.\ cu te selneimau fi ko'a goi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ kei fe ko'e goi lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.\ kei ni'i le su'u\ldots
+ni'o la .varik.\ cu te selneimau fi ko'a goi lo nu vo'a fanva fi le glibau fo la .lojban.\ kei fe ko'e goi lo nu vo'a cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.\ kei ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je ko'a zmadu ko'e le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo jalge be ce'u gi
-	\item ro da zo'u ro de zo'u ga janai da de selneimau la .varik.\ gi da zmadu de le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo jalge be ce'u
+	\item ga je ko'a zmadu ko'e le ka ce'u frili vo'a kei je le ka vo'a nelci lo jalge be ce'u gi
+	\item ro da zo'u ro de zo'u ga janai da de selneimau vo'a gi da zmadu de le ka ce'u frili vo'a kei je le ka vo'a nelci lo jalge be ce'u
 \end{itemize}
 
 \subsection{English}
