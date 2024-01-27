@@ -95,6 +95,9 @@ ni'o la .varik.\ cu pilno la'oi .Agda.\ ni'i le su'u\ldots
 
 \begin{code}
 open import Function
+  using (
+    _$_
+  )
 open import Relation.Nullary
   using (
     ¬_
