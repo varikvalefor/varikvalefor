@@ -256,7 +256,7 @@ la'oi-Agda = record {
 
 \subsection{la'oi .\AgdaPostulate{pavybaupli}.}
 \paragraph{la .lojban.}
-ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi\ldots
+ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu pilno da gi\ldots
 \begin{itemize}
 	\item ga je da slabu la .varik.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be da gi
