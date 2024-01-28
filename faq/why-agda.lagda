@@ -254,7 +254,7 @@ la'oi-Agda = record {
 
 \section{le barda ja co'e je ctaipe}
 
-\subsection{la'oi .\AgdaPostulate{pavybaupli}.}
+\subsection{la'oi .\AgdaPostulate{pavypli}.}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu pilno da gi\ldots
 \begin{itemize}
