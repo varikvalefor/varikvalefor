@@ -63,11 +63,11 @@ ni'o le su'u pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.
 That (labels of proofs resemble labels of paragraphs) justifies that the thing uses \texttt{subsection} and not \texttt{paragraph}.
 
 \subsection{la .lojban.}
-ni'o la .varik.\ cu pilno la'oi .Agda.\ ni'i le su'u\ldots
+ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
 \begin{itemize}
-	\item ga je la'oi .Agda.\ ctaipe bangu gi
-	\item ga je la'oi .Agda.\ slabu la .varik.\ gi
-	\item ga je la .varik.\ cu nelci le gerna be la'oi .Agda.\ gi
+	\item ga je ko'a ctaipe bangu gi
+	\item ga je ko'a slabu la .varik.\ gi
+	\item ga je la .varik.\ cu nelci le gerna be ko'a gi
 	\item ro da poi ke'a ctaipe bangu zo'u ga janai la .varik.\ cu pilno da gi ga je da slabu la .varik.\ gi ga je la .varik.\ cu nelci lo gerna be da gi la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno da cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
 \end{itemize}
 
