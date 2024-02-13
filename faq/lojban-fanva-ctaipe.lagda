@@ -185,13 +185,13 @@ postulate la-kaselneis : Selkai
 
 \section{le fasnu / The Events}
 
-\newcommand\cmene{la'o zoi.\ \AgdaPostulate{la-nufanvas}\ .zoi.}
-\subsection{\cmene}
+\newcommand\cmene{\AgdaPostulate{la-nufanvas}}
+\subsection{la'o zoi.\ \cmene\ .zoi.}
 \paragraph{la .lojban.}
-ni'o \cmene\ nu la .varik.\ cu fanva fi le glibau fo la .lojban.
+ni'o la'o zoi.\ \cmene\ .zoi.\ nu la .varik.\ cu fanva fi le glibau fo la .lojban.
 
 \paragraph{English}
-\AgdaPostulate{la-nufanvas} is an event of that VARIK translates to English and from Lojban.
+\cmene\ is an event of that VARIK translates to English and from Lojban.
 
 \begin{code}
 postulate la-nufanvas : Fasnu
