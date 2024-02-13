@@ -197,12 +197,13 @@ ni'o la'o zoi.\ \cmene\ .zoi.\ nu la .varik.\ cu fanva fi le glibau fo la .lojba
 postulate la-nufanvas : Fasnu
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{la-nunafanvas}\ .zoi.}
+\renewcommand\cmene{\AgdaPostulate{la-nunafanvas}}
+\subsection{la'o zoi.\ \cmene\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \AgdaPostulate{la-nunafanvas}\ .zoi.\ nu la .varik.\ cu baupli le glibau jenai cu fanva fi le glibau fo la .lojban.
+ni'o la'o zoi.\ \cmene\ .zoi.\ nu la .varik.\ cu baupli le glibau jenai cu fanva fi le glibau fo la .lojban.
 
 \paragraph{English}
-\AgdaPostulate{la-nunafanvas} is an event of that VARIK uses English and not translates to English and from Lojban.
+\cmene\ is an event of that VARIK uses English and not translates to English and from Lojban.
 
 \begin{code}
 postulate la-nunafanvas : Fasnu
