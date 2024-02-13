@@ -91,12 +91,6 @@ VARIK prefers (over that VARIK uses English and not translates to English and fr
 	Therefore, VARIK prefers (over $N$) $F$.
 \end{proof}
 
-\section{le vrici / The Miscellaneous}
-
-\begin{code}
-open import Function
-\end{code}
-
 \section{le jicmu ja co'e / The Basic}
 
 \subsection{la'oi .\AgdaPostulate{Prenu}.}
