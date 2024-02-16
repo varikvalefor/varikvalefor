@@ -97,6 +97,8 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 
 	The extent (of that VARIK likes the result of $f_3$) exceeds the extent (of that VARIK likes the result of $f_1$) and the extent of that VARIK likes the result of $f_1$.
 
+	For all $A$, for all $B$, for all $C$, for all prenu $p$, ($p$ prefers (over $B$) $A$, and $p$ prefers (over $C$) $A$) iff $p$ prefers (over $B$ and $C$) $p$.
+
 	Therefore, VARIK prefers (over $f_1$ and $f_2$) $f_3$.
 \end{proof}
 
