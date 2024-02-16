@@ -17,22 +17,22 @@
 
 \newunicodechar{∷}{\ensuremath{\mathnormal\Colon}}
 \newunicodechar{ℕ}{\ensuremath{\mathnormal{\mathbb{N}}}}
-\newunicodechar{∘}{\ensuremath{\mathnormal{\circ}}}
-\newunicodechar{∀}{\ensuremath{\mathnormal{\forall}}}
-\newunicodechar{⊤}{\ensuremath{\mathnormal{\top}}}
-\newunicodechar{λ}{\ensuremath{\mathnormal{\lambda}}}
-\newunicodechar{→}{\ensuremath{\mathnormal{\rightarrow}}}
+\newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
+\newunicodechar{∀}{\ensuremath{\mathnormal\forall}}
+\newunicodechar{⊤}{\ensuremath{\mathnormal\top}}
+\newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
+\newunicodechar{→}{\ensuremath{\mathnormal\rightarrow}}
 \newunicodechar{⦃}{\ensuremath{\mathnormal{\lbrace\hspace{-0.3em}|}}}
 \newunicodechar{⦄}{\ensuremath{\mathnormal{|\hspace{-0.3em}\rbrace}}}
 \newunicodechar{ₗ}{\ensuremath{\mathnormal{_l}}}
 \newunicodechar{ₛ}{\ensuremath{\mathnormal{_s}}}
 \newunicodechar{ᵥ}{\ensuremath{\mathnormal{_v}}}
 \newunicodechar{∸}{\ensuremath{\mathnormal\dotdiv}}
-\newunicodechar{∧}{\ensuremath{\mathnormal{\land}}}
+\newunicodechar{∧}{\ensuremath{\mathnormal\land}}
 \newunicodechar{≡}{\ensuremath{\mathnormal\equiv}}
 \newunicodechar{ᵇ}{\ensuremath{\mathnormal{^\mathrm{b}}}}
 \newunicodechar{≟}{\ensuremath{\mathnormal{\stackrel{?}{=}}}}
-\newunicodechar{≤}{\ensuremath{\mathnormal{\leq}}}
+\newunicodechar{≤}{\ensuremath{\mathnormal\leq}}
 
 \newcommand\sds{\spacefactor\sfcode`.\ \space}
 
