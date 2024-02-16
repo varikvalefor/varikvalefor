@@ -330,7 +330,7 @@ For all $A$, $A$ displays/exhibits \fsn\ iff \B a finds that easy (for \B a) is 
 \renewcommand\fsn{\AgdaPostulate{kanelcis}}
 \subsection{la'o zoi.\ \fsn\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \fsn \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
+ni'o la'o zoi.\ \fsn\ \B a\ .zoi.\ ka la'oi .\B{a}.\ nelci ce'u
 
 \paragraph{English}
 For all $A$, $A$ displays/exhibits \fsn\ iff \B a likes $A$.
