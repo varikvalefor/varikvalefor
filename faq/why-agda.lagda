@@ -68,6 +68,7 @@ ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
 	\item ga je ko'a ctaipe bangu gi
 	\item ga je ko'a slabu la .varik.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be ko'a gi
+	\item ga je la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno ko'a cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe gi
 	\item ro da poi ke'a ctaipe bangu zo'u ga janai la .varik.\ cu pilno da gi ga je da slabu la .varik.\ gi ga je la .varik.\ cu nelci lo gerna be da gi la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno da cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
 \end{itemize}
 
