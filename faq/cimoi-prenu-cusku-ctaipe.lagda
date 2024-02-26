@@ -108,6 +108,9 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 
 \begin{code}
 open import Function
+  using (
+    _$_
+  )
 open import Data.Product
   using (
     _×_;
