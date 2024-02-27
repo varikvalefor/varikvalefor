@@ -124,12 +124,12 @@ open import Relation.Nullary
 
 \section{le jicmu / The Basic}
 
-\subsection{la'oi .\F{Prenu}.}
+\subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\F{Prenu}.\ jo cu prenu
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Prenu}.\ jo cu prenu
 
 \paragraph{English}
-For all $A$, \F{Prenu} is the type of $A$ iff $A$ is a prenu.
+For all $A$, \AgdaPostulate{Prenu} is the type of $A$ iff $A$ is a prenu.
 
 \begin{code}
 postulate Prenu : Set
@@ -137,12 +137,12 @@ postulate Prenu : Set
 
 \section{le prenu / The Prenu}
 
-\subsection{la'o zoi.\ \F{la-varik}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la'o zoi.\ \F{la-varik}\ .zoi.\ du la .varik.\ .VALefor.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu cusku dei je cu nelci le .else poi la'o glibau.\ Limp Bizkit .glibau.\ zbasu ke'a xi re
+ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.\ .VALefor.\ poi ke'a se gugde le merko zi'o je cu cmacypre je cu cusku dei je cu nelci le .else poi la'o glibau.\ Limp Bizkit .glibau.\ zbasu ke'a xi re
 
 \paragraph{English}
-\F{la-varik} is the VARIK VALEFOR which is an American, is a mathematician, writes the current sentence, and likes the songs which are created by Limp Bizkit.
+\AgdaPostulate{la-varik} is the VARIK VALEFOR which is an American, is a mathematician, writes the current sentence, and likes the songs which are created by Limp Bizkit.
 
 \begin{code}
 postulate la-varik : Prenu
@@ -156,45 +156,45 @@ module Cuskyctaipe where
 
 \section{le bridi / The Predicates}
 
-\subsection{la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{nargaubasyvla-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{nargaubasyvla-cusku-fa}\ \B a\ .zoi.\ gi su'o da zo'u da nu la'o zoi.\ \B a\ .zoi.\ cusku lo nargaubasyvla jenai cu sitsku
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{nargaubasyvla-cusku-fa}\ \B a\ .zoi.\ gi su'o da zo'u da nu la'o zoi.\ \B a\ .zoi.\ cusku lo nargaubasyvla jenai cu sitsku
 
 \paragraph{English}
-A proof of \F{nargaybasyvla-cusku-fa}\ \B a\ exists iff some event of that \B a\ uses nargaubasyvla is not an event of that \B a\ quotes.
+A proof of \AgdaPostulate{nargaybasyvla-cusku-fa}\ \B a\ exists iff some event of that \B a\ uses nargaubasyvla is not an event of that \B a\ quotes.
 
 \begin{code}
   postulate nargaubasyvla-cusku-fa : Prenu → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{cimoi-prenu-cusku-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{cimoi-prenu-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{cimoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cimoi prenu pe'a cusku
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{cimoi-prenu-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cimoi prenu pe'a cusku
 
 \paragraph{English}
-A proof of \F{cimoi-prenu-cusku-fa}\ \B a\ exists iff \B a\ communicates in the third person.
+A proof of \AgdaPostulate{cimoi-prenu-cusku-fa}\ \B a\ exists iff \B a\ communicates in the third person.
 
 \begin{code}
   postulate cimoi-prenu-cusku-fa : Prenu → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{jufra-cusku-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{jufra-cusku-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{jufra-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cusku lo bridi jufra
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{jufra-cusku-fa}\ \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ cusku lo bridi jufra
 
 \paragraph{English}
-A proof of \F{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via predicate-based sentences.
+A proof of \AgdaPostulate{jufra-cusku-fa}\ \B a\ exists iff \B a\ communicates via predicate-based sentences.
 
 \begin{code}
   postulate jufra-cusku-fa : Prenu → Set
 \end{code}
 
-\subsection{la'o zoi.\ \F{mleskutolvrici-fa}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{mleskutolvrici-fa}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \F{mleskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .minimise.\ la'o zoi.\ \B a\ .zoi.\ le ka ce'u cusku lo mu'oi glibau.\ referentially ambiguous .glibau.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{mleskutolvrici-fa}\ \B a\ .zoi.\ gi me'oi .minimise.\ la'o zoi.\ \B a\ .zoi.\ le ka ce'u cusku lo mu'oi glibau.\ referentially ambiguous .glibau.
 
 \paragraph{English}
-A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of that referentially ambiguous are the things which are written/spoken by \B a.
+A proof of \AgdaPostulate{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of that referentially ambiguous are the things which are written/spoken by \B a.
 
 \begin{code}
   postulate mleskutolvrici-fa : Prenu → Set
@@ -202,7 +202,7 @@ A proof of \F{mleskutolvrici-fa}\ \B a\ exists iff minimised is the extent of th
 
 \section{le fancu / The Functions}
 
-\subsection{la'oi .\F{mleskunargaubasyvla}.}
+\subsection{la'oi .\AgdaPostulate{mleskunargaubasyvla}.}
 \paragraph{la .lojban.}
 ni'o ro da zo'u ga janai da cusku lo nargaubasyvla naja cu sitsku gi me'oi .minimise.\ da le ka ce'u cusku lo mu'oi glibau.\ referentially ambiguous .glibau.
 
@@ -216,7 +216,7 @@ For all $A$, if minimised is the extent of that referentially ambiguous are the 
                         → ¬ (nargaubasyvla-cusku-fa z)
 \end{code}
 
-\subsection{la'o zoi.\ \F{nargaubasyvla-cusku}\ .zoi.}
+\subsection{la'o zoi.\ \AgdaPostulate{nargaubasyvla-cusku}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ro da poi ke'a prenu zo'u ga janai da cimoi prenu pe'a cusku gi ga je da cusku lo bridi jufra gi da cusku lo nargaubasyvla naja cu sitsku
 
