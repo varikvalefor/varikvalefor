@@ -69,7 +69,8 @@ ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
 	\item ga je ko'a slabu la .varik.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be ko'a gi
 	\item ga je la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno ko'a cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe gi
-	\item ro da poi ke'a ctaipe bangu zo'u ga janai la .varik.\ cu pilno da gi ga je da slabu la .varik.\ gi ga je la .varik.\ cu nelci lo gerna be da gi la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno da cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
+        \item ga je tu'a la'oi .Agda.\ cu filri'a lo nu lo skami cu cusku pe'a ru'e lo se du'u ma kau cfila lo velcki be lo ctaipe bei bau la'oi .Agda.\ gi
+	\item ro da poi ke'a ctaipe bangu zo'u ga janai la .varik.\ cu pilno da gi ga je da slabu la .varik.\ gi ga je la .varik.\ cu nelci lo gerna be da gi ga je tu'a da filri'a lo nu lo skami cu cusku pe'a ru'e lo se du'u ma kau cfila lo velcki be lo ctaipe bei bau da gi la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno da cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
 \end{itemize}
 
 \subsection{English}
@@ -87,7 +88,9 @@ ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
 
 	VARIK opines that Agda facilitates that VARIK defines proofs and whatnot.
 
-	For all proof languages $A$, if $A$ is familiar to VARIK, then if VARIK likes the syntax of $A$, then if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot), then VARIK uses $A$.
+	Using Agda facilitates that computers ``describe'' flaws of definitions of proofs.
+
+	For all proof languages $A$, if $A$ is familiar to VARIK, then if VARIK likes the syntax of $A$, then if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot), then if using $A$ facilitates that computers ``describe'' flaws of $A$-definitions of proofs, then VARIK uses $A$.
 
 	Therefore, VARIK uses Agda.
 \end{proof}
@@ -195,6 +198,17 @@ A proof of \B a \OpP{cu-slabu} \B b exists iff \B a is familiar to \B b.
 postulate _cu-slabu_ : ∀ {a} → {A : Set a} → A → Prenu → Set
 \end{code}
 
+\subsection{la'o zoi.\ \AgdaPostulate{skamyskifilri'a-fa-tu'a}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{skamyskifilri'a-fa-tu'a} \B x\ .zoi.\ gi tu'a la'oi .\B{x}.\ filri'a lo nu lo skami cu cusku pe'a ru'e lo se du'u ma kau cfila lo velcki be lo ctaipe bei bau la'oi .\B{x}.
+
+\paragraph{English}
+A proof of \AgdaPostulate{skamyskifilri'a-fa-tu'a} \B x\ exists iff using \B x\ facilitates that computers ``describe'' flaws of \B x-definitions of proofs.
+
+\begin{code}
+postulate skamyskifilri'a-fa-tu'a : Ctaipe-Bangu → Set
+\end{code}
+
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-nelci\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-nelci} \B b\ .zoi.\ gi la'oi .\B a.\ nelci la'oi .\B b.
@@ -272,6 +286,7 @@ postulate
   pavypli : {z : Ctaipe-Bangu}
           → z cu-slabu la-varik
           → la-varik cu-nelci (Ctaipe-Bangu.leksiko z)
+          → skamyskifilri'a-fa-tu'a z
           → ctaipeckifilri'a-fa-tu'a z
           → la-varik cu-pilno z
 \end{code}
@@ -285,9 +300,10 @@ VARIK not finds that necessary is that VARIK uses (for that VARIK explains \F{la
 
 \begin{code}
 la-varik-cu-pilno-la'oi-Agda : la-varik cu-pilno la'oi-Agda
-la-varik-cu-pilno-la'oi-Agda = pavypli as vnal ccf
+la-varik-cu-pilno-la'oi-Agda = pavypli as vnal ssf ccf
   where
   postulate
+    ssf : skamyskifilri'a-fa-tu'a la'oi-Agda
     vnal : la-varik cu-nelci_ $ Ctaipe-Bangu.leksiko la'oi-Agda
     ccf : ctaipeckifilri'a-fa-tu'a la'oi-Agda
     as : la'oi-Agda cu-slabu la-varik
