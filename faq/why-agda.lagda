@@ -108,7 +108,7 @@ open import Relation.Nullary
   )
 \end{code}
 
-\section{le jicmu ja co'e / The Basic}
+\section{le co'e ja jicmu / The Basic}
 
 \subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
@@ -178,7 +178,7 @@ record Ctaipe-Bangu : Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{ctaipeckifilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{ctaipeckifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu jinvi ja co'e lo du'u lo nu la .varik.\ cu pilno la'oi .\B a.\ cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{ctaipeckifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu co'e ja jinvi lo du'u lo nu la .varik.\ cu pilno la'oi .\B a.\ cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
 
 \paragraph{English}
 A proof of \AgdaPostulate{ctaipeckifilri'a-fa-tu'a} \B a exists iff VARIK opines/whatever \{V\} that \B a facilitates that VARIK defines proofs and whatnot.
@@ -267,7 +267,7 @@ la'oi-Agda = record {
     agdas : Semantics
 \end{code}
 
-\section{le barda ja co'e je ctaipe}
+\section{le co'e ja barda je ctaipe}
 
 \subsection{la'oi .\AgdaPostulate{pavypli}.}
 \paragraph{la .lojban.}
