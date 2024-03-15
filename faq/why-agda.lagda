@@ -230,7 +230,7 @@ ni'o la'o zoi.\ \AgdaPostulate{la-varik}\ .zoi.\ du la .varik.\ poi ke'a se gugd
 postulate la-varik : Prenu
 \end{code}
 
-\section{le bangu / The Languages}
+\section{le ctaipe bangu / The Proof Languages}
 
 \subsection{la'o zoi.\ \F{la'oi-Agda}\ .zoi.}
 \paragraph{la .lojban.}
