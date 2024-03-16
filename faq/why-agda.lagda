@@ -275,11 +275,12 @@ ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu pilno da gi\ldots
 \begin{itemize}
 	\item ga je da slabu la .varik.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be da gi
+	\item ga je tu'a da filri'a lo nu lo skami cu cusku pe'a ru'e lo du'u ma kau cfila lo velcki be lo ctaipe bei bau da gi
 	\item la .varik.\ cu jinvi lo du'u lo nu la .varik.\ cu pilno da cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
 \end{itemize}
 
 \paragraph{English}
-For all proof languages $A$, if $A$ is familiar to VARIK, then if VARIK likes the grammar of $A$, then if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot, then VARIK uses $A$.
+For all proof languages $A$, if $A$ is familiar to VARIK, then if VARIK likes the grammar of $A$, then if $A$ facilitates that computers ``describe'' flaws of $A$-definitions of proofs, then if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot, then VARIK uses $A$.
 
 \begin{code}
 postulate
