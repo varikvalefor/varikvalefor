@@ -102,10 +102,6 @@ open import Function
   using (
     _$_
   )
-open import Relation.Nullary
-  using (
-    ¬_
-  )
 \end{code}
 
 \section{le co'e ja jicmu / The Basic}
