@@ -134,10 +134,10 @@ postulate Gerna : Set
 
 \subsection{la'oi .\AgdaPostulate{Semantics}.}
 \paragraph{la .lojban.}
-ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Semantics}.\ jo cu me'oi .semantics.\sds  .i cumki fa lo nu cumki fa lo nu xagzengau le velcki be bau la .lojban.
+ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Semantics}.\ jo cu me'oi .semantics.\sds  .i cumki fa lo nu cumki fa lo nu xagzengau pe'a le velcki be bau la .lojban.
 
 \paragraph{English}
-For all $A$, \AgdaPostulate{Semantics} is the type of $A$ iff $A$ is a semantics.  Possible is that possible is improving the English definition.
+For all $A$, \AgdaPostulate{Semantics} is the type of $A$ iff $A$ is a semantics.  Possible is that possible is ``improving'' the English definition.
 
 \begin{code}
 postulate Semantics : Set
