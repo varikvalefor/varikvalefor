@@ -297,12 +297,12 @@ VARIK not finds that necessary is that VARIK uses (for that VARIK explains \F{la
 
 \begin{code}
 la-varik-cu-pilno-la'oi-Agda : la-varik cu-pilno la'oi-Agda
-la-varik-cu-pilno-la'oi-Agda = pavypli as vnal ssf ccf
+la-varik-cu-pilno-la'oi-Agda = pavypli slav vnal ssf ccf
   where
   postulate
     ssf : skamyskifilri'a-fa-tu'a la'oi-Agda
     vnal : la-varik cu-nelci_ $ Ctaipe-Bangu.leksiko la'oi-Agda
     ccf : ctaipeckifilri'a-fa-tu'a la'oi-Agda
-    as : la'oi-Agda cu-slabu la-varik
+    slav : la'oi-Agda cu-slabu la-varik
 \end{code}
 \end{document}
