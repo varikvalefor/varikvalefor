@@ -282,7 +282,7 @@ For all proof languages $A$, if $A$ is familiar to VARIK, then if VARIK likes th
 postulate
   pavypli : {z : Ctaipe-Bangu}
           → z cu-slabu la-varik
-          → la-varik cu-nelci (Ctaipe-Bangu.leksiko z)
+          → la-varik cu-nelci (Ctaipe-Bangu.gerna z)
           → skamyskifilri'a-fa-tu'a z
           → ctaipeckifilri'a-fa-tu'a z
           → la-varik cu-pilno z
@@ -301,7 +301,7 @@ la-varik-cu-pilno-la'oi-Agda = pavypli slav vnal ssf ccf
   where
   postulate
     ssf : skamyskifilri'a-fa-tu'a la'oi-Agda
-    vnal : la-varik cu-nelci_ $ Ctaipe-Bangu.leksiko la'oi-Agda
+    vnal : la-varik cu-nelci_ $ Ctaipe-Bangu.gerna la'oi-Agda
     ccf : ctaipeckifilri'a-fa-tu'a la'oi-Agda
     slav : la'oi-Agda cu-slabu la-varik
 \end{code}
