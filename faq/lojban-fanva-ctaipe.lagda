@@ -51,7 +51,7 @@
 ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu te selneimau fi lo nu la .varik.\ cu fanva fi le glibau fo la .lojban.\ kei lo nu la .varik.\ cu cusku bau le glibau jenai cu fanva fi le glibau fo la .lojban.
 
 \paragraph{English}
-Contains the definition of the proof of that VARIK prefers (over that VARIK uses English and not translates to English and from Lojban) that VARIK translates to English and from Lojban.
+Contains the definition of the proof of that VARIK prefers (over that VARIK uses English and does-not translate to English and from Lojban) that VARIK translates to English and from Lojban.
 \end{abstract}
 
 \section{le torveki / The Summary}
@@ -73,14 +73,14 @@ ni'o la .varik.\ cu te selneimau fi ko'a goi lo nu vo'a fanva fi le glibau fo la
 \subsection{English}
 
 \begin{thm}
-VARIK prefers (over that VARIK uses English and not translates to English and from Lojban) that VARIK translates to English and from Lojban.
+VARIK prefers (over that VARIK uses English and does-not translate to English and from Lojban) that VARIK translates to English and from Lojban.
 \end{thm}
 \begin{proof}
 	${}$
 
 	$F$ is some event of that VARIK translates to English and from Lojban.
 
-	$N$ is some event of that (VARIK uses English and not translates to English and from Lojban).
+	$N$ is some event of that (VARIK uses English and does-not translate to English and from Lojban).
 
 	For all $A$, for all $B$, if VARIK finds that the ease of $A$ exceeds the ease of $B$, then if the extent (of that VARIK likes the result of $A$) exceeds the extent (of that VARIK likes the result of $B$), then VARIK prefers (over $B$) $A$.
 
@@ -197,7 +197,7 @@ postulate la-nufanvas : Fasnu
 ni'o la'o zoi.\ \cmene\ .zoi.\ nu la .varik.\ cu baupli le glibau jenai cu fanva fi le glibau fo la .lojban.
 
 \paragraph{English}
-\cmene\ is an event of that VARIK uses English and not translates to English and from Lojban.
+\cmene\ is an event of that VARIK uses English and does-not translate to English and from Lojban.
 
 \begin{code}
 postulate la-nunafanvas : Fasnu
