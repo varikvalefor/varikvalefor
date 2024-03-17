@@ -297,11 +297,11 @@ VARIK does-not find that necessary is that English is used for explaining \F{la-
 
 \begin{code}
 la-varik-cu-pilno-la'oi-Agda : la-varik cu-pilno la'oi-Agda
-la-varik-cu-pilno-la'oi-Agda = pavypli slav vnal ssf ccf
+la-varik-cu-pilno-la'oi-Agda = pavypli slav vnag ssf ccf
   where
   postulate
     ssf : skamyskifilri'a-fa-tu'a la'oi-Agda
-    vnal : la-varik cu-nelci_ $ Ctaipe-Bangu.gerna la'oi-Agda
+    vnag : la-varik cu-nelci_ $ Ctaipe-Bangu.gerna la'oi-Agda
     ccf : ctaipeckifilri'a-fa-tu'a la'oi-Agda
     slav : la'oi-Agda cu-slabu la-varik
 \end{code}
