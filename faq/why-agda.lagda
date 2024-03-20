@@ -174,13 +174,13 @@ record Ctaipe-Bangu : Set
 
 \subsection{la'o zoi.\ \AgdaPostulate{ctaipeckifilri'a-fa-tu'a}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{ctaipeckifilri'a-fa-tu'a} \B a\ .zoi.\ gi la .varik.\ cu co'e ja jinvi lo du'u lo nu la .varik.\ cu pilno la'oi .\B a.\ cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{ctaipeckifilri'a-fa-tu'a} \B a\ \B b\ .zoi.\ gi la'oi .\B b.\ co'e ja jinvi lo du'u lo nu la'oi .\B b.\ pilno la'oi .\B a.\ cu filri'a lo nu la'oi .\B b.\ ciksi zo'e je lo ctaipe
 
 \paragraph{English}
-A proof of \AgdaPostulate{ctaipeckifilri'a-fa-tu'a} \B a exists iff VARIK opines/whatever \{V\} that \B a facilitates that VARIK defines proofs and whatnot.
+A proof of \AgdaPostulate{ctaipeckifilri'a-fa-tu'a} \B a \B b\ exists iff \B b\ opines/whatever \{V\} that \B a facilitates that \B b\ defines proofs and whatnot.
 
 \begin{code}
-postulate ctaipeckifilri'a-fa-tu'a : Ctaipe-Bangu → Set
+postulate ctaipeckifilri'a-fa-tu'a : Ctaipe-Bangu → Prenu → Set
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-slabu\AgdaUnderscore} .zoi.}
@@ -284,7 +284,7 @@ postulate
           → z cu-slabu la-varik
           → la-varik cu-nelci (Ctaipe-Bangu.gerna z)
           → skamyskifilri'a-fa-tu'a z
-          → ctaipeckifilri'a-fa-tu'a z
+          → ctaipeckifilri'a-fa-tu'a z la-varik
           → la-varik cu-pilno z
 \end{code}
 
@@ -302,7 +302,7 @@ la-varik-cu-pilno-la'oi-Agda = pavypli slav vnag ssf ccf
   postulate
     ssf : skamyskifilri'a-fa-tu'a la'oi-Agda
     vnag : la-varik cu-nelci_ $ Ctaipe-Bangu.gerna la'oi-Agda
-    ccf : ctaipeckifilri'a-fa-tu'a la'oi-Agda
+    ccf : ctaipeckifilri'a-fa-tu'a la'oi-Agda la-varik
     slav : la'oi-Agda cu-slabu la-varik
 \end{code}
 \end{document}
