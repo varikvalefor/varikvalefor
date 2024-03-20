@@ -107,7 +107,7 @@ ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{rolmapge'a} \B a\ .zoi.\ gi la'o zoi
 postulate rolmapge'a : Bangu → Set
 \end{code}
 
-\section{le barda ja co'e je ctaipe}
+\section{le co'e ja barda je ctaipe}
 
 \subsection{la'oi .\AgdaPostulate{plinamapti}.}
 ni'o la'oi .\AgdaPostulate{plinamapti}.\ ctaipe le su'u ro da poi ke'a prenu zo'u ga naja da pilno la jboponei gi su'o de zo'u gerna fi de fe lo jbobau be da be'o jenai la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.

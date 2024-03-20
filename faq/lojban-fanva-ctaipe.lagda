@@ -91,7 +91,7 @@ VARIK prefers (over that VARIK uses English and does-not translate to English an
 	Therefore, VARIK prefers (over $N$) $F$.
 \end{proof}
 
-\section{le jicmu ja co'e / The Basic}
+\section{le co'e ja jicmu / The Basic}
 
 \subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}

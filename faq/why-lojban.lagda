@@ -114,7 +114,7 @@ open import Relation.Nullary
   )
 \end{code}
 
-\section{le jicmu ja co'e / The Basic}
+\section{le co'e ja jicmu / The Basic}
 
 \subsection{la'oi .\AgdaPostulate{Prenu}.}
 \paragraph{la .lojban.}
@@ -306,7 +306,7 @@ la-lojban = record {
     le-lojban-me'oi-semantics : Semantics
 \end{code}
 
-\section{le barda ja co'e je ctaipe}
+\section{le co'e ja barda je ctaipe}
 
 \subsection{la'oi .\AgdaPostulate{pavybaupli}.}
 \paragraph{la .lojban.}

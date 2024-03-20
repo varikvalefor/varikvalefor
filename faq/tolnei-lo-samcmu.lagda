@@ -124,8 +124,8 @@ That (VARIK dislikes Haiku) is justified by that forbidden is that some Haiku sy
 
 \subsection{la'oi .\D{Skamyklesi}.}
 \paragraph{la .lojban.}
-ni'o lo ro ctaipe be la'oi .\D{Skamyklesi}.\ cu velski ja co'e lo klesi be lo'i skami
-.i skicu ja co'e\ldots
+ni'o lo ro ctaipe be la'oi .\D{Skamyklesi}.\ cu co'e ja velski lo klesi be lo'i skami
+.i co'e ja skicu\ldots
 \begin{enumerate}
 	\item le si'o jbuskami kei fa'u
 	\item le si'o samfonxa kei
@@ -153,7 +153,7 @@ data Skamyklesi : Set
 ni'o ga jo ko'a goi la'oi .\B{a}.\ ctaipe la'oi .\AgdaRecord{Samcmu}.\ gi ga je ko'a samcmu gi\ldots
 \begin{itemize}
 	\item ga je la'o zoi.\ \AgdaField{Samcmu.cmene} \B a\ .zoi.\ cmene ko'a gi
-	\item la'o zoi.\ \AgdaField{Samcmu.skamyklesi} \B a\ .zoi.\ velski ja co'e lo klesi be lo'i ro skami lo ka ce'u se mapti ko'a
+	\item la'o zoi.\ \AgdaField{Samcmu.skamyklesi} \B a\ .zoi.\ co'e ja velski lo klesi be lo'i ro skami lo ka ce'u se mapti ko'a
 \end{itemize}
 
 \paragraph{English}
@@ -215,7 +215,7 @@ postulate _cu-tolnei_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 
 \subsection{la'oi .\AgdaPostulate{tolcru-lo-nu-spogau-kei-fa}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a .zoi.\ gi ko'a goi la'oi .\B{a}.\ troci pe'a ru'e lo nu tolcru lo nu vimcu lo datnyvei ja co'e poi tu'a ke'a sarcu lo nu ko'a tolpo'u
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a .zoi.\ gi ko'a goi la'oi .\B{a}.\ troci pe'a ru'e lo nu tolcru lo nu vimcu lo co'e ja datnyvei poi tu'a ke'a sarcu lo nu ko'a tolpo'u
 
 \paragraph{English}
 A proof of \AgdaPostulate{tolcru-lo-nu-spogau-kei-fa} \B a\ exists iff \B a\ ``attempts'' that forbidden is removing files which are necessary for that \B a\ correctly functions.
@@ -348,7 +348,7 @@ module WindowsVista where
 
 \subsubsection{la'o zoi.\ \F{la-vista}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o ko'a du la'o glibau.\ Microsoft Windows Vista .glibau.\ poi ke'a se ciksi la'oi .Microsoft.\ je poi ca le rononoze moi ku gubgau ja co'e le velcki be ke'a
+ni'o ko'a du la'o glibau.\ Microsoft Windows Vista .glibau.\ poi ke'a se ciksi la'oi .Microsoft.\ je poi ca le rononoze moi ku co'e ja gubgau le velcki be ke'a
 
 \paragraph{English}
 \F{la-vista} is the Microsoft Windows Vista which is defined by Microsoft and is ``published'' circa 2007.

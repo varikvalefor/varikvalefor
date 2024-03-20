@@ -338,7 +338,7 @@ ni'o la'oi .\AgdaPostulate{ladinafil}.\ ctaipe le su'u la'oi .Discord.\ to'e fin
 
 \subsubsection{la'oi .\AgdaPostulate{diskustrol}.}
 \paragraph{la .lojban.}
-ni'o la'oi .\AgdaPostulate{diskustrol}.\ ctaipe le su'u tolcru lo nu pilno lo me'oi .custom.\ ja co'e tu'a la'oi .Discord.
+ni'o la'oi .\AgdaPostulate{diskustrol}.\ ctaipe le su'u tolcru lo nu pilno lo co'e ja me'oi .custom.\ tu'a la'oi .Discord.
 
 \paragraph{English}
 \AgdaPostulate{diskustrol} is a proof of that forbidden is using clients (of Discord) which are custom or unofficial.
