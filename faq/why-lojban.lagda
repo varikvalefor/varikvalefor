@@ -70,8 +70,9 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 	\item ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be la .lojban.\ gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi la .lojban.\ gi
+	\item ga je tu'a la .lojban.\ cu filri'a lo nu la .varik.\ cu cusku jenai cu me'oi .mask.\ gi
 	\item ga je la .varik.\ cu jinvi le du'u tu'a la .lojban.\ cu filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani\ gi
-	\item ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi ga je da slabu la .varik.\ gi ga je da na tonga bangu gi ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani
+	\item ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi ga je da slabu la .varik.\ gi ga je da na tonga bangu gi ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be fi da gi ga je la .varik.\ cu nelci le gerna be da gi ga je gerna pavysmu fa lo ro jufra be fi da gi ga je la .varik.\ cu jinvi le du'u tu'a da filri'a lo nu la .varik.\ cu cusku jenai cu me'oi .mask.\ gi la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani
 \end{itemize}
 
 \subsection{English}
@@ -91,9 +92,11 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 
 	Syntactically unambiguous are all sentences which ``fit'' the grammar of Lojban.
 
+	Lojban facilitates that (VARIK expresses ideas and does-not mask).
+
 	VARIK opines that Lojban facilitates that a thing simply and correctly describes/explains the complex.
 
-	For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then VARIK uses $A$.
+	For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of that VARIK pronounces the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that (VARIK expresses ideas and does-not mask), then if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then VARIK uses $A$.
 
 	Therefore, VARIK uses Lojban.
 \end{proof}
@@ -245,6 +248,17 @@ A proof of \B a \OpP{cu-nelci} \B b exists iff \B a likes \B b.
 postulate _cu-nelci_ : ∀ {a} → {A : Set a} → Prenu → A → Set
 \end{code}
 
+\subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-jai-ke-na'e-me'oi-mask-cusku-filri'a}\ .zoi.}
+\paragraph{la .lojban.}
+ni'o ga jo ctaipe la'o zoi.\ \F{\AgdaUnderscore{}cu-jai-ke-na'e-me'oi-mask-cusku-filri'a} \B a\ .zoi.\ gi tu'a la'oi .\B a.\ filri'a lo nu la .varik.\ cu cusku jenai cu me'oi .mask.
+
+\paragraph{English}
+A proof of \F{\AgdaUnderscore{}cu-jai-ke-na'e-me'oi-mask-cusku-filri'a} \B a\ exists iff \B a\ facilitates that (VARIK expresses ideas and does-not mask).
+
+\begin{code}
+postulate _cu-jai-ke-na'e-me'oi-mask-cusku-filri'a : Bangu → Set
+\end{code}
+
 \subsection{la'o zoi.\ \F{\AgdaUnderscore{}cu-baupli\AgdaUnderscore}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-baupli} \B b\ .zoi.\ gi la'oi .\B a.\ baupli la'oi .\B b.
@@ -302,12 +316,13 @@ ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi\ldots
 	\item ga je da na tonga bangu gi
 	\item ga je la .varik.\ cu nelci le gerna be da gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi da gi
+	\item ga je tu'a la .lojban.\ cu filri'a lo nu la .varik.\ cu cusku jenai cu me'oi .mask.\ gi
 	\item ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be da gi\ldots
 	\item la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani
 \end{itemize}
 
 \paragraph{English}
-For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of pronouncing the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then VARIK uses $A$.
+For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of pronouncing the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if $A$ facilitates that (VARIK expresses ideas and does-not mask), then if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then VARIK uses $A$.
 
 \begin{code}
 postulate
@@ -315,6 +330,7 @@ postulate
              → z cu-slabu la-varik
              → ¬ (togbau-fa z)
              → gernypavysmu-fa $ Bangu.gerna z
+             → z cu-jai-ke-na'e-me'oi-mask-cusku-filri'a
              → la-varik cu-vlaba'u-kakne (Bangu.leksiko z)
              → sapydrackifilri'a-fa-tu'a z
              → la-varik cu-nelci (Bangu.leksiko z)
@@ -330,7 +346,7 @@ VARIK does-not find that necessary is that VARIK uses (for that VARIK explains \
 
 \begin{code}
 jbobau-la-varik : la-varik cu-baupli la-lojban
-jbobau-la-varik = pavybaupli js jntb jbogernypavysmu ozvraka'e sdfr vnll
+jbobau-la-varik = pavybaupli js jntb jbogernypavysmu bevri ozvraka'e sdfr vnll
   where
   postulate
     sdfr : sapydrackifilri'a-fa-tu'a la-lojban
@@ -339,5 +355,7 @@ jbobau-la-varik = pavybaupli js jntb jbogernypavysmu ozvraka'e sdfr vnll
     js : la-lojban cu-slabu la-varik
     ozvraka'e : la-varik cu-vlaba'u-kakne_ $ Bangu.leksiko la-lojban
     jbogernypavysmu : gernypavysmu-fa $ Bangu.gerna la-lojban
+    -- | .i le klamburi cu mabla
+    bevri : la-lojban cu-jai-ke-na'e-me'oi-mask-cusku-filri'a
 \end{code}
 \end{document}
