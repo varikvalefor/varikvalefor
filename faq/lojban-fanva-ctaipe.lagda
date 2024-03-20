@@ -219,7 +219,7 @@ postulate
                → zmadu-fa x z la-kaselneis
 \end{code}
 
-\section{le srana be le su'u selneimau / The Stuff which is Relevant to the Preference}
+\section{le ctaipe be le su'u selneimau / The Proof of the Preference}
 \paragraph{la .lojban.}
 ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
