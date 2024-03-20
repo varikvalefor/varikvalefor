@@ -48,6 +48,10 @@ ni'o la .varik.\ na zu'edji lo ka ce'u fanva ko'e goi la'au le ctaipe be le su'u
 
 \begin{code}
 open import Function
+  using (
+    flip;
+    _$_
+  )
 open import Relation.Nullary
   using (
     ¬_
