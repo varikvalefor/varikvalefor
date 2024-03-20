@@ -346,7 +346,7 @@ VARIK does-not find that necessary is that VARIK uses (for that VARIK explains \
 
 \begin{code}
 jbobau-la-varik : la-varik cu-baupli la-lojban
-jbobau-la-varik = pavybaupli js jntb jbogernypavysmu bevri ozvraka'e sdfr vnll
+jbobau-la-varik = pavybaupli js jntb jogers bevri ozvraka'e sdfr vnll
   where
   postulate
     sdfr : sapydrackifilri'a-fa-tu'a la-lojban
@@ -354,7 +354,7 @@ jbobau-la-varik = pavybaupli js jntb jbogernypavysmu bevri ozvraka'e sdfr vnll
     jntb : ¬ (togbau-fa la-lojban)
     js : la-lojban cu-slabu la-varik
     ozvraka'e : la-varik cu-vlaba'u-kakne_ $ Bangu.leksiko la-lojban
-    jbogernypavysmu : gernypavysmu-fa $ Bangu.gerna la-lojban
+    jogers : gernypavysmu-fa $ Bangu.gerna la-lojban
     -- | .i le klamburi cu mabla
     bevri : la-lojban cu-jai-ke-na'e-me'oi-mask-cusku-filri'a
 \end{code}
