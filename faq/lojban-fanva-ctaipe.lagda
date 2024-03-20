@@ -224,7 +224,7 @@ postulate
 ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi bau la .lojban.
 
 \paragraph{English}
-VARIK not finds that necessary is that VARIK provides English definitions.
+VARIK does-not find that necessary is that VARIK provides English definitions.
 
 \begin{code}
 la-fanvynelcis : zmadu-fa la-nufanvas la-nunafanvas la-kaselneis
