@@ -143,7 +143,7 @@ postulate zmadu-fa : ∀ {a b} → {A : Set a} → {B : Set b}
 
 \subsection{la'o zoi.\ \AgdaPostulate{la-kafrilis}\ .zoi.}
 
-\newcommand\propglis{is the property/quality/whatever which is expressed/displayed by}
+\newcommand\propglis{is a property/quality/whatever which is expressed/displayed by}
 
 \paragraph{la .lojban.}
 ni'o la'o zoi.\ \AgdaPostulate{la-kafrilis}\ .zoi.\ ka ce'u frili la .varik.
