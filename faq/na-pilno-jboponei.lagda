@@ -35,8 +35,8 @@
 
 ni'o le su'u la .varik.\ na pilno la jboponei cu se nibli le su'u\ldots
 \begin{itemize}
-	\item ga je ga naja la .varik.\ cu pilno la jboponei gi su'o da zo'u gerna fi da fe ko'a goi le jbobau be la .varik.\ naje ko'e gi
-	\item no da zo'u gerna fi da fe ko'a naje ko'e goi la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
+	\item ga je ga naja la .varik.\ cu pilno la jboponei gi su'o da poi ke'a na'e ke me zo cu co'e zo'u gerna fi da fe ko'a goi le jbobau be la .varik.\ naje ko'e gi
+	\item no da poi ke'a na'e ke me zo cu co'e zo'u gerna fi da fe ko'a naje ko'e goi la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
 \end{itemize}
 
 ni'o la .varik.\ na zu'edji lo ka ce'u fanva le velcki be le ctaipe le glibau la .lojban.
@@ -105,7 +105,7 @@ postulate la-jboponei : Bangu
 \end{code}
 
 \subsection{la'oi .\AgdaPostulate{rolmapge'a}.}
-ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{rolmapge'a} \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jbobau je cu se gerna fi lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
+ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{rolmapge'a} \B a\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ jbobau je cu se gerna fi lo ro na'e ke me zo cu co'e poi ke'a te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.  .i la .varik.\ cu pilno lu na'e ke me zo cu ci'e li'u ki'u le su'u vo'a nelci je pilno la'oi .CBM.\ldots poi ke'a na skami co'e
 
 \begin{code}
 postulate rolmapge'a : Bangu → Set
@@ -124,7 +124,7 @@ postulate
 \end{code}
 
 \subsection{la'o zoi.\ \F{rolos}\ .zoi.}
-ni'o la'o zoi.\ \F{rolos}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ lo ro te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
+ni'o la'o zoi.\ \F{rolos}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ lo ro na'e ke me zo cu co'e poi ke'a te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
 
 \begin{code}
 postulate rolos : rolmapge'a $ le-jbobau-be la-varik
