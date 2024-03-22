@@ -13,11 +13,11 @@
 \renewcommand\abstractname{le me'oi .abstract.}
 
 \newunicodechar{∷}{\ensuremath{\mathnormal\Colon}}
-\newunicodechar{∘}{\ensuremath{\mathnormal{\circ}}}
-\newunicodechar{∀}{\ensuremath{\forall}}
-\newunicodechar{⊤}{\ensuremath{\mathnormal{\top}}}
-\newunicodechar{λ}{\ensuremath{\mathnormal{\lambda}}}
-\newunicodechar{→}{\ensuremath{\mathnormal{\rightarrow}}}
+\newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
+\newunicodechar{∀}{\ensuremath\forall}
+\newunicodechar{⊤}{\ensuremath{\mathnormal\top}}
+\newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
+\newunicodechar{→}{\ensuremath{\mathnormal\rightarrow}}
 
 \newcommand\Sym\AgdaSymbol
 \newcommand\D\AgdaDatatype
