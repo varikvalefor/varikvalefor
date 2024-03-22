@@ -191,7 +191,7 @@ postulate la-varik : Prenu
 
 \section{le bridi / The Predicates}
 
-\subsection{la'oi .\AgdaPostulate{fingubni-fa}.}
+\subsection{la'o zoi.\ \AgdaPostulate{fingubni-fa}\ .zoi.}
 \paragraph{la .lojban.}
 ni'o ga jo ctaipe la'o zoi.\ \AgdaPostulate{fingubni-fa} \B a\ .zoi.\ gi la'oi .\B{a}.\ fingubni
 
