@@ -74,6 +74,9 @@ That (VARIK not likes IRC) is justified by that IRC not supports sending images.
 \begin{code}
 import Level
 open import Function
+  using (
+    _$_
+  )
 open import Data.Maybe
   using (
     nothing;
