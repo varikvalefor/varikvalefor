@@ -75,14 +75,14 @@ postulate Bangu : Set
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{le-jbobau-be}\ .zoi.}
-ni'o ro da zo'u da ctaipe la'o zoi.\ \AgdaPostulate{le-jbobau-be} \B a .zoi.\ jo cu jbobau la'o zoi.\ \B a .zoi.
+ni'o ro da zo'u da ctaipe la'o zoi.\ \AgdaPostulate{le-jbobau-be} \B a\ .zoi.\ jo cu jbobau la'o zoi.\ \B a\ .zoi.
 
 \begin{code}
 postulate le-jbobau-be : Prenu → Bangu
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-pilno\AgdaUnderscore}\ .zoi.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-pilno} \B b\ .zoi.\ gi la'o zoi.\ \B a .zoi.\ pilno la'o zoi.\ \B b .zoi.
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-pilno} \B b\ .zoi.\ gi la'o zoi.\ \B a\ .zoi.\ pilno la'o zoi.\ \B b\ .zoi.
 
 \begin{code}
 postulate _cu-pilno_ : ∀ {a} → {A : Set a} → Prenu → A → Set
