@@ -66,7 +66,7 @@ That (labels of proofs resemble labels of paragraphs) justifies that the thing u
 ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 \begin{itemize}
 	\item ga je la .lojban.\ cu slabu la .varik.\ gi
-	\item ga je la .lojban.\ cu na tonga bangu gi
+	\item ga je la .lojban.\ na tonga bangu gi
 	\item ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be fi la .lojban.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be la .lojban.\ gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi la .lojban.\ gi
@@ -339,7 +339,7 @@ postulate
 
 \subsection{la'o zoi.\ \F{jbobau-la-varik}\ .zoi.}
 \paragraph{la .lojban.}
-ni'o la .varik.\ cu na jinvi le du'u sarcu fa lo nu ciksi la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ bau la .lojban.\sds  .i la .varik.\ cu stidi lo nu tcidu le torveki be bau la .lojban.\ fe lo ro prenu poi ke'a baupli la .lojban.\ je cu djica lo nu ke'a jimpe fi le ctaipe kei jenai cu jimpe fi le me'oi .Agda.\ velcki
+ni'o la .varik.\ na jinvi le du'u sarcu fa lo nu ciksi la'o zoi.\ \F{jbobau-la-varik}\ .zoi.\ bau la .lojban.\sds  .i la .varik.\ cu stidi lo nu tcidu le torveki be bau la .lojban.\ fe lo ro prenu poi ke'a baupli la .lojban.\ je cu djica lo nu ke'a jimpe fi le ctaipe kei jenai cu jimpe fi le me'oi .Agda.\ velcki
 
 \paragraph{English}
 VARIK does-not find that necessary is that VARIK uses (for that VARIK explains \F{jbobau-la-varik}) English.  VARIK suggests that for all prenu $A$, if $A$ uses English, then if $A$ desires that $A$ understands the proof, then if $A$ does-not understands the Agda definition, then $A$ reads the English summary.
