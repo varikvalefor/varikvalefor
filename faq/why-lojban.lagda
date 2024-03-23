@@ -316,7 +316,7 @@ ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi\ldots
 	\item ga je da na tonga bangu gi
 	\item ga je la .varik.\ cu nelci le gerna be da gi
 	\item ga je gerna pavysmu fa lo ro jufra be fi da gi
-	\item ga je tu'a la .lojban.\ cu filri'a lo nu la .varik.\ cu cusku jenai cu me'oi .mask.\ gi
+	\item ga je tu'a da filri'a lo nu la .varik.\ cu cusku jenai cu me'oi .mask.\ gi
 	\item ga je la .varik.\ cu kakne lo nu la .varik.\ cu vlaba'u lo valsi be da gi\ldots
 	\item la .varik.\ cu jinvi lo du'u tu'a da filri'a lo nu ciksi ja skicu lo pluja fo lo sampu je drani
 \end{itemize}
