@@ -46,7 +46,7 @@ OPENNESS,CONSCIENTIOUSNESS,EXTROVERSION,AGREEABLENESS,NEUROTICISM
 VARIK's skills include but are not limited to intelligence analysis, mathematics, cybersecurity, national security, general data analysis, project planning, systems engineering, machine learning, psychology, political and general sociology, computer networking, cryptography, OpenBSD, Haskell, APL, Perl, Agda, general communication, wildlife photography, and computational linguistics.
 
 ## ASPERGER's Syndrome
-Clinically diagnoses that VARIK has ASPERGER's syndrome.
+That (VARIK has ASPERGER's syndrome) is clinically diagnosed.
 
 VARIK knows that some things claim that things should not use "ASPERGER's syndrome".  But VARIK identifies with "ASPERGER's syndrome" and resists that things attempt causing that VARIK not uses "ASPERGER's syndrome".  That (VARIK uses (for describing VARIK) "ASPERGER's syndrome") continues.
 
