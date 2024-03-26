@@ -74,11 +74,11 @@ ni'o ro da zo'u da ctaipe la'oi .\AgdaPostulate{Bangu}.\ jo cu bangu
 postulate Bangu : Set
 \end{code}
 
-\subsection{la'o zoi.\ \AgdaPostulate{le-jbobau-be}\ .zoi.}
-ni'o ro da zo'u da ctaipe la'o zoi.\ \AgdaPostulate{le-jbobau-be} \B a\ .zoi.\ jo cu jbobau la'o zoi.\ \B a\ .zoi.
+\subsection{la'o zoi.\ \AgdaPostulate{lo-jbobau-be}\ .zoi.}
+ni'o ro da zo'u da ctaipe la'o zoi.\ \AgdaPostulate{lo-jbobau-be} \B a\ .zoi.\ jo cu jbobau la'o zoi.\ \B a\ .zoi.
 
 \begin{code}
-postulate le-jbobau-be : Prenu → Bangu
+postulate lo-jbobau-be : Prenu → Bangu
 \end{code}
 
 \subsection{la'o zoi.\ \AgdaPostulate{\AgdaUnderscore{}cu-pilno\AgdaUnderscore}\ .zoi.}
@@ -120,14 +120,14 @@ ni'o la'oi .\AgdaPostulate{plinamapti}.\ ctaipe le su'u ro da poi ke'a prenu zo'
 postulate
   plinamapti : {x : Prenu}
              → x cu-pilno la-jboponei
-             → ¬ (rolmapge'a $ le-jbobau-be x)
+             → ¬ (rolmapge'a $ lo-jbobau-be x)
 \end{code}
 
 \subsection{la'o zoi.\ \F{rolos}\ .zoi.}
 ni'o la'o zoi.\ \F{rolos}\ .zoi.\ ctaipe le su'u gerna le jbobau be la .varik.\ lo ro na'e ke me zo cu co'e poi ke'a te gerna be la .lojban.\ po la'o glibau.\ The Common Lojban Language .glibau.
 
 \begin{code}
-postulate rolos : rolmapge'a $ le-jbobau-be la-varik
+postulate rolos : rolmapge'a $ lo-jbobau-be la-varik
 \end{code}
 
 \subsection{la'oi .\F{najboponeis}.}
