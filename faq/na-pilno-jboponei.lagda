@@ -14,7 +14,7 @@
 
 \newunicodechar{∷}{\ensuremath{\mathnormal\Colon}}
 \newunicodechar{∘}{\ensuremath{\mathnormal\circ}}
-\newunicodechar{∀}{\ensuremath\forall}
+\newunicodechar{∀}{\ensuremath{\mathnormal\forall}}
 \newunicodechar{⊤}{\ensuremath{\mathnormal\top}}
 \newunicodechar{λ}{\ensuremath{\mathnormal\lambda}}
 \newunicodechar{→}{\ensuremath{\mathnormal\rightarrow}}
