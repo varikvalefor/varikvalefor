@@ -120,7 +120,7 @@ ni'o la'oi .\AgdaPostulate{plinamapti}.\ ctaipe le su'u ro da poi ke'a prenu zo'
 postulate
   plinamapti : {x : Prenu}
              → x cu-pilno la-jboponei
-             → ¬ (rolmapge'a $ lo-jbobau-be x)
+             → ¬_ $ rolmapge'a $ lo-jbobau-be x
 \end{code}
 
 \subsection{la'o zoi.\ \F{rolos}\ .zoi.}
