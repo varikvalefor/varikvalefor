@@ -459,7 +459,7 @@ module LinuxUbuntu where
 ni'o la'o zoi.\ \F{la-ubuntus}\ .zoi.\ du la'oi .Ubuntu.\ poi ke'a mu'oi glibau.\ Linux distribution .glibau.
 
 \paragraph{English}
-\F{la-ubuntus} is the Ubuntu which is a Linux distribution.
+\F{la-ubuntus} is Ubuntu, which is a Linux distribution.
 
 \begin{code}
   la-ubuntus : Samcmu
