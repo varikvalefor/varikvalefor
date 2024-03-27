@@ -327,7 +327,7 @@ postulate tcimi'etolnei : {x : Samcmu}
 ni'o ro da zo'u ga naja la .varik.\ cu tolnei da gi ga je da samcmu lo jbuskami gi ctaipe lo me'oi .\AgdaPostulate{\AgdaUnderscore{}cu-pavyplico'e}.\footnote{.i pilno le me'oi .Agda.\ co'e ki'u le su'u la .varik.\ cu toldji lo nu rapli fa lo nu la .varik.\ cu ciksi\ldots kei kei kei je le su'u la .varik.\ cu te cadga fi lo nu jimpe fi la'oi .Agda.\ fa lo troci be le ka ce'u jimpe fi la'oi .\AgdaPostulate{pavyplico'etolnei}.}\ be da
 
 \paragraph{English}
-If \B g is an operating system for desktop computers, then if a proof of \B g \OpP{cu-pavyplico'e}\footnote{Using the Agda thing is justified by that VARIK is disinclined to repeatedly define.  Additionally, using the Agda thing is justified by that VARIK opines (or whatever \{VERB\}) that things $X$ which attempt to understand \AgdaPostulate{pavyplico'etolnei} should understand Agda.} exists, then VARIK dislikes \B g.
+If \B g is an operating system for desktop computers, then if a proof of \B g \OpP{cu-pavyplico'e}\footnote{Using the Agda thing is justified by that VARIK is disinclined to repeatedly define.  Additionally, using the Agda thing is justified by that VARIK opines (or whatever \{VERB\}) that things which attempt to understand \AgdaPostulate{pavyplico'etolnei} should understand Agda.} exists, then VARIK dislikes \B g.
 
 \begin{code}
 postulate
