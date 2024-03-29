@@ -94,7 +94,11 @@ ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
 
 	Using Agda facilitates that computers ``describe'' flaws of definitions of proofs.
 
-	For all proof languages $A$, if $A$ is familiar to VARIK, then if VARIK likes the syntax of $A$, then if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot), then if using $A$ facilitates that computers ``describe'' flaws of $A$-definitions of proofs, then VARIK uses $A$.
+	For all proof languages $A$, if $A$ is familiar to VARIK, then
+	if VARIK likes the syntax of $A$, then
+	if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot), then
+	if using $A$ facilitates that computers ``describe'' flaws of $A$-definitions of proofs, then
+	VARIK uses $A$.
 
 	Therefore, VARIK uses Agda.
 \end{proof}
@@ -280,7 +284,11 @@ ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu pilno da gi\ldots
 \end{itemize}
 
 \paragraph{English}
-For all proof languages $A$, if $A$ is familiar to VARIK, then if VARIK likes the grammar of $A$, then if $A$ facilitates that computers ``describe'' flaws of $A$-definitions of proofs, then if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot, then VARIK uses $A$.
+For all proof languages $A$, if $A$ is familiar to VARIK, then
+if VARIK likes the grammar of $A$, then
+if $A$ facilitates that computers ``describe'' flaws of $A$-definitions of proofs, then
+if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot, then
+VARIK uses $A$.
 
 \begin{code}
 postulate
