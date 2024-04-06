@@ -64,7 +64,7 @@ The thing contains the definition of the proof (of that VARIK uses Agda) which i
 ni'o le su'u pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.\ cu se krinu le su'u lo tcita be lo se ctaipe cu smimlu lo tcita be lo jufmei
 
 \paragraph{English}
-That (labels of proofs resemble labels of paragraphs) justifies that the thing uses \texttt{subsection} and not \texttt{paragraph}.
+That (labels of proofs resemble labels of paragraphs) justifies using (\texttt{subsection} and not \texttt{paragraph}).
 
 \subsection{la .lojban.}
 ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
