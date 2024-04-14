@@ -96,7 +96,7 @@ ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
 
 	For all proof languages $A$, if $A$ is familiar to VARIK, then
 	if VARIK likes the syntax of $A$, then
-	if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot), then
+	if VARIK opines that $A$ facilitates that VARIK defines proofs and whatnot, then
 	if using $A$ facilitates that computers ``describe'' flaws of $A$-definitions of proofs, then
 	VARIK uses $A$.
 
