@@ -96,7 +96,14 @@ ni'o la .varik.\ cu baupli la .lojban.\ ni'i le su'u\ldots
 
 	VARIK opines that Lojban facilitates that a thing simply and correctly describes/explains the complex.
 
-	For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of pronouncing the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if VARIK opines that $A$ facilitates that (VARIK expresses ideas and does-not mask), then if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then VARIK uses $A$.
+	For all languages $A$, if $A$ is familiar to VARIK, then
+	if $A$ is not a tonal language, then
+	if VARIK is capable of pronouncing the words of $A$, then
+	if VARIK likes the grammar of $A$, then
+	if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then
+	if VARIK opines that $A$ facilitates that (VARIK expresses ideas and does-not mask), then
+	if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then
+	VARIK uses $A$.
 
 	Therefore, VARIK uses Lojban.
 \end{proof}
