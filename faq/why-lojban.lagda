@@ -329,7 +329,14 @@ ni'o ro da poi ke'a bangu zo'u ga janai la .varik.\ cu baupli da gi\ldots
 \end{itemize}
 
 \paragraph{English}
-For all languages $A$, if $A$ is familiar to VARIK, then if $A$ is not a tonal language, then if VARIK is capable of pronouncing the words of $A$, then if VARIK likes the grammar of $A$, then if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then if $A$ facilitates that (VARIK expresses ideas and does-not mask), then if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then VARIK uses $A$.
+For all languages $A$, if $A$ is familiar to VARIK, then
+if $A$ is not a tonal language, then
+if VARIK is capable of pronouncing the words of $A$, then
+if VARIK likes the grammar of $A$, then
+if syntactically unambiguous are all sentences which ``fit'' the grammar of $A$, then
+if $A$ facilitates that (VARIK expresses ideas and does-not mask), then
+if VARIK opines that $A$ facilitates that a thing simply and correctly explains/describes the complex, then
+VARIK uses $A$.
 
 \begin{code}
 postulate
