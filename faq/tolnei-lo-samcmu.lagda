@@ -561,7 +561,7 @@ That (VARIK is reluctant to define repeatedly) continues.
 \subsubsection{la'oi .\F{xaikytolnei₁}.}
 
 \begin{code}
-  xaikytolnei : la-varik cu-tolnei la-xaikus
-  xaikytolnei = pavyplico'etolnei (zero , refl) xaikypavyplico'e
+  xaikytolnei₁ : la-varik cu-tolnei la-xaikus
+  xaikytolnei₁ = pavyplico'etolnei (zero , refl) xaikypavyplico'e
 \end{code}
 \end{document}
