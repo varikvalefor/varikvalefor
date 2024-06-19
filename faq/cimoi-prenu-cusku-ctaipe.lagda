@@ -33,7 +33,7 @@
 
 \begin{abstract}
 \paragraph{la .lojban.}
-ni'o vasru le velcki be le ctaipe be le su'u ko'a goi la .varik.\ cu cimoi prenu pe'a cusku kei be'o be'o je le velcki be le ctaipe be le su'u ko'a te selneimau lo nu ko'a cimoi prenu pe'a cusku kei lo nu ko'a ke pamoi ja remoi ke'e prenu pe'a cusku
+ni'o vasru le velcki be le ctaipe be le su'u ko'a goi la .varik.\ cu cimoi prenu pe'a cusku kei be'o be'o je le velcki be le ctaipe be le su'u ko'a te selneimau fi lo nu ko'a cimoi prenu pe'a cusku kei fe lo nu ko'a ke pamoi ja remoi ke'e prenu pe'a cusku
 
 \paragraph{English}
 The thing contains the definition of the proof of that VARIK communicates in the third person.  Additionally, the thing contains the definition of the proof of that VARIK prefers (over that VARIK communicates in the first (or third) person) that VARIK communicates in the third person.
@@ -57,7 +57,7 @@ ni'o la .varik.\ cu cimoi prenu pe'a cusku ni'i le su'u\ldots
 	\item ro da zo'u ga janai da cimoi prenu pe'a cusku gi ga je da cusku lo bridi jufra gi me'oi .minimise.\ da le ka ce'u cusku lo mu'oi glibau.\ referentially ambiguous .glibau.
 \end{itemize}
 
-.i ji'a la .varik.\ cu te selneimau ko'a goi lo nu la .varik.\ cu cimoi prenu pe'a cusku kei ko'e goi lo nu la .varik.\ cu ke pamoi ja remoi ke'e prenu pe'a cusku kei ni'i le su'u\ldots
+.i ji'a la .varik.\ cu te selneimau fi ko'a goi lo nu la .varik.\ cu cimoi prenu pe'a cusku kei fe ko'e goi lo nu la .varik.\ cu ke pamoi ja remoi ke'e prenu pe'a cusku kei ni'i le su'u\ldots
 \begin{itemize}
         \item ga je ko'a zmadu ko'e le ka ce'u frili la .varik.\ kei je le ka la .varik.\ cu nelci lo jalge be ce'u gi
 	\item ro da zo'u ro de zo'u da zmadu de le ka ce'u selnei la .varik.\ kei janai le ka ce'u frili la .varik.\ kei je bo le ka la .varik.\ cu nelci lo jalge be ce'u
