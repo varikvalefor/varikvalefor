@@ -67,19 +67,19 @@ ni'o le su'u pilno la'oi .\texttt{subsection}.\ jenai la'oi .\texttt{paragraph}.
 That (labels of proofs resemble labels of paragraphs) justifies using (\texttt{subsection} and not \texttt{paragraph}).
 
 \subsection{la .lojban.}
-ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
+ni'o ko'e goi la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
 \begin{itemize}
 	\item ga je ko'a ctaipe bangu gi
-	\item ga je ko'a slabu la .varik.\ gi
-	\item ga je la .varik.\ cu nelci le gerna be ko'a gi
-	\item ga je la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno ko'a cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe gi
+	\item ga je ko'a slabu ko'e gi
+	\item ga je ko'e cu nelci le gerna be ko'a gi
+	\item ga je ko'e cu jinvi le du'u lo nu ko'e cu pilno ko'a cu filri'a lo nu ko'e cu ciksi zo'e je lo ctaipe gi
 	\item ga je tu'a ko'a filri'a lo nu lo skami cu cusku pe'a ru'e lo se du'u ma kau cfila lo velcki be lo ctaipe bei bau ko'a gi
-	\item ro da poi ke'a ctaipe bangu zo'u ga janai la .varik.\ cu pilno da gi\ldots
+	\item ro da poi ke'a ctaipe bangu zo'u ga janai ko'e cu pilno da gi\ldots
         \begin{itemize}
-		\item ga je da slabu la .varik.\ gi
-		\item ga je la .varik.\ cu nelci lo gerna be da gi
+		\item ga je da slabu ko'e gi
+		\item ga je ko'e cu nelci lo gerna be da gi
 		\item ga je tu'a da filri'a lo nu lo skami cu cusku pe'a ru'e lo se du'u ma kau cfila lo velcki be lo ctaipe bei bau da gi
-		\item la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno da cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe
+		\item ko'e cu jinvi le du'u lo nu ko'e cu pilno da cu filri'a lo nu ko'e cu ciksi zo'e je lo ctaipe
 	\end{itemize}
 \end{itemize}
 
