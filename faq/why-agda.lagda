@@ -73,7 +73,7 @@ ni'o la .varik.\ cu pilno ko'a goi la'oi .Agda.\ ni'i le su'u\ldots
 	\item ga je ko'a slabu la .varik.\ gi
 	\item ga je la .varik.\ cu nelci le gerna be ko'a gi
 	\item ga je la .varik.\ cu jinvi le du'u lo nu la .varik.\ cu pilno ko'a cu filri'a lo nu la .varik.\ cu ciksi zo'e je lo ctaipe gi
-	\item ga je tu'a la'oi .Agda.\ cu filri'a lo nu lo skami cu cusku pe'a ru'e lo se du'u ma kau cfila lo velcki be lo ctaipe bei bau la'oi .Agda.\ gi
+	\item ga je tu'a ko'a cu filri'a lo nu lo skami cu cusku pe'a ru'e lo se du'u ma kau cfila lo velcki be lo ctaipe bei bau ko'a gi
 	\item ro da poi ke'a ctaipe bangu zo'u ga janai la .varik.\ cu pilno da gi\ldots
         \begin{itemize}
 		\item ga je da slabu la .varik.\ gi
