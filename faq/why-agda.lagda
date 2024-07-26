@@ -51,10 +51,10 @@
 \begin{abstract}
 \noindent
 \paragraph{la .lojban.}
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu pilno la'oi .Agda.\ kei be'o poi ke'a srana le krinu je zo'e
+ni'o velcki le ctaipe be le su'u la .varik.\ cu pilno la'oi .Agda.\ kei be'o poi ke'a srana le krinu je zo'e
 
 \paragraph{English}
-The thing contains the definition of the proof (of that VARIK uses Agda) which is relevant to the justification and whatnot.
+The thing is the definition of the proof (of that VARIK uses Agda) which is relevant to the justification and whatnot.
 \end{abstract}
 
 \section{le torveki / The Summary}
