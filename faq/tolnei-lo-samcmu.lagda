@@ -262,7 +262,7 @@ postulate _cu-tcimi'etolnei_ : Prenu → Samcmu → Set
 ni'o ga jo ctaipe la'o zoi.\ \B x \OpP{cu-pavyplico'e} .zoi.\ gi curmi lo nu lo pa co'e cu cmisau lo me la'oi .\B x.\ skami kei je ku'i cu tolcru lo nu su'o da poi ke'a me la'oi .\B x.\ skami zo'u su'o de poi ke'a prenu zo'u su'o di poi ke'a prenu jenai cu du de zo'u de cmisau da ca lo nu di cmisau da
 
 \paragraph{English}
-A proof of \B g \OpP{cu-pavyplico'e} exists iff a thing permits that (1 thing logs in to a \B g computer)\ldots but forbids that some \B g computer $x$ exists such that some user $B$ exists such that some user (which is not $B$) $C$ exists such that contemporaneous with that ($B$ is signed into \B g) is that $C$ is signed into \B g.
+A proof of \B g \OpP{cu-pavyplico'e} exists iff a thing permits that (1 thing logs in to a \B g computer)\ldots but forbids that some \B g computer $x$ exists such that some user $B$ exists such that some user (which is not $B$) $C$ exists such that contemporaneous with that ($B$ is signed in on \B g) is that $C$ is signed in on \B g.
 
 \begin{code}
 postulate _cu-pavyplico'e : Samcmu → Set
