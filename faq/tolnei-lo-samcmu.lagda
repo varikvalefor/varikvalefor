@@ -118,7 +118,7 @@ That (VARIK dislikes OpenBSD) is justified by that VARIK opines that frequent is
 ni'o la .varik.\ cu tolnei ko'a ki'u le su'u tolcru lo nu su'o da poi ke'a me ko'a samcmu zo'u ko'a goi lo prenu cu cmisau da ca lo nu cmisau ko'a fa lo na du be ko'a
 
 \paragraph{English}
-That (VARIK dislikes Haiku) is justified by that forbidden is that some Haiku system $A$ exists such that some prenu $B$ exists such that some prenu (which is not $B$) $C$ exists such that that $B$ is signed in to $A$ is contemporaneous with that $C$ is signed in to $A$.
+That (VARIK dislikes Haiku) is justified by that forbidden is that some Haiku system $A$ exists such that some prenu $B$ exists such that some prenu (which is not $B$) $C$ exists such that that $B$ is signed in on $A$ is contemporaneous with that $C$ is signed in on $A$.
 
 \section{le jicmu / The Basic}
 
