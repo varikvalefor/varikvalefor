@@ -41,7 +41,7 @@
 
 \begin{abstract}
 \noindent
-ni'o vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei le samcmu be'o poi ke'a srana zo'e je le krinu / The thing contains definitions of proofs (of that VARIK dislikes operating systems) which are relevant to justifications and whatnot.
+ni'o so'i da poi ke'a samcmu zo'u vasru le velcki be le ctaipe be le su'u la .varik.\ cu tolnei da be'o poi ke'a srana zo'e je le krinu / Many operating systems $A$ exist such that the thing contains a definition of a proof (of that VARIK dislikes $A$) which is relevant to justifications and whatnot.
 \end{abstract}
 
 \section{le vrici / The Miscellaneous}
