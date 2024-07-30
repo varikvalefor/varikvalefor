@@ -552,7 +552,7 @@ Haiku is \F{la-xaikus}.
 ni'o ranji fa le nu la .varik. cu toldji lo nu rapli fa lo nu ciksi
 
 \paragraph{English}
-That (VARIK is reluctant to define repeatedly) continues.
+That (VARIK is reluctant to repeatedly define) continues.
 
 \begin{code}
   postulate xaikypavyplico'e : la-xaikus cu-pavyplico'e
