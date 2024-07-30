@@ -237,7 +237,7 @@ postulate plivlipa-fa : Samcmu → Set
 
 \subsection{la'oi .\AgdaPostulate{\AgdaUnderscore{}cu-cafnysamfliji'i}.}
 \paragraph{la .lojban.}
-ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-cafnysamfliji'i} \B b\ .zoi.\ gi la'oi .\B{a}.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'oi .\B{b}.\ samfli
+ni'o ga jo ctaipe la'o zoi.\ \B a \OpP{cu-cafnysamfliji'i} \B b\ .zoi.\ gi la'oi .\B{a}.\ jinvi lo du'u cafne fa lo nu samfli ri'a tu'a la'oi .\B b.\ samfli
 
 \paragraph{English}
 A proof of \B a \OpP{cu-cafnysamfliji'i} \B b\ exists iff \B a\ opines that frequent is that \B b\ crashes.
