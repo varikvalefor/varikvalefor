@@ -1,3 +1,4 @@
+% vdid: 6RtZLicPqh52iRnP
 \documentclass{article}
 
 \usepackage{ar}
