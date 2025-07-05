@@ -8,7 +8,7 @@ NAME: VALEFOR, VARIK
 
 DATE OF BIRTH: 19840919
 
-SEX: MALE
+GENDER IDENTITY: AGENDER
 
 LOCATION: US-MD
 
@@ -79,7 +79,7 @@ ni'o la .varik. cu...
 
 * jbena fi li pasobivo pi'e noso pi'e paso gi'e
 
-* nakni gi'e
+* nonlingeni gi'e
 
 * xabju la'o gugypau. US-MD .gugypau. gi'e
 
