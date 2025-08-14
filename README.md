@@ -18,6 +18,8 @@ LANGUAGES: LOJBAN; MATHEMATICAL NOTATION; ENGLISH
 
 RELIGION: [THEISTIC SATANISM](faq/llblv.tex)
 
+PRONOUNS: IT/ITS; YOU; EXPLICITLY-ASSIGNED VARIABLES, E.G., "$x"$; KO'A; KO'E; KO'I; [...]
+
 ## Computer Crap
 OPERATING SYSTEM: OPENBSD
 
@@ -89,7 +91,9 @@ ni'o la .varik. cu...
 
 * [selcei la .satan. poi ke'a cmacypre](faq/llblv-jbo.tex) ku'o gi'e
 
-* baupli [le jbobau pe la xorlo .e la .jacus.](https://github.com/varikvalefor/ilmentufa/blob/master/camxes-exp.peg)
+* baupli [le jbobau pe la xorlo .e la .jacus.](https://github.com/varikvalefor/ilmentufa/blob/master/camxes-exp.peg) gi'e
+
+* djica curmi lo nu basyvla zo'e ja le cmene be vo'a fa zo'oi .IT. ja zo'oi .YOU. vu'o poi ke'a valsi fi le glibau ku'o ja zo do ja zo ri ja lo snicne poi cusku le se du'u ke'a snicne zo'e ja le cmene be vo'a... ku'o ja zo ko'a ja zo'e
 
 ## le skami co'e
 ni'o la .varik. cu...
