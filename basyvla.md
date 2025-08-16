@@ -25,3 +25,23 @@ For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which V
 | Varik Valefor	| 100	|
 | Varikose	| 75	|
 | la mlezvi	| 75	|
+
+## lo velski valsi
+ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu skicu la .varik. fo le pa moi be lo'i ro selvau be da
+
+For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which VARIK permits that the 1st element of $x$ is used as a description of VARIK.
+
+| lo valsi / Word	| lo ni nelci tu'a ce'u / Fondness	|
+|--	|--	|
+| prenu	| 100	|
+| mathematician	| 100	|
+| artist	| 100	|
+| hacker	| 100	|
+| furry	| 90	|
+| enby	| 60	|
+| person	| 45	|
+| programmer	| 35	|
+| human	| 30	|
+| woman	| 7	|
+| man	| 5	|
+| robot	| 0	|
