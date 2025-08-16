@@ -26,7 +26,7 @@ For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which V
 | Varikose	| 75	|
 | la mlezvi	| 75	|
 
-## lo velski valsi
+## le velski valsi
 ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu skicu la .varik. fo le pa moi be lo'i ro selvau be da
 
 For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which VARIK permits that the 1st element of $x$ is used as a description of VARIK.
