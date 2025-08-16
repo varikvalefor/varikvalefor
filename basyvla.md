@@ -34,7 +34,7 @@ For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which V
 | lo valsi / Word	| lo ni nelci tu'a ce'u / Fondness	|
 |--	|--	|
 | prenu	| 100	|
-| mathematician	| 100	|
+| mathematician / cmacypre	| 100	|
 | artist	| 100	|
 | hacker	| 100	|
 | academic / .iste	| 100	|
