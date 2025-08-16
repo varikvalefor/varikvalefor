@@ -41,8 +41,8 @@ For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which V
 | furry / dalremnei	| 90	|
 | enby	| 60	|
 | person	| 45	|
-| programmer	| 35	|
-| human	| 30	|
-| woman	| 7	|
-| man	| 5	|
-| robot	| 0	|
+| programmer / sampla	| 35	|
+| human / remna	| 30	|
+| woman / ninmu	| 7	|
+| man / nanmu	| 5	|
+| robot / sampre	| 0	|
