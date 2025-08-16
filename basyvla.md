@@ -43,6 +43,6 @@ For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which V
 | person	| 45	|
 | programmer / sampla	| 35	|
 | human / remna	| 30	|
-| woman / ninmu	| 7	|
+| woman / ninmu	| 10	|
 | man / nanmu	| 5	|
 | robot / sampre	| 0	|
