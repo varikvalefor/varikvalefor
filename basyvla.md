@@ -4,7 +4,7 @@ lo basyvla je zo'e / Pronouns and Whatnot
 ni'o ro da poi ke'a cmima le liste zo'u ga je...
 
 * lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu basyvla fi zo'e ja lo cmene be la .varik. fa lo valsi pe xy xi pa goi lo pa moi be lo'i ro selvau be da gi ga je
-* ga naja mapti gi lo ci moi be lo'i ro selbau be da cu mupli le ka ce'u jufra je cu ve basyvla le glibau zo'e ja zo .varik. lo valsi pe xy xi pa
+* ga naja mapti gi lo ci moi be lo'i ro selbau be da cu mupli le ka ce'u jufra je cu ve basyvla le glibau zo'e ja zo .varik. lo valsi pe xy xi pa gi
 * ga naja mapti gi lo vo moi be lo'i ro selbau be da cu mupli le ka ce'u jufra je cu ve basyvla la .lojban. zo'e ja zo .varik. lo valsi pe xy xi pa
 
 For all rows (of the table) $x$, statements which apply include...
