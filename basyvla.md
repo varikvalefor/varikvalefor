@@ -1,7 +1,7 @@
 lo basyvla je zo'e / Pronouns and Whatnot
 =========================================
 
-ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu basyvla zo'e ja lo cmene be la .varik. fa lo valsi pe lo pa moi be lo'i ro selvau be da
+ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu basyvla fi zo'e ja lo cmene be la .varik. fa lo valsi pe lo pa moi be lo'i ro selvau be da
 
 For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which VARIK permits that a pronoun of the 1st element of $x$ is a pronoun and represents VARIK.
 
