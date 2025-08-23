@@ -9,7 +9,7 @@ ni'o ro da poi ke'a cmima le liste zo'u ga je...
 
 For all rows (of the table) $x$, statements which apply include...
 
-* "the 2nd element of $x$ is the extent to which VARIK permits that a pronoun of the 1st element of $x$ is a pronoun and represents VARIK",
+* "the 2nd element of $x$ is the extent of that VARIK permits that a pronoun of the 1st element of $x$ is a pronoun and represents VARIK",
 * "if the thing is applicable, then the 3rd element of $x$ is an English example of using (for referring to VARIK) a pronoun of the 1st element of $x$", and
 * "if the thing is applicable, then the 4th element of $x$ is a Lojban example of using (for referring to VARIK) a pronoun of the 1st element of $x$".
 
