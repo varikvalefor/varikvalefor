@@ -47,6 +47,7 @@ For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which V
 | artist	| 100	|
 | hacker / (mlezvi / zviki)	| 100	|
 | academic / .iste	| 100	|
+| Lojbanist / (jbopre / lobypre)	| 100	|
 | furry / dalremnei	| 90	|
 | photographer / kacmyterxra	| 85	|
 | enby	| 60	|
