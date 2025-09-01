@@ -20,6 +20,8 @@ For all rows (of the table) $x$, statements which apply include...
 | you / jbo:do	| 100	| What the fuck is your problem?		| .i do jai mabla ki'u ma		|
 | it/its	| 90	| But it likes some photographs which are created by it.		| [.i na mapti la .lojban. / The thing does not apply to Lojban.]	|
 | they/them	| 80	| But they are slow in publishing the photographs which are liked by them.	| [.i na mapti la .lojban. / The thing does not apply to Lojban.]	|
+| she/her	| 5	| N/A		| [.i na sarcu fa lo nu la .varik. cu cusku tu'a lo se toldji be la .varik.]	|
+| he/him	| 0	| N/A		| [.i na sarcu fa lo nu la .varik. cu cusku tu'a lo se toldji be la .varik.]	|
 
 ## le cmene / Names
 ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu cmene la .varik. fa le pa moi be lo'i ro selvau be da
