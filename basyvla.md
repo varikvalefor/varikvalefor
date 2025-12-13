@@ -30,7 +30,7 @@ For all rows (of the table) $x$, the 3rd element of $x$ is the extent to which V
 
 | lo cmene / Name	| lo ba'urtadji / Pronunciation	| lo ni nelci ce'u / Fondness	|
 |--	|--	|--	|
-| la .varik. .VALefor.	| /ˈvɑ:ɹik ˈvɑ:leˌfoɹ/	| 100	|
+| la .varik. .VALefor.	|	| 100	|
 | la .varik.	|	| 100	|
 | Varik	| /ˈvɑ:ɹik/	| 100	|
 | Varik Valefor	| /ˈvɑ:ɹik ˈvɑ:leˌfoɹ/	| 100	|
