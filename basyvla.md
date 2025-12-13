@@ -24,9 +24,9 @@ For all rows (of the table) $x$, statements which apply include...
 | he/him	| 0	| N/A		| [.i na sarcu fa lo nu la .varik. cu cusku tu'a lo se toldji be la .varik.]	|
 
 ## le cmene / Names
-ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu cmene la .varik. fa le pa moi be lo'i ro selvau be da
+ni'o ro da poi ke'a cmima le liste zo'u lo ci moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu cmene la .varik. fa le pa moi be lo'i ro selvau be da be'o be'o noi zo'e ja lo re moi be da cu ba'urtadji lo pa moi be da la .varik.
 
-For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which VARIK permits that the 1st element of $x$ is used as the name of VARIK.
+For all rows (of the table) $x$, the 3rd element of $x$ is the extent to which VARIK permits that the 1st element (of $x$) (which can be pronounced as the 2nd element of $x$) is used as the name of VARIK.
 
 | lo cmene / Name	| lo ba'urtadji / Pronunciation	| lo ni nelci ce'u / Fondness	|
 |--	|--	|--	|
