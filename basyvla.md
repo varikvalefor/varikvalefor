@@ -28,14 +28,14 @@ ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni 
 
 For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which VARIK permits that the 1st element of $x$ is used as the name of VARIK.
 
-| lo cmene / Name	| lo ni nelci ce'u / Fondness	|
-|--	|--	|
-| la .varik. .VALefor.	| 100	|
-| la .varik.	| 100	|
-| Varik	| 100	|
-| Varik Valefor	| 100	|
-| Varikose	| 75	|
-| la mlezvi	| 75	|
+| lo cmene / Name	| lo ba'urtadji / Pronunciation	| lo ni nelci ce'u / Fondness	|
+|--	|--	|--	|
+| la .varik. .VALefor.	| /ˈvɑ:ɹik ˈvɑ:leˌfoɹ/	| 100	|
+| la .varik.	|	| 100	|
+| Varik	| /ˈvɑ:ɹik/	| 100	|
+| Varik Valefor	| /ˈvɑ:ɹik ˈvɑ:leˌfoɹ/	| 100	|
+| Varikose	|	| 75	|
+| la mlezvi	|	| 75	|
 
 ## le velski valsi / Description Words
 ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu skicu la .varik. fo le pa moi be lo'i ro selvau be da
