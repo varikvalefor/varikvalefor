@@ -40,7 +40,7 @@ For all rows (of the table) $x$, the 3rd element of $x$ is the extent of that VA
 ## le velski valsi / Description Words
 ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu skicu la .varik. fo le pa moi be lo'i ro selvau be da
 
-For all rows (of the table) $x$, the 2nd element of $x$ is the extent to which VARIK permits that the 1st element of $x$ is used as a description of VARIK.
+For all rows (of the table) $x$, the 2nd element of $x$ is the extent of that VARIK permits that the 1st element of $x$ is used as a description of VARIK.
 
 | lo valsi / Word	| lo ni nelci tu'a ce'u / Fondness	|
 |--	|--	|
