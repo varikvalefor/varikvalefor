@@ -1,6 +1,8 @@
 lo basyvla je zo'e / Pronouns and Whatnot
 =========================================
 
+## le basyvla / Pronouns
+
 ni'o ro da poi ke'a cmima le liste zo'u ga je...
 
 * lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu basyvla fi zo'e ja lo cmene be la .varik. fa lo valsi pe xy xi pa goi lo pa moi be lo'i ro selvau be da gi ga je
