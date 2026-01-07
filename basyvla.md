@@ -24,18 +24,19 @@ For all rows (of the table) $x$, statements which apply include...
 | he/him	| 0	| N/A		| [.i na sarcu fa lo nu la .varik. cu cusku tu'a lo se toldji be la .varik.]	|
 
 ## le cmene / Names
-ni'o ro da poi ke'a cmima le liste zo'u lo ci moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu cmene la .varik. fa le pa moi be lo'i ro selvau be da be'o be'o noi zo'e ja lo re moi be da cu ba'urtadji lo pa moi be da la .varik.
+ni'o ro da poi ke'a cmima le liste zo'u ga je lo ci moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu cmene la .varik. fa le pa moi be lo'i ro selvau be da be'o be'o noi zo'e ja lo re moi be da cu ba'urtadji lo pa moi be da la .varik. gi lo vo moi be lo'i ro selvau be da cu pinka zo'e ja lo pa moi be lo'i ro selvau be da
 
-For all rows (of the table) $x$, the 3rd element of $x$ is the extent of that VARIK permits that the 1st element (of $x$) (which can be pronounced as the 2nd element (of $x$) or something) is used as the name of VARIK.
+For all rows (of the table) $x$, (the 3rd element of $x$ is the extent of that VARIK permits that the 1st element (of $x$) (which can be pronounced as the 2nd element (of $x$) or something) is used as the name of VARIK, and the 4th element of $x$ is a comment regarding the 1st element (of $x$) or something).
 
-| lo cmene / Name	| lo ba'urtadji / Pronunciation	| lo ni nelci ce'u / Fondness	|
-|--	|--	|--	|
-| la .varik. .VALefor.	|	| 100	|
-| la .varik.	|	| 100	|
-| Varik	| /ˈvɑ:ɹik/	| 100	|
-| Varik Valefor	| /ˈvɑ:ɹik ˈvɑ:leˌfoɹ/	| 100	|
-| Varikose	|	| 75	|
-| la mlezvi	|	| 75	|
+| lo cmene / Name	| lo ba'urtadji / Pronunciation	| lo ni nelci ce'u / Fondness	| lo pinka / Notes	|
+|--	|--	|--	|--	|
+| la .varik. .VALefor.	|	| 100	| 	|
+| la .varik.	|	| 100	| 	|
+| Varik	| /ˈvɑ:ɹik/	| 100	| 	|
+| Varik Valefor	| /ˈvɑ:ɹik ˈvɑ:leˌfoɹ/	| 100	| 	|
+| Varikose	|	| 75	| 	|
+| la mlezvi	|	| 75	| 	|
+| VARIK	| /ˈvɑ:ɹik/	| 50	| .i lo so'i prenu cu cusku zo'oi .VARIK. jenai zo'oi .Varik. ki'u zo'e joi le su'u la .varik. cu cusku bau le glibau fe zo'oi .VARIK.  .i ku'i la .varik. cu cusku zo'oi .VARIK. ki'u zo'e joi le su'u la .varik. cu mu'oi glibau. full caps .glibau. ciska lo ro cmene be bau le glibau  .i la .varik. cu te selneimau fi zo'oi .Varik. ja zo .varik. va'o lo nu na mu'oi glibau. full caps .glibau. cusku lo ro co'e je cmene / Many prenu write "VARIK" and-not "Varik".  The justification is relevant to that (VARIK writes (for English stuff) "VARIK" and-not "Varik").  But the justification of that (VARIK writes "VARIK") is relevant to that VARIK uses (for all English names) full caps.  VARIK prefers (under that full caps stuff is not used) "Varik" or "varik".	|
 
 ## le velski valsi / Description Words
 ni'o ro da poi ke'a cmima le liste zo'u lo re moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu skicu la .varik. fo le pa moi be lo'i ro selvau be da
