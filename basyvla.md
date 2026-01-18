@@ -21,9 +21,9 @@ For all rows (of the table) $x$, statements which apply include...
 | ko'a; ko'e; ko'i; [...]	| 100	| But false is that VARIK, a.k.a. "ko'a", deletes most photographs which are terrible and are created by ko'a.	| .i ku'i jitfa fa le du'u ko'a goi la .varik. cu skami vimcu pe'a lo so'e mabla je kacmyxra be fi ko'a	|
 | you / jbo:do	| 100	| What the fuck is your problem?		| .i do jai mabla ki'u ma		|
 | it/its	| 90	| But it likes some photographs which are created by it.		| [.i na mapti la .lojban. / The thing does not apply to Lojban.]	|
-| they/them	| 80	| But they are slow in publishing the photographs which are liked by them.	| [.i na mapti la .lojban. / The thing does not apply to Lojban.]	|
-| she/her	| 5	| N/A		| [.i na sarcu fa lo nu la .varik. cu cusku tu'a lo se toldji be la .varik.]	|
-| he/him	| 0	| N/A		| [.i na sarcu fa lo nu la .varik. cu cusku tu'a lo se toldji be la .varik.]	|
+| they/them	| 70	| But they are slow in publishing the photographs which are liked by them.	| [.i na mapti la .lojban. / The thing does not apply to Lojban.]	|
+| she/her	| 5	| That (VARIK provides an example of stuff which is disliked by VARIK) is not necessary.		| [.i na sarcu fa lo nu la .varik. cu cusku tu'a lo se toldji be la .varik.]	|
+| he/him	| 0	| That (VARIK provides an example of stuff which is disliked by VARIK) is not necessary.		| [.i na sarcu fa lo nu la .varik. cu cusku tu'a lo se toldji be la .varik.]	|
 
 ## le cmene / Names
 ni'o ro da poi ke'a cmima le liste zo'u ga je lo ci moi be lo'i ro selvau be da cu ni la .varik. cu djica curmi lo nu cmene la .varik. fa le pa moi be lo'i ro selvau be da be'o be'o noi zo'e ja lo re moi be da cu ba'urtadji lo pa moi be da la .varik. gi lo vo moi be lo'i ro selvau be da cu pinka zo'e ja lo pa moi be lo'i ro selvau be da
